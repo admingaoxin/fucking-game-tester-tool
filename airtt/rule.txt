@@ -1,0 +1,11 @@
+# Compiler Error
+error /(?i)error: /
+
+# Compiler Warning
+warning /(?i)warning: /
+
+# Compiler INFO
+INFO /(?i)info: /
+
+
+
