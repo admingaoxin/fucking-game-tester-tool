@@ -5,7 +5,8 @@ import re
 import time
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QComboBox, QMessageBox, QTextEdit
 import datetime
-
+from qt_material import apply_stylesheet
+import __future__
 
 class ADBManager (QWidget):
     def __init__(self):
@@ -44,13 +45,9 @@ class ADBManager (QWidget):
         displayButton.clicked.connect (self.Screendisplay)
         layout.addWidget (displayButton)
 
-        display2Button = QPushButton ('折叠屏/奇怪分辨率用这个')
+        display2Button = QPushButton ('折叠屏/奇怪分辨率截图')
         display2Button.clicked.connect (self.Screendisplay1)
         layout.addWidget (display2Button)
-
-        # ADBshelltopButton = QPushButton ('shell top')
-        # ADBshelltopButton.clicked.connect(self.ADBshelltop)
-        # layout.addWidget (ADBshelltopButton)
 
         ADBStartappButton = QPushButton ('启动应用')
         ADBStartappButton.clicked.connect (self.Start_app)
@@ -64,14 +61,25 @@ class ADBManager (QWidget):
         # ADBWifidevicesButton.clicked.connect (self.Wifi_devices)
         # layout.addWidget (ADBWifidevicesButton)
 
+        # ADBStartappButton = QPushButton ('log提取')
+        # ADBStartappButton.clicked.connect (self.pulllog)
+        # layout.addWidget (ADBStartappButton)
+
+
+        # ADBshelltopButton = QPushButton ('shell top')
+        # ADBshelltopButton.clicked.connect(self.ADBshelltop)
+        # layout.addWidget (ADBshelltopButton)
+
+
         self.logText = QTextEdit ()
         self.logText.setReadOnly (True)
         layout.addWidget (self.logText)
 
         self.setLayout (layout)
-        self.setWindowTitle ('小工具')
+        self.setWindowTitle ('胖虎の小工具')
         self.refreshDevices ()
-        self.logText.append ("<span style='color: black;'>runing~</span>")
+        self.Listapp()
+        # self.logText.append ("<span style='color: black;'>runing~</span>")
 
     def refreshDevices(self):
         try:
@@ -87,12 +95,10 @@ class ADBManager (QWidget):
     def Listapp(self):
         current_device = self.comboBox.currentText ()
         try:
-            command = f"{self.adb_path} -s {current_device} shell pm list packages -3 |grep aoz"
+            command = f"{self.adb_path} -s {current_device} shell pm list packages -3 |grep .aoz"
             result = subprocess.run (command, capture_output=True, text=True)
             apps = result.stdout.splitlines ()
-            print(apps)
             app_list = [line.split('\t')[0].replace('package:', '') for line in apps[0:] ] #if '\tpackage:' in line
-            print(app_list)
             self.comboBox1.clear ()
             self.comboBox1.addItems(app_list)
             self.logText.append ("应用列表已刷新")
@@ -149,7 +155,8 @@ class ADBManager (QWidget):
                 'com.camelgames.aoz.zhatest': "CnOlinetest包",
                 'com.camelgames.aoz.zha': "CN包",
                 'com.camelgames.aoz': "主包",
-                'com.camelgames.aoz.huawei': "华为包"
+                'com.camelgames.aoz.huawei': "华为包",
+                'yunbao.aoz.tt' :"抖音本地包"
             }
 
             # 检查并显示特定包的versionCode信息
@@ -158,11 +165,13 @@ class ADBManager (QWidget):
                     commands = f'{self.adb_path} -s {current_device} shell dumpsys package {package_name}'
                     result = subprocess.run (commands, shell=True, capture_output=True, text=True)
                     version_code_match = re.search (r'versionCode=(\d+)', result.stdout)
+                    versionName_code_match= re.search(r'versionName=(\d+.\d+.\d+.)', result.stdout)
                     if version_code_match:
                         version_code = int (version_code_match.group (1))
+                        version_name = versionName_code_match.group (1)
                         version_text = "37版本" if version_code > 2150 else "29版本"
                         self.logText.append (
-                            f"<span style='color: green;'>{description}已安装, versionCode信息: {version_code} ({version_text})</span><br>")
+                            f"<span style='color: green;'>{description}已安装, versionCode信息: {version_code} ({version_text}),版本：{version_name}</span><br>")
                     else:
                         self.logText.append (
                             f"<span style='color: red;'>{description}未安装或无法获取versionCode信息</span>")
@@ -214,17 +223,29 @@ class ADBManager (QWidget):
         current_device = self.comboBox.currentText ()
         Ntime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
         if current_device:
-            command = f'{self.adb_path} -s {current_device} shell screencap /sdcard/{str (Ntime)}{current_device}.png'
-            command2 = f'{self.adb_path} -s {current_device} pull sdcard/{str (Ntime)}{current_device}.png'
             self.logText.append (
                 "<span style='color: green;'>这个截图会有点慢，在手机的存储目录scard/下也会有图片，请定时清理 <br /> 截图放在同级目录下<br />截图速度取决于设备的物理分辨率</span>")
+            command = f'{self.adb_path} -s {current_device} shell screencap /sdcard/{str (Ntime)}{current_device}.png'
+            command2 = f'{self.adb_path} -s {current_device} pull sdcard/{str (Ntime)}{current_device}.png'
             subprocess.Popen (command, shell=True)
-            time.sleep (2)
+            time.sleep (3)
             subprocess.Popen (command2, shell=True)
         else:
             self.logText.append ("<span style='color: red;'>错误: 设备未授权或无法连接</span>")
             QMessageBox.warning (self, "错误", "设备未授权或无法连接")
         return
+
+
+    def pulllog(self):
+        current_device = self.comboBox.currentText ()
+        current_applist = self.comboBox1.currentText ()
+        try:
+            current_device and current_applist
+            command = f'{self.adb_path} -s {current_device} pull sdcard/Android/data/{current_applist}/files/_LOG.log'
+            subprocess.Popen(command,shell=True)
+        except Exception as e:
+            self.logText.append (f"请选择要导出log的aoz包体: {str (e)}")
+            self.logText.append("<span style='color: red;'>请选择要导出log的aoz包体</span>")
 
     def ADBshelltop(self):
         current_device = self.comboBox.currentText ()
@@ -246,6 +267,7 @@ class ADBManager (QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+    apply_stylesheet (app, theme='light_blue_500.xml')
     ex = ADBManager()
     ex.show()
     sys.exit(app.exec_())

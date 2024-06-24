@@ -1,9 +1,7 @@
 # -*- encoding=utf-8 -*-
 # Run Airtest in parallel on multi-device
 import os
-
 import jenkinsfile
-
 print("当前工作目录:", os.getcwd())
 import sys
 import os
@@ -80,24 +78,24 @@ def run_on_multi_device(devices, air, results, run_all,dev):
                 print("Skip device %s" % dev)
                 continue
 
-            log_dir = get_log_dir(dev, air)
-            cmd = [
-                "airtest",
-                "run",
-                air,
-                "--device",
-                "Android:///" + dev,
-                "--log",
-                log_dir
-            ]
-            try:
-                tasks.append({
-                    'process': subprocess.Popen(cmd, cwd=os.getcwd()),
-                    'dev': dev,
-                    'air': air
-                })
-            except Exception as e:
-                traceback.print_exc()
+    log_dir = get_log_dir(dev, air)
+    cmd = [
+        "airtest",
+        "run",
+        air,
+        "--device",
+        "Android:///" + dev,
+        "--log",
+        log_dir
+    ]
+    try:
+        tasks.append({
+            'process': subprocess.Popen(cmd, cwd=os.getcwd()),
+            'dev': dev,
+            'air': air
+        })
+    except Exception as e:
+        traceback.print_exc()
     return tasks
 
 
