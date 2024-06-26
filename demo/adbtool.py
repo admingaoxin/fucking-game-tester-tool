@@ -3,7 +3,7 @@ import os
 import subprocess
 import re
 import time
-from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QComboBox, QMessageBox, QTextEdit
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QComboBox, QMessageBox, QTextEdit,QLineEdit,QHBoxLayout,QLabel
 import datetime
 from qt_material import apply_stylesheet
 import __future__
@@ -12,6 +12,7 @@ class ADBManager (QWidget):
     def __init__(self):
         super ().__init__ ()
         self.adb_path = ('adb')  # ADB的路径
+        self.custom_variables = {"movetime" : "预留输入口"}
         self.initUI ()
 
     def initUI(self):
@@ -20,6 +21,17 @@ class ADBManager (QWidget):
         self.comboBox1 = QComboBox ()
         layout.addWidget (self.comboBox)
         layout.addWidget (self.comboBox1)
+
+        self.number_boxes = {}
+        for variable_name, label_name in self.custom_variables.items():
+            number_box = QLineEdit()
+
+            hbox = QHBoxLayout ()
+            hbox.addWidget (QLabel (f"{label_name}："))
+            hbox.addWidget (number_box)
+
+            layout.addLayout (hbox)
+            self.number_boxes[variable_name] = number_box
 
         refreshButton = QPushButton ('刷新设备列表')
         refreshButton.clicked.connect (self.refreshDevices)
@@ -70,6 +82,9 @@ class ADBManager (QWidget):
         # ADBshelltopButton.clicked.connect(self.ADBshelltop)
         # layout.addWidget (ADBshelltopButton)
 
+        ADBstopappButton = QPushButton ('录屏')
+        ADBstopappButton.clicked.connect (self.linshi)
+        layout.addWidget (ADBstopappButton)
 
         self.logText = QTextEdit ()
         self.logText.setReadOnly (True)
@@ -80,6 +95,20 @@ class ADBManager (QWidget):
         self.refreshDevices ()
         self.Listapp()
         # self.logText.append ("<span style='color: black;'>runing~</span>")
+
+
+    def linshi(self):
+        self.logText.append(f"<span style='color: red;'>出现投屏窗口后就证明可以录屏<br />做完想录制的操作后关闭这个新出现的投屏<br />视频就会保存在此目录下<span>")
+        current_device = self.comboBox.currentText ()
+        nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
+        # for name, number_box in self.number_boxes.items ():
+        #     setattr(self, name, float (number_box.text ()))
+        # jiuer =self.movetime    #
+        """
+        预留的，获取输入用的
+        """
+        command = f"scrcpy -s {current_device}  --record {nowtime}.mkv"
+        subprocess.Popen(command,shell=True)
 
     def refreshDevices(self):
         try:
@@ -123,7 +152,6 @@ class ADBManager (QWidget):
     def Wifi_devices(self):
         current_device = self.comboBox.currentText ()
         command = f"{self.adb_path} -s {current_device} shell   ifconfig wlan0 "
-
         command1 = f"{self.adb_path} connect device_ip_address"
         result = subprocess.Popen (command, text=True)
 
