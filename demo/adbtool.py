@@ -98,8 +98,13 @@ class ADBManager (QWidget):
 
 
     def linshi(self):
-        self.logText.append(f"<span style='color: red;'>出现投屏窗口后就证明可以录屏<br />做完想录制的操作后关闭这个新出现的投屏<br />视频就会保存在此目录下<span>")
+
         current_device = self.comboBox.currentText ()
+        if not current_device:
+            QMessageBox.warning (self, "警告", "没有选定的设备")
+            return
+        self.logText.append (
+            f"<span style='color: red;'>出现投屏窗口后就证明可以录屏<br />做完想录制的操作后关闭这个新出现的投屏<br />视频就会保存在此目录下<span>")
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
         # for name, number_box in self.number_boxes.items ():
         #     setattr(self, name, float (number_box.text ()))
