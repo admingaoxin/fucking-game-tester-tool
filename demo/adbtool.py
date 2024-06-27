@@ -3,7 +3,7 @@ import os
 import subprocess
 import re
 import time
-from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QComboBox, QMessageBox, QTextEdit,QLineEdit,QHBoxLayout,QLabel
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout,QSplitter, QPushButton, QComboBox, QMessageBox, QTextEdit,QLineEdit,QHBoxLayout,QLabel,QGridLayout
 import datetime
 from qt_material import apply_stylesheet
 import __future__
@@ -22,16 +22,18 @@ class ADBManager (QWidget):
         layout.addWidget (self.comboBox)
         layout.addWidget (self.comboBox1)
 
-        self.number_boxes = {}
-        for variable_name, label_name in self.custom_variables.items():
-            number_box = QLineEdit()
 
+        self.number_boxes = {}
+        for variable_name, label_name in self.custom_variables.items ():
+            number_box = QLineEdit ()
             hbox = QHBoxLayout ()
             hbox.addWidget (QLabel (f"{label_name}："))
             hbox.addWidget (number_box)
 
-            layout.addLayout (hbox)
             self.number_boxes[variable_name] = number_box
+
+
+
 
         refreshButton = QPushButton ('刷新设备列表')
         refreshButton.clicked.connect (self.refreshDevices)
@@ -82,22 +84,62 @@ class ADBManager (QWidget):
         # ADBshelltopButton.clicked.connect(self.ADBshelltop)
         # layout.addWidget (ADBshelltopButton)
 
-        ADBstopappButton = QPushButton ('录屏')
-        ADBstopappButton.clicked.connect (self.linshi)
-        layout.addWidget (ADBstopappButton)
+        screenAVButton = QPushButton ('录屏')
+        screenAVButton.clicked.connect (self.screendAV)
+        layout.addWidget (screenAVButton)
+
+        datacathButton = QPushButton ('print input')
+        datacathButton.clicked.connect (self.datacath)
+        layout.addWidget (datacathButton)
+
+        screenAV2Button = QPushButton ('使用输入的字符串命名录制的视频')
+        screenAV2Button.clicked.connect (self.screendinput)
+        layout.addWidget (screenAV2Button)
 
         self.logText = QTextEdit ()
         self.logText.setReadOnly (True)
         layout.addWidget (self.logText)
 
-        self.setLayout (layout)
+
+        buttonLayout1 = QVBoxLayout ()
+        buttonLayout1.addWidget (refreshButton)
+        buttonLayout1.addWidget (listPackagesButton)
+        buttonLayout1.addWidget (adblogButton)
+        buttonLayout1.addWidget (ADBStartappButton)
+        buttonLayout1.addWidget (ADBstopappButton)
+        buttonLayout1.addWidget (datacathButton)
+        buttonLayout2 = QVBoxLayout ()
+        buttonLayout2.addWidget (ADBshelltopButton)
+        buttonLayout2.addWidget (installApkButton)
+        buttonLayout2.addWidget (displayButton)
+        buttonLayout2.addWidget (display2Button)
+        buttonLayout2.addWidget (screenAV2Button)
+        buttonLayout2.addWidget (screenAVButton)
+
+        buttonsLayout = QHBoxLayout ()
+        buttonsLayout.addLayout (buttonLayout1)
+        buttonsLayout.addLayout (buttonLayout2)
+
+
+
+
+        mainLayout = QVBoxLayout ()
+        mainLayout.addWidget (self.comboBox)
+        mainLayout.addWidget (self.comboBox1)
+        mainLayout.addLayout (hbox)
+        mainLayout.addLayout (buttonsLayout)
+        mainLayout.addWidget (self.logText)
+
+
+
+        self.setLayout (mainLayout)
         self.setWindowTitle ('胖虎の小工具')
         self.refreshDevices ()
         self.Listapp()
-        # self.logText.append ("<span style='color: black;'>runing~</span>")
+        self.logText.append ("<span style='color: black;'>欢迎使用，有问题找胖虎~</br>需要打开Android设备的开发者选项以及允许usb调试（哄蒙也是Android.jpg）</span>")
 
 
-    def linshi(self):
+    def screendAV(self):
 
         current_device = self.comboBox.currentText ()
         if not current_device:
@@ -106,14 +148,30 @@ class ADBManager (QWidget):
         self.logText.append (
             f"<span style='color: red;'>出现投屏窗口后就证明可以录屏<br />做完想录制的操作后关闭这个新出现的投屏<br />视频就会保存在此目录下<span>")
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-        # for name, number_box in self.number_boxes.items ():
-        #     setattr(self, name, float (number_box.text ()))
-        # jiuer =self.movetime    #
-        """
-        预留的，获取输入用的
-        """
         command = f"scrcpy -s {current_device}  --record {nowtime}.mkv"
         subprocess.Popen(command,shell=True)
+
+
+    def datacath(self):
+        for name, number_box in self.number_boxes.items ():
+            setattr(self, name, number_box.text ())     #float (number_box.text ())
+        jiuer =self.movetime    #
+        self.logText.append(f"获取到的输入是:{jiuer}")
+
+    def screendinput(self):
+        for name, number_box in self.number_boxes.items ():
+            setattr(self, name, number_box.text ())     #float (number_box.text ())
+        jiuer =self.movetime
+        current_device = self.comboBox.currentText ()
+        if not current_device:
+            QMessageBox.warning (self, "警告", "没有选定的设备")
+            return
+        self.logText.append (
+            f"<span style='color: red;'>调试中，慎用<span>")
+        nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
+        command = f"scrcpy -s {current_device}  --record {nowtime}{jiuer}.mkv"
+        subprocess.Popen(command,shell=True)
+
 
     def refreshDevices(self):
         try:
@@ -189,7 +247,8 @@ class ADBManager (QWidget):
                 'com.camelgames.aoz.zha': "CN包",
                 'com.camelgames.aoz': "主包",
                 'com.camelgames.aoz.huawei': "华为包",
-                'yunbao.aoz.tt' :"抖音本地包"
+                'yunbao.aoz.tt' :"抖音本地包",
+                'com.yungame.aoz.tt':"抖音云包"
             }
 
             # 检查并显示特定包的versionCode信息
@@ -204,7 +263,7 @@ class ADBManager (QWidget):
                         version_name = versionName_code_match.group (1)
                         version_text = "37版本" if version_code > 2150 else "29版本"
                         self.logText.append (
-                            f"<span style='color: green;'>{description}已安装, versionCode信息: {version_code} ({version_text}),版本：{version_name}</span><br>")
+                            f"<span style='color: green;'>{description}已安装, versionCode信息: {version_code} ({version_text}),versionName：{version_name}</span><br>")
                     else:
                         self.logText.append (
                             f"<span style='color: red;'>{description}未安装或无法获取versionCode信息</span>")
