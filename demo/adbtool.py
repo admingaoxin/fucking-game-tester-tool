@@ -88,7 +88,7 @@ class ADBManager (QWidget):
         screenAVButton.clicked.connect (self.screendAV)
         layout.addWidget (screenAVButton)
 
-        datacathButton = QPushButton ('print input')
+        datacathButton = QPushButton ('使用输入筛选versionname')
         datacathButton.clicked.connect (self.datacath)
         layout.addWidget (datacathButton)
 
@@ -157,6 +157,49 @@ class ADBManager (QWidget):
             setattr(self, name, number_box.text ())     #float (number_box.text ())
         jiuer =self.movetime    #
         self.logText.append(f"获取到的输入是:{jiuer}")
+        try:
+            current_device = self.comboBox.currentText ()
+            if not current_device:
+                QMessageBox.warning (self, "警告", "没有选定的设备")
+                return
+
+            # 获取所有第三方包
+            result = subprocess.run ([self.adb_path, '-s', current_device, 'shell', 'pm', 'list', 'packages', '-3' '|','grep',jiuer],
+                                     capture_output=True, text=True)
+            if "error" in result.stderr.lower ():
+                self.logText.append ("<span style='color: red;'>错误: 设备未授权或无法连接</span>")
+                QMessageBox.warning (self, "错误", "设备未授权或无法连接")
+                return
+
+            packages = result.stdout.split ()
+            formatted_packages = "<br>".join ([f"<span style='color: blue;'>{package}</span>" for package in packages])
+            self.logText.append (f"<b>筛选出的应用包:</b><br>{formatted_packages}")
+            package_names = result.stdout.split ()
+            package_list= [line.split('\t')[0].replace('package:', '') for line in packages[0:] ]
+            print(package_list)
+            for package_name in package_list:
+                print(package_name)
+                # 检查并显示特定包的versionCode信息
+                if package_name in package_list:
+                    commands = f'{self.adb_path} -s {current_device} shell dumpsys package {package_name}'
+                    result = subprocess.run (commands, shell=True, capture_output=True, text=True)
+                    # version_code_match = re.search (r'versionCode=(\d+)', result.stdout)
+                    versionName_code_match = re.search (r'versionName=(\d+.\d+.\d+.)', result.stdout)
+
+                    if versionName_code_match:
+                        # version_code = int (version_code_match.group (1))
+                        version_name = versionName_code_match.group (1)
+                        # version_text = "37版本" if version_code > 2150 else "29版本"
+                        self.logText.append (
+                            f"<span style='color: green;'> 筛选的包名：{package_name},versionName：{version_name}</span><br>")
+                    else:
+                        self.logText.append (
+                            f"<span style='color: red;'>未安装或无法获取versionCode信息</span>")
+                else:
+                    self.logText.append (f"<span style='color: red;'>未安装</span>")
+
+        except Exception as e:
+            self.logText.append (f"<span style='color: red;'>列出第三方包时发生错误: {str (e)}</span>")
 
     def screendinput(self):
         for name, number_box in self.number_boxes.items ():
