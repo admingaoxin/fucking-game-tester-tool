@@ -132,7 +132,7 @@ class ADBManager (QWidget):
 
 
         self.setLayout (mainLayout)
-        self.setWindowTitle ('胖虎の小工具')
+        self.setWindowTitle ('          胖虎の小工具 ')
         self.refreshDevices ()
         self.run()
         self.logText.append ("<span style='color: black;'>欢迎使用，有问题找胖虎~</br>需要打开Android设备的开发者选项以及允许usb调试（哄蒙也是Android.jpg）</span>")
