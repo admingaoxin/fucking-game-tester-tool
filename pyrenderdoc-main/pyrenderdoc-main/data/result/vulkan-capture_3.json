@@ -1,0 +1,439 @@
+{
+    "Input": {
+        "DrawCall": {
+            "is_indexed": true,
+            "numIndices": 18,
+            "baseVertex": 0,
+            "vertexOffset": 0,
+            "numInstances": 1,
+            "instanceOffset": 0,
+            "indexOffset": 0
+        }
+    },
+    "Output": {
+        "FrameBuffer": {
+            "resourceId": "ResourceId::397",
+            "width": 1415,
+            "height": 32,
+            "Signatures": [
+                {
+                    "fragColor": {
+                        "varName": "fragColor",
+                        "varType": 0,
+                        "compCount": 4,
+                        "semanticName": "",
+                        "semanticIdxName": "",
+                        "semanticIndex": 0
+                    }
+                },
+                {
+                    "gl_FragDepth": {
+                        "varName": "gl_FragDepth",
+                        "varType": 0,
+                        "compCount": 1,
+                        "semanticName": "",
+                        "semanticIdxName": "",
+                        "semanticIndex": 0
+                    }
+                }
+            ],
+            "Attchments": [
+                {
+                    "ColorAttchment": {
+                        "imageResourceId": "ResourceId::393",
+                        "firstMip": 0,
+                        "numMips": 1,
+                        "firstSlice": 0,
+                        "numSlices": 1,
+                        "swizzle": "<Swig Object of type 'TextureSwizzle4 *' at 0x000001A4CE57F270>",
+                        "resource_format": {
+                            "type": 0,
+                            "compCount": 4,
+                            "compByteWidth": 1,
+                            "compType": 2
+                        }
+                    }
+                }
+            ],
+            "RenderPass": {
+                "resourceId": "ResourceId::396",
+                "feedbackLoop": false,
+                "subpass": 0
+            }
+        }
+    },
+    "Vertex": {
+        "Shader": {
+            "name": "gpu_shader_2D_widget_base_1"
+        },
+        "ConstantBlocks": {
+            "$Globals": {
+                "bindPoint": 0,
+                "bindset": 0,
+                "bind": 0,
+                "field": [
+                    "pc_parameters",
+                    "pc_ModelViewProjectionMatrix",
+                    "pc_checkerColorAndSize",
+                    "pc_srgbTarget"
+                ]
+            }
+        },
+        "ReadOnlyResources": {},
+        "ReadWriteResources": {},
+        "Samplers": {}
+    },
+    "Fragment": {
+        "Shader": {
+            "name": "gpu_shader_2D_widget_base_0"
+        },
+        "ConstantBlocks": {
+            "$Globals": {
+                "bindPoint": 0,
+                "bindset": 0,
+                "bind": 0,
+                "field": [
+                    "pc_parameters",
+                    "pc_ModelViewProjectionMatrix",
+                    "pc_checkerColorAndSize",
+                    "pc_srgbTarget"
+                ]
+            }
+        },
+        "ReadOnlyResources": {},
+        "ReadWriteResources": {},
+        "Samplers": {}
+    },
+    "InputState": {
+        "attributes": {},
+        "inputAssembly": {
+            "topology": 5,
+            "primitiveRestartEnable": false,
+            "restartIndex": "TODO",
+            "provokingVertexLast": "TODO"
+        }
+    },
+    "DepthStencil": {
+        "depthState": {
+            "depthTestEnable": false,
+            "depthFunction": 0,
+            "depthWriteEnable": false,
+            "depthBoundsEnable": true,
+            "minDepthBounds": 0.0,
+            "maxDepthBounds": 1.0
+        },
+        "stencilState": {
+            "stencilTestEnable": false,
+            "frontFace": {
+                "failOperation": 0,
+                "depthFailOperation": 0,
+                "function": 1,
+                "reference": 0,
+                "compareMask": 0,
+                "writeMask": 0,
+                "passOperation": 0
+            },
+            "backFace": {
+                "failOperation": 0,
+                "depthFailOperation": 0,
+                "function": 1,
+                "reference": 0,
+                "compareMask": 0,
+                "writeMask": 0,
+                "passOperation": 0
+            }
+        }
+    },
+    "Rasterizer": {
+        "fillMode": 0,
+        "cullMode": 0,
+        "frontCCW": false,
+        "depthClampEnable": false,
+        "depthBiasEnable": true,
+        "depthBias": 0.0,
+        "depthBiasClamp": 0.0,
+        "slopeScaledDepthBias": 0.0,
+        "rasterizerDiscardEnable": false,
+        "lineWidth": 1.0,
+        "lineRasterMode": 1,
+        "lineStippleFactor": 0,
+        "lineStipplePattern": 0
+    },
+    "Multisample": {
+        "multisampleEnable": false,
+        "sampleShadingEnable": false,
+        "minSampleShading": 1.0,
+        "sampleMask": 4294967295,
+        "rasterSamples": 1,
+        "sampleLocations": "<Swig Object of type 'VKPipe::SampleLocations *' at 0x000001A4CE57F330>",
+        "alphaToCoverage": false,
+        "alphaToOne": false
+    },
+    "ViewportsScissors": {
+        "discardRectanglesExclusive": true,
+        "discardRectangles": "[]",
+        "depthNegativeOneToOne": false,
+        "Viewports": [
+            {
+                "viewport": {
+                    "enabled": true,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 1415.0,
+                    "height": 32.0,
+                    "minDepth": 0.0,
+                    "maxDepth": 1.0
+                }
+            }
+        ],
+        "Scissors": [
+            {
+                "scissor": {
+                    "enabled": true,
+                    "x": 0,
+                    "y": 0,
+                    "width": 1415,
+                    "height": 32
+                }
+            }
+        ]
+    },
+    "OutputState": {
+        "Framebuffer": {
+            "framebufferSRGB": null,
+            "dither": null,
+            "colorBlend": {
+                "blendFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Blends": [
+                    {
+                        "blend": {
+                            "enabled": true,
+                            "logicOperationEnabled": false,
+                            "writeMask": 15
+                        },
+                        "colorBlend": {
+                            "source": 6,
+                            "destination": 7,
+                            "operation": 0
+                        },
+                        "alphaBlend": {
+                            "source": 1,
+                            "destination": 7,
+                            "operation": 0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "Data": {
+        "pc_parameters[0]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                472.0,
+                553.0,
+                0.0,
+                25.0
+            ]
+        },
+        "pc_parameters[1]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                471.0,
+                554.0,
+                -1.0,
+                26.0
+            ]
+        },
+        "pc_parameters[2]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                4.0,
+                5.0,
+                0.012345679104328156,
+                0.03999999910593033
+            ]
+        },
+        "pc_parameters[3]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        "pc_parameters[4]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                0.11372549086809158,
+                0.11372549086809158,
+                0.11372549086809158,
+                1.0
+            ]
+        },
+        "pc_parameters[5]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                0.11372549086809158,
+                0.11372549086809158,
+                0.11372549086809158,
+                1.0
+            ]
+        },
+        "pc_parameters[6]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                0.11372549086809158,
+                0.11372549086809158,
+                0.11372549086809158,
+                1.0
+            ]
+        },
+        "pc_parameters[7]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                0.0,
+                0.0,
+                0.0,
+                0.14901961386203766
+            ]
+        },
+        "pc_parameters[8]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "pc_parameters[9]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                -107374176.0,
+                -107374176.0,
+                -107374176.0,
+                -107374176.0
+            ]
+        },
+        "pc_parameters[10]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        "pc_parameters[11]": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 1,
+            "arraySize": 12,
+            "size": 0,
+            "data": [
+                0.0,
+                -107374176.0,
+                -107374176.0,
+                -107374176.0
+            ]
+        },
+        "pc_ModelViewProjectionMatrix": {
+            "itemSize": 4,
+            "cols": 4,
+            "rows": 4,
+            "arraySize": 1,
+            "size": 64,
+            "data": [
+                0.0014134275261312723,
+                0.0,
+                0.0,
+                -0.9999858736991882,
+                0.0,
+                0.0625,
+                0.0,
+                -0.9993749856948853,
+                0.0,
+                0.0,
+                -0.009999999776482582,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "pc_checkerColorAndSize": {
+            "itemSize": 4,
+            "cols": 3,
+            "rows": 1,
+            "arraySize": 1,
+            "size": 12,
+            "data": [
+                0.3921568691730499,
+                0.6274510025978088,
+                8.0
+            ]
+        },
+        "pc_srgbTarget": {
+            "itemSize": 4,
+            "cols": 1,
+            "rows": 1,
+            "arraySize": 1,
+            "size": 4,
+            "data": [
+                0
+            ]
+        }
+    }
+}
