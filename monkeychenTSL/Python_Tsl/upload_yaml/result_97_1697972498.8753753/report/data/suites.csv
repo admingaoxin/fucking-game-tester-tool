@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Oct 22 19:01:40 CST 2023","Sun Oct 22 19:01:41 CST 2023","1087","tests","test_case","","","","创建新的标签",""
+"passed","Sun Oct 22 19:01:41 CST 2023","Sun Oct 22 19:02:31 CST 2023","49781","","test_1_验证UI的用例","Sheet","","","验证UI的用例",""

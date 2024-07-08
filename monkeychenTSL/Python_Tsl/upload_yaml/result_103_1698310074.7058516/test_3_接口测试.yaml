@@ -1,0 +1,23 @@
+extract:
+  ? ''
+  : - cookies
+    - ''
+    - null
+request:
+  cookies: {}
+  data: {}
+  headers: {}
+  json:
+    a: '5'
+  method: get
+  params:
+    a: '1'
+  url: http://www.baidu.com
+story: 标签功能
+test_name: 正向用例
+title: 创建新的标签
+validate:
+  equals:
+    断言状态码等于200:
+    - status_code
+    - '200'

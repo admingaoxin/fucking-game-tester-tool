@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-9LOCHGPR767",
+    "children" : [ {
+      "name" : "6600-MainThread",
+      "children" : [ {
+        "name" : "创建新的标签",
+        "uid" : "2b810bc68c485dcc",
+        "parentUid" : "ab1c6f63f95a5c9a26a51fcf494d054c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698309924553,
+          "stop" : 1698309924604,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[2264922495632]" ]
+      } ],
+      "uid" : "ab1c6f63f95a5c9a26a51fcf494d054c"
+    } ],
+    "uid" : "0a8165c269f1572f7a84b81e5230db76"
+  } ]
+}

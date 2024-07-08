@@ -1,0 +1,24 @@
+extract:
+  resp_headers:
+  - headers
+  - '[headers,   (.*)]'
+  - null
+request:
+  cookies: {}
+  data: {}
+  headers:
+    b: '2'
+  json: {}
+  method: get
+  params:
+    a: '1'
+    wd: 北凡真帅
+  url: http://www.baidu.com
+story: 标签功能
+test_name: 正向用例
+title: 创建新的标签
+validate:
+  equals:
+    断言状态码等于200:
+    - status_code
+    - '200'

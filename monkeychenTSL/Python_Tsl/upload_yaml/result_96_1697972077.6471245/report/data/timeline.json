@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-PQP0GV0",
+    "children" : [ {
+      "name" : "15736-MainThread",
+      "children" : [ {
+        "name" : "创建新的标签",
+        "uid" : "bbb01a0f77d63641",
+        "parentUid" : "6cc525a93062e15b15778f3ea19903d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1697972078849,
+          "stop" : 1697972078959,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[2857055852304]" ]
+      } ],
+      "uid" : "6cc525a93062e15b15778f3ea19903d9"
+    } ],
+    "uid" : "13fabc88ae0736f1ba0c82650fb467fa"
+  } ]
+}

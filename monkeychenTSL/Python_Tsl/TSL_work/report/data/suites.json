@@ -1,0 +1,55 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "创建新的标签",
+        "uid" : "e61f6af74f91ef3f",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698108510276,
+          "stop" : 1698108510323,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[1535067391184]" ]
+      } ],
+      "uid" : "3568ef47ee5ecb01e944e080f33797a3"
+    }, {
+      "name" : "test_web",
+      "children" : [ {
+        "name" : "登录",
+        "children" : [ {
+          "name" : "错误密码",
+          "uid" : "8a61b5735a52388",
+          "parentUid" : "a0a61362524a42b9d1da229ab9237e83",
+          "status" : "passed",
+          "time" : {
+            "start" : 1698108510338,
+            "stop" : 1698108518480,
+            "duration" : 8142
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a0a61362524a42b9d1da229ab9237e83"
+      } ],
+      "uid" : "840495e3329349d1dbbafa2a26ab33ff"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ]
+}

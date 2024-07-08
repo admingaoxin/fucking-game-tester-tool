@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-PQP0GV0",
+    "children" : [ {
+      "name" : "16956-MainThread",
+      "children" : [ {
+        "name" : "创建新的标签",
+        "uid" : "bfa6526317eee48e",
+        "parentUid" : "b939de1523c0303e1d20642ec34c6d84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1697975169098,
+          "stop" : 1697975169212,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[1895117267280]" ]
+      }, {
+        "name" : "验证UI的用例",
+        "uid" : "457c799ef704b1a7",
+        "parentUid" : "b939de1523c0303e1d20642ec34c6d84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1697975169215,
+          "stop" : 1697975181087,
+          "duration" : 11872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b939de1523c0303e1d20642ec34c6d84"
+    } ],
+    "uid" : "13fabc88ae0736f1ba0c82650fb467fa"
+  } ]
+}

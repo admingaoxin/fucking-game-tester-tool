@@ -1,0 +1,21 @@
+[ {
+  "uid" : "bfa6526317eee48e",
+  "name" : "创建新的标签",
+  "time" : {
+    "start" : 1697975169098,
+    "stop" : 1697975169212,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "457c799ef704b1a7",
+  "name" : "验证UI的用例",
+  "time" : {
+    "start" : 1697975169215,
+    "stop" : 1697975181087,
+    "duration" : 11872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

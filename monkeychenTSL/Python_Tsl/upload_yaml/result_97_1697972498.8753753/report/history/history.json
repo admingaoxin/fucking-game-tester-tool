@@ -1,0 +1,41 @@
+{
+  "1a13f1f72d470807d5ff684db460541d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d3ec3af424d41cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1697972501401,
+        "stop" : 1697972551182,
+        "duration" : 49781
+      }
+    } ]
+  },
+  "6f8923a6f06b8ed6cbfb8372a037bef5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c6a99e9732500c7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言状态码等于200",
+      "time" : {
+        "start" : 1697972500082,
+        "stop" : 1697972501169,
+        "duration" : 1087
+      }
+    } ]
+  }
+}

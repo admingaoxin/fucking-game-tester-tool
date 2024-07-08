@@ -1,0 +1,20 @@
+extract:
+  wx_tag_id:
+  - json
+  - $.tag.id
+  - 0
+request:
+  json:
+    tag: 广东
+  method: get
+  params:
+    wd: 北凡真帅
+  url: https://www.baidu.com
+story: 标签功能
+test_name: 第一个用例
+title: 创建新的标签
+validate:
+  equals:
+    断言状态码等于200:
+    - status_code
+    - 200

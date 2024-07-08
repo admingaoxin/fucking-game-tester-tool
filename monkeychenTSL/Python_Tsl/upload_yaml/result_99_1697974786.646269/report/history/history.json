@@ -1,0 +1,22 @@
+{
+  "eb596dd1dc06d8164832fcf25370e98c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5acc551417691bc9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言状态码等于200",
+      "time" : {
+        "start" : 1697974787840,
+        "stop" : 1697974804657,
+        "duration" : 16817
+      }
+    } ]
+  }
+}

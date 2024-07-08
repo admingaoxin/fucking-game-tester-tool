@@ -1,0 +1,11 @@
+[ {
+  "uid" : "45338ad7d7dbdf3c",
+  "name" : "创建新的标签",
+  "time" : {
+    "start" : 1697970341316,
+    "stop" : 1697970342387,
+    "duration" : 1071
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

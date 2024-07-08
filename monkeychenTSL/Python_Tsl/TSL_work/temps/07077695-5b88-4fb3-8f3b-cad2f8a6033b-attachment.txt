@@ -1,0 +1,4 @@
+INFO     pytest_result_log:plugin.py:103 ------------Start: tests/test_web.xlsx::登录::错误密码------------
+INFO     commons.kdt:kdt.py:105 开始断言:  密码错误 equal ${msg}
+INFO     commons.kdt:kdt.py:112 密码错误 == 密码错误
+INFO     pytest_result_log:plugin.py:108 -------------End: tests/test_web.xlsx::登录::错误密码-------------

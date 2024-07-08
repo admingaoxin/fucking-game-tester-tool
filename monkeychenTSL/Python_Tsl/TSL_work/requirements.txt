@@ -1,0 +1,9 @@
+allure-pytest
+jsonpath
+pyyaml
+pytest-yaml
+requests
+pytest-xlsx
+pytest
+pytest-yaml-sanmu
+selenium

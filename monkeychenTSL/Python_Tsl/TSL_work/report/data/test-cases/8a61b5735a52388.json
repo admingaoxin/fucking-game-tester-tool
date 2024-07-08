@@ -1,0 +1,133 @@
+{
+  "uid" : "8a61b5735a52388",
+  "name" : "错误密码",
+  "fullName" : "tests.test_web.登录#错误密码",
+  "historyId" : "2cdb334d1b4988f942f69312f9c6b0a8",
+  "time" : {
+    "start" : 1698108510338,
+    "stop" : 1698108518480,
+    "duration" : 8142
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "chrome",
+    "time" : {
+      "start" : 1698108510338,
+      "stop" : 1698108512132,
+      "duration" : 1794
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c83b70e82bd20e68",
+      "name" : "设置浏览器",
+      "source" : "c83b70e82bd20e68.png",
+      "type" : "image/png",
+      "size" : 5171
+    }, {
+      "uid" : "a62b6ef446ba3e1c",
+      "name" : "访问登录页面",
+      "source" : "a62b6ef446ba3e1c.png",
+      "type" : "image/png",
+      "size" : 65958
+    }, {
+      "uid" : "7f1c6bb1228935a7",
+      "name" : "输入正确用户名",
+      "source" : "7f1c6bb1228935a7.png",
+      "type" : "image/png",
+      "size" : 65842
+    }, {
+      "uid" : "9b54bad664063f6",
+      "name" : "输入错误密码",
+      "source" : "9b54bad664063f6.png",
+      "type" : "image/png",
+      "size" : 64075
+    }, {
+      "uid" : "545de13bc81249ae",
+      "name" : "点击登录",
+      "source" : "545de13bc81249ae.png",
+      "type" : "image/png",
+      "size" : 66747
+    }, {
+      "uid" : "b814343780f7b7f8",
+      "name" : "获取提示信息",
+      "source" : "b814343780f7b7f8.png",
+      "type" : "image/png",
+      "size" : 68480
+    }, {
+      "uid" : "200e0e26564ca5ae",
+      "name" : "验证提示信息",
+      "source" : "200e0e26564ca5ae.png",
+      "type" : "image/png",
+      "size" : 68644
+    }, {
+      "uid" : "44291e413b830630",
+      "name" : "log",
+      "source" : "44291e413b830630.txt",
+      "type" : "text/plain",
+      "size" : 361
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_web"
+  }, {
+    "name" : "subSuite",
+    "value" : "登录"
+  }, {
+    "name" : "host",
+    "value" : "WIN-9LOCHGPR767"
+  }, {
+    "name" : "thread",
+    "value" : "3280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_web"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a61b5735a52388.json",
+  "parameterValues" : [ ]
+}

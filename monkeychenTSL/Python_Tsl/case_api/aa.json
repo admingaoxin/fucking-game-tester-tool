@@ -1,0 +1,43 @@
+{
+  "id": 1,
+  "endpoint": {
+    "id": 1,
+    "name": "百度首页",
+    "method": "get",
+    "url": "https://www.baidu.com",
+    "params": {
+      "wd": "北凡真帅"
+    },
+    "data": null,
+    "json": null,
+    "cookies": null,
+    "header": null,
+    "project": 1
+  },
+  "name": "第一个用例",
+  "allure": {
+    "story": "标签功能",
+    "title": "创建新的标签"
+  },
+  "api_args": {
+    "json": {
+      "tag": "广东"
+    }
+  },
+  "extract": {
+    "wx_tag_id": [
+      "json",
+      "$.tag.id",
+      0
+    ]
+  },
+  "validate": {
+    "equals": {
+      "断言状态码等于200": [
+        "status_code",
+        200
+      ]
+    }
+  },
+  "project": 1
+}

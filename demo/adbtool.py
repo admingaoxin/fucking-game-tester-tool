@@ -7,7 +7,10 @@ from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout,QSplitter, QPushB
 import datetime
 from qt_material import apply_stylesheet
 import __future__
-
+import pywinstyles
+dir_name ='log_files'
+dir_name1 = 'screen_files'
+dir_name2 = 'video_files'
 class ADBManager (QWidget):
     def __init__(self):
         super ().__init__ ()
@@ -29,21 +32,17 @@ class ADBManager (QWidget):
             hbox = QHBoxLayout ()
             hbox.addWidget (QLabel (f"{label_name}："))
             hbox.addWidget (number_box)
-
             self.number_boxes[variable_name] = number_box
-
-
-
 
         refreshButton = QPushButton ('刷新设备列表')
         refreshButton.clicked.connect (self.refreshDevices)
         layout.addWidget (refreshButton)
 
-        ADBshelltopButton = QPushButton ('刷新应用列表(只能选择aoz的包体)')
+        ADBshelltopButton = QPushButton ('根据输入刷新应用列表)')
         ADBshelltopButton.clicked.connect (self.Listapp)
         layout.addWidget (ADBshelltopButton)
 
-        listPackagesButton = QPushButton ('列出当前安装的渠道包和版本')
+        listPackagesButton = QPushButton ('列出当前安装aoz包渠道和版本')
         listPackagesButton.clicked.connect (self.listPackages)
         layout.addWidget (listPackagesButton)
 
@@ -135,7 +134,7 @@ class ADBManager (QWidget):
         self.setLayout (mainLayout)
         self.setWindowTitle ('胖虎の小工具')
         self.refreshDevices ()
-        self.Listapp()
+        self.run()
         self.logText.append ("<span style='color: black;'>欢迎使用，有问题找胖虎~</br>需要打开Android设备的开发者选项以及允许usb调试（哄蒙也是Android.jpg）</span>")
 
 
@@ -148,9 +147,19 @@ class ADBManager (QWidget):
         self.logText.append (
             f"<span style='color: red;'>出现投屏窗口后就证明可以录屏<br />做完想录制的操作后关闭这个新出现的投屏<br />视频就会保存在此目录下<span>")
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-        command = f"scrcpy -s {current_device}  --record {nowtime}.mkv"
+        command = f"scrcpy -s {current_device}  --record {dir_name2}/{nowtime}.mkv"
         subprocess.Popen(command,shell=True)
 
+    def run(self):
+        #判断下目录下方是否有这个文件夹
+        fileslist = [dir_name,dir_name1,dir_name2]
+        for i in fileslist:
+            if not os.path.exists (i):
+                os.makedirs(i)
+                self.logText.append(f"Directory  {i}   created")
+            else:
+
+                self.logText.append (f"Directory  {i}  already exists")
 
     def datacath(self):
         for name, number_box in self.number_boxes.items ():
@@ -212,7 +221,7 @@ class ADBManager (QWidget):
         self.logText.append (
             f"<span style='color: red;'>调试中，慎用<span>")
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-        command = f"scrcpy -s {current_device}  --record {nowtime}{jiuer}.mkv"
+        command = f"scrcpy -s {current_device}  --record {dir_name2}/{nowtime}{jiuer}.mkv"
         subprocess.Popen(command,shell=True)
 
 
@@ -229,8 +238,12 @@ class ADBManager (QWidget):
 
     def Listapp(self):
         current_device = self.comboBox.currentText ()
+        for name, number_box in self.number_boxes.items ():
+            setattr(self, name, number_box.text ())     #float (number_box.text ())
+        jiuer =self.movetime
+
         try:
-            command = f"{self.adb_path} -s {current_device} shell pm list packages -3 |grep .aoz"
+            command = f"{self.adb_path} -s {current_device} shell pm list packages -3 |grep {jiuer}"
             result = subprocess.run (command, capture_output=True, text=True)
             apps = result.stdout.splitlines ()
             app_list = [line.split('\t')[0].replace('package:', '') for line in apps[0:] ] #if '\tpackage:' in line
@@ -333,7 +346,7 @@ class ADBManager (QWidget):
         current_device = self.comboBox.currentText ()
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
         if current_device:
-            command = f"{self.adb_path} -s {current_device} shell logcat > {str (nowtime)}{current_device}logcat.log -d "
+            command = f"{self.adb_path} -s {current_device} shell logcat > {dir_name}/{str (nowtime)}{current_device}logcat.log -d "
             subprocess.Popen(command,shell=True)
             self.logText.append ("logcat 已导出")
         else:
@@ -345,10 +358,10 @@ class ADBManager (QWidget):
         current_device = self.comboBox.currentText ()
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
         if current_device:
-            command = f'{self.adb_path} -s {current_device} exec-out "screencap -p && sleep2" -p > {str (nowtime)}{current_device}.png'
+            command = f'{self.adb_path} -s {current_device} exec-out "screencap -p && sleep2" -p > {dir_name1}/{str (nowtime)}{current_device}.png'
             subprocess.Popen (command, shell=True)
             self.logText.append (
-                "<span style='color: green;'>截图放在同级目录下<br />截图速度取决于设备的物理分辨率</span>")
+                "<span style='color: green;'>截图放在screen_files下<br />截图速度取决于设备的物理分辨率</span>")
         else:
             self.logText.append ("<span style='color: red;'>错误: 设备未授权或无法连接</span>")
             QMessageBox.warning (self, "错误", "设备未授权或无法连接")
@@ -359,9 +372,9 @@ class ADBManager (QWidget):
         Ntime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
         if current_device:
             self.logText.append (
-                "<span style='color: green;'>这个截图会有点慢，在手机的存储目录scard/下也会有图片，请定时清理 <br /> 截图放在同级目录下<br />截图速度取决于设备的物理分辨率</span>")
+                "<span style='color: green;'>这个截图会有点慢，在手机的存储目录scard/下也会有图片，请定时清理 <br /> 截图放在screen_files下<br />截图速度取决于设备的物理分辨率</span>")
             command = f'{self.adb_path} -s {current_device} shell screencap /sdcard/{str (Ntime)}{current_device}.png'
-            command2 = f'{self.adb_path} -s {current_device} pull sdcard/{str (Ntime)}{current_device}.png'
+            command2 = f'{self.adb_path} -s {current_device} pull sdcard/{str (Ntime)}{current_device}.png {dir_name1}/{str (Ntime)}{current_device}.png'
             subprocess.Popen (command, shell=True)
             time.sleep (3)
             subprocess.Popen (command2, shell=True)
@@ -402,7 +415,7 @@ class ADBManager (QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    apply_stylesheet (app, theme='light_blue_500.xml')
+    apply_stylesheet (app, theme='light_lightgreen_500.xml')
     ex = ADBManager()
     ex.show()
     sys.exit(app.exec_())

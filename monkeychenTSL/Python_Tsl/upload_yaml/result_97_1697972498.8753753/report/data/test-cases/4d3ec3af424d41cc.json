@@ -1,0 +1,130 @@
+{
+  "uid" : "4d3ec3af424d41cc",
+  "name" : "验证UI的用例",
+  "fullName" : "test_1_验证UI的用例.Sheet#验证UI的用例",
+  "historyId" : "1a13f1f72d470807d5ff684db460541d",
+  "time" : {
+    "start" : 1697972501401,
+    "stop" : 1697972551182,
+    "duration" : 49781
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "chrome",
+    "time" : {
+      "start" : 1697972501401,
+      "stop" : 1697972505007,
+      "duration" : 3606
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86c683b2b0baf59d",
+      "name" : "设置浏览器",
+      "source" : "86c683b2b0baf59d.png",
+      "type" : "image/png",
+      "size" : 8924
+    }, {
+      "uid" : "3415002fb22fa054",
+      "name" : "访问登录页面",
+      "source" : "3415002fb22fa054.png",
+      "type" : "image/png",
+      "size" : 74521
+    }, {
+      "uid" : "97d92d7bc22103f",
+      "name" : "输入正确用户名",
+      "source" : "97d92d7bc22103f.png",
+      "type" : "image/png",
+      "size" : 74300
+    }, {
+      "uid" : "27391ae65fa1a5dc",
+      "name" : "输入错误密码",
+      "source" : "27391ae65fa1a5dc.png",
+      "type" : "image/png",
+      "size" : 72778
+    }, {
+      "uid" : "3a61a361f2a79246",
+      "name" : "点击登录",
+      "source" : "3a61a361f2a79246.png",
+      "type" : "image/png",
+      "size" : 74049
+    }, {
+      "uid" : "b0b99ee4e784d35",
+      "name" : "获取提示信息",
+      "source" : "b0b99ee4e784d35.png",
+      "type" : "image/png",
+      "size" : 77051
+    }, {
+      "uid" : "2b4869a57c23b0ee",
+      "name" : "验证提示信息",
+      "source" : "2b4869a57c23b0ee.png",
+      "type" : "image/png",
+      "size" : 76066
+    }, {
+      "uid" : "37bd7427828d069c",
+      "name" : "log",
+      "source" : "37bd7427828d069c.txt",
+      "type" : "text/plain",
+      "size" : 377
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_1_验证UI的用例"
+  }, {
+    "name" : "subSuite",
+    "value" : "Sheet"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PQP0GV0"
+  }, {
+    "name" : "thread",
+    "value" : "19516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_1_验证UI的用例"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d3ec3af424d41cc.json",
+  "parameterValues" : [ ]
+}

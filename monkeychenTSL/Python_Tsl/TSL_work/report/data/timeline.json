@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-9LOCHGPR767",
+    "children" : [ {
+      "name" : "3280-MainThread",
+      "children" : [ {
+        "name" : "创建新的标签",
+        "uid" : "e61f6af74f91ef3f",
+        "parentUid" : "b633e1007fcbbc2ceeda2c1495eee13e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698108510276,
+          "stop" : 1698108510323,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[1535067391184]" ]
+      }, {
+        "name" : "错误密码",
+        "uid" : "8a61b5735a52388",
+        "parentUid" : "b633e1007fcbbc2ceeda2c1495eee13e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698108510338,
+          "stop" : 1698108518480,
+          "duration" : 8142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b633e1007fcbbc2ceeda2c1495eee13e"
+    } ],
+    "uid" : "0a8165c269f1572f7a84b81e5230db76"
+  } ]
+}

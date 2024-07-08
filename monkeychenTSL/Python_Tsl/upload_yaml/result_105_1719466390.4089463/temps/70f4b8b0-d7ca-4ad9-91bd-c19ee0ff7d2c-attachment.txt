@@ -1,0 +1,16 @@
+INFO     pytest_result_log:plugin.py:103 -----------Start: tests/test_case.py::test_[请求百度]-----------
+INFO     commons.allure_util:allure_util.py:39 设置了以下allure标注: ['epci', 'feature', 'story', 'title']
+WARNING  session:session.py:38 使用的不是绝对URL地址，需要补全base_url
+INFO     session:session.py:41 请求方法: get
+INFO     session:session.py:42 接口地址: http://47.107.116.139www.baidu.com
+INFO     session:session.py:43 params: {}
+INFO     session:session.py:44 请求头: None
+INFO     session:session.py:45 cookies: <RequestsCookieJar[]>
+INFO     session:session.py:46 请求正文:
+INFO     session:session.py:47 json: None
+INFO     session:session.py:48 data: None
+INFO     session:session.py:49 files: None
+INFO     session:session.py:76 状态码：503
+INFO     session:session.py:77 响应头：{'Connection': 'close', 'Proxy-Connection': 'close', 'Content-Length': '0'}
+INFO     session:session.py:78 响应正文：
+INFO     pytest_result_log:plugin.py:108 ------------End: tests/test_case.py::test_[请求百度]------------

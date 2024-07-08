@@ -1,0 +1,21 @@
+INFO     2024-06-27 13:33:12 [commons.case_util:26]  : extrac_data={}
+INFO     2024-06-27 13:33:12 [commons.case_util:35]  : 从. 加载到 1个yaml文件：
+INFO     2024-06-27 13:33:12 [commons.case_util:36]  : [WindowsPath('test_4_请求百度.yaml')]
+INFO     2024-06-27 13:33:12 [commons.case_util:78]  : 共加载到用例：1个
+INFO     2024-06-27 13:33:12 [pytest_result_log:103]  : -----------Start: tests/test_case.py::test_[请求百度]-----------
+INFO     2024-06-27 13:33:12 [commons.allure_util:39]  : 设置了以下allure标注: ['epci', 'feature', 'story', 'title']
+WARNING  2024-06-27 13:33:12 [session:38]  : 使用的不是绝对URL地址，需要补全base_url
+INFO     2024-06-27 13:33:12 [session:41]  : 请求方法: get
+INFO     2024-06-27 13:33:12 [session:42]  : 接口地址: http://47.107.116.139www.baidu.com
+INFO     2024-06-27 13:33:12 [session:43]  : params: {}
+INFO     2024-06-27 13:33:12 [session:44]  : 请求头: None
+INFO     2024-06-27 13:33:12 [session:45]  : cookies: <RequestsCookieJar[]>
+INFO     2024-06-27 13:33:12 [session:46]  : 请求正文:
+INFO     2024-06-27 13:33:12 [session:47]  : json: None
+INFO     2024-06-27 13:33:12 [session:48]  : data: None
+INFO     2024-06-27 13:33:12 [session:49]  : files: None
+INFO     2024-06-27 13:33:13 [session:76]  : 状态码：503
+INFO     2024-06-27 13:33:13 [session:77]  : 响应头：{'Connection': 'close', 'Proxy-Connection': 'close', 'Content-Length': '0'}
+INFO     2024-06-27 13:33:13 [session:78]  : 响应正文：
+ERROR    2024-06-27 13:33:13 [pytest_result_log:170]  : test status is FAILED (tests/test_case.py::test_[请求百度]): AttributeError
+INFO     2024-06-27 13:33:13 [pytest_result_log:108]  : ------------End: tests/test_case.py::test_[请求百度]------------

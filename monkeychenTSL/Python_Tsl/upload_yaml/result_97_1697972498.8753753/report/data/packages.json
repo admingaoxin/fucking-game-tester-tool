@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.test_case",
+    "children" : [ {
+      "name" : "创建新的标签",
+      "uid" : "5c6a99e9732500c7",
+      "parentUid" : "3c7c3677fda4916c93fc9e10878d8719",
+      "status" : "failed",
+      "time" : {
+        "start" : 1697972500082,
+        "stop" : 1697972501169,
+        "duration" : 1087
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "[2459171042512]" ]
+    } ],
+    "uid" : "tests.test_case"
+  }, {
+    "name" : "test_1_验证UI的用例",
+    "children" : [ {
+      "name" : "验证UI的用例",
+      "uid" : "4d3ec3af424d41cc",
+      "parentUid" : "df9f71188fcff8286e6f22efca4d7734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1697972501401,
+        "stop" : 1697972551182,
+        "duration" : 49781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "df9f71188fcff8286e6f22efca4d7734"
+  } ]
+}

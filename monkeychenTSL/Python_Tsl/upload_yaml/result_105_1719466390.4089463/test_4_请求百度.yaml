@@ -1,0 +1,14 @@
+extract:
+  ? ''
+  : - ''
+    - ''
+    - 0
+request:
+  method: get
+  url: www.baidu.com
+test_name: 请求百度
+validate:
+  equals:
+    ? ''
+    : - ''
+      - null

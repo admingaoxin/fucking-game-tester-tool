@@ -1,0 +1,21 @@
+[ {
+  "uid" : "8a61b5735a52388",
+  "name" : "错误密码",
+  "time" : {
+    "start" : 1698108510338,
+    "stop" : 1698108518480,
+    "duration" : 8142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e61f6af74f91ef3f",
+  "name" : "创建新的标签",
+  "time" : {
+    "start" : 1698108510276,
+    "stop" : 1698108510323,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

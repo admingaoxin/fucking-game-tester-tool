@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.test_case",
+    "children" : [ {
+      "name" : "创建新的标签",
+      "uid" : "45338ad7d7dbdf3c",
+      "parentUid" : "3c7c3677fda4916c93fc9e10878d8719",
+      "status" : "failed",
+      "time" : {
+        "start" : 1697970341316,
+        "stop" : 1697970342387,
+        "duration" : 1071
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "[3007976975120]" ]
+    } ],
+    "uid" : "tests.test_case"
+  } ]
+}

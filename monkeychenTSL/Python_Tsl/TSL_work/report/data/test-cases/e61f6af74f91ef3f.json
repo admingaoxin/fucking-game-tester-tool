@@ -1,0 +1,85 @@
+{
+  "uid" : "e61f6af74f91ef3f",
+  "name" : "创建新的标签",
+  "fullName" : "tests.test_case#test_",
+  "historyId" : "da1bf81420ab25b1df31f3c4c14478c3",
+  "time" : {
+    "start" : 1698108510276,
+    "stop" : 1698108510323,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "394775761e391be",
+      "name" : "log",
+      "source" : "394775761e391be.txt",
+      "type" : "text/plain",
+      "size" : 1599
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "码尚教育自动化测试系统"
+  }, {
+    "name" : "feature",
+    "value" : "北凡默认模块"
+  }, {
+    "name" : "story",
+    "value" : "标签功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "host",
+    "value" : "WIN-9LOCHGPR767"
+  }, {
+    "name" : "thread",
+    "value" : "3280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "all_case_info",
+    "value" : "[1535067391184]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e61f6af74f91ef3f.json",
+  "parameterValues" : [ "[1535067391184]" ]
+}

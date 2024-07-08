@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "创建新的标签",
+        "uid" : "d7743a175a03391f",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1698313343369,
+          "stop" : 1698313343431,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[1357231938576]" ]
+      } ],
+      "uid" : "3568ef47ee5ecb01e944e080f33797a3"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ]
+}

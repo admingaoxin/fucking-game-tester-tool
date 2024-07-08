@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 断言状态码等于200",
+      "children" : [ {
+        "name" : "创建新的标签",
+        "uid" : "45338ad7d7dbdf3c",
+        "parentUid" : "07879a1212ef3393a2e36a1b47a53364",
+        "status" : "failed",
+        "time" : {
+          "start" : 1697970341316,
+          "stop" : 1697970342387,
+          "duration" : 1071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[3007976975120]" ]
+      } ],
+      "uid" : "07879a1212ef3393a2e36a1b47a53364"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
