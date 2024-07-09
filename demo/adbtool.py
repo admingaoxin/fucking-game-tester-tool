@@ -143,7 +143,7 @@ class ADBManager (QWidget):
             QMessageBox.warning (self, "警告", "没有选定的设备")
             return
         self.logText.append (
-            f"<span style='color: red;'>出现投屏窗口后就证明可以录屏<br />做完想录制的操作后关闭这个新出现的投屏<br />视频就会保存在此目录下<span>")
+            f"<span style='color: red;'>出现投屏窗口后就证明可以录屏<br />做完想录制的操作后关闭这个新出现的投屏<br />视频就会保存在vedio_files目录下<span>")
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
         command = f"scrcpy -s {current_device}  --record {dir_name2}/{nowtime}.mkv"
         subprocess.Popen(command,shell=True)
