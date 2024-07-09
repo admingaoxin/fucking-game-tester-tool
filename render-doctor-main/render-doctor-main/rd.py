@@ -3402,29 +3402,29 @@ def get_cbuffer_contents(controller, stage, shader_name, refl, program_name):
 
     if API_TYPE != rd.GraphicsAPI.OpenGL:
         setup_shader_doctor = False
-    pipe_state : rd.PipeState = controller.GetPipelineState()
-    # for slot in range(0, 4):
-    #     cb = pipe_state.GetConstantBuffer(stage, slot, 0)
+        pipe_state : rd.PipeState = controller.GetPipelineState()
+        for slot in range(0, 4):
+            cb = pipe_state.GetConstantBuffer(stage, slot, 0)
 
-    #     ver = rd.GetVersionString()
-    #     from distutils.version import LooseVersion
-    #     if LooseVersion(ver) >= LooseVersion('1.17'):
-    #         cbufferVars = controller.GetCBufferVariableContents(api_state, pipe.GetShader(stage),
-    #                                                             stage, pipe.GetShaderEntryPoint(stage),
-    #                                                             slot, cb.resourceId,
-    #                                                             cb.byteOffset, cb.byteSize)
-    #     else:
-    #         cbufferVars = controller.GetCBufferVariableContents(api_state,
-    #                                                             pipe.GetShader(stage),
-    #                                                             pipe.GetShaderEntryPoint(stage), slot,
-    #                                                             cb.resourceId, cb.byteOffset, cb.byteSize)
+            ver = rd.GetVersionString()
+            from distutils.version import LooseVersion
+            if LooseVersion(ver) >= LooseVersion('1.17'):
+                cbufferVars = controller.GetCBufferVariableContents(api_state, pipe.GetShader(stage),
+                                                                    stage, pipe.GetShaderEntryPoint(stage),
+                                                                    slot, cb.resourceId,
+                                                                    cb.byteOffset, cb.byteSize)
+            else:
+                cbufferVars = controller.GetCBufferVariableContents(api_state,
+                                                                    pipe.GetShader(stage),
+                                                                    pipe.GetShaderEntryPoint(stage), slot,
+                                                                    cb.resourceId, cb.byteOffset, cb.byteSize)
 
-    #     if not cbufferVars:
-    #         break
+            if not cbufferVars:
+                break
 
-    #     for v in cbufferVars:
-    #         contents += print_var(v, shader_name = shader_name, setup_shader_doctor = setup_shader_doctor)
-    #     contents += '\n----------------------------------\n'
+            for v in cbufferVars:
+                contents += print_var(v, shader_name = shader_name, setup_shader_doctor = setup_shader_doctor)
+            contents += '\n----------------------------------\n'
 
     if setup_shader_doctor:
         rawBytes = str(refl.rawBytes, 'utf-8')
