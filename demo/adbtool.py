@@ -13,7 +13,7 @@ class ADBManager (QWidget):
     def __init__(self):
         super ().__init__ ()
         self.adb_path = ('adb')  # ADB的路径
-        self.custom_variables = {"movetime" : "预留输入口"}
+        self.custom_variables = {"movetime" : "从这里输入"}
         self.initUI ()
 
     def initUI(self):
@@ -145,7 +145,7 @@ class ADBManager (QWidget):
         self.logText.append (
             f"<span style='color: red;'>出现投屏窗口后就证明可以录屏<br />做完想录制的操作后关闭这个新出现的投屏<br />视频就会保存在vedio_files目录下<span>")
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-        command = f"scrcpy -s {current_device}  --record {dir_name2}/{nowtime}.mkv"
+        command = f"scrcpy -s {current_device}  --record {dir_name2}/{nowtime}.mp4"
         subprocess.Popen(command,shell=True)
 
     def run(self):
@@ -219,7 +219,7 @@ class ADBManager (QWidget):
         self.logText.append (
             f"<span style='color: red;'>调试中，慎用<span>")
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-        command = f"scrcpy -s {current_device}  --record {dir_name2}/{nowtime}{jiuer}.mkv"
+        command = f"scrcpy -s {current_device}  --record {dir_name2}/{nowtime}{jiuer}.mp4"
         subprocess.Popen(command,shell=True)
 
 
