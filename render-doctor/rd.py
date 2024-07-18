@@ -3078,7 +3078,7 @@ class Frame:
             markdown.write(markdeep_minimalist_head)
         else:
             markdown.write(markdeep_head)
-        markdown.write('**胖虎**\n')
+        markdown.write('**renderdoc**\n')
         markdown.write(' %s\n' % rdc_file)
 
         self.writeFrameOverview(markdown, controller)
