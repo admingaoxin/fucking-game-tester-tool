@@ -1,8 +1,14 @@
 import sys
+import asyncio
+from PyQt5.QtGui import QIntValidator
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLineEdit, QTextEdit, QComboBox
-from PyQt5.QtCore import Qt
-import requests
-import traceback
+from PyQt5.QtCore import Qt, pyqtSlot
+import aiohttp
+import logging
+
+logging.basicConfig(filename='http_requests.log', level=logging.INFO,
+                    format='%(asctime)s: %(levelname)s - %(message)s')
+
 class HttpRequester(QWidget):
     def __init__(self):
         super().__init__()
@@ -19,65 +25,76 @@ class HttpRequester(QWidget):
         self.method_combo.addItem('GET')
         self.method_combo.addItem('POST')
 
+        self.send_count_input = QLineEdit (self)
+        self.send_count_input.setPlaceholderText ('Enter number of requests to send')
+        self.send_count_input.setValidator (QIntValidator ())  # 添加验证器确保输入的是整数
+
         self.body_input = QTextEdit(self)
         self.body_input.setPlaceholderText('Enter request body (for POST only)')
 
         self.send_btn = QPushButton('Send', self)
         self.send_btn.clicked.connect(self.send_request)
 
-        self.response_text = QTextEdit(self)
-        self.response_text.setReadOnly(True)
+        # self.response_text = QTextEdit(self)
+        # self.response_text.setReadOnly(True)
 
         layout.addWidget(self.url_input)
         layout.addWidget(self.method_combo)
         layout.addWidget(self.body_input)
         layout.addWidget(self.send_btn)
-        layout.addWidget(self.response_text)
+        # layout.addWidget(self.response_text)
+        layout.addWidget (self.send_count_input)
 
         self.setLayout(layout)
+    # ... initUI 方法保持不变 ...
 
+    @pyqtSlot()  # 标记为Qt槽，确保在GUI线程中调用
     def send_request(self):
         url = self.url_input.text()
         method = self.method_combo.currentText()
+        send_count = int(self.send_count_input.text()) if self.send_count_input.text() else 1
+        asyncio.run(self.send_requests_async(url, method, send_count))
 
+
+    async def send_requests_async(self, url, method, send_count):
+        body = self.body_input.toPlainText().encode('utf-8') if method == 'POST' else None
+
+        tasks = []
         if method == 'GET':
-            self.send_get_request(url)
+            tasks = [self.send_get_request_async(url) for _ in range(send_count)]
         elif method == 'POST':
-            body = self.body_input.toPlainText().encode('utf-8')
-            print("Encoded body:", body) # Encode the body for POST requests
-            self.send_post_request(url, body)
+            tasks = [self.send_post_request_async(url, body) for _ in range(send_count)]
 
+        await asyncio.gather(*tasks)
 
-    def send_get_request(self, url):
+    async def send_get_request_async(self, url):
         try:
-            response = requests.get(url)
-            # 只显示状态码
-            self.response_text.setText(f"Status Code: {response.status_code}")
-        except requests.RequestException as e:
-            self.response_text.setText(f"Error: {e}")
-
-    def send_post_request(self, url, body):
-        headers = {'Content-Type': 'application/json'}  # 根据需要更改此内容类型
-        try:
-            # 确保body是字节串（如果需要）
-            body_bytes = body.encode ('utf-8') if isinstance(body, str) else body
-            print("Sending POST request to:", url)
-            print("Body:",
-                   body_bytes.decode('utf-8') if isinstance(body_bytes, bytes) else body_bytes)  # 仅用于调试，显示文本内容
-            response = requests.post(url, data=body_bytes, headers=headers) #, headers=headers
-            print("Response status code:", response.status_code)
-            self.response_text.setText (response.text)
-        except requests.RequestException as e:
-            self.response_text.setText (f"Error: {e}")
-            traceback.print_exc()  # 打印完整的堆栈跟踪
+            async with aiohttp.ClientSession () as session:
+                async with session.get (url) as response:
+                    text = await response.text ()
+                    # 记录日志而不是更新GUI
+                    logging.info (f"GET {url} Status Code: {response.status}")
+                    logging.info (f"Response: {text[:10000]}...")
         except Exception as e:
-            self.response_text.setText (f"Unexpected error: {e}")
-            traceback.print_exc()  # 打印完整的堆栈跟踪
+            logging.error (f"GET {url} Error: {e}")
 
+    async def send_post_request_async(self, url, body):
+        headers = {'Content-Type': 'application/json'}
+        try:
+            async with aiohttp.ClientSession () as session:
+                async with session.post (url, data=body, headers=headers) as response:
+                    text = await response.text ()
+                    # 在这里你可以决定如何处理响应，例如记录日志或更新GUI
+                    logging.info (f"POST {url} Status Code: {response.status}")
+                    logging.info (f"Response: {text[:10000]}...")
+        except Exception as e:
+            logging.error (f"POST {url} Error: {e}")
 
+# ... 主程序保持不变 ...
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = HttpRequester()
+    ex.send_request ()
     ex.show()
     sys.exit(app.exec_())
