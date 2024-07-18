@@ -6,7 +6,7 @@ import time
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QComboBox, QMessageBox, QTextEdit, QLineEdit, QHBoxLayout, QLabel
 import datetime
 from qt_material import apply_stylesheet
-dir_name ='log_files'
+dir_name = 'log_files'
 dir_name1 = 'screen_files'
 dir_name2 = 'video_files'
 class ADBManager (QWidget):
