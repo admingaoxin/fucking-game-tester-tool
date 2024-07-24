@@ -5,7 +5,17 @@ import re
 import time
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QComboBox, QMessageBox, QTextEdit, QLineEdit, QHBoxLayout, QLabel
 import datetime
+from PyQt5.QtCore import Qt, pyqtSlot
+from PyQt5.QtGui import QIntValidator
 from qt_material import apply_stylesheet
+import asyncio
+import aiohttp
+import logging
+
+
+logging.basicConfig(filename='log.log', level=logging.INFO,
+                    format='%(asctime)s: %(levelname)s - %(message)s')
+
 dir_name = 'log_files'
 dir_name1 = 'screen_files'
 dir_name2 = 'video_files'
@@ -93,10 +103,37 @@ class ADBManager (QWidget):
         screenAV2Button.clicked.connect (self.screendinput)
         layout.addWidget (screenAV2Button)
 
+        self.url_input = QLineEdit (self)
+        self.url_input.setPlaceholderText ('请求地址')
+
+        self.method_combo = QComboBox (self)
+        self.method_combo.addItem ('GET')
+        self.method_combo.addItem ('POST')
+
+        self.send_count_input = QLineEdit (self)
+        self.send_count_input.setPlaceholderText ('请求次数（必须是整数int）')
+        self.send_count_input.setValidator (QIntValidator ())  # 添加验证器确保输入的是整数
+
+        self.body_input = QTextEdit (self)
+        self.body_input.setPlaceholderText ('请输入请求体（默认请求头写死是application/json）')
+
+        self.send_btn = QPushButton ('Send', self)
+        self.send_btn.clicked.connect (self.send_request)
+        layout.addWidget (self.send_btn)
+
         self.logText = QTextEdit ()
         self.logText.setReadOnly (True)
-        layout.addWidget (self.logText)
 
+
+        layout.addWidget (self.logText)
+        layout.addWidget(self.url_input)
+        layout.addWidget(self.method_combo)
+        layout.addWidget(self.body_input)
+
+        # layout.addWidget(self.response_text)
+        layout.addWidget (self.send_count_input)
+
+        # self.setLayout(layout)
 
         buttonLayout1 = QVBoxLayout ()
         buttonLayout1.addWidget (refreshButton)
@@ -125,6 +162,11 @@ class ADBManager (QWidget):
         mainLayout.addWidget (self.comboBox1)
         mainLayout.addLayout (hbox)
         mainLayout.addLayout (buttonsLayout)
+        mainLayout.addWidget (self.url_input)
+        mainLayout.addWidget (self.method_combo)
+        mainLayout.addWidget (self.body_input)
+        mainLayout.addWidget (self.send_count_input)
+        mainLayout.addWidget (self.send_btn)
         mainLayout.addWidget (self.logText)
 
 
@@ -154,10 +196,52 @@ class ADBManager (QWidget):
         for i in fileslist:
             if not os.path.exists (i):
                 os.makedirs(i)
-                self.logText.append(f"Directory  {i}   created")
+                self.logText.append(f"Directory  {i}   已创建")
             else:
 
-                self.logText.append (f"Directory  {i}  already exists")
+                self.logText.append (f"Directory  {i}  已存在")
+
+    @pyqtSlot ()  # 标记为Qt槽，确保在GUI线程中调用
+    def send_request(self):
+        url = self.url_input.text ()
+        method = self.method_combo.currentText ()
+        send_count = int (self.send_count_input.text ()) if self.send_count_input.text () else 1
+        asyncio.run (self.send_requests_async (url, method, send_count))
+        self.logText.append (f"请求已发送，在同级文件夹下的log中查看返回")
+
+    async def send_requests_async(self, url, method, send_count):
+        body = self.body_input.toPlainText ().encode ('utf-8') if method == 'POST' else None
+
+        tasks = []
+        if method == 'GET':
+            tasks = [self.send_get_request_async (url) for _ in range (send_count)]
+        elif method == 'POST':
+            tasks = [self.send_post_request_async (url, body) for _ in range (send_count)]
+
+        await asyncio.gather (*tasks)
+
+    async def send_get_request_async(self, url):
+        try:
+            async with aiohttp.ClientSession () as session:
+                async with session.get (url) as response:
+                    text = await response.text ()
+                    # 记录日志而不是更新GUI
+                    logging.info (f"GET {url} Status Code: {response.status}")
+                    logging.info (f"Response: {text[:10000]}...")
+        except Exception as e:
+            logging.error (f"GET {url} Error: {e}")
+
+    async def send_post_request_async(self, url, body):
+        headers = {'Content-Type': 'application/json'}
+        try:
+            async with aiohttp.ClientSession () as session:
+                async with session.post (url, data=body, headers=headers) as response:
+                    text = await response.text ()
+                    # 在这里你可以决定如何处理响应，例如记录日志或更新GUI
+                    logging.info (f"POST {url} Status Code: {response.status}")
+                    logging.info (f"Response: {text[:10000]}...")
+        except Exception as e:
+            logging.error (f"POST {url} Error: {e}")
 
     def datacath(self):
         for name, number_box in self.number_boxes.items ():
