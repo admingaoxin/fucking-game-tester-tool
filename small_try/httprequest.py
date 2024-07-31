@@ -90,7 +90,7 @@ class HttpRequester(QWidget):
         except Exception as e:
             logging.error (f"POST {url} Error: {e}")
 
-# ... 主程序保持不变 ...
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

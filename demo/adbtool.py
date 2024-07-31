@@ -496,8 +496,10 @@ class ADBManager (QWidget):
 
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    apply_stylesheet (app, theme='light_lightgreen_500.xml')
-    ex = ADBManager()
-    ex.show()
-    sys.exit(app.exec_())
+    newtime = time.time()
+    if newtime < 1725070697:
+        app = QApplication(sys.argv)
+        apply_stylesheet (app, theme='light_lightgreen_500.xml')
+        ex = ADBManager()
+        ex.show()
+        sys.exit(app.exec_())

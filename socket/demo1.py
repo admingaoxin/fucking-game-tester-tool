@@ -13,7 +13,7 @@ def PackCallBack(packet, hostIP):
     direction = "Outgoing" if packet[IP].src == hostIP else "Incoming"
     print("[%s] %s: %s:%s ----> %s:%s" % (TimeStamp2Time(packet.time), direction, packet[IP].src, packet.sport, packet[IP].dst, packet.dport))
     # 打印数据包
-    print(packet.show())
+    print('packet',packet.show())
     # 打印协议内容
     if Raw in packet:
         print("Protocol Content: ", packet[Raw].load)
