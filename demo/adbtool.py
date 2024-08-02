@@ -201,6 +201,28 @@ class ADBManager (QWidget):
 
                 self.logText.append (f"Directory  {i}  已存在")
 
+    # def installApk(self):
+    #     try:
+    #         current_device = self.comboBox.currentText()
+    #         if current_device:
+    #             apk_path, _ = QFileDialog.getOpenFileName(self, "选择APK文件", "", "APK files (*.apk)")
+    #             if apk_path:
+    #                 self.logText.append(f"开始安装APK: {apk_path}")
+    #                 command = f"{self.adb_path} -s {current_device} install {apk_path}"
+    #                 print(command)
+    #                     # result = subprocess.Popen([self.adb_path, '-s', current_device, 'install', apk_path], capture_output=True, text=True)
+    #                 result = subprocess.run(command, shell=True)
+    #                 if "success" in result.stdout.lower():
+    #                     self.logText.append("安装成功")
+    #                     QMessageBox.information(self, "安装APK", "APK安装完成")
+    #                 else:
+    #                     self.logText.append(f"安装失败: {result.stderr}")
+    #                     QMessageBox.warning(self, "安装APK", "安装失败，请检查设备是否授权和连接")
+    #         else:
+    #             QMessageBox.warning(self, "警告", "没有选定的设备")
+    #     except Exception as e:
+    #         self.logText.append(f"安装APK时发生错误: {str(e)}")
+
     @pyqtSlot ()  # 标记为Qt槽，确保在GUI线程中调用
     def send_request(self):
         url = self.url_input.text ()

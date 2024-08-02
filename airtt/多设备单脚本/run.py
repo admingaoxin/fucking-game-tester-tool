@@ -1,5 +1,4 @@
-# -*- encoding=utf-8 -*-
-# Run Airtest in parallel on multi-device
+
 import os
 import jenkinsfile
 print("当前工作目录:", os.getcwd())
@@ -25,12 +24,6 @@ from jenkinsfile import dev,air
 # sys.path.extend([rootpath+i for i in os.listdir(rootpath) if i[0]!="."])#将工程目录下的一级目录添加到python搜索路径中
 # sys.path.extend(syspath)
 """
-
-
-
-dev = jenkinsfile.dev
-print(dev)
-
 
 #暂时不考虑性能，走全局变量
 
