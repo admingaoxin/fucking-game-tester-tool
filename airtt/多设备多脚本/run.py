@@ -32,7 +32,7 @@ import jenkinsfile
 #暂时不考虑性能，走全局变量
 
 Nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-reprot_file = f"D:\\qatoolswc\\airtt\\report_file\\{Nowtime}"
+report_file = f"C:\\Users\\cm619\\.jenkins\\workspace\\test"
 
 
 
@@ -54,6 +54,7 @@ def run(devices, airs, run_all=True):
                 json.dump(results, open('data.json', "w"), indent=4)
             all_results.append(results)
             run_summary(results, air)
+        generate_overall_report(all_results)
     except Exception as e:
         traceback.print_exc()
 
@@ -108,13 +109,10 @@ def run_summary(data,air):
             'count': len(data['tests'])
         }
         summary.update(data)
-        summary['start'] = time.strftime("%Y-%m-%d %H:%M:%S",
-                                         time.localtime(data['start']))
-        env = Environment(loader=FileSystemLoader(os.getcwd()),
-                          trim_blocks=True)
-        
+        summary['start'] = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(data['start']))
+        env = Environment(loader=FileSystemLoader(os.getcwd()), trim_blocks=True)
         html = env.get_template('report_tpl.html').render(data=summary)
-        report_path = f"{Nowtime}{dev}_{air.replace('.air', '')}-report.html"
+        report_path = f"{Nowtime}_{air.replace('.air', '')}-report.html"
         with open(report_path, "w", encoding="utf-8") as f:
             f.write(html)
         print(f"Report generated: {report_path}")
@@ -123,6 +121,76 @@ def run_summary(data,air):
         traceback.print_exc()
 
     # cat_report_date(air)
+
+# def generate_overall_report(all_results):
+#     try:
+#         overall_summary = {
+#             'total_scripts': len(all_results),
+#             'total_success': sum([result.get('success', 0) for result in all_results]),
+#             'total_tests': sum([result.get('count', 0) for result in all_results])
+#         }
+#         env = Environment(loader=FileSystemLoader(os.getcwd()), trim_blocks=True)
+#         html = env.get_template('overall_report_tpl.html').render(data=overall_summary)
+#         overall_report_path = f"{report_file}\\overall_report.html"
+#         with open(overall_report_path, "w", encoding="utf-8") as f:
+#             f.write(html)
+#         print(f"Overall report generated: {overall_report_path}")
+#         webbrowser.open(overall_report_path)
+#     except Exception as e:
+#         traceback.print_exc()
+
+
+def generate_overall_report(all_results):
+    try:
+        total_scripts = len(all_results)
+        total_success = sum([result.get('success', 0) for result in all_results])
+        total_tests = sum([result.get('count', 0) for result in all_results])
+        
+        html_content = f"""
+        <html>
+        <head>
+            <title>Overall Test Report</title>
+        </head>
+        <body>
+            <h1>Overall Test Report</h1>
+            <p>Total Scripts: {total_scripts}</p>
+            <p>Total Success: {total_success}</p>
+            <p>Total Tests: {total_tests}</p>
+            <table border="1">
+                <tr>
+                    <th>Script</th>
+                    <th>Success Rate</th>
+                    <th>Report Link</th>
+                </tr>
+        """
+        
+        for result in all_results:
+            script = result['script']
+            success_count = [item['status'] for item in result['tests'].values()].count(0)
+            total_count = len(result['tests'])
+            success_rate = (success_count / total_count) * 100 if total_count > 0 else 0
+            report_path = f"{Nowtime}_{script.replace('.air', '')}-report.html"
+            html_content += f"""
+            <tr>
+                <td>{script}</td>
+                <td>{success_rate:.2f}%</td>
+                <td><a href="{report_path}">View Report</a></td>
+            </tr>
+            """
+        
+        html_content += """
+            </table>
+        </body>
+        </html>
+        """
+        
+        overall_report_path = f"{report_file}\\{Nowtime}overall_report.html"
+        with open(overall_report_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
+        print(f"Overall report generated: {overall_report_path}")
+        # webbrowser.open(overall_report_path)
+    except Exception as e:
+        traceback.print_exc()
 
 def load_jdon_data(air, run_all):
     """"
