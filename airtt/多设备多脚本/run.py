@@ -143,24 +143,6 @@ def run_summary(data, air):
     # cat_report_date(air)
 
 
-# def generate_overall_report(all_results):
-#     try:
-#         overall_summary = {
-#             'total_scripts': len(all_results),
-#             'total_success': sum([result.get('success', 0) for result in all_results]),
-#             'total_tests': sum([result.get('count', 0) for result in all_results])
-#         }
-#         env = Environment(loader=FileSystemLoader(os.getcwd()), trim_blocks=True)
-#         html = env.get_template('overall_report_tpl.html').render(data=overall_summary)
-#         overall_report_path = f"{report_file}\\overall_report.html"
-#         with open(overall_report_path, "w", encoding="utf-8") as f:
-#             f.write(html)
-#         print(f"Overall report generated: {overall_report_path}")
-#         webbrowser.open(overall_report_path)
-#     except Exception as e:
-#         traceback.print_exc()
-
-
 def generate_overall_report(all_results):
     try:
         total_scripts = len (all_results)
@@ -170,27 +152,69 @@ def generate_overall_report(all_results):
         html_content = f"""
         <html>
         <head>
-            <title>Overall Test Report</title>
+            <title>汇总测试报告</title>
+            <style>
+                body {{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    margin: 0;
+                    font-family: Arial, sans-serif;
+                }}
+                .container {{
+                    border: 1px solid #ccc;
+                    padding: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    width: 80%;
+                    max-width: 800px;
+                }}
+                table {{
+                    width: 100%;
+                    border-collapse: collapse;
+                }}
+                th, td {{
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }}
+                th {{
+                    background-color: #f2f2f2;
+                }}
+                h1 {{
+                    text-align: center;
+                }}
+            </style>
         </head>
         <body>
-            <h1>Overall Test Report</h1>
-            <p>Total Scripts: {total_scripts}</p>
-            <p>Total Success: {total_success}</p>
-            <p>Total Tests: {total_tests}</p>
-            <table border="1">
-                <tr>
-                    <th>Script</th>
-                    <th>Success Rate</th>
-                    <th>Report Link</th>
-                </tr>
+            <div class="container">
+                <h1>汇总测试报告</h1>
+                <p>总用例数: {total_scripts}</p>
+                <p>成功数: {total_success}</p>
+
+                <table>
+                    <tr>
+                        <th>Script</th>
+                        <th>Success Rate</th>
+                        <th>Report Link</th>
+                    </tr>
         """
 
         for result in all_results:
             script = result['script']
-            success_count = [item['status'] for item in result['tests'].values ()].count (0)
+            success_count = [item['status'] for item in result['tests'].values ()].count (0)  # 假设0表示成功
             total_count = len (result['tests'])
             success_rate = (success_count / total_count) * 100 if total_count > 0 else 0
-            report_path = f"{Nowtime}_{script.replace ('.air', '')}-report.html"
+            report_path = f"{Nowtime}_{script.replace ('.air', '')}-report.html"  # 注意：这里假设Nowtime和report_file已定义
+
+            # 如果成功率为100%，则增加总成功数
+            if success_rate == 100:
+                total_success += 1
+
+            # 更新总测试数（如果需要）
+            total_tests += total_count
+
             html_content += f"""
             <tr>
                 <td>{script}</td>
@@ -199,17 +223,21 @@ def generate_overall_report(all_results):
             </tr>
             """
 
+        # 在HTML中更新成功数
+        html_content = html_content.replace ('成功数: 0', f'成功数: {total_success}', 1)
+
         html_content += """
             </table>
+
         </body>
         </html>
         """
-
+        #            # <p>Total Tests: {total_tests}</p> {# 如果需要显示总测试数 #}
         overall_report_path = f"{report_file}\\{Nowtime}overall_report.html"
         with open (overall_report_path, "w", encoding="utf-8") as f:
             f.write (html_content)
         print (f"Overall report generated: {overall_report_path}")
-        # webbrowser.open(overall_report_path)
+        # webbrowser.open(overall_report_path)  # 如果需要自动打开报告，取消注释这行代码
     except Exception as e:
         traceback.print_exc ()
 

@@ -1,0 +1,14 @@
+{
+    "start": 1716446943.9756997,
+    "script": "test_blackjack.air",
+    "tests": {
+        "JRQ4C19425001098": {
+            "status": 0,
+            "path": "test_blackjack.air\\log\\JRQ4C19425001098\\log.html"
+        },
+        "emulator-5556": {
+            "status": 4294967295,
+            "path": "test_blackjack.air\\log\\emulator-5556\\log.html"
+        }
+    }
+}
