@@ -1,8 +1,10 @@
 import os
-print("当前工作目录:", os.getcwd())
+
+print ("当前工作目录:", os.getcwd ())
 import sys
 from pathlib import Path
-sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+sys.path.append (str (Path (__file__).resolve ().parents[1]))
 import os
 import traceback
 import subprocess
@@ -15,9 +17,6 @@ from jinja2 import Environment, FileSystemLoader
 import datetime
 import jenkinsfile
 
-
-
-
 """"
 ##这一段是给jenkins环境下找不到自己二次封装的包用的
 # 
@@ -29,11 +28,10 @@ import jenkinsfile
 # sys.path.extend(syspath)
 """
 
-#暂时不考虑性能，走全局变量
+# 暂时不考虑性能，走全局变量
 
 Nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
 report_file = f"C:\\Users\\cm619\\.jenkins\\workspace\\test"
-
 
 
 def run(devices, airs, run_all=True):
@@ -45,82 +43,105 @@ def run(devices, airs, run_all=True):
     try:
         all_results = []
         for air in airs:
-            results = load_jdon_data(air, run_all)
-            tasks = run_on_multi_device(devices, air,dev, results, run_all)
+            results = load_jdon_data (air, run_all)
+            tasks = run_on_multi_device (devices, air, dev, results, run_all)
             for task in tasks:
-                status = task['process'].wait()
-                results['tests'][task['dev']] = run_one_report(task['air'], task['dev'])
+                status = task['process'].wait ()
+                results['tests'][task['dev']] = run_one_report (task['air'], task['dev'])
                 results['tests'][task['dev']]['status'] = status
-                json.dump(results, open('data.json', "w"), indent=4)
-            all_results.append(results)
-            run_summary(results, air)
-        generate_overall_report(all_results)
+                json.dump (results, open ('data.json', "w"), indent=4)
+            all_results.append (results)
+            run_summary (results, air)
+        generate_overall_report (all_results)
     except Exception as e:
-        traceback.print_exc()
+        traceback.print_exc ()
 
-def run_on_multi_device(devices, air, dev,results, run_all):
+
+def run_on_multi_device(devices, air, dev, results, run_all):
     """
         在多台设备上运行airtest脚本
     """
     tasks = []
-    if dev in devices:
-        print (dev)
-        if (not run_all and results['tests'].get (dev) and
-            results['tests'].get (dev).get ('status') == 0):
+    if dev == 'ALL':
+        for dev in devices:
+            print (dev)
+            if (not run_all and results['tests'].get (dev) and
+                    results['tests'].get (dev).get ('status') == 0):
                 print ("Skip device %s" % dev)
-    elif dev == 'ALL' :
-        for devs in devices:
-            dev = devs
-            print(dev)
-            if (not run_all and results['tests'].get(dev) and
-               results['tests'].get(dev).get('status') == 0):
-                print("Skip device %s" % dev)
                 continue
 
-    log_dir = get_log_dir(dev, air)
-    cmd = [
-        "airtest",
-        "run",
-        air,
-        "--device",
-        "Android:///" + dev,
-        "--log",
-        log_dir
-    ]
-    try:
-        tasks.append({
-            'process': subprocess.Popen(cmd, cwd=os.getcwd()),
-            'dev': dev,
-            'air': air
-        })
-    except Exception as e:
-        traceback.print_exc()
+            log_dir = get_log_dir (dev, air)
+            cmd = [
+                "airtest",
+                "run",
+                air,
+                "--device",
+                "Android:///" + dev,
+                "--log",
+                log_dir
+            ]
+            try:
+                tasks.append ({
+                    'process': subprocess.Popen (cmd, cwd=os.getcwd ()),
+                    'dev': dev,
+                    'air': air
+                })
+            except Exception as e:
+                traceback.print_exc ()
+    else:
+        # 如果不是'ALL'，则只处理指定的设备
+        print (dev)
+        if dev in devices:
+            if (not run_all and results['tests'].get (dev) and
+                    results['tests'].get (dev).get ('status') == 0):
+                print ("Skip device %s" % dev)
+                return tasks  # 直接返回空任务列表
+
+            log_dir = get_log_dir (dev, air)
+            cmd = [
+                "airtest",
+                "run",
+                air,
+                "--device",
+                "Android:///" + dev,
+                "--log",
+                log_dir
+            ]
+            try:
+                tasks.append ({
+                    'process': subprocess.Popen (cmd, cwd=os.getcwd ()),
+                    'dev': dev,
+                    'air': air
+                })
+            except Exception as e:
+                traceback.print_exc ()
     return tasks
 
 
-def run_summary(data,air):
+def run_summary(data, air):
     """"
         生成汇总的测试报告
     """
     try:
         summary = {
-            'time': "%.3f" % (time.time() - data['start']),
-            'success': [item['status'] for item in data['tests'].values()].count(0),
-            'count': len(data['tests'])
+            'time': "%.3f" % (time.time () - data['start']),
+            'success': [item['status'] for item in data['tests'].values ()].count (0),
+            'count': len (data['tests'])
         }
-        summary.update(data)
-        summary['start'] = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(data['start']))
-        env = Environment(loader=FileSystemLoader(os.getcwd()), trim_blocks=True)
-        html = env.get_template('report_tpl.html').render(data=summary)
-        report_path = f"{Nowtime}_{air.replace('.air', '')}-report.html"
-        with open(report_path, "w", encoding="utf-8") as f:
-            f.write(html)
-        print(f"Report generated: {report_path}")
+        summary.update (data)
+        summary['start'] = time.strftime ("%Y-%m-%d %H:%M:%S", time.localtime (data['start']))
+        env = Environment (loader=FileSystemLoader (os.getcwd ()), trim_blocks=True)
+        html = env.get_template ('report_tpl.html').render (data=summary)
+        report_path = f"{Nowtime}_{air.replace ('.air', '')}-report.html"
+        with open (report_path, "w", encoding="utf-8") as f:
+            f.write (html)
+        print (f"Report generated: {report_path}")
         # webbrowser.open(f'log.html')
     except Exception as e:
-        traceback.print_exc()
+        traceback.print_exc ()
 
     # cat_report_date(air)
+
 
 # def generate_overall_report(all_results):
 #     try:
@@ -142,10 +163,10 @@ def run_summary(data,air):
 
 def generate_overall_report(all_results):
     try:
-        total_scripts = len(all_results)
-        total_success = sum([result.get('success', 0) for result in all_results])
-        total_tests = sum([result.get('count', 0) for result in all_results])
-        
+        total_scripts = len (all_results)
+        total_success = sum ([result.get ('success', 0) for result in all_results])
+        total_tests = sum ([result.get ('count', 0) for result in all_results])
+
         html_content = f"""
         <html>
         <head>
@@ -163,13 +184,13 @@ def generate_overall_report(all_results):
                     <th>Report Link</th>
                 </tr>
         """
-        
+
         for result in all_results:
             script = result['script']
-            success_count = [item['status'] for item in result['tests'].values()].count(0)
-            total_count = len(result['tests'])
+            success_count = [item['status'] for item in result['tests'].values ()].count (0)
+            total_count = len (result['tests'])
             success_rate = (success_count / total_count) * 100 if total_count > 0 else 0
-            report_path = f"{Nowtime}_{script.replace('.air', '')}-report.html"
+            report_path = f"{Nowtime}_{script.replace ('.air', '')}-report.html"
             html_content += f"""
             <tr>
                 <td>{script}</td>
@@ -177,20 +198,21 @@ def generate_overall_report(all_results):
                 <td><a href="{report_path}">View Report</a></td>
             </tr>
             """
-        
+
         html_content += """
             </table>
         </body>
         </html>
         """
-        
+
         overall_report_path = f"{report_file}\\{Nowtime}overall_report.html"
-        with open(overall_report_path, "w", encoding="utf-8") as f:
-            f.write(html_content)
-        print(f"Overall report generated: {overall_report_path}")
+        with open (overall_report_path, "w", encoding="utf-8") as f:
+            f.write (html_content)
+        print (f"Overall report generated: {overall_report_path}")
         # webbrowser.open(overall_report_path)
     except Exception as e:
-        traceback.print_exc()
+        traceback.print_exc ()
+
 
 def load_jdon_data(air, run_all):
     """"
@@ -198,32 +220,34 @@ def load_jdon_data(air, run_all):
             如果data.json存在且run_all=False，加载进度
             否则，返回一个空的进度数据
     """
-    json_file = os.path.join(os.getcwd(), 'data.json')
-    if (not run_all) and os.path.isfile(json_file):
-        data = json.load(open(json_file))
-        data['start'] = time.time()
+    json_file = os.path.join (os.getcwd (), 'data.json')
+    if (not run_all) and os.path.isfile (json_file):
+        data = json.load (open (json_file))
+        data['start'] = time.time ()
         return data
     else:
-        print('不清除log文件夹')
+        print ('不清除log文件夹')
         # clear_log_dir(air)
         return {
-            'start': time.time(),
+            'start': time.time (),
             'script': air,
             'tests': {}
 
         }
+
+
 def run_one_report(air, dev):
     """"
         生成一个脚本的测试报告
     """
 
     # airname
-    airname = air.replace('.air', '')
+    airname = air.replace ('.air', '')
 
     try:
-        log_dir = get_log_dir(dev, air)
-        log = os.path.join(log_dir,f'log.txt')
-        if os.path.isfile(log):
+        log_dir = get_log_dir (dev, air)
+        log = os.path.join (log_dir, f'log.txt')
+        if os.path.isfile (log):
             cmd = [
                 "airtest",
                 "report",
@@ -233,18 +257,20 @@ def run_one_report(air, dev):
                 "--lang",
                 "zh",
                 "--export",
-                log_dir #, f'{Nowtime}{dev}.html'
+                log_dir  # , f'{Nowtime}{dev}.html'
             ]
-            ret = subprocess.call(cmd, shell=True, cwd=os.getcwd())
+            ret = subprocess.call (cmd, shell=True, cwd=os.getcwd ())
             return {
-                    'status': ret,
-                    'path': os.path.join(log_dir, f'{airname}.log\\log.html')
-                    }
+                'status': ret,
+                'path': os.path.join (log_dir, f'{airname}.log\\log.html')
+            }
         else:
-            print("Report build Failed. File not found in dir %s" % log)
+            print ("Report build Failed. File not found in dir %s" % log)
     except Exception as e:
-        traceback.print_exc()
+        traceback.print_exc ()
     return {'status': -1, 'device': dev, 'path': ''}
+
+
 # def cat_report_date(air):
 #     """
 #     试试能不能移动文件到一个固定的报告文件夹
@@ -264,19 +290,19 @@ def clear_log_dir(air):
     """"
         清理log文件夹
     """
-    log = os.path.join(os.getcwd(), air, 'log')
-    if os.path.exists(log):
-        shutil.rmtree(log)
+    log = os.path.join (os.getcwd (), air, 'log')
+    if os.path.exists (log):
+        shutil.rmtree (log)
 
 
 def get_log_dir(device, air):
     """
          文件夹下创建每台设备的运行日志文件夹
     """
-    devicesa = str(device + Nowtime)
-    log_dir = os.path.join(air, 'log', devicesa.replace(".", "_").replace(':', '_'))
-    if not os.path.exists(log_dir):
-        os.makedirs(log_dir)
+    devicesa = str (device + Nowtime)
+    log_dir = os.path.join (air, 'log', devicesa.replace (".", "_").replace (':', '_'))
+    if not os.path.exists (log_dir):
+        os.makedirs (log_dir)
     return log_dir
 
 
@@ -284,12 +310,12 @@ if __name__ == '__main__':
     """
         初始化数据
     """
-    devices = [tmp[0] for tmp in ADB().devices()]
+    devices = [tmp[0] for tmp in ADB ().devices ()]
     # air = 'try.air'
     airs = jenkinsfile.airs
     dev = jenkinsfile.dev
-    print(airs,dev)
+    print (airs, dev)
     # 基于data.json的进度，跳过已运行成功的脚本
     # run(devices, air)
     # 重新运行所有脚本
-    run(devices, airs, run_all=True)
+    run (devices, airs, run_all=True)

@@ -51,46 +51,65 @@ def run(devices, air, run_all = True):
         traceback.print_exc()
 
 
-def run_on_multi_device(devices, air, results, run_all,dev):
+def run_on_multi_device(devices, air, dev,results, run_all):
     """
         在多台设备上运行airtest脚本
     """
     tasks = []
-
-    if dev in devices:
-        print (dev)
-        if (not run_all and results['tests'].get (dev) and
-            results['tests'].get (dev).get ('status') == 0):
-                print ("Skip device %s" % dev)
-    elif dev == 'ALL' :
-        for devs in devices:
-            dev = devs
+    if dev == 'ALL':
+        for dev in devices:
             print(dev)
             if (not run_all and results['tests'].get(dev) and
-               results['tests'].get(dev).get('status') == 0):
+                results['tests'].get(dev).get('status') == 0):
                 print("Skip device %s" % dev)
                 continue
 
-    log_dir = get_log_dir(dev, air)
-    cmd = [
-        "airtest",
-        "run",
-        air,
-        "--device",
-        "Android:///" + dev,
-        "--log",
-        log_dir
-    ]
-    try:
-        tasks.append({
-            'process': subprocess.Popen(cmd, cwd=os.getcwd()),
-            'dev': dev,
-            'air': air
-        })
-    except Exception as e:
-        traceback.print_exc()
-    return tasks
+            log_dir = get_log_dir(dev, air)
+            cmd = [
+                "airtest",
+                "run",
+                air,
+                "--device",
+                "Android:///" + dev,
+                "--log",
+                log_dir
+            ]
+            try:
+                tasks.append({
+                    'process': subprocess.Popen(cmd, cwd=os.getcwd()),
+                    'dev': dev,
+                    'air': air
+                })
+            except Exception as e:
+                traceback.print_exc()
+    else:
+        # 如果不是'ALL'，则只处理指定的设备
+        print(dev)
+        if dev in devices:
+            if (not run_all and results['tests'].get(dev) and
+                results['tests'].get(dev).get('status') == 0):
+                print("Skip device %s" % dev)
+                return tasks  # 直接返回空任务列表
 
+            log_dir = get_log_dir(dev, air)
+            cmd = [
+                "airtest",
+                "run",
+                air,
+                "--device",
+                "Android:///" + dev,
+                "--log",
+                log_dir
+            ]
+            try:
+                tasks.append({
+                    'process': subprocess.Popen(cmd, cwd=os.getcwd()),
+                    'dev': dev,
+                    'air': air
+                })
+            except Exception as e:
+                traceback.print_exc()
+    return tasks
 
 def run_one_report(air, dev):
     """"
