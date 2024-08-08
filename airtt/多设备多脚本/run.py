@@ -5,7 +5,6 @@ import sys
 from pathlib import Path
 
 sys.path.append (str (Path (__file__).resolve ().parents[1]))
-import os
 import traceback
 import subprocess
 import webbrowser
@@ -15,23 +14,24 @@ import shutil
 from airtest.core.android.adb import ADB
 from jinja2 import Environment, FileSystemLoader
 import datetime
-import jenkinsfile
+from config import jenkinsfile
 
 """"
 ##这一段是给jenkins环境下找不到自己二次封装的包用的
-# 
-# rootpath=str("C:\\Users\\cm619\\.jenkins\\workspace\\RPAdemo")
+"""
+
+# rootpath=str("C:\\Users\\cm619\\.jenkins\\workspace\\test\\casefile")
 # syspath=sys.path
 # sys.path=[]
 # sys.path.append(rootpath)#将工程根目录加入到python搜索路径中
 # sys.path.extend([rootpath+i for i in os.listdir(rootpath) if i[0]!="."])#将工程目录下的一级目录添加到python搜索路径中
 # sys.path.extend(syspath)
-"""
+
 
 # 暂时不考虑性能，走全局变量
 
 Nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-report_file = f"C:\\Users\\cm619\\.jenkins\\workspace\\test"
+report_file = f"C:\\Users\\cm619\\.jenkins\\workspace\\test\\report"
 
 
 def run(devices, airs, run_all=True):
@@ -132,7 +132,7 @@ def run_summary(data, air):
         summary['start'] = time.strftime ("%Y-%m-%d %H:%M:%S", time.localtime (data['start']))
         env = Environment (loader=FileSystemLoader (os.getcwd ()), trim_blocks=True)
         html = env.get_template ('report_tpl.html').render (data=summary)
-        report_path = f"{Nowtime}_{air.replace ('.air', '')}-report.html"
+        report_path = f"report\\{air}\\{Nowtime}_{air.replace ('.air', '')}-report.html"
         with open (report_path, "w", encoding="utf-8") as f:
             f.write (html)
         print (f"Report generated: {report_path}")
@@ -206,7 +206,7 @@ def generate_overall_report(all_results):
             success_count = [item['status'] for item in result['tests'].values ()].count (0)  # 假设0表示成功
             total_count = len (result['tests'])
             success_rate = (success_count / total_count) * 100 if total_count > 0 else 0
-            report_path = f"{Nowtime}_{script.replace ('.air', '')}-report.html"  # 注意：这里假设Nowtime和report_file已定义
+            report_path = f"{script}\\{Nowtime}_{script.replace ('.air', '')}-report.html"  # 注意：这里假设Nowtime和report_file已定义
 
             # 如果成功率为100%，则增加总成功数
             if success_rate == 100:
@@ -268,13 +268,16 @@ def run_one_report(air, dev):
     """"
         生成一个脚本的测试报告
     """
-
-    # airname
+    # os.chdir(air)
     airname = air.replace ('.air', '')
-
+    report_file_log = f"{report_file}\\{air}\\log\\{dev}{Nowtime}"
+    print ('report_file_log', report_file_log)
+    report_file_logs = report_file_log.replace (f"{report_file}\\{air}\\", '')
+    print ('report_file_logs', report_file_logs)
     try:
         log_dir = get_log_dir (dev, air)
         log = os.path.join (log_dir, f'log.txt')
+
         if os.path.isfile (log):
             cmd = [
                 "airtest",
@@ -285,13 +288,15 @@ def run_one_report(air, dev):
                 "--lang",
                 "zh",
                 "--export",
-                log_dir  # , f'{Nowtime}{dev}.html'
+                report_file_log  # , f'{Nowtime}{dev}.htmllog_dir'
             ]
             ret = subprocess.call (cmd, shell=True, cwd=os.getcwd ())
+            # os.chdir(workspace_file)
             return {
                 'status': ret,
-                'path': os.path.join (log_dir, f'{airname}.log\\log.html')
+                'path': os.path.join (report_file_logs, f'{airname}.log\\log.html')
             }
+
         else:
             print ("Report build Failed. File not found in dir %s" % log)
     except Exception as e:
@@ -328,7 +333,9 @@ def get_log_dir(device, air):
          文件夹下创建每台设备的运行日志文件夹
     """
     devicesa = str (device + Nowtime)
+    # report = str('{report_file}\\report'+air)
     log_dir = os.path.join (air, 'log', devicesa.replace (".", "_").replace (':', '_'))
+    # log_dir = f"C:\\Users\\cm619\\.jenkins\\workspace\\test\\{air}\\log\\{devicesa.replace('.', '_').replace(':', '_')}"
     if not os.path.exists (log_dir):
         os.makedirs (log_dir)
     return log_dir
