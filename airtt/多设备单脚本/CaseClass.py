@@ -1,7 +1,6 @@
 from airtest.core.api import *
 from config.jenkinsfile import startapp
 from paddleocr import PaddleOCR
-from paddleocr import PaddleOCR
 import time
 
 workdir = f"C:\\Users\\cm619\\.jenkins\\workspace\\test\\cassclase\\ocr"
@@ -12,7 +11,7 @@ def Startapp():
     updatebultten = False
     queren = (Template (r"确认.png"))
     start_app (f"{startapp}")
-    sleep (15)
+    sleep(15)
     while True:
         if not updatebultten and exists (queren):
             touch (queren)
@@ -31,6 +30,7 @@ def Startapp():
             touch (clicked_position)
 
 
+@logwrap
 def ocr_touch(target_text):
     nowtime = time.time ()
     ocr = PaddleOCR (use_angle_cls=True, lang='ch')
@@ -59,9 +59,12 @@ def ocr_touch(target_text):
 
     # 点击坐标
     if target_coords:
+        log ('success', '', '成功找到了')
+
         touch (target_coords)
     else:
-        print (f"未找到目标文字：{target_text}")
+        log ('error', '', '未找到目标文字')
+        print (f"未找到目标文字：{target_text}", errors=1)
 
 
 """
