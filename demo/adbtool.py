@@ -523,6 +523,8 @@ class HTTPManager(QWidget):
                     # 在这里你可以决定如何处理响应，例如记录日志或更新GUI
                     logging.info (f"POST {url} Status Code: {response.status}")
                     logging.info (f"Response: {text[:10000]}...")
+                    responseType = response.headers['Content-Type']
+                    print(responseType)
         except Exception as e:
             logging.error (f"POST {url} Error: {e}")
 
