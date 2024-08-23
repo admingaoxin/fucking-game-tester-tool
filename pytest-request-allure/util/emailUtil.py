@@ -1,7 +1,4 @@
-# -*- coding:utf-8 -*-
-# author:peace
-# datetime:2018/10/12 20:26
-# file:emailUtil
+
 # desc: 发送邮件工具类
 
 # 导入smtplib模块

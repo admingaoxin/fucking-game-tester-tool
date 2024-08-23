@@ -1,12 +1,3 @@
-# -*- encoding: utf-8 -*-
-'''
-@File    :   jsonPah.py
-@Time    :   2020/12/18 15:34:19
-@Author  :   peace_su
-@Version :   1.0
-@Contact :   peace_su@163.com
-@WebSite :   https://me.csdn.net/u010098760
-'''
 
 # here put the import lib
 import json

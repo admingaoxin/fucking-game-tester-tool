@@ -1,7 +1,4 @@
-# -*- coding:utf-8 -*-
-# author:peace
-# datetime:2018/10/12 9:36
-# file:loadConf
+
 # desc: 读取配置文件
 
 import configparser

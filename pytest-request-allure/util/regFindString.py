@@ -1,7 +1,4 @@
-# -*- coding:utf-8 -*-
-# author:peace
-# datetime:2018/10/20 18:33
-# file:regFindString
+
 # desc: 通过正则取值,传入多个正则的键值对，返回多个键值对
 
 import re
@@ -18,7 +15,7 @@ class regFindString:
 
     def find(self):
         res = {}
-        ''' 20190522修改，捕获string转字典异常，并打印错误日志'''
+        '''捕获string转字典异常，并打印错误日志'''
         try:
             # string转为字典格式
             reg = json.loads(self.regs)

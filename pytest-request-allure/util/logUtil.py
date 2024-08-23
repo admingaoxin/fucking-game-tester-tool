@@ -1,7 +1,4 @@
-# -*- coding:utf-8 -*-
-# author:peace
-# datetime:2018/10/12 18:01
-# file:mylog
+
 # desc: 日志工具类
 
 import logging

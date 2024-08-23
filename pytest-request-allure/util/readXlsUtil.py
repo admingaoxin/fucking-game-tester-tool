@@ -23,7 +23,7 @@ class readXlsUtil ():
 
         # 查找 case_type 列的索引
         try:
-            case_type_index = self.keys.index ('case_type')
+            case_type_index = self.keys.index('case_type')
         except ValueError:
             print ("未找到列头 'case_type'")
             return []
@@ -49,15 +49,16 @@ class readXlsUtil ():
         caseNames = []
         for i in caseData:
             caseNames.append (i['caseName'])
-            print ("caseData:", caseData)
-            print ("caseNames:", caseNames)
+            # print ("caseData:", caseData)
+            # print ("caseNames:", caseNames)
+        print(caseData)
         return caseNames
 
 
-if __name__ == "__main__":
-    filepath =r'D:\try-pytest\data\case.xlsx'
-    sheetName = 'Sheet1'
-    data = readXlsUtil (filepath, sheetName)
-    case_data = data.dict_data (1)
-    caseNames = data.dict_name (case_data)
-    print (caseNames)
+# if __name__ == "__main__":
+#     filepath =r'D:\try-pytest\data\case.xlsx'
+#     sheetName = 'Sheet1'
+#     data = readXlsUtil (filepath, sheetName)
+#     case_data = data.dict_data (1)
+#     caseNames = data.dict_name (case_data)
+#     print (caseNames)

@@ -1,0 +1,33 @@
+
+字段说明：
+caseId	：自定义caseid，随意填，不填中文就可，如A01,b01都可
+caseName：用例名称，可使用中文
+method	：请求方式 get/post
+url		：请求地址	
+params	：一般默认填 {"tableKey":"${tablekey}"} 就可以
+headers	：请求头，一般默认填{'Content-Type': 'application/json'}
+bodyType：请求类，一般用json	
+body	：请求体
+checkpoint	：用例中要校验的字段/值
+diffValue	：根据checkpoint 填的字段来校验的，只能填int值
+status_code	：响应头信息 不填，执行完后，会在report中赋值
+text		：返回值，不填，如上
+error		：如果报错，会赋值，如上
+times		：消耗时间，不填
+result		：结果，不填
+case_type	：重要！！！！必填！！！    1为会执行的用例，0是不会执行
+case_class	：重要！！！！必填！！！  用例的几个分级，详情看下方
+re 			：预留的一个钩子功能，不填，等想好怎么做再说
+
+
+case_class ==1 ：如果checkpoint的值，完全等于返回值，结果为pass，否则，fail
+case_class ==2 ：如果checkpoint的值，包含在返回值中，结果为pass，否则，fail
+case_class ==3 ：如果checkpoint的值，不等于返回值，结果为pass，否则，fail
+case_class ==4 ：需要同时填checkpoint，和diffValue，比如，checkpoint里填了gid，diffValue里的值填了需要的值，在返回值中如果包含，结果为pass，否则，fail
+case_class ==5 ：同上，响应值大于用例里的值，结果为pass，否则，fail
+case_class ==6 ：同上，响应值小于用例里的值，结果为pass，否则，fail
+case_class ==7 ：这个比较复杂，需要在checkpoint里填多个要校验的值，写法是这样：checkpoints = {
+                         'commResp.srv_t': 1723778079,
+                         'commResp.anotherKey': 12345,  # 另一个可能的校验点
+                        # 可以添加更多校验点...
+                     } ，如果其中任何一个包含，结果为pass，否则，fail

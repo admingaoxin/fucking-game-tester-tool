@@ -1,7 +1,4 @@
-# -*- coding:utf-8 -*-
-# author:peace
-# datetime:2018/10/16 14:40
-# file:readXlsUtil2
+
 # desc: 读取xls测试数据 -- 流程测试
 
 

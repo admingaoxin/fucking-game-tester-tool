@@ -1,7 +1,4 @@
-# -*- coding:utf-8 -*-
-# author:peace
-# datetime:2018/10/20 21:43
-# file:replace
+
 # desc: 替换请求参数中的变量
 
 import re

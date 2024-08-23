@@ -1,12 +1,3 @@
-# -*- encoding: utf-8 -*-
-'''
-@File    :   test_api.py
-@Time    :   2020/12/18 11:55:48
-@Author  :   peace_su
-@Version :   1.0
-@Contact :   peace_su@163.com
-@WebSite :   https://me.csdn.net/u010098760
-'''
 
 # here put the import lib
 from logging import Logger
@@ -17,7 +8,7 @@ import time
 
 
 from util import readXlsUtil, logUtil, glb
-from util.baseApi import sendRequest, writeResult
+from util.baseApi import sendRequest, writeResult,result
 from util.jsonPah import JsonPah
 from util.replace import Replace
 from util.copyXls import copyXls
@@ -42,6 +33,8 @@ caseNames = rxls.dict_name(caseData)
 reportXls = glb.xls_report_path
 copyXls(caseXls, reportXls)
 
+case_name = result['caseName']
+
 
 @allure.feature('测试结果')
 class Test_api(object):
@@ -51,7 +44,6 @@ class Test_api(object):
         self.tmp = {}
         self.session = requests.session()
 
-    # @allure.story('查询企业信息')
     @pytest.mark.parametrize('data', caseData, ids=caseNames)
     def testApi(self, data):  # test method names begin with 'test'
         nowtime =time.time()

@@ -1,7 +1,4 @@
-# -*- coding:utf-8 -*-
-# author:peace
-# datetime:2018/9/29 17:53
-# file:copyXls
+
 # desc: 复制xls，填写测试结果工具类
 
 import openpyxl

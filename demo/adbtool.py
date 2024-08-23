@@ -511,6 +511,9 @@ class HTTPManager(QWidget):
                     # 记录日志而不是更新GUI
                     logging.info (f"GET {url} Status Code: {response.status}")
                     logging.info (f"Response: {text[:10000]}...")
+                    responseType = response.headers['Content-Type']
+                    print (responseType)
+                    self.logText.append (f"responseType is:   {responseType}")
         except Exception as e:
             logging.error (f"GET {url} Error: {e}")
 
@@ -525,6 +528,7 @@ class HTTPManager(QWidget):
                     logging.info (f"Response: {text[:10000]}...")
                     responseType = response.headers['Content-Type']
                     print(responseType)
+                    self.logText.append (f"responseType is:   {responseType}")
         except Exception as e:
             logging.error (f"POST {url} Error: {e}")
 

@@ -47,9 +47,9 @@ config = {
     'WRITE_COLOR_BUFFER' : True,
     'WRITE_TEXTURE' : True,
     'WRITE_DEPTH_BUFFER' : True,
-    'WRITE_PSO_DAG' : False,
-    'WRITE_SINGLE_COLOR' : False,
-    'WRITE_ALL_DRAWS' : False,
+    'WRITE_PSO_DAG' : True,
+    'WRITE_SINGLE_COLOR' : True,
+    'WRITE_ALL_DRAWS' : True,
 }
 
 api_full_log = None

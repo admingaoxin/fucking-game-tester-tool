@@ -1,12 +1,4 @@
-# -*- encoding: utf-8 -*-
-'''
-@File    :   genSign.py
-@Time    :   2020/12/22 10:08:50
-@Author  :   peace_su
-@Version :   1.0
-@Contact :   peace_su@163.com
-@WebSite :   https://me.csdn.net/u010098760
-'''
+
 
 # here put the import lib
 import hashlib
