@@ -147,6 +147,7 @@ class ADBManager(QWidget):
         self.refreshDevices ()
         self.refreshDevices()
         layout.addWidget (self.logText)
+        self.run()
         self.logText.append("<span style='color: black;'>欢迎使用，有问题找胖虎~</br>需要打开Android设备的开发者选项以及允许usb调试（哄蒙也是Android.jpg）</span>")
 
 
@@ -171,7 +172,6 @@ class ADBManager(QWidget):
                 os.makedirs (i)
                 self.logText.append (f"Directory  {i}   已创建")
             else:
-
                 self.logText.append (f"Directory  {i}  已存在")
 
         # def installApk(self):
@@ -329,7 +329,7 @@ class ADBManager(QWidget):
             # 定义需要检查的包名及其描述
             package_names = {
                 'com.camelgames.aoz.test': "Olinetest包",
-                'com.camelgames.aoz.debuglz4': "Debug包",
+                # 'com.camelgames.aoz.debuglz4': "Debug包",
                 'com.camelgames.aoz.zhatest': "CnOlinetest包",
                 'com.camelgames.aoz.zha': "CN包",
                 'com.camelgames.aoz': "主包",
@@ -513,7 +513,7 @@ class HTTPManager(QWidget):
                     logging.info (f"Response: {text[:10000]}...")
                     responseType = response.headers['Content-Type']
                     print (responseType)
-                    self.logText.append (f"responseType is:   {responseType}")
+                    self.logText.append (f"响应头responseType is:   {responseType}")
         except Exception as e:
             logging.error (f"GET {url} Error: {e}")
 
@@ -528,7 +528,7 @@ class HTTPManager(QWidget):
                     logging.info (f"Response: {text[:10000]}...")
                     responseType = response.headers['Content-Type']
                     print(responseType)
-                    self.logText.append (f"responseType is:   {responseType}")
+                    self.logText.append (f"响应头responseType is:   {responseType}")
         except Exception as e:
             logging.error (f"POST {url} Error: {e}")
 
