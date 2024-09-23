@@ -1,0 +1,2 @@
+datetime,packagenme/activity,this_time(s),total_time(s),launchtype
+2024-09-21 16-09-35,com.android.settings/.Settings$UsbDetailsActivity,0.2,0.2,normal launch

@@ -1,0 +1,1212 @@
+--------- beginning of kernel
+09-21 16:48:13.360     0     0 E PL_AWAKE: PL_VOTER,1 same vote off of val=0
+09-21 16:48:13.361     0     0 E PL_AWAKE: PL_VOTER,1 Ignoring similar vote off of val=0
+--------- beginning of events
+09-21 16:50:48.621  1589  1804 I battery_level: [78,4020,395]
+09-21 16:50:48.675  1589  1642 I cpu     : [10,5,3,0,1,0]
+09-21 16:50:50.934  1589  3381 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726908651190]
+09-21 16:50:50.934  1589  3381 I netstats_wifi_sample: [2062515601,2864757,57105662,699540,2062515601,2864757,57105662,699540,2129863578,2676868,56638740,696712,1726908651190]
+09-21 16:50:50.936  1589  1650 I commit_sys_config_file: [jobs,11]
+09-21 16:50:49.453     0     0 D logd    : logdr: UID=2000 GID=2000 PID=10478 b tail=0 logMask=ff pid=0 start=0ns timeout=0ns
+--------- beginning of main
+09-21 16:50:53.135  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:50:53.135  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+--------- beginning of radio
+09-21 16:50:53.135  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:50:53.136  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:50:53.138  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:50:53.138  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:50:53.139  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.139  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.140  2197  2197 D RILJ    : [0927]> OPERATOR [SUB1]
+09-21 16:50:53.140  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:50:53.141  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:50:53.142  2197  2372 D RILJ    : [0928]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:50:53.145  2197  2197 D RILJ    : [0929]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:50:53.145  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.146  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.146  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.146  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.146  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:50:53.146  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.147  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.147  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.147  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.147  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:50:53.152  2197  2372 D RILJ    : [0930]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:50:53.156  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:50:53.156  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:50:53.156  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:50:53.157  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:50:53.157  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:50:53.158  2197  2288 D RILJ    : [0927]< OPERATOR {, , } [SUB1]
+09-21 16:50:53.160  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.160  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.161  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:50:53.164  2197  2288 D RILJ    : [0928]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:50:53.164  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:50:53.165  2197  2197 D RILJ    : [0932]> OPERATOR [SUB1]
+09-21 16:50:53.165  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:50:53.165  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:50:53.166  2197  2197 D RILJ    : [0933]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:50:53.167  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.167  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.167  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.167  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.167  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:50:53.167  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.167  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.167  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:53.167  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:53.167  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:50:53.168  2197  2372 D RILJ    : [0934]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:50:53.169  2197  2372 D RILJ    : [0935]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:50:53.174  2197  2288 D RILJ    : [0930]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:50:53.174  2197  2288 D RILJ    : [0929]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:50:53.174  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@1da65e5 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:50:53.174  2197  2288 D RILJ    : [0933]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:50:53.174  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:50:53.175  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:50:53.176  2197  2288 D RILJ    : [0932]< OPERATOR {, , } [SUB1]
+09-21 16:50:53.177  2197  2288 D RILJ    : [0934]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:50:53.178  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:50:53.178  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:50:53.178  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:50:53.184  2197  2288 D RILJ    : [0935]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:50:53.184  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@92758ba cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:50:53.185  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:50:53.188  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@119de57 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@92758ba cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:50:53.188  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:50:50.161     0     0 E PL_AWAKE: PL_VOTER,1 same vote off of val=0
+09-21 16:50:50.161     0     0 E PL_AWAKE: PL_VOTER,1 Ignoring similar vote off of val=0
+09-21 16:50:53.718  1589  3371 D WificondControl: Scan result ready event
+09-21 16:50:53.726  1027  8288 I LOWI-8.6.0.39: [LOWI-Scan] lowi_close_record:Scan done in 247866949ms, 18 APs in scan results
+09-21 16:50:53.728  1589  1748 D WifiGbk : removing bss - Bss("上品+":00:1f:7a:5c:34:71, isGbk=false, security=NONE, level=-76, frequency=2467)
+09-21 16:50:54.759   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:50:54.760   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:50:54.761   853  1020 I ThermalEngine: Sensor:sdm-therm:49090 mC
+09-21 16:50:54.761   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD3 Read sdm-therm 49090mC, Err -90mC, SampleCnt 1
+09-21 16:50:54.761   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD3, E0 -90mC, E1 0mC
+09-21 16:50:54.761   853  1020 D ThermalEngine: devices_manager_set_op_value: DEV cpu6, op_value 1708800
+09-21 16:50:54.761   853  1020 I ThermalEngine: increase_mitigation_lvl: SS Id SS-QUIET-THERM-GOLD3, Device cpu6, Req. 1708800kHz, Applied  1516800kHz, TC delay 0
+09-21 16:50:54.762   853  1020 I ThermalEngine: Sensor:sdm-therm:49090 mC
+09-21 16:50:54.763   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 49090mC, Err -2090mC, SampleCnt 1
+09-21 16:50:54.763   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -2090mC, E1 -1896mC
+09-21 16:50:54.763   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:54.764   853  1020 I ThermalEngine: Sensor:sdm-therm:49090 mC
+09-21 16:50:54.764   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 49090mC, Err -4090mC, SampleCnt 1
+09-21 16:50:54.764   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -4090mC, E1 -3831mC
+09-21 16:50:54.764   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:54.766   853  1020 I ThermalEngine: Sensor:sdm-therm:49090 mC
+09-21 16:50:54.766   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 49090mC, Err -1090mC, SampleCnt 1
+09-21 16:50:54.766   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -1090mC, E1 -896mC
+09-21 16:50:54.766   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:54.767   853  1020 I ThermalEngine: Sensor:sdm-therm:49090 mC
+09-21 16:50:54.767   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 49090mC, Err -3090mC, SampleCnt 1
+09-21 16:50:54.767   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -3090mC, E1 -2896mC
+09-21 16:50:54.767   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:54.768   853  1020 I ThermalEngine: Sensor:sdm-therm:49090 mC
+09-21 16:50:54.768   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 49090mC, Err -5090mC, SampleCnt 1
+09-21 16:50:54.768   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -5090mC, E1 -4896mC
+09-21 16:50:54.768   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:54.769   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:50:54.769   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:50:51.938     0     0 E pm6150_charger: wdog_snarl_irq_handler: IRQ: wdog-snarl
+09-21 16:50:51.938     0     0 E AWAKE   : SW_THERM_REGULATION_VOTER,0 voting on of val=1
+09-21 16:50:51.938     0     0 E AWAKE   : effective vote is now 1 voted by SW_THERM_REGULATION_VOTER,0
+09-21 16:50:51.944     0     0 E pm6150_charger: smblib_process_thermal_readings: Current temperatures: 	DIE_TEMP: 515,	CONN_TEMP: 341,	SMB_TEMP: -61,	SKIN_TEMP: 490
+09-21 16:50:51.944     0     0 E THERMAL_STATUS: 5
+09-21 16:50:51.944     0     0 E AWAKE   : SW_THERM_REGULATION_VOTER,0 voting off of val=0
+09-21 16:50:51.944     0     0 E AWAKE   : effective vote is now 0 voted by SW_THERM_REGULATION_VOTER,0
+09-21 16:50:56.769   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:50:56.770   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:50:56.771   853  1020 I ThermalEngine: Sensor:sdm-therm:48961 mC
+09-21 16:50:56.771   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD3 Read sdm-therm 48961mC, Err 39mC, SampleCnt 1
+09-21 16:50:56.771   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD3, E0 39mC, E1 -90mC
+09-21 16:50:56.771   853  1020 D ThermalEngine: devices_manager_set_op_value: DEV cpu6, op_value 1900800
+09-21 16:50:56.771   853  1020 I ThermalEngine: decrease_mitigation_lvl: SS Id SS-QUIET-THERM-GOLD3, Device cpu6, Req. 1900800kHz, Applied  1516800kHz, TC delay 0
+09-21 16:50:56.772   853  1020 I ThermalEngine: Sensor:sdm-therm:48961 mC
+09-21 16:50:56.772   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48961mC, Err -1961mC, SampleCnt 1
+09-21 16:50:56.772   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1961mC, E1 -2090mC
+09-21 16:50:56.772   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:56.773   853  1020 I ThermalEngine: Sensor:sdm-therm:48961 mC
+09-21 16:50:56.774   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48961mC, Err -3961mC, SampleCnt 1
+09-21 16:50:56.774   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3961mC, E1 -4090mC
+09-21 16:50:56.774   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:56.775   853  1020 I ThermalEngine: Sensor:sdm-therm:48961 mC
+09-21 16:50:56.775   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48961mC, Err -961mC, SampleCnt 1
+09-21 16:50:56.775   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -961mC, E1 -1090mC
+09-21 16:50:56.775   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:56.776   853  1020 I ThermalEngine: Sensor:sdm-therm:48961 mC
+09-21 16:50:56.776   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48961mC, Err -2961mC, SampleCnt 1
+09-21 16:50:56.776   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2961mC, E1 -3090mC
+09-21 16:50:56.776   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:56.781   853  1020 I ThermalEngine: Sensor:sdm-therm:48961 mC
+09-21 16:50:56.781   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48961mC, Err -4961mC, SampleCnt 1
+09-21 16:50:56.781   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4961mC, E1 -5090mC
+09-21 16:50:56.781   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:56.781   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:50:56.781   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+--------- beginning of system
+09-21 16:50:57.687  1589  3371 D PerfShielderService: com.android.systemui|StatusBar|183|109426427873255|183|6|1
+09-21 16:50:57.688  2713 25360 W MiuiPerfServiceClient: interceptAndQueuing:1851|com.android.systemui|183|183|unknown|null|StatusBar|109426427873255|Slow swap buffers|1
+09-21 16:50:57.944  2197  2522 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: No UICC
+09-21 16:50:57.950  2197  2522 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: No UICC
+09-21 16:50:58.256  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:50:58.256  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:50:58.257  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:50:58.257  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:50:58.258  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:50:58.258  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:50:58.261  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.261  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.262  2197  2197 D RILJ    : [0937]> OPERATOR [SUB1]
+09-21 16:50:58.262  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:50:58.262  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:50:58.264  2197  2197 D RILJ    : [0938]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:50:58.264  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.264  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.264  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.264  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.264  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:50:58.264  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.264  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.265  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.265  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.265  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:50:58.267  2197  2372 D RILJ    : [0939]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:50:58.267  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:50:58.268  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:50:58.268  2197  2372 D RILJ    : [0940]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:50:58.271  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:50:58.272  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:50:58.275  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.274  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:50:58.275  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.275  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.275  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.275  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:50:58.275  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.275  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.275  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.275  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.276  2197  2288 D RILJ    : [0937]< OPERATOR {, , } [SUB1]
+09-21 16:50:58.276  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:50:58.276  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:50:58.276  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:50:58.277  2197  2197 D RILJ    : [0942]> OPERATOR [SUB1]
+09-21 16:50:58.277  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:50:58.277  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:50:58.278  2197  2197 D RILJ    : [0943]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:50:58.278  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:50:58.280  2197  2372 D RILJ    : [0944]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:50:58.280  2197  2288 D RILJ    : [0942]< OPERATOR {, , } [SUB1]
+09-21 16:50:58.281  2197  2372 D RILJ    : [0945]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:50:58.286  2197  2288 D RILJ    : [0940]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:50:58.287  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@3d53ee0 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:50:58.287  2197  2288 D RILJ    : [0945]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:50:58.287  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@c343599 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:50:58.288  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:50:58.289  2197  2288 D RILJ    : [0938]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:50:58.290  2197  2288 D RILJ    : [0943]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:50:58.292  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:50:58.292  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:50:58.292  2197  2288 D RILJ    : [0939]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:50:58.293  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:50:58.293  2197  2288 D RILJ    : [0944]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:50:58.293  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:50:58.294  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:50:58.294  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:50:58.297  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@92758ba cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@c343599 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}, NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:50:58.297  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:50:54.961     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:50:54.961     0     0 I         : length 2 addr=48c6
+09-21 16:50:54.961     0     0 I val[0]  : bd
+09-21 16:50:54.961     0     0 I val[1]  : 01
+09-21 16:50:54.961     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:50:54.961     0     0 I         : length 2 addr=48c0
+09-21 16:50:54.961     0     0 I val[0]  : b8
+09-21 16:50:54.961     0     0 I val[1]  : 50
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: msoc=78
+09-21 16:50:54.961     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: ibatt_avg=200 vbatt_avg=4020 rbatt=212 act_cap_mah=2425
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: mode: 0
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: i_cc2cv=182
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: soc_cc2cv=96
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cc=8227
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: iterm=201
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: tau=0
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cv=0
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_prefilter=8227
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: ttf_slope=-100
+09-21 16:50:54.961     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_postfilter=6803
+09-21 16:50:54.961     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 same vote off of val=0
+09-21 16:50:54.961     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 Ignoring similar vote off of val=0
+09-21 16:50:58.782   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:50:58.782   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:50:58.783   853  1020 I ThermalEngine: Sensor:sdm-therm:48961 mC
+09-21 16:50:58.783   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD3 Read sdm-therm 48961mC, Err 39mC, SampleCnt 1
+09-21 16:50:58.783   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD3, E0 39mC, E1 39mC
+09-21 16:50:58.783   853  1020 D ThermalEngine: devices_manager_set_op_value: DEV cpu6, op_value 2016000
+09-21 16:50:58.783   853  1020 I ThermalEngine: decrease_mitigation_lvl: SS Id SS-QUIET-THERM-GOLD3, Device cpu6, Req. 2016000kHz, Applied  1516800kHz, TC delay 0
+09-21 16:50:58.784   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:50:58.784   853  1020 D ThermalEngine: handle_thresh_sig: SS Id SS-QUIET-THERM-GOLD3, Read sdm-therm 48896mC
+09-21 16:50:58.784   853  1020 I ThermalEngine: handle_thresh_sig: SS Id SS-QUIET-THERM-GOLD3 Transition State 3
+09-21 16:50:58.784   853  1020 D ThermalEngine: device_clnt_cancel_request: DEV cpu6
+09-21 16:50:58.784   853  1020 D ThermalEngine: sensors_manager_set_thresh_lvl: sdm-therm Hi(1) 49000, Lo(0) 0, desc:0 Interval(0) 0
+09-21 16:50:58.784   853  1020 D ThermalEngine: update_active_thresh: sdm-therm Active(1), Hi(1) 49000, Lo(1) 47000, desc(0) Interval(1) 1000
+09-21 16:50:58.784   853  1020 D ThermalEngine: Setting up thresholds high: 49000
+09-21 16:50:58.785   853  1020 D ThermalEngine: writing:49000 in fd:50 bytes:5
+09-21 16:50:58.787   853   963 D ThermalEngine: zone:62 sensor:sdm-therm temp:48961 trip:0 event:0
+09-21 16:50:58.788   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:50:58.788   853   967 D ThermalEngine: sensor_monitor: sdm-therm Reading 48961 .
+09-21 16:50:58.788   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48896mC, Err -1896mC, SampleCnt 1
+09-21 16:50:58.788   853   967 I ThermalEngine: Sensor:sdm-therm:48961 mC
+09-21 16:50:58.788   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1896mC, E1 -1961mC
+09-21 16:50:58.788   853   967 D ThermalEngine: update_active_thresh: sdm-therm Active(1), Hi(1) 49000, Lo(1) 47000, desc(0) Interval(1) 1000
+09-21 16:50:58.788   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:58.788   853   967 D ThermalEngine: sensor_monitor: sdm-therm Sensor wait.
+09-21 16:50:58.789   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:50:58.789   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48896mC, Err -3896mC, SampleCnt 1
+09-21 16:50:58.789   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3896mC, E1 -3961mC
+09-21 16:50:58.790   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:58.791   853  1020 I ThermalEngine: Sensor:sdm-therm:48961 mC
+09-21 16:50:58.791   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48961mC, Err -961mC, SampleCnt 1
+09-21 16:50:58.791   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -961mC, E1 -961mC
+09-21 16:50:58.791   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:58.792   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:50:58.792   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48896mC, Err -2896mC, SampleCnt 1
+09-21 16:50:58.792   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2896mC, E1 -2961mC
+09-21 16:50:58.792   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:58.793   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:50:58.793   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48896mC, Err -4896mC, SampleCnt 1
+09-21 16:50:58.793   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4896mC, E1 -4961mC
+09-21 16:50:58.793   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:50:58.793   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:50:58.793   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:50:59.778  2197 19084 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: No UICC
+09-21 16:50:59.784  2197 19084 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: No UICC
+09-21 16:51:00.004  1851  1851 D KeyguardUpdateMonitor: handleTimeUpdate
+09-21 16:51:00.793   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:00.794   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:00.795   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:00.795   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48896mC, Err -1896mC, SampleCnt 1
+09-21 16:51:00.795   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1896mC, E1 -1896mC
+09-21 16:51:00.795   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:00.797   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:00.797   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48896mC, Err -3896mC, SampleCnt 1
+09-21 16:51:00.797   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3896mC, E1 -3896mC
+09-21 16:51:00.797   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:00.798   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:00.798   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48896mC, Err -896mC, SampleCnt 1
+09-21 16:51:00.798   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -896mC, E1 -961mC
+09-21 16:51:00.798   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:00.800   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:00.800   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48896mC, Err -2896mC, SampleCnt 1
+09-21 16:51:00.800   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2896mC, E1 -2896mC
+09-21 16:51:00.800   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:00.814   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:00.814   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48896mC, Err -4896mC, SampleCnt 1
+09-21 16:51:00.814   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4896mC, E1 -4896mC
+09-21 16:51:00.814   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:00.814   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:00.814   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:02.814   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:02.815   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:02.816   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:02.816   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48896mC, Err -1896mC, SampleCnt 1
+09-21 16:51:02.816   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1896mC, E1 -1896mC
+09-21 16:51:02.816   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:02.817   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:02.817   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48896mC, Err -3896mC, SampleCnt 1
+09-21 16:51:02.817   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3896mC, E1 -3896mC
+09-21 16:51:02.817   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:02.818   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:02.818   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48896mC, Err -896mC, SampleCnt 1
+09-21 16:51:02.818   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -896mC, E1 -896mC
+09-21 16:51:02.818   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:02.820   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:02.820   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48896mC, Err -2896mC, SampleCnt 1
+09-21 16:51:02.820   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2896mC, E1 -2896mC
+09-21 16:51:02.820   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:02.821   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:02.821   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48896mC, Err -4896mC, SampleCnt 1
+09-21 16:51:02.821   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4896mC, E1 -4896mC
+09-21 16:51:02.821   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:02.821   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:02.821   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:03.372  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:03.373  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:03.375  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:03.375  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:03.375  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:03.376  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:03.377  2197  2197 D RILJ    : [0947]> OPERATOR [SUB1]
+09-21 16:51:03.378  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:03.378  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:03.381  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.381  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.383  2197  2197 D RILJ    : [0948]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:03.383  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.383  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.384  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.384  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.384  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:03.384  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.384  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.384  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.384  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.384  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:03.387  2197  2372 D RILJ    : [0949]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:03.388  2197  2372 D RILJ    : [0950]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:03.393  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:03.394  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:03.394  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:03.394  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:03.395  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:03.395  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:03.397  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.397  2197  2197 D RILJ    : [0952]> OPERATOR [SUB1]
+09-21 16:51:03.397  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.398  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:03.398  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:03.401  2197  2197 D RILJ    : [0953]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:03.401  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.402  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.402  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.402  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.402  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:03.402  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.402  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.402  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:03.402  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:03.402  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:03.402  2197  2372 D RILJ    : [0954]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:03.403  2197  2288 D RILJ    : [0947]< OPERATOR {, , } [SUB1]
+09-21 16:51:03.404  2197  2372 D RILJ    : [0955]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:03.404  2197  2288 D RILJ    : [0952]< OPERATOR {, , } [SUB1]
+09-21 16:51:03.405  2197  2288 D RILJ    : [0948]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:03.405  2197  2288 D RILJ    : [0953]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:03.410  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:03.410  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:03.416  2197  2288 D RILJ    : [0950]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:03.416  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@8355437 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:03.417  2197  2288 D RILJ    : [0955]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:03.417  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@7e7cda4 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:03.418  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:51:03.420  2197  2288 D RILJ    : [0949]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:03.420  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:03.421  2197  2288 D RILJ    : [0954]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:03.421  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:03.423  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:51:03.423  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:51:03.428  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@c343599 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}, NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@7e7cda4 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}, NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:51:03.428  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:51:00.086     0     0 E pm6150_charger: wdog_snarl_irq_handler: IRQ: wdog-snarl
+09-21 16:51:00.086     0     0 E AWAKE   : SW_THERM_REGULATION_VOTER,0 voting on of val=1
+09-21 16:51:00.086     0     0 E AWAKE   : effective vote is now 1 voted by SW_THERM_REGULATION_VOTER,0
+09-21 16:51:00.089     0     0 E pm6150_charger: smblib_process_thermal_readings: Current temperatures: 	DIE_TEMP: 516,	CONN_TEMP: 341,	SMB_TEMP: -61,	SKIN_TEMP: 488
+09-21 16:51:00.089     0     0 E THERMAL_STATUS: 5
+09-21 16:51:00.089     0     0 E AWAKE   : SW_THERM_REGULATION_VOTER,0 voting off of val=0
+09-21 16:51:00.089     0     0 E AWAKE   : effective vote is now 0 voted by SW_THERM_REGULATION_VOTER,0
+09-21 16:51:00.412     0     0 E pm6150_charger: default_irq_handler: IRQ: aicl-done
+09-21 16:51:03.950 11568 11568 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:03.964  1589  3397 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:51:03.964  1589  3397 D CompatibilityInfo: applicationDensity - 440
+09-21 16:51:03.964  1589  3397 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:51:03.967 11568 11568 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:03.967 11568 11568 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:04.821   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:04.823   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:04.824   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:04.825   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48831mC, Err -1831mC, SampleCnt 1
+09-21 16:51:04.825   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1831mC, E1 -1896mC
+09-21 16:51:04.825   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:04.826   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:04.827   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48831mC, Err -3831mC, SampleCnt 1
+09-21 16:51:04.827   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3831mC, E1 -3896mC
+09-21 16:51:04.827   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:04.828   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:04.828   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48896mC, Err -896mC, SampleCnt 1
+09-21 16:51:04.828   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -896mC, E1 -896mC
+09-21 16:51:04.828   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:04.829   853  1020 I ThermalEngine: Sensor:sdm-therm:48896 mC
+09-21 16:51:04.829   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48896mC, Err -2896mC, SampleCnt 1
+09-21 16:51:04.829   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2896mC, E1 -2896mC
+09-21 16:51:04.829   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:04.831   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:04.831   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48831mC, Err -4831mC, SampleCnt 1
+09-21 16:51:04.831   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4831mC, E1 -4896mC
+09-21 16:51:04.831   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:04.832   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:04.832   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:06.832   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:06.832   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:06.834   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:06.834   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48831mC, Err -1831mC, SampleCnt 1
+09-21 16:51:06.834   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1831mC, E1 -1831mC
+09-21 16:51:06.834   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:06.836   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:06.836   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48831mC, Err -3831mC, SampleCnt 1
+09-21 16:51:06.836   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3831mC, E1 -3831mC
+09-21 16:51:06.836   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:06.837   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:06.837   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48831mC, Err -831mC, SampleCnt 1
+09-21 16:51:06.837   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -831mC, E1 -896mC
+09-21 16:51:06.837   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:06.839   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:06.839   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48831mC, Err -2831mC, SampleCnt 1
+09-21 16:51:06.839   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2831mC, E1 -2896mC
+09-21 16:51:06.839   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:06.840   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:06.840   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48831mC, Err -4831mC, SampleCnt 1
+09-21 16:51:06.840   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4831mC, E1 -4831mC
+09-21 16:51:06.840   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:06.840   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:06.840   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:08.499  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:08.499  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:08.500  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:08.500  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:08.500  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:08.503  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:08.505  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.505  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.506  2197  2197 D RILJ    : [0957]> OPERATOR [SUB1]
+09-21 16:51:08.506  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:08.506  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:08.507  2197  2197 D RILJ    : [0958]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:08.508  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.508  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.508  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.508  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.508  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:08.508  2197  2372 D RILJ    : [0959]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:08.508  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.508  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.508  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.509  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.509  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:08.509  2197  2372 D RILJ    : [0960]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:08.513  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:08.513  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:08.513  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:08.513  2197  2288 D RILJ    : [0957]< OPERATOR {, , } [SUB1]
+09-21 16:51:08.514  2197  2288 D RILJ    : [0958]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:08.516  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:08.517  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:08.520  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.520  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.521  2197  2288 D RILJ    : [0959]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:08.522  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:08.522  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:08.523  2197  2197 D RILJ    : [0962]> OPERATOR [SUB1]
+09-21 16:51:08.523  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:08.525  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:08.525  2197  2372 D RILJ    : [0963]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:08.528  2197  2372 D RILJ    : [0964]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:08.532  2197  2197 D RILJ    : [0965]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:08.532  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@359bc1a cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:08.532  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:08.532  2197  2288 D RILJ    : [0960]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:08.532  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.532  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.532  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.532  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.532  2197  2288 D RILJ    : [0962]< OPERATOR {, , } [SUB1]
+09-21 16:51:08.532  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:08.532  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.532  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.532  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:08.533  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:08.533  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:08.533  2197  2288 D RILJ    : [0963]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:08.534  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:08.535  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:51:08.535  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:51:08.543  2197  2288 D RILJ    : [0964]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:08.543  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@aa1334b cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:08.543  2197  2288 D RILJ    : [0965]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:08.544  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:51:08.544  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:08.546  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@7e7cda4 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}, NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@aa1334b cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:51:08.546  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:51:05.200     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:51:05.201     0     0 I         : length 2 addr=48c6
+09-21 16:51:05.201     0     0 I val[0]  : 0f
+09-21 16:51:05.201     0     0 I val[1]  : 03
+09-21 16:51:05.201     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:51:05.201     0     0 I         : length 2 addr=48c0
+09-21 16:51:05.201     0     0 I val[0]  : 69
+09-21 16:51:05.201     0     0 I val[1]  : 50
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: msoc=78
+09-21 16:51:05.201     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: ibatt_avg=200 vbatt_avg=4020 rbatt=212 act_cap_mah=2425
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: mode: 0
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: i_cc2cv=182
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: soc_cc2cv=96
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cc=8227
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: iterm=201
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: tau=0
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cv=0
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_prefilter=8227
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: ttf_slope=-100
+09-21 16:51:05.201     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_postfilter=6802
+09-21 16:51:05.201     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 same vote off of val=0
+09-21 16:51:05.201     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 Ignoring similar vote off of val=0
+09-21 16:51:08.841   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:08.842   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:08.843   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:08.843   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48831mC, Err -1831mC, SampleCnt 1
+09-21 16:51:08.843   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1831mC, E1 -1831mC
+09-21 16:51:08.843   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:08.845   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:08.845   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48831mC, Err -3831mC, SampleCnt 1
+09-21 16:51:08.845   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3831mC, E1 -3831mC
+09-21 16:51:08.845   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:08.846   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:08.846   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48831mC, Err -831mC, SampleCnt 1
+09-21 16:51:08.846   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -831mC, E1 -831mC
+09-21 16:51:08.846   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:08.847   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:08.848   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48831mC, Err -2831mC, SampleCnt 1
+09-21 16:51:08.848   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2831mC, E1 -2831mC
+09-21 16:51:08.848   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:08.849   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:08.849   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48831mC, Err -4831mC, SampleCnt 1
+09-21 16:51:08.849   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4831mC, E1 -4831mC
+09-21 16:51:08.849   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:08.849   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:08.849   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:09.005 11568 11568 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:09.022  1589  3371 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:51:09.023  1589  3371 D CompatibilityInfo: applicationDensity - 440
+09-21 16:51:09.023  1589  3371 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:51:09.027 11568 11568 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:09.027 11568 11568 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:10.077  6503  6607 E memtrack: Couldn't load memtrack module
+09-21 16:51:10.077  6503  6607 W android.os.Debug: failed to get memory consumption info: -1
+09-21 16:51:10.850   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:10.850   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:10.851   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:10.851   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48831mC, Err -1831mC, SampleCnt 1
+09-21 16:51:10.851   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1831mC, E1 -1831mC
+09-21 16:51:10.851   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:10.853   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:10.853   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48831mC, Err -3831mC, SampleCnt 1
+09-21 16:51:10.853   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3831mC, E1 -3831mC
+09-21 16:51:10.853   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:10.854   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:10.854   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48831mC, Err -831mC, SampleCnt 1
+09-21 16:51:10.854   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -831mC, E1 -831mC
+09-21 16:51:10.854   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:10.857   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:10.858   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48831mC, Err -2831mC, SampleCnt 1
+09-21 16:51:10.858   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2831mC, E1 -2831mC
+09-21 16:51:10.858   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:10.859   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:10.859   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48831mC, Err -4831mC, SampleCnt 1
+09-21 16:51:10.859   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4831mC, E1 -4831mC
+09-21 16:51:10.859   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:10.859   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:10.859   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:08.235     0     0 E pm6150_charger: wdog_snarl_irq_handler: IRQ: wdog-snarl
+09-21 16:51:08.235     0     0 E AWAKE   : SW_THERM_REGULATION_VOTER,0 voting on of val=1
+09-21 16:51:08.235     0     0 E AWAKE   : effective vote is now 1 voted by SW_THERM_REGULATION_VOTER,0
+09-21 16:51:08.238     0     0 E pm6150_charger: smblib_process_thermal_readings: Current temperatures: 	DIE_TEMP: 515,	CONN_TEMP: 341,	SMB_TEMP: -61,	SKIN_TEMP: 488
+09-21 16:51:08.238     0     0 E THERMAL_STATUS: 5
+09-21 16:51:08.238     0     0 E AWAKE   : SW_THERM_REGULATION_VOTER,0 voting off of val=0
+09-21 16:51:08.238     0     0 E AWAKE   : effective vote is now 0 voted by SW_THERM_REGULATION_VOTER,0
+09-21 16:51:08.396     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:08.396     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:12.860   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:12.860   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:12.861   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:12.861   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48831mC, Err -1831mC, SampleCnt 1
+09-21 16:51:12.861   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1831mC, E1 -1831mC
+09-21 16:51:12.861   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:12.863   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:12.863   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48766mC, Err -3766mC, SampleCnt 1
+09-21 16:51:12.863   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3766mC, E1 -3831mC
+09-21 16:51:12.863   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:12.864   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:12.864   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48831mC, Err -831mC, SampleCnt 1
+09-21 16:51:12.864   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -831mC, E1 -831mC
+09-21 16:51:12.864   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:12.865   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:12.865   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48766mC, Err -2766mC, SampleCnt 1
+09-21 16:51:12.866   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2766mC, E1 -2831mC
+09-21 16:51:12.866   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:12.867   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:12.867   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48766mC, Err -4766mC, SampleCnt 1
+09-21 16:51:12.867   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4766mC, E1 -4831mC
+09-21 16:51:12.867   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:12.867   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:12.867   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:13.613  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:13.614  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:13.615  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:13.615  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:13.616  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:13.616  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:13.618  2197  2197 D RILJ    : [0967]> OPERATOR [SUB1]
+09-21 16:51:13.618  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:13.619  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:13.622  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.623  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.625  2197  2197 D RILJ    : [0968]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:13.625  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.625  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.626  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.626  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.626  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:13.626  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.626  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.626  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.627  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.627  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:13.637  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:13.637  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:13.640  2197  2372 D RILJ    : [0969]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:13.641  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.642  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.642  2197  2372 D RILJ    : [0970]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:13.642  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.642  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.642  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:13.643  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.643  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.643  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:13.643  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.644  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.644  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:13.644  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:13.649  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:13.649  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:13.649  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:13.651  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:13.654  2197  2197 D RILJ    : [0972]> OPERATOR [SUB1]
+09-21 16:51:13.656  2197  2288 D RILJ    : [0967]< OPERATOR {, , } [SUB1]
+09-21 16:51:13.656  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:13.657  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:13.657  2197  2372 D RILJ    : [0973]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:13.657  2197  2288 D RILJ    : [0968]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:13.659  2197  2288 D RILJ    : [0969]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:13.659  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:13.660  2197  2372 D RILJ    : [0975]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:13.660  2197  2288 D RILJ    : [0973]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:13.660  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:13.660  2197  2197 D RILJ    : [0974]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:13.661  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:13.661  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:51:13.661  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:51:13.664  2197  2288 D RILJ    : [0972]< OPERATOR {, , } [SUB1]
+09-21 16:51:13.669  2197  2288 D RILJ    : [0974]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:13.669  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:13.671  2197  2288 D RILJ    : [0970]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:13.671  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@3287479 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:13.671  2197  2288 D RILJ    : [0975]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:13.672  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@a4ca5be cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:13.672  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:51:13.674  2197  2197 I service_manager_stats: [100,86,241089]
+09-21 16:51:13.674  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@aa1334b cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@a4ca5be cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:51:13.675  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:51:13.702  1589  3371 D PerfShielderService: com.android.systemui|StatusBar|177|109437808528616|177|6|1
+09-21 16:51:13.703  2713 25360 W MiuiPerfServiceClient: interceptAndQueuing:1851|com.android.systemui|177|177|unknown|null|StatusBar|109437808528616|Slow swap buffers|1
+09-21 16:51:14.061 11568 11568 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:14.070  1589  3371 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:51:14.071  1589  3371 D CompatibilityInfo: applicationDensity - 440
+09-21 16:51:14.071  1589  3371 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:51:14.074 11568 11568 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:14.074 11568 11568 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:14.868   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:14.868   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:14.870   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:14.870   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48766mC, Err -1766mC, SampleCnt 1
+09-21 16:51:14.870   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1766mC, E1 -1831mC
+09-21 16:51:14.870   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:14.871   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:14.871   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48766mC, Err -3766mC, SampleCnt 1
+09-21 16:51:14.871   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3766mC, E1 -3766mC
+09-21 16:51:14.871   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:14.872   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:14.872   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48766mC, Err -766mC, SampleCnt 1
+09-21 16:51:14.872   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -766mC, E1 -831mC
+09-21 16:51:14.872   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:14.873   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:14.874   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48766mC, Err -2766mC, SampleCnt 1
+09-21 16:51:14.874   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2766mC, E1 -2766mC
+09-21 16:51:14.874   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:14.875   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:14.875   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48766mC, Err -4766mC, SampleCnt 1
+09-21 16:51:14.875   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4766mC, E1 -4766mC
+09-21 16:51:14.875   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:14.875   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:14.875   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:16.876   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:16.876   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:16.877   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:16.877   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48831mC, Err -1831mC, SampleCnt 1
+09-21 16:51:16.877   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1831mC, E1 -1766mC
+09-21 16:51:16.877   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:16.879   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:16.879   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48831mC, Err -3831mC, SampleCnt 1
+09-21 16:51:16.879   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3831mC, E1 -3766mC
+09-21 16:51:16.879   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:16.880   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:16.880   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48831mC, Err -831mC, SampleCnt 1
+09-21 16:51:16.880   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -831mC, E1 -766mC
+09-21 16:51:16.880   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:16.882   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:16.883   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48831mC, Err -2831mC, SampleCnt 1
+09-21 16:51:16.883   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2831mC, E1 -2766mC
+09-21 16:51:16.883   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:16.884   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:16.884   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48831mC, Err -4831mC, SampleCnt 1
+09-21 16:51:16.885   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4831mC, E1 -4766mC
+09-21 16:51:16.885   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:16.885   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:16.885   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:13.450     0     0 E pm6150_charger: default_irq_handler: IRQ: aicl-done
+09-21 16:51:18.736  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:18.736  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:18.739  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:18.739  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:18.743  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:18.746  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:18.747  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.747  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.749  2197  2197 D RILJ    : [0977]> OPERATOR [SUB1]
+09-21 16:51:18.749  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:18.749  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:18.751  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:18.752  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:18.754  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.754  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.756  2197  2197 D RILJ    : [0978]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:18.756  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.756  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:18.756  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:18.756  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.756  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.756  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.756  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:18.756  2197  2288 D RILJ    : [0977]< OPERATOR {, , } [SUB1]
+09-21 16:51:18.756  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.756  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.757  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:18.757  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:18.757  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:18.759  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:18.760  2197  2288 D RILJ    : [0978]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:18.761  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:18.764  2197  2372 D RILJ    : [0979]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:18.767  2197  2372 D RILJ    : [0981]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:18.767  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:18.768  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:18.770  2197  2197 D RILJ    : [0982]> OPERATOR [SUB1]
+09-21 16:51:18.770  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:18.771  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:18.772  2197  2288 D RILJ    : [0979]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:18.772  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:18.773  2197  2372 D RILJ    : [0983]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:18.777  2197  2197 D RILJ    : [0984]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:18.778  2197  2372 D RILJ    : [0985]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:18.780  2197  2288 D RILJ    : [0981]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:18.780  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@c65ae96 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:18.781  2197  2288 D RILJ    : [0985]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:18.782  2197  2288 D RILJ    : [0982]< OPERATOR {, , } [SUB1]
+09-21 16:51:18.782  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@813a17 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:18.782  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:51:18.785  2197  2288 D RILJ    : [0983]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:18.786  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:18.786  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:51:18.786  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:51:18.788  2197  2288 D RILJ    : [0984]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:18.788  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:18.790  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@a4ca5be cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@813a17 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}, NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:51:18.791  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:51:18.885   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:18.885   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:18.886   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:18.887   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48766mC, Err -1766mC, SampleCnt 1
+09-21 16:51:18.887   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1766mC, E1 -1831mC
+09-21 16:51:18.887   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:18.888   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:18.888   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48766mC, Err -3766mC, SampleCnt 1
+09-21 16:51:18.888   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3766mC, E1 -3831mC
+09-21 16:51:18.888   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:15.441     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:51:15.441     0     0 I         : length 2 addr=48c6
+09-21 16:51:15.441     0     0 I val[0]  : e2
+09-21 16:51:15.441     0     0 I val[1]  : 01
+09-21 16:51:15.441     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:51:15.441     0     0 I         : length 2 addr=48c0
+09-21 16:51:15.441     0     0 I val[0]  : aa
+09-21 16:51:15.441     0     0 I val[1]  : 50
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: msoc=78
+09-21 16:51:15.441     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: ibatt_avg=200 vbatt_avg=4019 rbatt=212 act_cap_mah=2425
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: mode: 0
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: i_cc2cv=182
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: soc_cc2cv=96
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cc=8227
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: iterm=201
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: tau=0
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cv=0
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_prefilter=8227
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: ttf_slope=-100
+09-21 16:51:15.441     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_postfilter=6801
+09-21 16:51:15.441     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 same vote off of val=0
+09-21 16:51:15.441     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 Ignoring similar vote off of val=0
+09-21 16:51:18.889   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:18.889   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48831mC, Err -831mC, SampleCnt 1
+09-21 16:51:18.889   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -831mC, E1 -831mC
+09-21 16:51:18.889   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:18.891   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:18.891   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48766mC, Err -2766mC, SampleCnt 1
+09-21 16:51:18.891   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2766mC, E1 -2831mC
+09-21 16:51:18.891   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:18.892   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:18.892   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48766mC, Err -4766mC, SampleCnt 1
+09-21 16:51:18.892   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4766mC, E1 -4831mC
+09-21 16:51:18.892   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:18.892   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:18.892   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:19.133 11568 11568 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:16.384     0     0 E pm6150_charger: wdog_snarl_irq_handler: IRQ: wdog-snarl
+09-21 16:51:16.384     0     0 E AWAKE   : SW_THERM_REGULATION_VOTER,0 voting on of val=1
+09-21 16:51:16.384     0     0 E AWAKE   : effective vote is now 1 voted by SW_THERM_REGULATION_VOTER,0
+09-21 16:51:16.387     0     0 E pm6150_charger: smblib_process_thermal_readings: Current temperatures: 	DIE_TEMP: 515,	CONN_TEMP: 341,	SMB_TEMP: -61,	SKIN_TEMP: 487
+09-21 16:51:16.387     0     0 E THERMAL_STATUS: 5
+09-21 16:51:16.387     0     0 E AWAKE   : SW_THERM_REGULATION_VOTER,0 voting off of val=0
+09-21 16:51:16.388     0     0 E AWAKE   : effective vote is now 0 voted by SW_THERM_REGULATION_VOTER,0
+09-21 16:51:20.892   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:20.893   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:20.894   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:20.894   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48766mC, Err -1766mC, SampleCnt 1
+09-21 16:51:20.894   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1766mC, E1 -1766mC
+09-21 16:51:20.895   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:20.896   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:20.896   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48831mC, Err -3831mC, SampleCnt 1
+09-21 16:51:20.896   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3831mC, E1 -3766mC
+09-21 16:51:20.896   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:20.897   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:20.897   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48831mC, Err -831mC, SampleCnt 1
+09-21 16:51:20.897   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -831mC, E1 -831mC
+09-21 16:51:20.897   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:20.899   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:20.899   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48766mC, Err -2766mC, SampleCnt 1
+09-21 16:51:20.899   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2766mC, E1 -2766mC
+09-21 16:51:20.899   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:20.900   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:20.900   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48766mC, Err -4766mC, SampleCnt 1
+09-21 16:51:20.900   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4766mC, E1 -4766mC
+09-21 16:51:20.900   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:20.900   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:20.900   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:21.159   913  1000 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+09-21 16:51:22.901   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:22.901   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:22.902   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:22.902   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48831mC, Err -1831mC, SampleCnt 1
+09-21 16:51:22.902   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1831mC, E1 -1766mC
+09-21 16:51:22.902   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:22.903   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:22.904   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48766mC, Err -3766mC, SampleCnt 1
+09-21 16:51:22.904   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3766mC, E1 -3831mC
+09-21 16:51:22.904   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:22.905   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:22.905   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48831mC, Err -831mC, SampleCnt 1
+09-21 16:51:22.905   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -831mC, E1 -831mC
+09-21 16:51:22.905   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:22.906   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:22.906   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48831mC, Err -2831mC, SampleCnt 1
+09-21 16:51:22.906   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2831mC, E1 -2766mC
+09-21 16:51:22.906   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:22.907   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:22.908   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48766mC, Err -4766mC, SampleCnt 1
+09-21 16:51:22.908   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4766mC, E1 -4766mC
+09-21 16:51:22.908   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:22.908   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:22.908   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:23.830  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:23.830  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:23.830  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:23.830  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:23.831  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:23.835  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:23.835  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.835  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.836  2197  2197 D RILJ    : [0987]> OPERATOR [SUB1]
+09-21 16:51:23.836  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:23.837  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:23.838  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:51:23.839  2197  2197 D RILJ    : [0988]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:23.839  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.839  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.839  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.840  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.840  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:23.840  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.840  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.840  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.840  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.840  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:23.841  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:51:23.843  2197  2372 D RILJ    : [0989]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:23.843  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:51:23.843  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:51:23.843  2197  2288 D RILJ    : [0987]< OPERATOR {, , } [SUB1]
+09-21 16:51:23.845  2197  2372 D RILJ    : [0991]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:23.845  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:51:23.847  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:51:23.848  2197  2288 D RILJ    : [0988]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:23.852  2197  2197 D RILJ    : [0992]> OPERATOR [SUB1]
+09-21 16:51:23.852  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:51:23.852  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:51:23.853  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.853  2197  2372 D RILJ    : [0993]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:51:23.853  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.854  2197  2372 D RILJ    : [0995]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:51:23.855  2197  2288 D RILJ    : [0989]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:23.855  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:23.856  2197  2197 D RILJ    : [0994]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:51:23.856  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:23.856  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.856  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.856  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.856  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.856  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:51:23.856  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.856  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.856  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:51:23.857  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:51:23.857  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:51:23.861  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@bc7f99c cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:23.861  2197  2288 D RILJ    : [0991]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:23.863  2197  2288 D RILJ    : [0995]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:51:23.864  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@cdaffa5 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:51:23.864  2197  2288 D RILJ    : [0993]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:51:23.864  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:51:23.865  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:51:23.865  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:51:23.865  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:51:23.865  2197  2288 D RILJ    : [0994]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:51:23.865  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:51:23.871  2197  2288 D RILJ    : [0992]< OPERATOR {, , } [SUB1]
+09-21 16:51:23.873  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@813a17 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}, NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@cdaffa5 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}, NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:51:23.874  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:51:24.111  1589  3381 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:51:24.111  1589  3381 D CompatibilityInfo: applicationDensity - 440
+09-21 16:51:24.111  1589  3381 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:51:24.117 11568 11568 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:24.119 11568 11568 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:51:24.908   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:24.909   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:24.910   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:24.910   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48766mC, Err -1766mC, SampleCnt 1
+09-21 16:51:24.910   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1766mC, E1 -1831mC
+09-21 16:51:24.911   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:24.912   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:24.912   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48766mC, Err -3766mC, SampleCnt 1
+09-21 16:51:24.912   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3766mC, E1 -3766mC
+09-21 16:51:24.912   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:24.914   853  1020 I ThermalEngine: Sensor:sdm-therm:48831 mC
+09-21 16:51:24.914   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48831mC, Err -831mC, SampleCnt 1
+09-21 16:51:24.914   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -831mC, E1 -831mC
+09-21 16:51:24.914   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:24.916   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:24.916   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48766mC, Err -2766mC, SampleCnt 1
+09-21 16:51:24.916   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2766mC, E1 -2831mC
+09-21 16:51:24.916   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:24.917   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:24.917   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48766mC, Err -4766mC, SampleCnt 1
+09-21 16:51:24.917   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4766mC, E1 -4766mC
+09-21 16:51:24.917   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:24.917   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:24.917   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:26.917   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:51:26.919   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:51:26.932   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:26.932   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48766mC, Err -1766mC, SampleCnt 1
+09-21 16:51:26.932   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1766mC, E1 -1766mC
+09-21 16:51:26.932   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:26.938   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:26.938   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48766mC, Err -3766mC, SampleCnt 1
+09-21 16:51:26.938   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3766mC, E1 -3766mC
+09-21 16:51:26.938   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:26.939   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:26.939   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48766mC, Err -766mC, SampleCnt 1
+09-21 16:51:26.939   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -766mC, E1 -831mC
+09-21 16:51:26.939   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:26.940   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:26.940   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48766mC, Err -2766mC, SampleCnt 1
+09-21 16:51:26.940   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2766mC, E1 -2766mC
+09-21 16:51:26.940   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:26.942   853  1020 I ThermalEngine: Sensor:sdm-therm:48766 mC
+09-21 16:51:26.942   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48766mC, Err -4766mC, SampleCnt 1
+09-21 16:51:26.942   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4766mC, E1 -4766mC
+09-21 16:51:26.942   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:51:26.942   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:51:26.942   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:51:27.173  9611  9842 I PlayCommon: [34292] akwg.j(32): Preparing logs for uploading
+09-21 16:51:27.177  9611  9842 I PlayCommon: [34292] akwg.j(150): Connecting to server for timestamp: https://play.googleapis.com/play/log/timestamp
+09-21 16:51:23.882     0     0 E pm6150_charger: wdog_bark_irq_handler: IRQ: wdog-bark
+09-21 16:51:23.882     0     0 E power_supply battery: power_supply_changed
+09-21 16:51:23.882     0     0 E power_supply battery: power_supply_changed_work
+09-21 16:51:23.882     0     0 E pm6150_charger: smblib_get_prop_usb_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.882     0     0 E pm6150_charger: smblib_get_prop_dc_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.882     0     0 E pm6150_charger: smblib_get_prop_batt_health: BATTERY_CHARGER_STATUS_2 = 0x08
+09-21 16:51:23.882     0     0 I smblib_get_prop_batt_status stat: 3 max_voltage:4400000 chg_done:0
+09-21 16:51:23.882     0     0 E pm6150_charger: smblib_get_prop_usb_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.883     0     0 E pm6150_charger: smblib_get_prop_dc_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.883     0     0 E pm6150_charger: smblib_get_prop_batt_health: BATTERY_CHARGER_STATUS_2 = 0x08
+09-21 16:51:23.883     0     0 I smblib_get_prop_batt_status stat: 3 max_voltage:4400000 chg_done:0
+09-21 16:51:23.883     0     0 E pm6150_charger: smblib_get_prop_batt_health: BATTERY_CHARGER_STATUS_2 = 0x08
+09-21 16:51:23.883     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.883     0     0 E pm6150_charger: smblib_get_prop_usb_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.883     0     0 E pm6150_charger: smblib_get_prop_dc_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.883     0     0 E pm6150_charger: smblib_get_prop_batt_health: BATTERY_CHARGER_STATUS_2 = 0x08
+09-21 16:51:23.883     0     0 I smblib_get_prop_batt_status stat: 3 max_voltage:4400000 chg_done:0
+09-21 16:51:23.883     0     0 I QG-K    : qg_status_change_work: charge_status=1 charge_done=0
+09-21 16:51:23.883     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.883     0     0 E ALG     : cycle_count_update: batt_soc: 199 id: 6 chg_status: 1
+09-21 16:51:23.883     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.883     0     0 E PL_DISABLE: CHG_STATE_VOTER,0 same vote off of val=0
+09-21 16:51:23.883     0     0 E PL_DISABLE: CHG_STATE_VOTER,0 Ignoring similar vote off of val=0
+09-21 16:51:23.883     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:23.883     0     0 E PL_ENABLE_INDIRECT: USBIN_I_VOTER,0 same vote off of val=0
+09-21 16:51:23.883     0     0 E PL_ENABLE_INDIRECT: USBIN_I_VOTER,0 Ignoring similar vote off of val=0
+09-21 16:51:23.883     0     0 E PL_AWAKE: FCC_STEPPER_VOTER,0 same vote off of val=0
+09-21 16:51:23.883     0     0 E PL_AWAKE: FCC_STEPPER_VOTER,0 Ignoring similar vote off of val=0
+09-21 16:51:23.883     0     0 E pm6150_charger: smblib_get_charge_param: fast charge current = 100000 (0x02)
+09-21 16:51:23.883     0     0 E pm6150_charger: smblib_set_charge_param: float voltage = 4400000 (0x50)
+09-21 16:51:23.884     0     0 I         : length 2 addr=48c0
+09-21 16:51:23.884     0     0 I val[0]  : 7e
+09-21 16:51:23.884     0     0 I val[1]  : 50
+09-21 16:51:23.884     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:51:23.884     0     0 I         : length 2 addr=48c6
+09-21 16:51:23.884     0     0 I val[0]  : af
+09-21 16:51:23.884     0     0 I val[1]  : 02
+09-21 16:51:23.884     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:51:23.887     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.887     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:51:23.889     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:51:23.889     0     0 I         : length 2 addr=48c0
+09-21 16:51:23.889     0     0 I val[0]  : 7e
+09-21 16:51:23.889     0     0 I val[1]  : 50
+09-21 16:51:23.889     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:51:23.889     0     0 I         : length 2 addr=48c6
+09-21 16:51:23.889     0     0 I val[0]  : af
+09-21 16:51:23.889     0     0 I val[1]  : 02
+09-21 16:51:23.889     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:51:23.889     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:51:23.890     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.890     0     0 I         : length 2 addr=48c0
+09-21 16:51:23.890     0     0 I val[0]  : 7e
+09-21 16:51:23.890     0     0 I val[1]  : 50
+09-21 16:51:23.890     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:51:23.890     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.890     0     0 I         : length 2 addr=48c6
+09-21 16:51:23.890     0     0 I val[0]  : af
+09-21 16:51:23.890     0     0 I val[1]  : 02
+09-21 16:51:23.890     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:51:23.891     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:51:23.891     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.891     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.892     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:23.892     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.892     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:23.893     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:51:23.894     0     0 E ALG     : cap_learning_update: Charge_status: 1 active: 0 batt_soc: 190
+09-21 16:51:23.894     0     0 E ALG     : cap_learning_begin: Battery SOC 75 is high/low, not starting
+09-21 16:51:23.894     0     0 E pm6150_charger: smblib_get_prop_batt_health: BATTERY_CHARGER_STATUS_2 = 0x08
+09-21 16:51:23.894     0     0 I QG-K    : qg_charge_full_update: msoc=78 health=1 charge_full=0 charge_done=0
+09-21 16:51:23.894     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.895     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.895     0     0 E FCC     : JEITA_VOTER,5 same vote on of val=3000000
+09-21 16:51:23.895     0     0 E FCC     : JEITA_VOTER,5 Ignoring similar vote on of val=3000000
+09-21 16:51:23.895     0     0 E USB_ICL : JEITA_VOTER,8 same vote off of val=0
+09-21 16:51:23.895     0     0 E USB_ICL : JEITA_VOTER,8 Ignoring similar vote off of val=0
+09-21 16:51:23.895     0     0 I QCOM-STEPCHG: handle_jeita:  jeita vote fv_uv:4400000 last_vol:4400000
+09-21 16:51:23.895     0     0 E FV      : JEITA_VOTER,2 same vote on of val=4400000
+09-21 16:51:23.895     0     0 E FV      : JEITA_VOTER,2 Ignoring similar vote on of val=4400000
+09-21 16:51:23.895     0     0 E power_supply main: power_supply_changed
+09-21 16:51:23.895     0     0 E FCC     : STEP_CHG_VOTER,6 same vote off of val=0
+09-21 16:51:23.895     0     0 E FCC     : STEP_CHG_VOTER,6 Ignoring similar vote off of val=0
+09-21 16:51:23.895     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.896     0     0 E power_supply main: power_supply_changed_work
+09-21 16:51:23.896     0     0 E         : get prop 4 is not supported in usb-main
+09-21 16:51:23.896     0     0 E         : Couldn't get prop 4 rc = -22
+09-21 16:51:23.896     0     0 E pm6150_charger: smblib_get_charge_param: float voltage = 4400000 (0x50)
+09-21 16:51:23.896     0     0 E pm6150_charger: smblib_get_charge_param: fast charge current = 100000 (0x02)
+09-21 16:51:23.896     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:23.896     0     0 E pm6150_charger: smblib_get_charge_param: dcdc icl max status = 500000 (0x0a)
+09-21 16:51:23.896     0     0 E         : Couldn't get prop 103 rc = -1
+09-21 16:51:23.899     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.899     0     0 E PL_DISABLE: CHG_STATE_VOTER,0 same vote off of val=0
+09-21 16:51:23.899     0     0 E PL_DISABLE: CHG_STATE_VOTER,0 Ignoring similar vote off of val=0
+09-21 16:51:23.899     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:23.899     0     0 E PL_ENABLE_INDIRECT: USBIN_I_VOTER,0 same vote off of val=0
+09-21 16:51:23.899     0     0 E PL_ENABLE_INDIRECT: USBIN_I_VOTER,0 Ignoring similar vote off of val=0
+09-21 16:51:23.899     0     0 E PL_AWAKE: FCC_STEPPER_VOTER,0 same vote off of val=0
+09-21 16:51:23.899     0     0 E PL_AWAKE: FCC_STEPPER_VOTER,0 Ignoring similar vote off of val=0
+09-21 16:51:23.899     0     0 E pm6150_charger: smblib_get_charge_param: fast charge current = 100000 (0x02)
+09-21 16:51:23.899     0     0 E pm6150_charger: smblib_set_charge_param: float voltage = 4400000 (0x50)
+09-21 16:51:23.900     0     0 E pm6150_charger: smblib_get_prop_usb_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.900     0     0 E pm6150_charger: smblib_get_prop_dc_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.901     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:27.357  2197  2197 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+09-21 16:51:27.357  2990  2990 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+09-21 16:51:27.358  2975  3223 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 78, status = 2, level = 78, plug = 2, scale = 100
+09-21 16:51:23.901     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:23.902     0     0 E pm6150_charger: smblib_get_prop_batt_health: BATTERY_CHARGER_STATUS_2 = 0x08
+09-21 16:51:23.902     0     0 I smblib_get_prop_batt_status stat: 3 max_voltage:4400000 chg_done:0
+09-21 16:51:23.902     0     0 E pm6150_charger: smblib_get_prop_batt_health: BATTERY_CHARGER_STATUS_2 = 0x08
+09-21 16:51:23.902     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.903     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:23.903     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.903     0     0 E pm6150_charger: smblib_get_prop_dc_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.903     0     0 E pm6150_charger: smblib_get_prop_usb_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.903     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:51:23.903     0     0 W healthd : Unknown power supply type 'BMS'
+09-21 16:51:23.903     0     0 W healthd : Unknown power supply type 'Main'
+09-21 16:51:23.903     0     0 E pm6150_charger: smblib_get_prop_usb_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.904     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:23.904     0     0 W healthd : battery l=78 v=4010 t=39.6 h=2 st=2 c=209 fc=2576000 cc=1023 tl=7 ct=USB pluged=1 chg=u
+09-21 16:51:23.904     0     0 I         : length 2 addr=48c0
+09-21 16:51:23.904     0     0 I val[0]  : 7e
+09-21 16:51:23.904     0     0 I val[1]  : 50
+09-21 16:51:23.905     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:51:23.905     0     0 I         : length 2 addr=48c6
+09-21 16:51:23.905     0     0 I val[0]  : af
+09-21 16:51:23.905     0     0 I val[1]  : 02
+09-21 16:51:23.905     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:51:23.905     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:51:27.361  1851  1851 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-21 16:51:23.905     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:51:23.910     0     0 E pm6150_charger: smblib_get_prop_usb_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.910     0     0 E pm6150_charger: smblib_get_prop_dc_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.910     0     0 E pm6150_charger: smblib_get_prop_batt_health: BATTERY_CHARGER_STATUS_2 = 0x08
+09-21 16:51:23.910     0     0 I smblib_get_prop_batt_status stat: 3 max_voltage:4400000 chg_done:0
+09-21 16:51:23.910     0     0 E pm6150_charger: smblib_get_prop_batt_health: BATTERY_CHARGER_STATUS_2 = 0x08
+09-21 16:51:23.911     0     0 E pm6150_charger: smblib_get_prop_dc_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.911     0     0 E pm6150_charger: smblib_get_prop_usb_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.911     0     0 W healthd : Unknown power supply type 'BMS'
+09-21 16:51:23.911     0     0 W healthd : Unknown power supply type 'Main'
+09-21 16:51:23.911     0     0 E pm6150_charger: smblib_get_prop_usb_online: POWER_PATH_STATUS = 0x95
+09-21 16:51:23.911     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:51:23.912     0     0 W healthd : battery l=78 v=4010 t=39.6 h=2 st=2 c=209 fc=2576000 cc=1023 tl=7 ct=USB pluged=1 chg=u
+09-21 16:51:23.914     0     0 I         : length 2 addr=48c0
+09-21 16:51:23.914     0     0 I val[0]  : 7e
+09-21 16:51:23.914     0     0 I val[1]  : 50

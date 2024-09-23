@@ -1,0 +1,505 @@
+--------- beginning of main
+09-21 16:09:52.035  2220  2220 D FeedSwipeController: touchState : 0 scrolling : false normalEditing : false WidgetThumbnailViewShowing : false UninstallDialogShowing : false
+09-21 16:09:52.037  2220  2220 D FeedSwipeController: ACTION_DOWN-> directions To Detect Scroll: 1=POSITIVE 2=NEGATIVE 3=BOTH 1
+09-21 16:09:52.038  2220  2220 D Launcher.Workspace: Workspace touch down
+09-21 16:09:52.039  2220  2220 D Launcher.CellLayout: touch item:ShortcutInfo, id=80, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.camelgames.aoz.debuglz4, className=com.camelgames.UnityPlayerActivity, screenId=2, container=-100, cellX=3, cellY=4, spanX=1, spanY=1, isLandscapePos=false
+09-21 16:09:52.078  2220  2220 D Launcher_dispatchTouchEvent: [motionEvent action:(rawX,rawY)]  09:52.035[0(956.0,1389.0)] 09:52.069[2(956.0,1389.0)] 09:52.076[2(956.0,1389.0)] 09:52.077[1(956.0,1389.0)]
+09-21 16:09:52.078  2220  2220 D Launcher_Scrollto: [(rawX,rawY)|scrollX]
+09-21 16:09:52.078  2220  2220 D Launcher.Workspace: Workspace touch up or cancel
+09-21 16:09:52.078  2220  2482 I RenderThread: RenderThread resumed
+09-21 16:09:52.078  2220  2482 I RenderThread: All controllers paused.
+09-21 16:09:52.078  2220  2482 I RenderThread: RenderThread paused, waiting for signal
+--------- beginning of system
+09-21 16:09:52.081  2220  2220 I Timeline: Timeline: Activity_launch_request time:106969672
+09-21 16:09:52.083  1589  3369 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity bnds=[838,1276][1006,1444] (has extras)} from uid 10026
+09-21 16:09:52.086   689   758 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+09-21 16:09:52.091  1589  3369 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+09-21 16:09:52.091   688   688 E ANDR-IOP: IOP HAL: Received pkg_name = com.camelgames.aoz.debuglz4 pid = -1
+--------- beginning of events
+09-21 16:09:52.093  1589  3369 I wm_stack_created: 59
+09-21 16:09:52.101  1589  3369 I wm_task_created: [452,59]
+09-21 16:09:52.104  1589  3369 I wm_task_moved: [452,0,2147483647]
+09-21 16:09:52.105  1589  3369 I am_focused_stack: [0,59,0,reuseOrNewTask]
+09-21 16:09:52.105  1589  3369 I am_create_task: [0,452]
+09-21 16:09:52.105  1589  3369 I am_create_activity: [0,56761205,452,com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+09-21 16:09:52.106  1589  3369 I wm_task_moved: [452,0,2147483647]
+09-21 16:09:52.110  1589  3369 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:09:52.110  1589  3369 D CompatibilityInfo: applicationDensity - 440
+09-21 16:09:52.110  1589  3369 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:09:52.111  1589  3369 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+09-21 16:09:52.111  1589  3369 I am_pause_activity: [2220,28948355,com.miui.home/.launcher.Launcher,userLeaving=true]
+09-21 16:09:52.115  2220  2220 D Launcher.Lifecycle: onPause:UserHandle{0},a989339,true
+09-21 16:09:52.115  2220  2220 D Launcher_UnlockAnimationStateMachine: setState:PAUSE_WAIT
+09-21 16:09:52.115  2220  2220 I am_on_paused_called: [0,com.miui.home.launcher.Launcher,performPause,1]
+09-21 16:09:52.117  1589  3369 I am_uid_running: 10201
+09-21 16:09:52.123  2220  2388 D Launcher: disableStatusBarClock:false
+09-21 16:09:52.135  2220  2220 D Launcher_WallpaperUtils: changeStatusBarMode:false
+09-21 16:09:52.149   688   751 E ANDR-IOP: io prefetch is disabled
+09-21 16:09:52.150  1589  1644 D Boost   : hostingType=activity, hostingName=com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity, callerPackage=com.miui.home, isSystem=true, isBoostNeeded=false.
+09-21 16:09:52.151   689   758 E ANDR-PERF-UTIL: Failed to read /sys/module/lpm_levels/parameters/ref_stddev
+09-21 16:09:52.151   689   758 E ANDR-PERF-OPTSHANDLER: Failed to read /sys/module/lpm_levels/parameters/ref_stddev
+09-21 16:09:52.151   689   758 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [1, 3]
+09-21 16:09:52.151   689   758 E ANDR-PERF-UTIL: Failed to read /sys/module/lpm_levels/parameters/tmr_add
+09-21 16:09:52.151   689   758 E ANDR-PERF-OPTSHANDLER: Failed to read /sys/module/lpm_levels/parameters/tmr_add
+09-21 16:09:52.151   689   758 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [1, 4]
+09-21 16:09:52.152  1589  1644 I am_proc_start: [0,7099,10201,com.camelgames.aoz.debuglz4,activity,com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity]
+09-21 16:09:52.154  1589  1644 I ActivityManager: Start proc 7099:com.camelgames.aoz.debuglz4/u0a201 for activity com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity caller=com.miui.home
+09-21 16:09:52.156  2220  2220 D Launcher.Lifecycle: onWindowFocusChanged:false,UserHandle{0},a989339,true
+09-21 16:09:52.159  7099  7099 I es.aoz.debuglz: Late-enabling -Xcheck:jni
+09-21 16:09:52.164  1589  1641 I am_pss  : [6933,1000,com.android.settings,39885824,30916608,150528,168902656,0,18,26]
+09-21 16:09:52.179  7099  7099 W es.aoz.debuglz: miui_dex2oat: DeoptimizeBootImage: patch entry points of methods in boot image to interpreter bridge
+09-21 16:09:52.195  1589  3369 I am_proc_bound: [0,7099,com.camelgames.aoz.debuglz4]
+09-21 16:09:52.196  1589  3369 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:09:52.196  1589  3369 D CompatibilityInfo: applicationDensity - 440
+09-21 16:09:52.196  1589  3369 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:09:52.203  1589  3369 I am_uid_active: 10201
+09-21 16:09:52.204  1589  3369 I am_restart_activity: [0,56761205,452,com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity,7099]
+09-21 16:09:52.204  1589  3369 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:09:52.204  1589  3369 D CompatibilityInfo: applicationDensity - 440
+09-21 16:09:52.204  1589  3369 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:09:52.205  1589  3369 I am_set_resumed_activity: [0,com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity,minimalResumeActivityLocked]
+09-21 16:09:52.190  2533  2533 I auditd  : type=1400 audit(0.0:32973): avc: denied { search } for comm="Binder:2533_1" name="battery" dev="sysfs" ino=52048 scontext=u:r:mcd:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=dir permissive=0
+09-21 16:09:52.190  2533  2533 W Binder:2533_1: type=1400 audit(0.0:32973): avc: denied { search } for name="battery" dev="sysfs" ino=52048 scontext=u:r:mcd:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=dir permissive=0
+09-21 16:09:52.205  1589  3369 W ActivityManager: Request to remove task ignored for non-existent task 451
+09-21 16:09:52.190  2533  2533 W Binder:2533_1: type=1400 audit(0.0:32974): avc: denied { search } for name="battery" dev="sysfs" ino=52048 scontext=u:r:mcd:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=dir permissive=0
+09-21 16:09:52.205  2990 13423 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.camelgames.aoz.debuglz4', mForegroundUid=10201, mForegroundPid=7099, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10026, mLastForegroundPid=2220, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+09-21 16:09:52.205  2990 13423 I GameBoosterService: onForegroundInfoChanged: Cur=com.camelgames.aoz.debuglz4	 last=com.miui.home
+09-21 16:09:52.206  2533  2578 I octvm_power: power mode [normal] start 1726906192
+09-21 16:09:52.207  2533  2578 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+09-21 16:09:52.207  2533  2578 I octvm_drv: common drv: get_current_battery_uAh will return 0
+09-21 16:09:52.207  2533  2578 I octvm_power: Action: set_thermal_config(restore) for [foreground_change]
+09-21 16:09:52.207  2533  2578 I octvm_drv: platform_set_thermal_mode cur_global_config:[], target mode:[restore], profile=0, ret=0
+09-21 16:09:52.207  2533  2578 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+09-21 16:09:52.207  2533  2578 I octvm_drv: common drv: get_current_battery_uAh will return 0
+09-21 16:09:52.207  2533  2578 I octvm_power: onPowerModeChanged[normal] called
+09-21 16:09:52.208  1589  3369 V LocationPolicy: writePolicyLocked()
+09-21 16:09:52.212  1589  1708 I Timeline: Timeline: App_transition_ready time:106969803
+09-21 16:09:52.214  2990 13423 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.camelgames.aoz.debuglz4', mForegroundUid=10201, mForegroundPid=7099, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10026, mLastForegroundPid=2220, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+09-21 16:09:52.214  2990 13423 I GameBoosterService: onForegroundInfoChanged: Exit
+09-21 16:09:52.190  2533  2533 I auditd  : type=1400 audit(0.0:32974): avc: denied { search } for comm="Binder:2533_1" name="battery" dev="sysfs" ino=52048 scontext=u:r:mcd:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=dir permissive=0
+09-21 16:09:52.217  1851  1851 I event_statusbar_state: 512
+09-21 16:09:52.217  1851  1851 D StatusBar: disable<e i a s b h r c s > disable2<q i n g r >
+09-21 16:09:52.222  1851  1851 D PhoneStatusBar/NavigationBarView: setDisabledFlags back:false home:false recent:false
+09-21 16:09:52.222  1851  1851 D StatusBarClock:  isNormalMode= true clock visible=true
+09-21 16:09:52.270  7099  7099 I es.aoz.debuglz: The ClassLoaderContext is a special shared library.
+09-21 16:09:52.270  7099  7099 W es.aoz.debuglz: miui_dex2oat:　OatFile: /system/framework/oat/arm64/org.apache.http.legacy.boot.odex Compiler-Filter = speed-profile
+09-21 16:09:52.271  7099  7099 W es.aoz.debuglz: miui_dex2oat:　OatFile: /data/app/com.camelgames.aoz.debuglz4-KA1Iy21z2n5Z8eCopnEsqQ==/oat/arm64/base.odex Compiler-Filter = speed-profile
+09-21 16:09:52.288  7099  7099 I Perf    : Connecting to perf service.
+09-21 16:09:52.322  2220  2463 D Launcher.Transfer: transfer:onPause, extra:null
+09-21 16:09:52.333  7099  7122 I es.aoz.debuglz: The ClassLoaderContext is a special shared library.
+09-21 16:09:52.333  7099  7122 W es.aoz.debuglz: miui_dex2oat:　OatFile: /system/framework/oat/arm64/gson.odex Compiler-Filter = speed
+09-21 16:09:52.335  7099  7122 W es.aoz.debuglz: miui_dex2oat:　OatFile: /data/dalvik-cache/arm64/system@app@MiuiContentCatcher@MiuiContentCatcher.apk@classes.dex Compiler-Filter = speed
+09-21 16:09:52.320  7099  7099 I auditd  : type=1400 audit(0.0:32975): avc: denied { getattr } for comm="Binder:intercep" path="/data/data/com.miui.contentcatcher" dev="mmcblk0p87" ino=4455 scontext=u:r:untrusted_app:s0:c201,c256,c512,c768 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=0
+09-21 16:09:52.320  7099  7099 W Binder:intercep: type=1400 audit(0.0:32975): avc: denied { getattr } for path="/data/data/com.miui.contentcatcher" dev="mmcblk0p87" ino=4455 scontext=u:r:untrusted_app:s0:c201,c256,c512,c768 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=0
+09-21 16:09:52.340  7099  7122 D ViewContentFactory: initViewContentFetcherClass
+09-21 16:09:52.340  7099  7122 D ViewContentFactory: getInterceptorPackageInfo
+09-21 16:09:52.340  7099  7122 W es.aoz.debuglz: Accessing hidden method Landroid/app/AppGlobals;->getInitialApplication()Landroid/app/Application; (light greylist, linking)
+09-21 16:09:52.341  7099  7122 D ViewContentFactory: getInitialApplication took 1ms
+09-21 16:09:52.341  7099  7122 D ViewContentFactory: packageInfo.packageName: com.miui.catcherpatch
+09-21 16:09:52.346  7099  7122 W es.aoz.debuglz: miui_dex2oat:　OatFile: /data/dalvik-cache/arm64/system@app@CatcherPatch@CatcherPatch.apk@classes.dex Compiler-Filter = speed
+09-21 16:09:52.330  7099  7099 I auditd  : type=1400 audit(0.0:32976): avc: denied { getattr } for comm="Binder:intercep" path="/data/data/com.miui.catcherpatch" dev="mmcblk0p87" ino=4815 scontext=u:r:untrusted_app:s0:c201,c256,c512,c768 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=0
+09-21 16:09:52.330  7099  7099 W Binder:intercep: type=1400 audit(0.0:32976): avc: denied { getattr } for path="/data/data/com.miui.catcherpatch" dev="mmcblk0p87" ino=4815 scontext=u:r:untrusted_app:s0:c201,c256,c512,c768 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=0
+09-21 16:09:52.349  7099  7122 D ViewContentFactory: initViewContentFetcherClass took 8ms
+09-21 16:09:52.349  7099  7122 I ContentCatcher: ViewContentFetcher : ViewContentFetcher
+09-21 16:09:52.349  7099  7122 D ViewContentFactory: createInterceptor took 9ms
+09-21 16:09:52.366  7099  7099 I IL2CPP  : JNI_OnLoad
+09-21 16:09:52.372  7099  7099 I am_on_create_called: [0,com.camelgames.UnityPlayerActivity,performCreate,49]
+09-21 16:09:52.375  7099  7099 I am_on_start_called: [0,com.camelgames.UnityPlayerActivity,handleStartActivity,0]
+09-21 16:09:52.375  7099  7099 D Unity   : onActivityResumed: com.camelgames.UnityPlayerActivity@8061b
+09-21 16:09:52.378  7099  7099 D AudioManager: getStreamVolume isRestricted mode = 0
+09-21 16:09:52.380   661  7935 D audio_hw_spkr_prot: audio_extn_fbsp_get_parameters: Speaker protection disabled
+09-21 16:09:52.380   661  7935 D audio_hw_extn: audio_extn_get_parameters: returns
+09-21 16:09:52.381   717   830 I hash_map_utils: key: 'hifi_mode' value: ''
+09-21 16:09:52.385  7099  7099 I am_on_resume_called: [0,com.camelgames.UnityPlayerActivity,RESUME_ACTIVITY,10]
+09-21 16:09:52.392  1589  3396 I WindowManagerService: MIUILOG- Show when locked PermissionDenied pkg : com.camelgames.aoz.debuglz4 uid : 10201
+09-21 16:09:52.397  1589  1733 V UiModeManager: switch night mode to 1
+09-21 16:09:52.400  1589  3396 I WindowManagerService: MIUILOG- Show when locked PermissionDenied pkg : com.camelgames.aoz.debuglz4 uid : 10201
+09-21 16:09:52.415  2220  2220 D Launcher_UnlockAnimationStateMachine: mResetIdleStateRunnable
+09-21 16:09:52.446  7099  7124 D Unity   : SetWindow 0 0x7cfa239010
+09-21 16:09:52.446  7099  7124 I chatty  : uid=10201(com.camelgames.aoz.debuglz4) UnityMain identical 1 line
+09-21 16:09:52.462  7099  7124 D Unity   : SetWindow 0 0x7cfa239010
+09-21 16:09:52.480  7099  7099 I Unity   : windowFocusChanged: true
+09-21 16:09:52.487  7099  7124 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+09-21 16:09:52.488  7099  7124 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+09-21 16:09:52.488  7099  7124 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+09-21 16:09:52.447  1589  3396 I WindowManagerService: MIUILOG- Show when locked PermissionDenied pkg : com.camelgames.aoz.debuglz4 uid : 10201
+09-21 16:09:52.490  7099  7124 E SchedPolicy: set_timerslack_ns write failed: Operation not permitted
+09-21 16:09:52.497  1589  1651 I am_activity_launch_time: [0,56761205,com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity,365,365]
+09-21 16:09:52.497  1589  1651 I ActivityManager: Displayed com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity: +365ms
+09-21 16:09:52.508  7099  7124 D Unity   : Enabling Unity systrace
+09-21 16:09:52.513  7099  7124 W es.aoz.debuglz: Accessing hidden method Ljava/lang/invoke/MethodHandles$Lookup;-><init>(Ljava/lang/Class;I)V (light greylist, reflection)
+09-21 16:09:52.513  1589  1651 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3621b75 u0 com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity t452} time:106970104
+09-21 16:09:52.517  1589  1708 I Timeline: Timeline: App_transition_stopped time:106970107
+09-21 16:09:52.518  1589  1641 I sysui_multi_action: [319,131,321,90,322,400,325,106969,757,761,758,7,759,1,806,com.camelgames.aoz.debuglz4,871,com.camelgames.UnityPlayerActivity,904,com.miui.home,905,0,945,115,1320,8,1321,1]
+09-21 16:09:52.521  1589  3381 D ActivityTrigger: ActivityTrigger activityStopTrigger
+09-21 16:09:52.522  1589  3381 I am_stop_activity: [0,28948355,com.miui.home/.launcher.Launcher]
+09-21 16:09:52.529  1851  1851 D EventBus: [1851, u0] send(AppTransitionFinishedEvent)
+09-21 16:09:52.529  1851  1851 D EventBus: [1851, u0]  -> ForcedResizableInfoActivityController [0x9bfcc68, P1] onBusEvent(AppTransitionFinishedEvent)
+09-21 16:09:52.529  1851  1851 D EventBus: [1851, u0] onBusEvent(AppTransitionFinishedEvent) duration: 29 microseconds, avg: 499
+09-21 16:09:52.529  1851  1851 D EventBus: [1851, u0] send(AppTransitionFinishedEvent)
+09-21 16:09:52.529  1851  1851 D EventBus: [1851, u0]  -> ForcedResizableInfoActivityController [0x9bfcc68, P1] onBusEvent(AppTransitionFinishedEvent)
+09-21 16:09:52.530  1851  1851 D EventBus: [1851, u0] onBusEvent(AppTransitionFinishedEvent) duration: 27 microseconds, avg: 499
+09-21 16:09:52.532  1589  1589 V SettingsProvider: Notifying for 0: content://settings/secure/com.miui.newhome.preferences.is_home_foreground
+09-21 16:09:52.535  7099  7124 D Unity   : [VFS] Mount /data/app/com.camelgames.aoz.debuglz4-KA1Iy21z2n5Z8eCopnEsqQ==/base.apk
+09-21 16:09:52.542  7099  7124 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceListenerRegistry : registerListener
+09-21 16:09:52.547  1851  1851 I event_statusbar_state: 768
+09-21 16:09:52.547  1851  1851 D StatusBar: disable<e i a s b h r c s > disable2<q i n g r >
+09-21 16:09:52.547  1851  1851 D StatusBarClock:  isNormalMode= true clock visible=true
+09-21 16:09:52.549  2220  2220 D Launcher.Lifecycle: onStop:UserHandle{0},a989339,false
+09-21 16:09:52.549  7099  7124 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : getPackStates([UnityDataAssetPack])
+09-21 16:09:52.552  7099  7128 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : syncPacks
+09-21 16:09:52.552  2220  2220 I am_on_stop_called: [0,com.miui.home.launcher.Launcher,STOP_ACTIVITY_ITEM,4]
+09-21 16:09:52.553  7099  7124 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : getPackStates([UnityStreamingAssetsPack])
+09-21 16:09:52.554  7099  7129 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : Initiate binding to the service.
+09-21 16:09:52.555  2220  2220 D Launcher.BackScreen: shown change, now is false, changedView=DecorView@a8aadfb[Launcher], visi=4
+09-21 16:09:52.558  1589  3381 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:09:52.559  1589  3381 D CompatibilityInfo: applicationDensity - 440
+09-21 16:09:52.559  1589  3381 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:09:52.561  7099  7129 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : Waiting to bind to the service.
+09-21 16:09:52.564  1589  3396 I WindowManagerService: MIUILOG- Show when locked PermissionDenied pkg : com.camelgames.aoz.debuglz4 uid : 10201
+09-21 16:09:52.561  7099  7129 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : Waiting to bind to the service.
+09-21 16:09:52.571  7099  7099 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.assetmoduleservice.AssetModuleService})
+09-21 16:09:52.572  7099  7129 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : linkToDeath
+09-21 16:09:52.575  7099  7124 I Unity   : SystemInfo CPU = ARM64, Cores = 8, Memory = 5657mb
+09-21 16:09:52.575  7099  7124 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0xc0), 6 little (mask: 0x3f)
+09-21 16:09:52.575 26085 26101 I Finsky  : [34052] jry.i(2): requestDownloadInfo() for package: com.camelgames.aoz.debuglz4
+09-21 16:09:52.575  7099  7124 I Unity   : ApplicationInfo com.camelgames.aoz.debuglz4 version 1.3.733
+09-21 16:09:52.575  7099  7124 I Unity   : Built from '2021.3/staging' branch, Version '2021.3.37f1 (3b6005ad5ad6)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Disabled'
+09-21 16:09:52.577  7099  7124 D Unity   : Determine if il2cpp resources need to extracted:
+09-21 16:09:52.577 26085 26101 W Finsky  : [34052] jsc.c(11): The app is not owned, package: com.camelgames.aoz.debuglz4
+09-21 16:09:52.580 26085 26101 I Finsky  : [34052] jry.c(2): getSessionStates for package: com.camelgames.aoz.debuglz4
+09-21 16:09:52.581  7099  7124 D Unity   :     il2cpp resources are up to date, not extracting
+09-21 16:09:52.583  7099  7117 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : Leaving the connection open for other ongoing calls.
+09-21 16:09:52.583  7099  7117 E PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : onError(-13)
+09-21 16:09:52.586 26085 26101 W Finsky  : [34052] jsc.c(11): The app is not owned, package: com.camelgames.aoz.debuglz4
+09-21 16:09:52.587 26085 27934 I Finsky  : [34190] jry.i(2): requestDownloadInfo() for package: com.camelgames.aoz.debuglz4
+09-21 16:09:52.588  7099  7118 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : Leaving the connection open for other ongoing calls.
+09-21 16:09:52.588  7099  7118 E PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : onError(-13)
+09-21 16:09:52.589  7099  7128 W PlayCore: UID: [10201]  PID: [7099] AssetPackManager : Could not sync active asset packs. com.google.android.play.core.assetpacks.AssetPackException: -13: Asset Pack Download Error(-13): The app is not owned by any user on this device. An app is "owned" if it has been acquired from Play. (https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#APP_NOT_OWNED)
+09-21 16:09:52.589 26085 27934 W Finsky  : [34190] jsc.c(11): The app is not owned, package: com.camelgames.aoz.debuglz4
+09-21 16:09:52.590  7099  7118 E PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : onError(-13)
+09-21 16:09:52.594  7099  7129 I PlayCore: UID: [10201]  PID: [7099] AssetPackServiceImpl : Unbind from service.
+09-21 16:09:52.602  7099  7124 D Unity   : Found 1 interfaces on host :
+09-21 16:09:52.602  7099  7124 D Unity   :  0) 192.160.29.152
+09-21 16:09:52.602  7099  7124 D Unity   :
+09-21 16:09:52.603  7099  7124 D Unity   : Multi-casting "[IP] 192.160.29.152 [Port] 55000 [Flags] 2 [Guid] 1521520295 [EditorId] 2609979793 [Version] 1048832 [Id] AndroidPlayer(11,Xiaomi_Redmi_Note_7_Pro@192.160.29.152) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] WDEY_Dev_debug_lz4-LOG" to [225.0.0.222:54997]...
+09-21 16:09:52.648   720  2545 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.camelgames.aoz.debuglz4#0
+09-21 16:09:52.648   720  2545 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.camelgames.aoz.debuglz4#0
+09-21 16:09:52.773  1589  1719 I commit_sys_config_file: [settings-2-0,4]
+09-21 16:09:52.790  7099  7124 D Unity   : [EGL] Attaching window :0x7cfa239010
+09-21 16:09:52.790  7099  7124 D Unity   : InitializeScriptEngine OK (0x7ce52b3fc0)
+09-21 16:09:52.579  1589  3396 I WindowManagerService: MIUILOG- Show when locked PermissionDenied pkg : com.camelgames.aoz.debuglz4 uid : 10201
+09-21 16:09:52.793  7099  7124 E SchedPolicy: set_timerslack_ns write failed: Operation not permitted
+09-21 16:09:52.800  7099  7124 D Unity   : [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+09-21 16:09:52.803  7099  7124 D Unity   : PlayerInitEngineNoGraphics OK
+09-21 16:09:52.803  7099  7124 I Unity   : Company Name: Camel Games Inc
+09-21 16:09:52.803  7099  7124 I Unity   : Product Name: WDEY_Dev_debug_lz4-LOG
+09-21 16:09:52.803  7099  7124 D Unity   : AndroidGraphics::Startup window =  0x7cfa239010
+09-21 16:09:52.803  7099  7124 D Unity   : [EGL] Attaching window :0x7cfa239010
+09-21 16:09:52.807  7099  7124 D Unity   : [Subsystems] Discovering subsystems at path /data/app/com.camelgames.aoz.debuglz4-KA1Iy21z2n5Z8eCopnEsqQ==/base.apk/assets/bin/Data/UnitySubsystems
+09-21 16:09:52.807  7099  7124 I Adreno  : QUALCOMM build                   : 89f10b9, I3d0e3ac366
+09-21 16:09:52.807  7099  7124 I Adreno  : Build Date                       : 12/25/18
+09-21 16:09:52.807  7099  7124 I Adreno  : OpenGL ES Shader Compiler Version: EV031.25.14.03
+09-21 16:09:52.807  7099  7124 I Adreno  : Local Branch                     :
+09-21 16:09:52.807  7099  7124 I Adreno  : Remote Branch                    :
+09-21 16:09:52.807  7099  7124 I Adreno  : Remote Branch                    :
+09-21 16:09:52.807  7099  7124 I Adreno  : Reconstruct Branch               :
+09-21 16:09:52.807  7099  7124 I Adreno  : Build Config                     : S P 6.0.9 AArch64
+09-21 16:09:52.809  7099  7124 I Adreno  : PFP: 0x016ee177, ME: 0x00000000
+09-21 16:09:52.812  7099  7124 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+09-21 16:09:52.812  7099  7124 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+09-21 16:09:52.813  7099  7124 D Unity   : [EGL] Request: ES 3.2 RGB0 000 0/0
+09-21 16:09:52.813  7099  7124 D Unity   : [EGL] Checking ES 3.2 support...
+09-21 16:09:52.815  7099  7124 D Unity   : [EGL] ES 3.2 support detected
+09-21 16:09:52.815  7099  7124 D Unity   : [EGL] Found: ID[1] ES 3.2 RGB16 565 0/0
+09-21 16:09:52.815  7099  7124 D Unity   : GfxDevice: creating device client; threaded=1; jobified=0
+09-21 16:09:52.815  7099  7124 D Unity   : [EGL] Request: ES 3.2 RGB0 000 0/0
+09-21 16:09:52.815  7099  7124 D Unity   : [EGL] Found: ID[1] ES 3.2 RGB16 565 0/0
+09-21 16:09:52.815  7099  7124 D Unity   : [EGL] Request: ES 3.0 RGBA32 8888 0/0
+09-21 16:09:52.817  7099  7124 D Unity   : [EGL] Found: ID[9] ES 3.0 RGBA32 8888 0/0
+09-21 16:09:52.821  7099  7124 D Unity   : ANativeWindow: (1080/2260) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/2260)
+09-21 16:09:52.824  7099  7124 D Unity   : Renderer: Adreno (TM) 612
+09-21 16:09:52.824  7099  7124 D Unity   : Vendor:   Qualcomm
+09-21 16:09:52.824  7099  7124 D Unity   : Version:  OpenGL ES 3.2 V@334.0 (GIT@89f10b9, I3d0e3ac366) (Date:12/25/18)
+09-21 16:09:52.824  7099  7124 D Unity   : GLES:     3
+09-21 16:09:52.824  7099  7124 D Unity   :  GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_half_float GL_OES_framebuffer_object GL_OES_rgb8_rgba8 GL_OES_compressed_ETC1_RGB8_texture GL_AMD_compressed_ATC_texture GL_KHR_texture_compression_astc_ldr GL_OES_texture_npot GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_OES_texture_3D GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_QCOM_alpha_test GL_OES_depth24 GL_OES_packed_depth_stencil GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_EXT_sRGB GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_EXT_texture_type_2_10_10_10_REV GL_EXT_texture_sRGB_decode GL_EXT_texture_format_sRGB_override GL_OES_element_index_uint GL_EXT_copy_image GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_OES_texture_stencil8 GL_EXT_shader_io_blocks GL_OES_shader_image_atomic GL_OES_sample_variables GL_EXT_texture_border_clamp GL_EXT_EGL_image_external_wrap_modes GL_EXT_multisampled_render_to_texture GL_EX
+09-21 16:09:52.824  7099  7124 D Unity   : T_multisampled_render_to_texture2 GL_OES_shader_multisample_interpolation GL_EXT_texture_cube_map_array GL_EXT_draw_buffers_indexed GL_EXT_gpu_shader5 GL_EXT_robustness GL_EXT_texture_buffer GL_EXT_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_OES_texture_storage_multisample_2d_array GL_OES_sample_shading GL_OES_get_program_binary GL_EXT_debug_label GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_QCOM_tiled_rendering GL_ANDROID_extension_pack_es31a GL_EXT_primitive_bounding_box GL_OES_standard_derivatives GL_OES_vertex_array_object GL_EXT_disjoint_timer_query GL_KHR_debug GL_EXT_YUV_target GL_EXT_sRGB_write_control GL_EXT_texture_norm16 GL_EXT_discard_framebuffer GL_OES_surfaceless_context GL_OVR_multiview GL_OVR_multiview2 GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_EXT_debug_marker GL_OES_EGL_image_external_essl3 GL_OVR_multiview_multisampled_render_to_texture GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_blit_framebuffer_params GL_EXT_clip_cull_dis
+09-21 16:09:52.824  7099  7124 D Unity   : tance GL_EXT_protected_textures GL_EXT_shader_non_constant_global_initializers GL_QCOM_texture_foveated GL_QCOM_shader_framebuffer_fetch_noncoherent GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_EGL_image_array GL_NV_shader_noperspective_interpolation GL_KHR_robust_buffer_access_behavior GL_EXT_EGL_image_storage GL_EXT_blend_func_extended GL_EXT_clip_control GL_QCOM_validate_shader_binary
+09-21 16:09:52.829  7099  7124 D Unity   : OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle -501618944
+09-21 16:09:52.830  7099  7124 D Unity   : [EGL] Attaching window :0x7cfa239010
+09-21 16:09:52.831  7099  7124 D Unity   : Requested framebuffer: resolution[1080x2260], rgba[8/8/8/8], depth+stencil[on], samples[1]
+09-21 16:09:52.831  7099  7124 D Unity   : Created framebuffer: resolution[1080x2260], rgba[8/8/8/8], depth+stencil[24/8], samples[0]
+09-21 16:09:52.831  7099  7124 D Unity   : [EGL] Attaching window :0x7cfa239010
+09-21 16:09:52.831  7099  7124 D Unity   : Initialize engine version: 2021.3.37f1 (3b6005ad5ad6)
+09-21 16:09:52.841  7099  7124 D         : PlayerBase::PlayerBase()
+09-21 16:09:52.841  7099  7124 D         : TrackPlayerBase::TrackPlayerBase()
+09-21 16:09:52.841  7099  7124 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+09-21 16:09:52.841  7099  7124 D AudioTrack: get packages (com.camelgames.aoz.debuglz4) for calling UID 10201
+09-21 16:09:52.841  7099  7124 D AudioTrack: set(): Force removing AUDIO_OUTPUT_FLAG_RAW
+09-21 16:09:52.841  7099  7124 W AudioTrack: notificationFrames=-14 clamped to the range -1 to -8
+09-21 16:09:52.842   661  7935 D audio_hw_spkr_prot: audio_extn_fbsp_get_parameters: Speaker protection disabled
+09-21 16:09:52.842   661  7935 D audio_hw_extn: audio_extn_get_parameters: returns
+09-21 16:09:52.842   717   717 I hash_map_utils: key: 'audio_game_sound_volume_gap_switch' value: ''
+09-21 16:09:52.843   717   717 D AudioFlinger: Client defaulted notificationFrames to 960 for frameCount 1924
+09-21 16:09:52.844   661  7935 D compress_voip: voice_extn_compress_voip_out_get_parameters: enter
+09-21 16:09:52.844  7099  7124 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 1924
+09-21 16:09:52.848   662   662 W AshmemAllocator: ashmem_create_region(7680) returning hidl_memory(0x7e90c2c100, 7680)
+09-21 16:09:52.849   662   662 W AshmemAllocator: ashmem_create_region(7680) returning hidl_memory(0x7e90c2c100, 7680)
+09-21 16:09:52.852 11568 11568 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:09:52.854   661 23424 D audio_hw_primary: start_output_stream: enter: stream(0xea3f6000)usecase(1: low-latency-playback) devices(0x2)
+09-21 16:09:52.855   661 23424 D audio_hw_primary: select_devices for use case (low-latency-playback)
+09-21 16:09:52.855   661 23424 D audio_hw_primary: select_devices: out_snd_device(2: speaker) in_snd_device(0: )
+09-21 16:09:52.855   661 23424 I msm8974_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+09-21 16:09:52.855   661 23424 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+09-21 16:09:52.855   661 23424 I msm8974_platform: platform_check_and_set_codec_backend_cfg: new_snd_devices[0] is 2
+09-21 16:09:52.855   661 23424 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+09-21 16:09:52.855   661 23424 D msm8974_platform: platform_check_codec_backend_cfg:becf: afe: playback on codec device not supporting native playback set default Sample Rate(48k)
+09-21 16:09:52.855   661 23424 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 and sample rate: 48000
+09-21 16:09:52.855   661 23424 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+09-21 16:09:52.855   661 23424 E msm8974_platform: platform_check_backends_match: Invalid snd_device =
+09-21 16:09:52.855   661 23424 D audio_hw_primary: check_usecases_codec_backend:becf: (63) check_usecases curr device: speaker, usecase device: backends match 0
+09-21 16:09:52.855   661 23424 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+09-21 16:09:52.855   661 23424 D hardware_info: hw_info_append_hw_type : device_name = speaker
+09-21 16:09:52.855   661 23424 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+09-21 16:09:52.855   661 23424 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+09-21 16:09:52.855   661 23424 D audio_route: Apply path: speaker
+09-21 16:09:52.857   661 23424 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+09-21 16:09:52.857   661 23424 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+09-21 16:09:52.857   661 23424 D audio_hw_utils: audio_extn_btsco_get_sample_rate:Not a BT SCO device, need not update sampling rate
+09-21 16:09:52.857   661 23424 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 15, sample_rate 48000, snd_device_be_idx 43
+09-21 16:09:52.858   661 23424 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 15, path = 0, app id = 0x11131, sample rate = 48000
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> send_asm_topology
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> send_adm_topology
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> send_audtable
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_COMMON_TABLE_SIZE
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_COMMON_TABLE
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL cal_type[11] acdb_id[15] app_type[69937]
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> send_audvoltable
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE_SIZE
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE, vol index 0
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_STREAM_TABLE_SIZE
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> send_audstrmtable
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_STREAM_TABLE
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 20
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> send_afe_topology
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 15, Topology Id 112fc
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> send_afe_cal
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_INSTANCE_COMMON_TABLE_SIZE
+09-21 16:09:52.858   661 23424 D         : Failed to fetch the lookup information of the device 0000000F
+09-21 16:09:52.858   661 23424 E ACDB-LOADER: Error: ACDB_CMD_GET_AFE_INSTANCE_COMMON_TABLE_SIZE Returned = -19
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_INSTANCE_COMMON_TABLE
+09-21 16:09:52.858   661 23424 D         : Failed to fetch the lookup information of the device 0000000F
+09-21 16:09:52.858   661 23424 E ACDB-LOADER: Error: ACDB AFE returned = -19
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL cal_type[16] acdb_id[15]
+09-21 16:09:52.858   661 23424 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 15 path = 0
+09-21 16:09:52.859   661 23424 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+09-21 16:09:52.859   661 23424 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+09-21 16:09:52.859   661 23424 D audio_route: Apply path: low-latency-playback
+09-21 16:09:52.860   661 23424 D audio_hw_primary: select_devices: done
+09-21 16:09:52.864   661 23424 D msm8974_platform: platform_set_channel_map mixer_ctl_name:Playback Channel Map13
+09-21 16:09:52.864   661 23424 D msm8974_platform: platform_set_channel_map: set mapping(1 2 0 0 0 0 0 0) for channel:2
+09-21 16:09:52.885  1589  3369 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:09:52.886   661 23424 D audio_hw_primary: start_output_stream: exit
+09-21 16:09:52.886  1589  3369 D CompatibilityInfo: applicationDensity - 440
+09-21 16:09:52.886  1589  3369 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:09:52.889 11568 11568 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:09:52.889 11568 11568 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:09:53.070  7099  7124 D Unity   : Failed to load native plugin: Unable to lookup library path for '_burst_0_0'.
+09-21 16:09:53.078  7099  7124 D Unity   : PlayerInitEngineGraphics OK
+09-21 16:09:53.080  7099  7124 D Unity   : Found 30 native sensors
+09-21 16:09:53.081   678   678 I sensors-hal: flush:169, android.sensor.accelerometer/42
+09-21 16:09:53.082   678   678 I sensors-hal: flush:175, android.sensor.accelerometer/42 completed
+09-21 16:09:53.082  7099  7124 D Unity   : Sensor :        Accelerometer ( 1) ; 0.002393 / 0.00s ; lsm6ds3c Accelerometer Non-wakeup / STMicro
+09-21 16:09:53.082   678   678 I sensors-hal: batch:140, android.sensor.accelerometer/42, period=20000000, max_latency=0
+09-21 16:09:53.084   678   678 I sensors-hal: batch:149, android.sensor.accelerometer/42, period=20000000, max_latency=0 request completed
+09-21 16:09:53.084  7099  7124 D Unity   : Sensor :        Accelerometer ( 1) ; 0.002393 / 0.00s ; lsm6ds3c Accelerometer Non-wakeup / STMicro
+09-21 16:09:53.089  7099  7124 D Unity   : Input: mapping [16:AXIS_GENERIC_1]
+09-21 16:09:53.089  7099  7124 D Unity   : Input: attaching joystick ["uinput-fpc"][0x00000000:0a2365ce4f51162539f3bf91469900de3a450172] at pos [0x01]
+09-21 16:09:53.090  7099  7124 D AudioManager: getStreamVolume isRestricted mode = 0
+09-21 16:09:53.091   661   661 D audio_hw_spkr_prot: audio_extn_fbsp_get_parameters: Speaker protection disabled
+09-21 16:09:53.091   661   661 D audio_hw_extn: audio_extn_get_parameters: returns
+09-21 16:09:53.092   717   717 I hash_map_utils: key: 'hifi_mode' value: ''
+09-21 16:09:53.096  7099  7124 V MediaRouter: Adding route: RouteInfo{ name=手机, description=null, status=null, category=RouteCategory{ name=系统 types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+09-21 16:09:53.101  7099  7124 V MediaRouter: Selecting route: RouteInfo{ name=手机, description=null, status=null, category=RouteCategory{ name=系统 types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+09-21 16:09:53.155  7099  7124 D Unity   : UnloadTime: 0.957552 ms
+09-21 16:09:53.165  7099  7124 I Unity   : AIhelpService.Initialize key=CAMELGAMESINC_app_541a6375265c404e860490684c75c63a domain=camelgamesinc.aihelp.net appId=CamelGamesInc_platform_f08701cf-0462-4c46-97cc-24000b59c31f
+09-21 16:09:53.165  7099  7124 I Unity   : AIhelpService:Initialize(String, String, String)
+09-21 16:09:53.165  7099  7124 I Unity   :
+09-21 16:09:53.178  7099  7124 I Unity   : Debug.isDebugBuild = True
+09-21 16:09:53.178  7099  7124 I Unity   : UnityEngine.Rendering.DebugManager:.ctor()
+09-21 16:09:53.178  7099  7124 I Unity   : UnityEngine.Rendering.<>c:<.cctor>b__80_0()
+09-21 16:09:53.178  7099  7124 I Unity   : System.Lazy`1:ViaFactory(LazyThreadSafetyMode)
+09-21 16:09:53.178  7099  7124 I Unity   : System.Lazy`1:ExecutionAndPublication(LazyHelper, Boolean)
+09-21 16:09:53.178  7099  7124 I Unity   : System.Lazy`1:CreateValue()
+09-21 16:09:53.178  7099  7124 I Unity   : UnityEngine.Rendering.DebugUpdater:RuntimeInit()
+09-21 16:09:53.178  7099  7124 I Unity   :
+09-21 16:09:53.188  7099  7124 D AudioManager: getStreamVolume isRestricted mode = 0
+09-21 16:09:53.190   661   661 D audio_hw_spkr_prot: audio_extn_fbsp_get_parameters: Speaker protection disabled
+09-21 16:09:53.190   661   661 D audio_hw_extn: audio_extn_get_parameters: returns
+09-21 16:09:53.190   717   717 I hash_map_utils: key: 'hifi_mode' value: ''
+09-21 16:09:53.194  7099  7163 W es.aoz.debuglz: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setUseSessionTickets(Z)V (light greylist, reflection)
+09-21 16:09:53.194  7099  7163 W es.aoz.debuglz: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setHostname(Ljava/lang/String;)V (light greylist, reflection)
+09-21 16:09:53.194  7099  7163 W es.aoz.debuglz: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->getAlpnSelectedProtocol()[B (light greylist, reflection)
+09-21 16:09:53.194  7099  7163 W es.aoz.debuglz: Accessing hidden method Lcom/android/org/conscrypt/OpenSSLSocketImpl;->setAlpnProtocols([B)V (light greylist, reflection)
+--------- beginning of radio
+09-21 16:09:53.194  2197  2434 D SubscriptionController: [getPhoneId] asked for default subId=1
+09-21 16:09:52.794  7099  7124 I chatty  : uid=10201(com.camelgames.aoz.debuglz4) UnityMain identical 14 lines
+09-21 16:09:52.794  7099  7124 E SchedPolicy: set_timerslack_ns write failed: Operation not permitted
+09-21 16:09:53.196  1589  3396 I WindowManagerService: MIUILOG- Show when locked PermissionDenied pkg : com.camelgames.aoz.debuglz4 uid : 10201
+09-21 16:09:53.201  1589  3369 W SensorService: sensor 0000001e already enabled in connection 0x7ceb24aa80 (ignoring)
+09-21 16:09:53.201   678   678 I sensors-hal: batch:140, android.sensor.accelerometer/42, period=200000000, max_latency=0
+09-21 16:09:53.203   678   678 I sensors-hal: batch:149, android.sensor.accelerometer/42, period=200000000, max_latency=0 request completed
+09-21 16:09:53.203  7099  7163 W es.aoz.debuglz: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (light greylist, reflection)
+09-21 16:09:53.203  7099  7163 W es.aoz.debuglz: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (light greylist, reflection)
+09-21 16:09:53.203  7099  7163 W es.aoz.debuglz: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (light greylist, reflection)
+09-21 16:09:53.203   678   678 I sensors-hal: flush:169, android.sensor.accelerometer/42
+09-21 16:09:53.204  7099  7163 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+09-21 16:09:53.204   678   678 I sensors-hal: flush:175, android.sensor.accelerometer/42 completed
+09-21 16:09:53.205   678   678 I sensors-hal: batch:140, android.sensor.accelerometer/42, period=20000000, max_latency=0
+09-21 16:09:53.206   678   678 I sensors-hal: batch:149, android.sensor.accelerometer/42, period=20000000, max_latency=0 request completed
+09-21 16:09:53.207  7099  7124 D Unity   : Sensor :        Accelerometer ( 1) ; 0.002393 / 0.00s ; lsm6ds3c Accelerometer Non-wakeup / STMicro
+09-21 16:09:53.207  7099  7124 D Unity   : Choreographer available: Enabling VSYNC timing
+09-21 16:09:53.216  7099  7124 D AudioManager: getStreamVolume isRestricted mode = 0
+09-21 16:09:53.218   661   661 D audio_hw_spkr_prot: audio_extn_fbsp_get_parameters: Speaker protection disabled
+09-21 16:09:53.218   661   661 D audio_hw_extn: audio_extn_get_parameters: returns
+09-21 16:09:53.218   717   717 I hash_map_utils: key: 'hifi_mode' value: ''
+09-21 16:09:53.219  7099  7112 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.google.android.play.core.assetpacks.internal.u
+09-21 16:09:53.250  7099  7124 I IL2CPP  : Locale zh-CN
+09-21 16:09:53.263  1589  3396 D ConnectivityService: requestNetwork for uid/pid:10201/7099 NetworkRequest [ TRACK_DEFAULT id=1567, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10201] ]
+09-21 16:09:53.264  2197  2197 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=1567, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10201] ] with score 60
+09-21 16:09:53.196  2197  2434 D SubscriptionController: [getPhoneId] asked for default subId=1
+09-21 16:09:53.264  2197  2197 D TelephonyNetworkFactory[1]: got request NetworkRequest [ TRACK_DEFAULT id=1567, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10201] ] with score 60
+09-21 16:09:53.264  2197  2197 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=1567, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10201] ] with score 60
+09-21 16:09:53.264  2197  2197 D PhoneSwitcher: handle event - 103
+09-21 16:09:53.264  1589  1745 D WIFI_UT : got request NetworkRequest [ TRACK_DEFAULT id=1567, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10201] ] with score 60
+09-21 16:09:53.264  1589  1745 D WIFI    : got request NetworkRequest [ TRACK_DEFAULT id=1567, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10201] ] with score 60
+09-21 16:09:53.265  2197  2197 D PhoneSwitcher: evaluating due to netRequest
+09-21 16:09:53.265  2197  2197 D PhoneSwitcher: InformDdsToRil rild= 0, DDS=1
+09-21 16:09:53.265  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: dds phoneId: 1 reason: 0
+09-21 16:09:53.265  1589  1796 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=1567, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10201] ] with score 60
+09-21 16:09:53.266  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 1
+09-21 16:09:53.268  2317  2317 I QcrilOemhookMsgTunnel: [0]invokeOemRilRequestRaw: serial=1343 length=24
+09-21 16:09:53.269  2317  2341 I QcrilOemhookMsgTunnel: [0]processOemHookResponse serial no: 1343 error: 0length=0
+09-21 16:09:53.269  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 2
+09-21 16:09:53.271  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 0
+09-21 16:09:53.271  2197  2197 D PhoneSwitcher: InformDdsToRil rild= 1, DDS=1
+09-21 16:09:53.271  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: dds phoneId: 1 reason: 0
+09-21 16:09:53.272  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 1
+09-21 16:09:53.272  2317  2341 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=28
+09-21 16:09:53.273  2317  2317 I QcrilOemhookMsgTunnel: [1]invokeOemRilRequestRaw: serial=1344 length=24
+09-21 16:09:53.273  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:09:53.274  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookResponse serial no: 1344 error: 0length=0
+09-21 16:09:53.276  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 2
+09-21 16:09:53.276  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.276  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.277  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: sendOemRilRequestRaw returns value = 0
+09-21 16:09:53.278  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.278  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.278  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.278  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.278  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:09:53.278  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.278  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.278  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.278  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.278  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:09:53.279  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=28
+09-21 16:09:53.279  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:09:53.281  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.281  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.281  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.281  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.281  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.281  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.281  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:09:53.281  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.281  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.281  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:53.281  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:53.281  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:09:53.430  7099  7124 I Unity   : [HybridStart] [Log] HybridStartup _LOCAL_MANIFEST_PATH = /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cli
+09-21 16:09:53.430  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:53.430  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:53.430  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:53.430  7099  7124 I Unity   :
+09-21 16:09:53.433  7099  7124 I Unity   : [HybridStart] [Log] HybridStartup _LOCAL_DATA_PATH = /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cld
+09-21 16:09:53.433  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:53.433  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:53.433  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:53.433  7099  7124 I Unity   :
+09-21 16:09:53.436  7099  7124 I Unity   : _testers is null or empty!
+09-21 16:09:53.436  7099  7124 I Unity   : CamelHot.SSOTester.SSOTesterBase`1:get_AnyPassed()
+09-21 16:09:53.436  7099  7124 I Unity   : UnityEngine.WaitUntil:get_keepWaiting()
+09-21 16:09:53.436  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:53.436  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:53.436  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:53.436  7099  7124 I Unity   :
+09-21 16:09:53.437  7099  7124 I Unity   : [HybridSceneChanger] Prepare 0
+09-21 16:09:53.437  7099  7124 I Unity   : CamelHybrid.HybridSceneChanger:Prepare()
+09-21 16:09:53.437  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:53.437  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:53.437  7099  7124 I Unity   :
+09-21 16:09:53.438  7099  7124 I Unity   : [HybridSceneChanger] HybridSceneChanger
+09-21 16:09:53.438  7099  7124 I Unity   : CamelHybrid.HybridSceneChanger:Prepare()
+09-21 16:09:53.438  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:53.438  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:53.438  7099  7124 I Unity   :
+09-21 16:09:53.438  7099  7124 I Unity   : [HybridSceneChanger] Prepare 1
+09-21 16:09:53.438  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:53.438  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:53.438  7099  7124 I Unity   :
+09-21 16:09:53.469  1589  3396 I am_activity_fully_drawn_time: [0,56761205,com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity,1353,1353]
+09-21 16:09:53.469  1589  3396 I ActivityManager: Fully drawn com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity: +1s353ms
+09-21 16:09:53.469  1589  3396 I sysui_multi_action: [324,0,757,1090,758,12,806,com.camelgames.aoz.debuglz4,871,com.camelgames.UnityPlayerActivity,1091,1388]
+09-21 16:09:53.471  7099  7124 I Unity   : _testers is null or empty!
+09-21 16:09:53.471  7099  7124 I Unity   : CamelHot.SSOTester.SSOTesterBase`1:get_AnyPassed()
+09-21 16:09:53.471  7099  7124 I Unity   : UnityEngine.WaitUntil:get_keepWaiting()
+09-21 16:09:53.471  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:53.471  7099  7124 I Unity   :
+09-21 16:09:53.480  1589  3369 I WindowManagerService: MIUILOG- Show when locked PermissionDenied pkg : com.camelgames.aoz.debuglz4 uid : 10201
+09-21 16:09:54.064  7099  7124 I chatty  : uid=10201(com.camelgames.aoz.debuglz4) UnityMain identical 18 lines
+09-21 16:09:54.097  7099  7124 I Unity   : _testers is null or empty!
+09-21 16:09:54.097  7099  7124 I Unity   : CamelHot.SSOTester.SSOTesterBase`1:get_AnyPassed()
+09-21 16:09:54.097  7099  7124 I Unity   : UnityEngine.WaitUntil:get_keepWaiting()
+09-21 16:09:54.097  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:54.097  7099  7124 I Unity   :
+09-21 16:09:54.130  7099  7167 E AIHelp >> (LogInterceptor.java:68):
+09-21 16:09:54.130  7099  7167 E AIHelp >> (LogInterceptor.java:68): [GET] [https://camelgamesinc.aihelp.net/elva/api/v3.0/initget?domain=camelgamesinc.aihelp.net&appId=CamelGamesInc_platform_f08701cf-0462-4c46-97cc-24000b59c31f&l=zh-CN&lan=zh-CN&platform=2&sdkVersion=3.1.8&sdkVersionDetail=3.1.8]:
+09-21 16:09:54.130  7099  7167 E AIHelp >> (LogInterceptor.java:68):
+09-21 16:09:54.130  7099  7167 E AIHelp >> (LogInterceptor.java:68): {
+09-21 16:09:54.130  7099  7167 E AIHelp >> (LogInterceptor.java:68): 	"flag":true,
+09-21 16:09:54.130  7099  7167 E AIHelp >> (LogInterceptor.java:68): 	"code":200,
+09-21 16:09:54.130  7099  7167 E AIHelp >> (LogInterceptor.java:68): 	"message":"Success",
+09-21 16:09:54.130  7099  7167 E AIHelp >> (LogInterceptor.java:68): 	"time":1726905995192,
+09-21 16:09:54.130  7099  7167 E AIHelp >> (LogInterceptor.java:68): 	"data":{

@@ -1,0 +1,202 @@
+--------- beginning of system
+09-21 16:41:33.068  1589  3748 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'GCM_WORK' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:33.071  1589  3748 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'GCM_CONN_ALARM' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:33.075   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 16:41:33.077  1589  3748 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'GCM_WORK' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:33.081  1589  1750 D ConnectivityService: reportNetworkConnectivity(114, false) by 10189
+09-21 16:41:33.088   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 16:41:33.090  1589  3393 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'GCM_WORK' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:33.092  1589  1750 D ConnectivityService: reportNetworkConnectivity(114, false) by 10189
+09-21 16:41:33.146  1589  1642 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+09-21 16:41:33.158  1589  1642 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+09-21 16:41:33.159  1589  1750 D ConnectivityService: NetworkAgentInfo [WIFI () - 114] validation passed
+09-21 16:41:33.166  1589  3748 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+--------- beginning of main
+09-21 16:41:34.160  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+--------- beginning of events
+09-21 16:41:34.176  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726908094432]
+09-21 16:41:34.177  1589  1737 I netstats_wifi_sample: [2058571210,2846809,56931041,698714,2058571210,2846809,56931041,698714,2125227128,2659315,56464119,695886,1726908094432]
+09-21 16:41:34.176  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:41:34.178  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:41:34.608  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+--------- beginning of radio
+09-21 16:41:34.610  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:41:34.610  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:41:34.610  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:41:34.610  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:41:34.612  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:41:34.618  2197  2197 D RILJ    : [9829]> OPERATOR [SUB1]
+09-21 16:41:34.620  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:41:34.620  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:41:34.621  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.622  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.622  2197  2197 D RILJ    : [9830]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:41:34.623  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.623  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.623  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.623  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.623  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:41:34.623  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.625  2197  2372 D RILJ    : [9831]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:41:34.626  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.627  2197  2372 D RILJ    : [9832]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:41:34.627  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.627  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.627  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:41:34.627  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:41:34.627  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:41:34.628  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:41:34.631  2197  2288 D RILJ    : [9829]< OPERATOR {, , } [SUB1]
+09-21 16:41:34.632  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:41:34.632  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:41:34.632  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:41:34.634  2197  2288 D RILJ    : [9830]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:41:34.634  2197  2197 D RILJ    : [9834]> OPERATOR [SUB1]
+09-21 16:41:34.635  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:41:34.635  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:41:34.635  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.636  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.638  2197  2288 D RILJ    : [9831]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:41:34.638  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:41:34.642  2197  2197 D RILJ    : [9835]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:41:34.642  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:41:34.642  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.642  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.642  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.642  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.642  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:41:34.642  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.642  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.642  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:41:34.642  2197  2372 D RILJ    : [9836]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:41:34.643  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:41:34.643  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:41:34.643  2197  2372 D RILJ    : [9837]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:41:34.645  2197  2288 D RILJ    : [9832]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:41:34.645  2197  2288 D RILJ    : [9834]< OPERATOR {, , } [SUB1]
+09-21 16:41:34.646  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@3224387 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:41:34.647  2197  2288 D RILJ    : [9835]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:41:34.647  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:41:34.653  2197  2288 D RILJ    : [9836]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:41:34.653  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:41:34.653  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:41:34.653  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:41:34.656  2197  2288 D RILJ    : [9837]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:41:34.656  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@79412b4 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:41:34.657  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:41:34.659  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@12420f0 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@79412b4 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:41:34.659  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:41:35.134   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:41:35.134   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:41:35.136   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:35.136   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48701mC, Err -1701mC, SampleCnt 1
+09-21 16:41:35.136   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1701mC, E1 -1571mC
+09-21 16:41:35.136   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:35.137   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:35.137   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48701mC, Err -3701mC, SampleCnt 1
+09-21 16:41:35.137   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3701mC, E1 -3571mC
+09-21 16:41:35.137   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:35.138   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:35.139   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48701mC, Err -701mC, SampleCnt 1
+09-21 16:41:35.139   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -701mC, E1 -636mC
+09-21 16:41:35.139   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:35.140   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:35.140   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48701mC, Err -2701mC, SampleCnt 1
+09-21 16:41:35.140   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2701mC, E1 -2636mC
+09-21 16:41:35.140   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:35.141   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:35.141   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48701mC, Err -4701mC, SampleCnt 1
+09-21 16:41:35.141   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4701mC, E1 -4636mC
+09-21 16:41:35.141   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:35.141   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:41:35.141   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+09-21 16:41:33.172  1589  3748 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:36.102  1589  3745 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'GCM_WORK' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:36.105  1589  3393 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'GCM_CONN_ALARM' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:36.108   586   638 D DnsProxyBlocker: restrict gms dns resolution uid(10189)
+09-21 16:41:36.108   586   638 E DnsProxyListener: block dns query from uid = 10189
+09-21 16:41:36.108   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 16:41:36.111  1589  3393 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'GCM_WORK' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:36.113 11568  8195 E WakeLock: GCM_HB_ALARM release without a matched acquire! [CONTEXT service_id=259 ]
+09-21 16:41:36.113 11568  8195 W WakeLock: GCM_HB_ALARM counter does not exist
+09-21 16:41:36.114  1589  1750 D ConnectivityService: reportNetworkConnectivity(114, false) by 10189
+09-21 16:41:36.115  1589  8297 D NetworkMonitor/NetworkAgentInfo [WIFI () - 114]: Forcing reevaluation for UID 10189
+09-21 16:41:36.114 11568  8195 I gtalk_connection: 16777985
+09-21 16:41:36.120  1589  8297 D NetworkMonitor/NetworkAgentInfo [WIFI () - 114]: PROBE_DNS connect.rom.miui.com 4ms OK 220.181.52.24
+09-21 16:41:36.120 11568 11568 D CloudSync: gcm disconnected, disabling cloud route.
+09-21 16:41:36.120 11568 11568 D CloudSync: scheduling disable of cloud route when already disabled
+09-21 16:41:36.122   586   638 D DnsProxyBlocker: restrict gms dns resolution uid(10189)
+09-21 16:41:36.122   586   638 E DnsProxyListener: block dns query from uid = 10189
+09-21 16:41:36.123   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 16:41:36.124  1589  3393 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'GCM_WORK' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:36.126 11568  9315 E WakeLock: GCM_HB_ALARM release without a matched acquire! [CONTEXT service_id=259 ]
+09-21 16:41:36.126 11568  9315 W WakeLock: GCM_HB_ALARM counter does not exist
+09-21 16:41:36.127  1589  1750 D ConnectivityService: reportNetworkConnectivity(114, false) by 10189
+09-21 16:41:36.128 11568  9315 I gtalk_connection: 16777985
+09-21 16:41:36.131 11568 11568 D CloudSync: gcm disconnected, disabling cloud route.
+09-21 16:41:36.131 11568 11568 D CloudSync: scheduling disable of cloud route when already disabled
+09-21 16:41:36.168  1589  8297 D NetworkMonitor/NetworkAgentInfo [WIFI () - 114]: PROBE_HTTP http://connect.rom.miui.com/generate_204 time=48ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[keep-alive], Content-Type=[text/plain], Date=[Sat, 21 Sep 2024 08:41:36 GMT], Server=[openresty], X-Android-Received-Millis=[1726908096168], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1726908096121]}
+09-21 16:41:36.169  1589  8297 D NetworkMonitor/NetworkAgentInfo [WIFI () - 114]: Forcing reevaluation for UID 10189
+09-21 16:41:36.170  1589  1642 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+09-21 16:41:36.174  1589  8297 D NetworkMonitor/NetworkAgentInfo [WIFI () - 114]: PROBE_DNS connect.rom.miui.com 5ms OK 220.181.52.24
+09-21 16:41:36.184  1589  3748 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:36.184  1589  8297 D NetworkMonitor/NetworkAgentInfo [WIFI () - 114]: PROBE_HTTP http://connect.rom.miui.com/generate_204 time=9ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[keep-alive], Content-Type=[text/plain], Date=[Sat, 21 Sep 2024 08:41:36 GMT], Server=[openresty], X-Android-Received-Millis=[1726908096184], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1726908096175]}
+09-21 16:41:36.185  1589  1750 D WifiAssistant: handleNetworkValidationResult: 114 | true | true | true
+09-21 16:41:36.186  1589  1750 D WifiAssistant: maybeClearNotification: 114
+09-21 16:41:36.186  1589  1750 D WifiAssistant: maybeClearNotification: no eventId 114
+09-21 16:41:36.186  1589  1750 D WifiAssistant: maybeClearNoInternetAccessFeature: 114
+09-21 16:41:36.186  1589  1642 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+09-21 16:41:36.187  1589  1750 D WifiAssistant: getAssociatedWifiConfiguration: 114 | 0
+09-21 16:41:36.187  1589  1750 D WifiAssistant: handleNetworkValidationResult: abort for validated: true
+09-21 16:41:36.187  1589  1750 D ConnectivityService: NetworkAgentInfo [WIFI () - 114] validation passed
+09-21 16:41:36.198  1589  3393 D PowerManagerServiceInjector: wakeLock:[PARTIAL_WAKE_LOCK              'IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation' (uid=10189 pid=11568 ws=WorkSource{10189 com.google.android.gms})] is disabled by policy
+09-21 16:41:37.141   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:41:37.142   853  1020 D ThermalEngine: algo_monitor: Timer EVT
+09-21 16:41:37.143   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:37.143   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48701mC, Err -1701mC, SampleCnt 1
+09-21 16:41:37.143   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2, E0 -1701mC, E1 -1701mC
+09-21 16:41:37.143   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:37.144   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:37.144   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48701mC, Err -3701mC, SampleCnt 1
+09-21 16:41:37.144   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD, E0 -3701mC, E1 -3701mC
+09-21 16:41:37.144   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:37.145   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:37.145   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48701mC, Err -701mC, SampleCnt 1
+09-21 16:41:37.145   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3, E0 -701mC, E1 -701mC
+09-21 16:41:37.145   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:37.147   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:37.147   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48701mC, Err -2701mC, SampleCnt 1
+09-21 16:41:37.147   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2, E0 -2701mC, E1 -2701mC
+09-21 16:41:37.147   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:37.148   853  1020 I ThermalEngine: Sensor:sdm-therm:48701 mC
+09-21 16:41:37.148   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48701mC, Err -4701mC, SampleCnt 1
+09-21 16:41:37.148   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER, E0 -4701mC, E1 -4701mC
+09-21 16:41:37.148   853  1020 D ThermalEngine: Already at device mitigation max limit
+09-21 16:41:37.148   853  1020 I ThermalEngine: settimer: Start timer 2.000(sec)
+09-21 16:41:37.148   853  1020 D ThermalEngine: algo_monitor: Wait for EV
+--------- beginning of kernel
+09-21 16:41:34.321     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:41:34.321     0     0 I         : length 2 addr=48c6
+09-21 16:41:34.321     0     0 I val[0]  : 1b
+09-21 16:41:34.321     0     0 I val[1]  : 02
+09-21 16:41:34.321     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:41:34.321     0     0 I         : length 2 addr=48c0
+09-21 16:41:34.321     0     0 I val[0]  : e3
+09-21 16:41:34.321     0     0 I val[1]  : 50
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: msoc=81
+09-21 16:41:34.321     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: ibatt_avg=200 vbatt_avg=4030 rbatt=210 act_cap_mah=2424
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: mode: 0
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: i_cc2cv=183
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: soc_cc2cv=96
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cc=6853
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: iterm=201
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: tau=0
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cv=0
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_prefilter=6853
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: ttf_slope=-100
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_postfilter=2064
+09-21 16:41:34.321     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 same vote off of val=0
+09-21 16:41:34.321     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 Ignoring similar vote off of val=0
+09-21 16:41:35.066     0     0 D logd    : logdr: UID=2000 GID=2000 PID=9526 b tail=0 logMask=ff pid=0 start=0ns timeout=0ns
+09-21 16:41:38.688 11568 11568 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }

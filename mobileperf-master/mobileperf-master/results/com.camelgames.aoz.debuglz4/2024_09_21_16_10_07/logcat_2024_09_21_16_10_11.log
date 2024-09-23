@@ -1,0 +1,101 @@
+--------- beginning of main
+09-21 16:10:06.649  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:10:06.650  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+--------- beginning of radio
+09-21 16:10:06.651  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:10:06.651  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:10:06.651  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:10:06.651  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:10:06.653  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.653  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.656  2197  2197 D RILJ    : [6102]> OPERATOR [SUB1]
+09-21 16:10:06.656  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:10:06.656  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:10:06.657  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:10:06.657  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:10:06.657  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:10:06.657  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:10:06.658  2197  2197 D RILJ    : [6104]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:10:06.658  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.659  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.660  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.660  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.660  2197  2288 D RILJ    : [6102]< OPERATOR {, , } [SUB1]
+09-21 16:10:06.660  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:10:06.660  2197  2372 D RILJ    : [6105]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:10:06.662  2197  2372 D RILJ    : [6106]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:10:06.662  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:10:06.662  2197  2288 D RILJ    : [6104]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:10:06.663  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.663  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.664  2197  2288 D RILJ    : [6105]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:10:06.665  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:10:06.665  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:10:06.665  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:10:06.666  2197  2197 D RILJ    : [6107]> OPERATOR [SUB1]
+09-21 16:10:06.667  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:10:06.667  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:10:06.668  2197  2197 D RILJ    : [6108]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.669  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.669  2197  2372 D RILJ    : [6109]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:10:06.669  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:10:06.670  2197  2288 D RILJ    : [6106]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:10:06.671  2197  2372 D RILJ    : [6110]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:10:06.671  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@590bc19 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:10:06.675  2197  2288 D RILJ    : [6108]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:10:06.675  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:10:06.675  2197  2288 D RILJ    : [6107]< OPERATOR {, , } [SUB1]
+09-21 16:10:06.676  2197  2288 D RILJ    : [6109]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:10:06.677  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:10:06.677  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:10:06.677  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:10:06.681  2197  2288 D RILJ    : [6110]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:10:06.681  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@c45e4de cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:10:06.681  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:10:06.684  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@5acb1e1 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}, NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@c45e4de cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:10:06.684  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:10:08.020 11568 11568 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:10:11.804  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:10:11.804  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:10:11.804  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:10:11.805  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:10:11.805  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:10:11.806  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:10:11.809  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:11.809  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:11.809  2197  2197 D RILJ    : [6112]> OPERATOR [SUB1]
+09-21 16:10:11.810  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:10:11.810  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:10:11.812  2197  2197 D RILJ    : [6113]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:10:11.813  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:11.813  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:11.813  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:11.814  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:11.814  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:10:11.814  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:11.814  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:11.814  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:11.814  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:11.814  2197  2372 D RILJ    : [6114]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:10:11.815  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:10:11.817  2197  2372 D RILJ    : [6115]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:10:11.822  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:10:11.822  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:10:11.823  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:10:11.823  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:10:11.824  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:10:11.825  2197  2197 D RILJ    : [6117]> OPERATOR [SUB1]
+09-21 16:10:11.825  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0

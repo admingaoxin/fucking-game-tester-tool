@@ -1,0 +1,43 @@
+09-21 16:41:33.075   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 16:41:33.088   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 16:41:34.623  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:41:34.642  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:41:35.134   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:41:35.136   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48701mC, Err -1701mC, SampleCnt 1
+09-21 16:41:35.137   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48701mC, Err -3701mC, SampleCnt 1
+09-21 16:41:35.139   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48701mC, Err -701mC, SampleCnt 1
+09-21 16:41:35.140   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48701mC, Err -2701mC, SampleCnt 1
+09-21 16:41:35.141   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48701mC, Err -4701mC, SampleCnt 1
+09-21 16:41:36.108   586   638 E DnsProxyListener: block dns query from uid = 10189
+09-21 16:41:36.108   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 16:41:36.113 11568  8195 E WakeLock: GCM_HB_ALARM release without a matched acquire! [CONTEXT service_id=259 ]
+09-21 16:41:36.122   586   638 E DnsProxyListener: block dns query from uid = 10189
+09-21 16:41:36.123   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 16:41:36.126 11568  9315 E WakeLock: GCM_HB_ALARM release without a matched acquire! [CONTEXT service_id=259 ]
+09-21 16:41:37.141   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:41:37.143   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48701mC, Err -1701mC, SampleCnt 1
+09-21 16:41:37.144   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48701mC, Err -3701mC, SampleCnt 1
+09-21 16:41:37.145   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48701mC, Err -701mC, SampleCnt 1
+09-21 16:41:37.147   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48701mC, Err -2701mC, SampleCnt 1
+09-21 16:41:37.148   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48701mC, Err -4701mC, SampleCnt 1
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: msoc=81
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: ibatt_avg=200 vbatt_avg=4030 rbatt=210 act_cap_mah=2424
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: mode: 0
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: i_cc2cv=183
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: soc_cc2cv=96
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cc=6853
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: iterm=201
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: tau=0
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_cv=0
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_prefilter=6853
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: ttf_slope=-100
+09-21 16:41:34.321     0     0 E ALG     : get_time_to_full_locked: TTF: t_predicted_postfilter=2064
+09-21 16:41:34.321     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 same vote off of val=0
+09-21 16:41:34.321     0     0 E QG_WS   : TTF_AWAKE_VOTER,5 Ignoring similar vote off of val=0
+09-21 16:41:39.148   853  1020 E ThermalEngine: read_thermal_config
+09-21 16:41:39.151   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48701mC, Err -1701mC, SampleCnt 1
+09-21 16:41:39.152   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48636mC, Err -3636mC, SampleCnt 1
+09-21 16:41:39.154   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48701mC, Err -701mC, SampleCnt 1
+09-21 16:41:39.155   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48701mC, Err -2701mC, SampleCnt 1
+09-21 16:41:39.156   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48636mC, Err -4636mC, SampleCnt 1
+09-21 16:41:35.855     0     0 E pm6150_charger: default_irq_handler: IRQ: aicl-done

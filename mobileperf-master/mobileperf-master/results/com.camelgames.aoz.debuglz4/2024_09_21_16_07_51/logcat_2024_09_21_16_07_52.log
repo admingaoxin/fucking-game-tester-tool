@@ -1,0 +1,1515 @@
+--------- beginning of events
+09-21 16:07:50.697  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906070952]
+09-21 16:07:50.697  1589  1737 I netstats_wifi_sample: [2036280372,2777093,56272811,694541,2036280372,2777093,56272811,694541,2100396112,2591491,55813781,691844,1726906070952]
+09-21 16:07:50.757  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071012]
+09-21 16:07:50.757  1589  1737 I netstats_wifi_sample: [2036520328,2777151,56275047,694584,2036490616,2777145,56274787,694579,2100636196,2591548,55815913,691885,1726906071012]
+--------- beginning of main
+09-21 16:07:50.757  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:50.761  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:50.789  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:50.808  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071064]
+09-21 16:07:50.809  1589  1737 I netstats_wifi_sample: [2036769744,2777209,56277639,694632,2036752684,2777204,56277327,694626,2100874204,2591602,55818297,691929,1726906071064]
+09-21 16:07:50.808  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:50.811  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:50.842  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:50.862  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071118]
+09-21 16:07:50.862  1589  1737 I netstats_wifi_sample: [2036975877,2777272,56279823,694674,2036958765,2777266,56279511,694668,2101087642,2591664,55820429,691970,1726906071118]
+09-21 16:07:50.862  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:50.864  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:50.895  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:50.912  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071168]
+09-21 16:07:50.913  1589  1737 I netstats_wifi_sample: [2037217157,2777362,56283047,694736,2037212905,2777361,56283047,694736,2101335974,2591755,55823809,692035,1726906071168]
+09-21 16:07:50.912  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:50.914  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:50.962  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:50.982  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071237]
+09-21 16:07:50.983  1589  1737 I netstats_wifi_sample: [2037445339,2777415,56285283,694779,2037417027,2777409,56285075,694775,2101562886,2591811,55826201,692081,1726906071237]
+09-21 16:07:50.982  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:50.985  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.033  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.054  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071309]
+09-21 16:07:51.054  1589  1737 I netstats_wifi_sample: [2037694565,2777483,56287571,694823,2037694387,2777481,56287571,694823,2101842378,2591882,55828749,692130,1726906071309]
+09-21 16:07:51.053  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.057  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.085  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.106  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071362]
+09-21 16:07:51.107  1589  1737 I netstats_wifi_sample: [2037928165,2777533,56289547,694861,2037896949,2777525,56289235,694855,2102013565,2591923,55830153,692157,1726906071362]
+09-21 16:07:51.106  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.110  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.141  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.186  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071442]
+09-21 16:07:51.186  1589  1737 I netstats_wifi_sample: [2038166593,2777592,56291575,694900,2038166593,2777592,56291575,694900,2102281821,2591990,55832493,692202,1726906071442]
+09-21 16:07:51.186  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.188  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.211  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.244  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071500]
+09-21 16:07:51.244  1589  1737 I netstats_wifi_sample: [2038413157,2777649,56293811,694943,2038380437,2777639,56293447,694936,2102498257,2592033,55834313,692237,1726906071500]
+09-21 16:07:51.244  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.246  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.274  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.290  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071546]
+09-21 16:07:51.290  1589  1737 I netstats_wifi_sample: [2038664085,2777727,56296359,694992,2038664085,2777727,56296359,694992,2102780853,2592122,55837225,692293,1726906071546]
+09-21 16:07:51.290  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.292  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.318  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.345  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071601]
+09-21 16:07:51.345  1589  1737 I netstats_wifi_sample: [2038947569,2777794,56299011,695043,2038909249,2777784,56298647,695036,2103013261,2592176,55839149,692330,1726906071601]
+09-21 16:07:51.345  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.347  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.375  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.397  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071652]
+09-21 16:07:51.397  1589  1737 I netstats_wifi_sample: [2039196052,2777843,56300831,695078,2039187548,2777841,56300779,695077,2103293090,2592236,55841645,692378,1726906071652]
+09-21 16:07:51.396  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.399  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.428  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.445  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071701]
+09-21 16:07:51.446  1589  1737 I netstats_wifi_sample: [2039441060,2777897,56303175,695121,2039436808,2777896,56303123,695120,2103555054,2592293,55843989,692421,1726906071701]
+09-21 16:07:51.445  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.447  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.476  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.497  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071753]
+09-21 16:07:51.498  1589  1737 I netstats_wifi_sample: [2039662832,2777954,56305151,695159,2039647276,2777951,56305047,695157,2103768419,2592348,55845965,692459,1726906071753]
+09-21 16:07:51.497  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.501  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.529  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.550  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071806]
+09-21 16:07:51.550  1589  1737 I netstats_wifi_sample: [2039945076,2778051,56308531,695224,2039920912,2778044,56308219,695218,2104036195,2592436,55849085,692519,1726906071806]
+09-21 16:07:51.550  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.552  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.586  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.606  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071861]
+09-21 16:07:51.607  1589  1737 I netstats_wifi_sample: [2040196882,2778112,56310981,695267,2040169970,2778106,56310773,695263,2104278931,2592503,55851535,692562,1726906071861]
+09-21 16:07:51.605  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.609  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.637  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.656  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071911]
+09-21 16:07:51.656  1589  1737 I netstats_wifi_sample: [2040433074,2778158,56312801,695302,2040433074,2778158,56312801,695302,2104549243,2592559,55853771,692605,1726906071911]
+09-21 16:07:51.656  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.663  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.689  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.707  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906071963]
+09-21 16:07:51.708  1589  1737 I netstats_wifi_sample: [2040699180,2778241,56315765,695359,2040682016,2778234,56315453,695353,2104798744,2592632,55856215,692652,1726906071963]
+09-21 16:07:51.707  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.710  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.745  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.763  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906072018]
+09-21 16:07:51.764  1589  1737 I netstats_wifi_sample: [2040920305,2778293,56317325,695389,2040919825,2778291,56317325,695389,2105049664,2592692,55858347,692693,1726906072018]
+09-21 16:07:51.763  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.765  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.795  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.817  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906072073]
+09-21 16:07:51.818  1589  1737 I netstats_wifi_sample: [2041218721,2778351,56319865,695436,2041183253,2778342,56319377,695428,2105297935,2592741,55860063,692726,1726906072073]
+09-21 16:07:51.817  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.821  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.860  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.880  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906072135]
+09-21 16:07:51.880  1589  1737 I netstats_wifi_sample: [2041447566,2778407,56321945,695476,2041437558,2778403,56321789,695473,2105560942,2592804,55862655,692774,1726906072135]
+09-21 16:07:51.879  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.882  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:51.912  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.933  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906072188]
+09-21 16:07:51.933  1589  1737 I netstats_wifi_sample: [2041693666,2778482,56324493,695525,2041676606,2778477,56324337,695522,2105799938,2592877,55865203,692823,1726906072188]
+09-21 16:07:51.932  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:51.935  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:52.019  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:52.037  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906072293]
+09-21 16:07:52.038  1589  1737 I netstats_wifi_sample: [2041919332,2778554,56326937,695572,2041919332,2778554,56326937,695572,2106040466,2592959,55867959,692876,1726906072293]
+09-21 16:07:52.037  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:52.040  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:52.082  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:07:52.082  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+--------- beginning of radio
+09-21 16:07:52.083  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:07:52.083  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:07:52.084  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:07:52.084  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:07:52.086  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.086  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.087  2197  2197 D RILJ    : [5863]> OPERATOR [SUB1]
+09-21 16:07:52.087  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:07:52.088  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:07:52.089  2197  2197 D RILJ    : [5864]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:07:52.090  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.090  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.090  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.090  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.090  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:07:52.090  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.091  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.091  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.091  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.092  2197  2372 D RILJ    : [5865]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:07:52.093  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:07:52.093  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:07:52.094  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:07:52.094  2197  2372 D RILJ    : [5866]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:07:52.094  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:07:52.094  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:07:52.096  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:07:52.096  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:07:52.097  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.097  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.097  2197  2197 D RILJ    : [5868]> OPERATOR [SUB1]
+09-21 16:07:52.098  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:07:52.098  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:07:52.099  2197  2197 D RILJ    : [5869]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:07:52.100  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.100  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.101  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.101  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.101  2197  2372 D RILJ    : [5870]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:07:52.102  2197  2288 D RILJ    : [5863]< OPERATOR {, , } [SUB1]
+09-21 16:07:52.101  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:07:52.102  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.102  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.102  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:07:52.102  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:07:52.102  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:07:52.102  2197  2372 D RILJ    : [5871]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:07:52.103  2197  2288 D RILJ    : [5868]< OPERATOR {, , } [SUB1]
+09-21 16:07:52.103  2197  2288 D RILJ    : [5864]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:07:52.103  2197  2288 D RILJ    : [5869]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:07:52.105  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:07:52.105  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:07:52.106  2197  2288 D RILJ    : [5865]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:07:52.106  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:07:52.106  2197  2288 D RILJ    : [5870]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:07:52.106  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:07:52.109  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:07:52.109  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:07:52.110  2197  2288 D RILJ    : [5866]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:07:52.111  2197  2288 D RILJ    : [5871]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:07:52.111  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@3294fd cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:07:52.112  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@79cb5f2 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:07:52.113  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:07:52.116  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@1c1c2bc cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@79cb5f2 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:07:52.117  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:07:52.117  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:52.138  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906072393]
+09-21 16:07:52.138  1589  1737 I netstats_wifi_sample: [2042142706,2778619,56329017,695612,2042142706,2778619,56329017,695612,2106265099,2593029,55870039,692916,1726906072393]
+09-21 16:07:52.138  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:52.140  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:52.171  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:52.189  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906072444]
+09-21 16:07:52.189  1589  1737 I netstats_wifi_sample: [2042379904,2778676,56331253,695655,2042376592,2778674,56331201,695654,2106497403,2593081,55872067,692955,1726906072444]
+09-21 16:07:52.189  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:52.191  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:52.435  6391  6434 I Unity   : Finished: tlous_video_p
+09-21 16:07:52.435  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.435  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.435  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.435  6391  6434 I Unity   : Logger:Log(Object)
+09-21 16:07:52.435  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.435  6391  6434 I Unity   :
+09-21 16:07:52.435  6391  6434 I Unity   : <color=green>Download required bundle: tlous_video_p</color>
+09-21 16:07:52.435  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.435  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.435  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.435  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.435  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.435  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.435  6391  6434 I Unity   :
+09-21 16:07:52.455  6391  6434 I Unity   : <color=yellow>DownLoad bundleName :ui__</color>
+09-21 16:07:52.455  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.455  6391  6434 I Unity   : <ReqWWW>d__21:MoveNext()
+09-21 16:07:52.455  6391  6434 I Unity   : Logger:LogYellow(Object)
+09-21 16:07:52.455  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.455  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.455  6391  6434 I Unity   :
+09-21 16:07:52.455  6391  6434 I Unity   : Connect http://106.75.53.116:9857/Doomsday/android/hybrid/ui__
+09-21 16:07:52.455  6391  6434 I Unity   : CamelHot.Network.WebClientTimerTask:.ctor(String, String, Single, Callback2`2, DownLoadTask, Boolean)
+09-21 16:07:52.455  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.455  6391  6434 I Unity   : <ReqWWW>d__21:MoveNext()
+09-21 16:07:52.455  6391  6434 I Unity   : Logger:Log(Object)
+09-21 16:07:52.455  6391  6434 I Unity   : CamelHot.Network.WebClientTimer:.ctor(String, String, Single, Boolean)
+09-21 16:07:52.455  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.455  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.455  6391  6434 I Unity   :
+09-21 16:07:52.662  6391  6434 I Unity   : Finished: ui__
+09-21 16:07:52.662  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.662  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.662  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.662  6391  6434 I Unity   : Logger:Log(Object)
+09-21 16:07:52.662  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.662  6391  6434 I Unity   :
+09-21 16:07:52.663  6391  6434 I Unity   : <color=green>Download required bundle: ui__</color>
+09-21 16:07:52.663  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.663  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.663  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.663  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.663  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.663  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.663  6391  6434 I Unity   :
+09-21 16:07:52.739  6391  6434 I Unity   : <color=yellow>DownLoad bundleName :utl_common_p</color>
+09-21 16:07:52.739  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.739  6391  6434 I Unity   : <ReqWWW>d__21:MoveNext()
+09-21 16:07:52.739  6391  6434 I Unity   : Logger:LogYellow(Object)
+09-21 16:07:52.739  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.739  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.739  6391  6434 I Unity   :
+09-21 16:07:52.740  6391  6434 I Unity   : Connect http://106.75.53.116:9857/Doomsday/android/hybrid/utl_common_p
+09-21 16:07:52.740  6391  6434 I Unity   : CamelHot.Network.WebClientTimerTask:.ctor(String, String, Single, Callback2`2, DownLoadTask, Boolean)
+09-21 16:07:52.740  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.740  6391  6434 I Unity   : <ReqWWW>d__21:MoveNext()
+09-21 16:07:52.740  6391  6434 I Unity   : Logger:Log(Object)
+09-21 16:07:52.740  6391  6434 I Unity   : CamelHot.Network.WebClientTimer:.ctor(String, String, Single, Boolean)
+09-21 16:07:52.740  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.740  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.740  6391  6434 I Unity   :
+09-21 16:07:52.792  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:52.815  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906073071]
+09-21 16:07:52.816  1589  1737 I netstats_wifi_sample: [2042547416,2778820,56335259,695725,2042538611,2778813,56335051,695721,2106692243,2593228,55876229,693028,1726906073071]
+09-21 16:07:52.815  1589  1737 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:07:52.817  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:07:52.891  1589  1642 I cpu     : [12,6,4,0,1,0]
+09-21 16:07:52.962  6391  6434 I Unity   : Finished: utl_common_p
+09-21 16:07:52.962  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.962  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.962  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.962  6391  6434 I Unity   : Logger:Log(Object)
+09-21 16:07:52.962  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.962  6391  6434 I Unity   :
+09-21 16:07:52.963  6391  6434 I Unity   : <color=green>Download required bundle: utl_common_p</color>
+09-21 16:07:52.963  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.963  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.963  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.963  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.963  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.963  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.963  6391  6434 I Unity   :
+09-21 16:07:52.964  6391  6434 I Unity   : ResourceDownload Time 7.040398
+09-21 16:07:52.964  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.964  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.964  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.964  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.964  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.964  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.964  6391  6434 I Unity   :
+09-21 16:07:52.972  6391  6434 I Unity   : ResManager OnInitiated
+09-21 16:07:52.972  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.972  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.972  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.972  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.972  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.972  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.972  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.972  6391  6434 I Unity   : Logger:Log(Object)
+09-21 16:07:52.972  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.972  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.972  6391  6434 I Unity   :
+09-21 16:07:52.973  6391  6434 I Unity   : BundleManager Initiate. Time = 58.82433s
+09-21 16:07:52.973  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.973  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.973  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.973  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.973  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.973  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.973  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.973  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.973  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.973  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.973  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.973  6391  6434 I Unity   :
+09-21 16:07:52.974  6391  6434 I Unity   : BundleManager Initiate
+09-21 16:07:52.974  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.974  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.974  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.974  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.974  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.974  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.974  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.974  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.974  6391  6434 I Unity   : Logger:Log(Object)
+09-21 16:07:52.974  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.974  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.974  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.974  6391  6434 I Unity   :
+09-21 16:07:52.978  6391  6434 I Unity   : <color=green>init bundle login</color>
+09-21 16:07:52.978  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.978  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.978  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.978  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.978  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.978  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.978  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.978  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.978  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.978  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.978  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.978  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.978  6391  6434 I Unity   :
+09-21 16:07:52.979  6391  6434 I Unity   : <color=green>init bundle _ast_spine_runtime</color>
+09-21 16:07:52.979  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.979  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.979  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.979  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.979  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.979  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.979  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.979  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.979  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.979  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.979  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.979  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.979  6391  6434 I Unity   :
+09-21 16:07:52.980  6391  6434 I Unity   : <color=green>init bundle backgroundmusic_battle</color>
+09-21 16:07:52.980  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.980  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.980  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.980  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.980  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.980  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.980  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.980  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.980  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.980  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.980  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.980  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.980  6391  6434 I Unity   :
+09-21 16:07:52.981  6391  6434 I Unity   : <color=green>init bundle dd_login</color>
+09-21 16:07:52.981  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.981  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.981  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.981  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.981  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.981  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.981  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.981  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.981  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.981  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.981  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.981  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.981  6391  6434 I Unity   :
+09-21 16:07:52.983  6391  6434 I Unity   : <color=green>init bundle shaders</color>
+09-21 16:07:52.983  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.983  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.983  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.983  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.983  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.983  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.983  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.983  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.983  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.983  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.983  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.983  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.983  6391  6434 I Unity   :
+09-21 16:07:52.984  6391  6434 I Unity   : <color=green>init bundle effect_material</color>
+09-21 16:07:52.984  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.984  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.984  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.984  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.984  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.984  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.984  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.984  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.984  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.984  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.984  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.984  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.984  6391  6434 I Unity   :
+09-21 16:07:52.985  6391  6434 I Unity   : <color=green>init bundle battlepass_torch_bptorch_effect</color>
+09-21 16:07:52.985  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.985  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.985  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.985  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.985  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.985  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.985  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.985  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.985  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.985  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.985  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.985  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.985  6391  6434 I Unity   :
+09-21 16:07:52.986  6391  6434 I Unity   : <color=green>init bundle effect_shader</color>
+09-21 16:07:52.986  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.986  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.986  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.986  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.986  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.986  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.986  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.986  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.986  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.986  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.986  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.986  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.986  6391  6434 I Unity   :
+09-21 16:07:52.987  6391  6434 I Unity   : <color=green>init bundle effect_texture_animation</color>
+09-21 16:07:52.987  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.987  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.987  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.987  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.987  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.987  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.987  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.987  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.987  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.987  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.987  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.987  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.987  6391  6434 I Unity   :
+09-21 16:07:52.988  6391  6434 I Unity   : <color=green>init bundle effect_texture_light</color>
+09-21 16:07:52.988  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.988  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.988  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.988  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.988  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.988  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.988  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.988  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.988  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.988  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.988  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.988  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.988  6391  6434 I Unity   :
+09-21 16:07:52.989  6391  6434 I Unity   : <color=green>init bundle effect_texture_magic</color>
+09-21 16:07:52.989  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.989  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.989  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.989  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.989  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.989  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.989  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.989  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.989  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.989  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.989  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.989  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.989  6391  6434 I Unity   :
+09-21 16:07:52.990  6391  6434 I Unity   : <color=green>init bundle effect_texture_nc_tex</color>
+09-21 16:07:52.990  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.990  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.990  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.990  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.990  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.990  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.990  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.990  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.990  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.990  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.990  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.990  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.990  6391  6434 I Unity   :
+09-21 16:07:52.991  6391  6434 I Unity   : <color=green>init bundle effect_texture_object</color>
+09-21 16:07:52.991  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.991  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.991  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.991  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.991  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.991  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.991  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.991  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.991  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.991  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.991  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.991  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.991  6391  6434 I Unity   :
+09-21 16:07:52.992  6391  6434 I Unity   : <color=green>init bundle effect_texture_terrain</color>
+09-21 16:07:52.992  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.992  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.992  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.992  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.992  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.992  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.992  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.992  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.992  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.992  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.992  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.992  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.992  6391  6434 I Unity   :
+09-21 16:07:52.993  6391  6434 I Unity   : <color=green>init bundle effect_texture_trail</color>
+09-21 16:07:52.993  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.993  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.993  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.993  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.993  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.993  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.993  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.993  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.993  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.993  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.993  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.993  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.993  6391  6434 I Unity   :
+09-21 16:07:52.994  6391  6434 I Unity   : <color=green>init bundle effect_texture_ui</color>
+09-21 16:07:52.994  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.994  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.994  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.994  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.994  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.994  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.994  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.994  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.994  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.994  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.994  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.994  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.994  6391  6434 I Unity   :
+09-21 16:07:52.995  6391  6434 I Unity   : <color=green>init bundle recruit_effect_recruit_texture</color>
+09-21 16:07:52.995  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.995  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.995  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.995  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.995  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.995  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.995  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.995  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.995  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.995  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.995  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.995  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.995  6391  6434 I Unity   :
+09-21 16:07:52.996  6391  6434 I Unity   : <color=green>init bundle recruit_effect_recruit_material</color>
+09-21 16:07:52.996  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.996  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.996  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.996  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.996  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.996  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.996  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.996  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.996  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.996  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.996  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.996  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.996  6391  6434 I Unity   :
+09-21 16:07:52.997  6391  6434 I Unity   : <color=green>init bundle decorationsystem_ds_dock_effect</color>
+09-21 16:07:52.997  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.997  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.997  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.997  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.997  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.997  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.997  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.997  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.997  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.997  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.997  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.997  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.997  6391  6434 I Unity   :
+09-21 16:07:52.998  6391  6434 I Unity   : <color=green>init bundle dungeonexplore_de_effect</color>
+09-21 16:07:52.998  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.998  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.998  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.998  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.998  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.998  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.998  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.998  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.998  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.998  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.998  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.998  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.998  6391  6434 I Unity   :
+09-21 16:07:52.999  6391  6434 I Unity   : <color=green>init bundle _pkg_universal</color>
+09-21 16:07:52.999  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:52.999  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:52.999  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:52.999  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:52.999  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:52.999  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:52.999  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:52.999  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:52.999  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:52.999  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.999  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.999  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:52.999  6391  6434 I Unity   :
+09-21 16:07:53.000  6391  6434 I Unity   : <color=green>init bundle warriormesh_warriormesh_effect</color>
+09-21 16:07:53.000  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.000  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.000  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.000  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.000  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.000  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.000  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.000  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.000  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.000  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.000  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.000  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.000  6391  6434 I Unity   :
+09-21 16:07:53.001  6391  6434 I Unity   : <color=green>init bundle herodisplay_hd_effect</color>
+09-21 16:07:53.001  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.001  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.001  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.001  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.001  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.001  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.001  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.001  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.001  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.001  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.001  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.001  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.001  6391  6434 I Unity   :
+09-21 16:07:53.002  6391  6434 I Unity   : <color=green>init bundle shaders_misc_p</color>
+09-21 16:07:53.002  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.002  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.002  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.002  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.002  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.002  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.002  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.002  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.002  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.002  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.002  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.002  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.002  6391  6434 I Unity   :
+09-21 16:07:53.003  6391  6434 I Unity   : <color=green>init bundle emergencytraining_et_effect</color>
+09-21 16:07:53.003  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.003  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.003  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.003  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.003  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.003  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.003  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.003  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.003  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.003  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.003  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.003  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.003  6391  6434 I Unity   :
+09-21 16:07:53.004  6391  6434 I Unity   : <color=green>init bundle equipmatrix_em_effect</color>
+09-21 16:07:53.004  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.004  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.004  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.004  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.004  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.004  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.004  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.004  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.004  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.004  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.004  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.004  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.004  6391  6434 I Unity   :
+09-21 16:07:53.005  6391  6434 I Unity   : <color=green>init bundle threekingdoms_tk_effect</color>
+09-21 16:07:53.005  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.005  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.005  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.005  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.005  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.005  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.005  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.005  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.005  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.005  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.005  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.005  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.005  6391  6434 I Unity   :
+09-21 16:07:53.006  6391  6434 I Unity   : <color=green>init bundle slg_msyh_10</color>
+09-21 16:07:53.006  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.006  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.006  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.006  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.006  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.006  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.006  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.006  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.006  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.006  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.006  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.006  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.006  6391  6434 I Unity   :
+09-21 16:07:53.007  6391  6434 I Unity   : <color=green>init bundle towerdefence_td_effect</color>
+09-21 16:07:53.007  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.007  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.007  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.007  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.007  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.007  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.007  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.007  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.007  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.007  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.007  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.007  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.007  6391  6434 I Unity   :
+09-21 16:07:53.008  6391  6434 I Unity   : <color=green>init bundle global_p</color>
+09-21 16:07:53.008  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.008  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.008  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.008  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.008  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.008  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.008  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.008  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.008  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.008  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.008  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.008  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.008  6391  6434 I Unity   :
+09-21 16:07:53.008  6391  6434 I Unity   : <color=green>init bundle d_main</color>
+09-21 16:07:53.008  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.008  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.008  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.008  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.008  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.008  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.008  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.008  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.008  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.008  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.008  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.008  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.008  6391  6434 I Unity   :
+09-21 16:07:53.009  6391  6434 I Unity   : <color=green>init bundle d_newcommon1</color>
+09-21 16:07:53.009  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.009  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.009  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.009  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.009  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.009  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.009  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.009  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.009  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.009  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.009  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.009  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.009  6391  6434 I Unity   :
+09-21 16:07:53.010  6391  6434 I Unity   : <color=green>init bundle d_replaceui</color>
+09-21 16:07:53.010  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.010  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.010  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.010  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.010  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.010  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.010  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.010  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.010  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.010  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.010  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.010  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.010  6391  6434 I Unity   :
+09-21 16:07:53.011  6391  6434 I Unity   : <color=green>init bundle dd_misc</color>
+09-21 16:07:53.011  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.011  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.011  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.011  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.011  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.011  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.011  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.011  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.011  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.011  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.011  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.011  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.011  6391  6434 I Unity   :
+09-21 16:07:53.012  6391  6434 I Unity   : <color=green>init bundle dd_vnlogin</color>
+09-21 16:07:53.012  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.012  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.012  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.012  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.012  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.012  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.012  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.012  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.012  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.012  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.012  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.012  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.012  6391  6434 I Unity   :
+09-21 16:07:53.013  6391  6434 I Unity   : <color=green>init bundle text</color>
+09-21 16:07:53.013  6391  6434 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:07:53.013  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.013  6391  6434 I Unity   : ResManager:<DownloadBundles>b__74_0(TexInfo[])
+09-21 16:07:53.013  6391  6434 I Unity   : DownloadOpenningBundles:LoadOver(Boolean, Boolean)
+09-21 16:07:53.013  6391  6434 I Unity   : DownloadOpenningBundles:OnBundleDownloaded(String, UInt32)
+09-21 16:07:53.013  6391  6434 I Unity   : DownLoadTask:FinishInternal(String)
+09-21 16:07:53.013  6391  6434 I Unity   : DownLoadTask:Finished(String)
+09-21 16:07:53.013  6391  6434 I Unity   : <Download>d__23:MoveNext()
+09-21 16:07:53.013  6391  6434 I Unity   : Logger:LogGreen(Object)
+09-21 16:07:53.013  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.013  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.013  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.013  6391  6434 I Unity   :
+09-21 16:07:53.037  6391  6434 I Unity   : <color=yellow>Load asset DD_Login.asset from bundle dd_login, bundle is not loaded, spend time = 3.017426ms</color>
+09-21 16:07:53.037  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.037  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.037  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.037  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.037  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.037  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.037  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.037  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.037  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.037  6391  6434 I Unity   :
+09-21 16:07:53.143  6391  6434 I Unity   : <color=yellow>Load asset DD_Misc.asset from bundle dd_misc, bundle is not loaded, spend time = 104.5494ms</color>
+09-21 16:07:53.143  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.143  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.143  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.143  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.143  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.143  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.143  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.143  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.143  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.143  6391  6434 I Unity   :
+09-21 16:07:53.173 11568  2852 E memtrack: Couldn't load memtrack module
+09-21 16:07:53.173 11568  2852 W android.os.Debug: failed to get memory consumption info: -1
+09-21 16:07:53.177  6391  6434 I Unity   : <color=yellow>Load asset DD_TDMap.asset from bundle dd_tdmap, bundle is not loaded, spend time = 33.64182ms</color>
+09-21 16:07:53.177  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.177  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.177  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.177  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.177  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.177  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.177  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.177  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.177  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.177  6391  6434 I Unity   :
+09-21 16:07:53.184  6391  6434 I Unity   : <color=yellow>Load asset DD_VNLogin.asset from bundle dd_vnlogin, bundle is not loaded, spend time = 5.081177ms</color>
+09-21 16:07:53.184  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.184  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.184  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.184  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.184  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.184  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.184  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.184  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.184  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.184  6391  6434 I Unity   :
+09-21 16:07:53.263  6391  6434 I Unity   : <color=yellow>Load asset DD_Warrior_1.asset from bundle dd_warrior_1, bundle is not loaded, spend time = 76.27487ms</color>
+09-21 16:07:53.263  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.263  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.263  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.263  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.263  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.263  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.263  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.263  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.263  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.263  6391  6434 I Unity   :
+09-21 16:07:53.305  6391  6434 I Unity   : <color=yellow>Load asset DD_Warrior_2.asset from bundle dd_warrior_2, bundle is not loaded, spend time = 37.65488ms</color>
+09-21 16:07:53.305  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.305  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.305  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.305  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.305  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.305  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.305  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.305  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.305  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.305  6391  6434 I Unity   :
+09-21 16:07:53.358  6391  6434 I Unity   : <color=yellow>Load asset DD_Warrior_3.asset from bundle dd_warrior_3, bundle is not loaded, spend time = 40.9584ms</color>
+09-21 16:07:53.358  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.358  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.358  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.358  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.358  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.358  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.358  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.358  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.358  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.358  6391  6434 I Unity   :
+09-21 16:07:53.404  6391  6434 I Unity   : <color=yellow>Load asset DD_Warrior_4.asset from bundle dd_warrior_4, bundle is not loaded, spend time = 27.46964ms</color>
+09-21 16:07:53.404  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.404  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.404  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.404  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.404  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.404  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.404  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.404  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.404  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.404  6391  6434 I Unity   :
+09-21 16:07:53.417  6391  6434 I Unity   : <color=yellow>Load asset DD_Warrior_5.asset from bundle dd_warrior_5, bundle is not loaded, spend time = 11.63101ms</color>
+09-21 16:07:53.417  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.417  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.417  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.417  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.417  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.417  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.417  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.417  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.417  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.417  6391  6434 I Unity   :
+09-21 16:07:53.439  6391  6434 I Unity   : <color=yellow>Load asset DD_Warrior_6.asset from bundle dd_warrior_6, bundle is not loaded, spend time = 20.31708ms</color>
+09-21 16:07:53.439  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.439  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.439  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.439  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.439  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.439  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.439  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.439  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.439  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.439  6391  6434 I Unity   :
+09-21 16:07:53.449  6391  6434 I Unity   : <color=yellow>Load asset D_Activity.asset from bundle d_activity, bundle is not loaded, spend time = 7.968903ms</color>
+09-21 16:07:53.449  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.449  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.449  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.449  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.449  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.449  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.449  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.449  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.449  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.449  6391  6434 I Unity   :
+09-21 16:07:53.489  6391  6434 I Unity   : <color=yellow>Load asset D_ActivityAnni.asset from bundle d_activityanni, bundle is not loaded, spend time = 38.77258ms</color>
+09-21 16:07:53.489  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.489  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.489  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.489  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.489  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.489  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.489  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.489  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.489  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.489  6391  6434 I Unity   :
+09-21 16:07:53.504  1589  1642 I am_uid_idle: 10051
+09-21 16:07:53.510  6391  6434 I Unity   : <color=yellow>Load asset D_ActivityCommon.asset from bundle d_activitycommon, bundle is not loaded, spend time = 15.44952ms</color>
+09-21 16:07:53.510  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.510  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.510  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.510  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.510  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.510  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.510  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.510  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.510  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.510  6391  6434 I Unity   :
+09-21 16:07:53.523  6391  6434 I Unity   : <color=yellow>Load asset D_ActivityDS.asset from bundle d_activityds, bundle is not loaded, spend time = 11.89804ms</color>
+09-21 16:07:53.523  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.523  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.523  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.523  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.523  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.523  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.523  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.523  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.523  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.523  6391  6434 I Unity   :
+09-21 16:07:53.533  6391  6434 I Unity   : <color=yellow>Load asset D_ActivityMisc.asset from bundle d_activitymisc, bundle is not loaded, spend time = 8.68988ms</color>
+09-21 16:07:53.533  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.533  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.533  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.533  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.533  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.533  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.533  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.533  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.533  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.533  6391  6434 I Unity   :
+09-21 16:07:53.542  6391  6434 I Unity   : <color=yellow>Load asset D_ActivityThreeKindoms.asset from bundle d_activitythreekindoms, bundle is not loaded, spend time = 7.034302ms</color>
+09-21 16:07:53.542  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.542  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.542  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.542  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.542  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.542  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.542  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.542  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.542  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.542  6391  6434 I Unity   :
+09-21 16:07:53.564  1589  1642 I am_uid_idle: 10081
+09-21 16:07:53.564  1589  1642 I am_uid_idle: 10026
+09-21 16:07:53.591  6391  6434 I Unity   : <color=yellow>Load asset D_ActivityWidget.asset from bundle d_activitywidget, bundle is not loaded, spend time = 48.52295ms</color>
+09-21 16:07:53.591  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.591  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.591  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.591  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.591  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.591  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.591  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.591  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.591  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.591  6391  6434 I Unity   :
+09-21 16:07:53.640  6391  6434 I Unity   : <color=yellow>Load asset D_AdjutantEvolution.asset from bundle d_adjutantevolution, bundle is not loaded, spend time = 47.38998ms</color>
+09-21 16:07:53.640  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.640  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.640  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.640  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.640  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.640  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.640  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.640  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.640  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.640  6391  6434 I Unity   :
+09-21 16:07:53.641  1589  1642 I am_uid_idle: 10192
+09-21 16:07:53.657  6391  6434 I Unity   : <color=yellow>Load asset D_BioRes.asset from bundle d_biores, bundle is not loaded, spend time = 15.3656ms</color>
+09-21 16:07:53.657  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.657  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.657  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.657  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.657  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.657  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.657  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.657  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.657  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.657  6391  6434 I Unity   :
+09-21 16:07:53.665  6391  6434 I Unity   : <color=yellow>Load asset D_CityBP.asset from bundle d_citybp, bundle is not loaded, spend time = 5.729675ms</color>
+09-21 16:07:53.665  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.665  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.665  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.665  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.665  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.665  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.665  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.665  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.665  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.665  6391  6434 I Unity   :
+09-21 16:07:53.680  6391  6434 I Unity   : <color=yellow>Load asset D_ClimbBuilding.asset from bundle d_climbbuilding, bundle is not loaded, spend time = 13.22937ms</color>
+09-21 16:07:53.680  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.680  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.680  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.680  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.680  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.680  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.680  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.680  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.680  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.680  6391  6434 I Unity   :
+09-21 16:07:53.733  6391  6434 I Unity   : <color=yellow>Load asset D_CrimsonLand.asset from bundle d_crimsonland, bundle is not loaded, spend time = 52.52075ms</color>
+09-21 16:07:53.733  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.733  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.733  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.733  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.733  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.733  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.733  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.733  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.733  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.733  6391  6434 I Unity   :
+09-21 16:07:53.741  6391  6434 I Unity   : <color=yellow>Load asset D_Dash.asset from bundle d_dash, bundle is not loaded, spend time = 6.000519ms</color>
+09-21 16:07:53.741  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.741  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.741  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.741  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.741  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.741  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.741  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.741  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.741  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.741  6391  6434 I Unity   :
+09-21 16:07:53.783  6391  6434 I Unity   : <color=yellow>Load asset D_DeathGame.asset from bundle d_deathgame, bundle is not loaded, spend time = 41.35513ms</color>
+09-21 16:07:53.783  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.783  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.783  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.783  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.783  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.783  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.783  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.783  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.783  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.783  6391  6434 I Unity   :
+09-21 16:07:53.849  6391  6434 I Unity   : <color=yellow>Load asset D_DecorationSystemUI.asset from bundle d_decorationsystemui, bundle is not loaded, spend time = 64.43405ms</color>
+09-21 16:07:53.849  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.849  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.849  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.849  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.849  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.849  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.849  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.849  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.849  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.849  6391  6434 I Unity   :
+--------- beginning of kernel
+09-21 16:07:50.409     0     0 D logd    : logdr: UID=2000 GID=2000 PID=6707 b tail=0 logMask=ff pid=0 start=0ns timeout=0ns
+09-21 16:07:53.860  6391  6434 I Unity   : <color=yellow>Load asset D_DigOres.asset from bundle d_digores, bundle is not loaded, spend time = 10.23865ms</color>
+09-21 16:07:53.860  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.860  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.860  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.860  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.860  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.860  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.860  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.860  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.860  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.860  6391  6434 I Unity   :
+09-21 16:07:53.896  6391  6434 I Unity   : <color=yellow>Load asset D_EquipMatrix.asset from bundle d_equipmatrix, bundle is not loaded, spend time = 34.832ms</color>
+09-21 16:07:53.896  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.896  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.896  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.896  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.896  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.896  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.896  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.896  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.896  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.896  6391  6434 I Unity   :
+09-21 16:07:53.917  6391  6434 I Unity   : <color=yellow>Load asset D_FeedBox.asset from bundle d_feedbox, bundle is not loaded, spend time = 19.29474ms</color>
+09-21 16:07:53.917  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.917  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.917  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.917  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.917  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.917  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.917  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.917  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.917  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.917  6391  6434 I Unity   :
+09-21 16:07:53.952  6391  6434 I Unity   : <color=yellow>Load asset D_FightBoss.asset from bundle d_fightboss, bundle is not loaded, spend time = 34.27124ms</color>
+09-21 16:07:53.952  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.952  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.952  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.952  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.952  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.952  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.952  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.952  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.952  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.952  6391  6434 I Unity   :
+09-21 16:07:53.963  6391  6434 I Unity   : <color=yellow>Load asset D_FirstCharge.asset from bundle d_firstcharge, bundle is not loaded, spend time = 9.83429ms</color>
+09-21 16:07:53.963  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.963  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.963  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.963  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.963  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.963  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.963  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.963  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.963  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.963  6391  6434 I Unity   :
+09-21 16:07:53.983  6391  6434 I Unity   : <color=yellow>Load asset D_FishingSystemIcon.asset from bundle d_fishingsystemicon, bundle is not loaded, spend time = 19.50836ms</color>
+09-21 16:07:53.983  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:53.983  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:53.983  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:53.983  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:53.983  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:53.983  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:53.983  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:53.983  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:53.983  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:53.983  6391  6434 I Unity   :
+09-21 16:07:54.028  6391  6434 I Unity   : <color=yellow>Load asset D_FishingSystemUI.asset from bundle d_fishingsystemui, bundle is not loaded, spend time = 43.7355ms</color>
+09-21 16:07:54.028  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.028  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.028  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.028  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.028  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.028  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.028  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.028  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.028  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.028  6391  6434 I Unity   :
+09-21 16:07:54.041  6391  6434 I Unity   : <color=yellow>Load asset D_FlagAni.asset from bundle d_flagani, bundle is not loaded, spend time = 12.33673ms</color>
+09-21 16:07:54.041  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.041  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.041  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.041  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.041  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.041  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.041  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.041  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.041  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.041  6391  6434 I Unity   :
+09-21 16:07:54.082  6391  6434 I Unity   : <color=yellow>Load asset D_GVGUI.asset from bundle d_gvgui, bundle is not loaded, spend time = 39.26849ms</color>
+09-21 16:07:54.082  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.082  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.082  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.082  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.082  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.082  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.082  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.082  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.082  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.082  6391  6434 I Unity   :
+09-21 16:07:54.115  6391  6434 I Unity   : <color=yellow>Load asset D_GiveFlower.asset from bundle d_giveflower, bundle is not loaded, spend time = 32.64618ms</color>
+09-21 16:07:54.115  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.115  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.115  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.115  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.115  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.115  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.115  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.115  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.115  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.115  6391  6434 I Unity   :
+09-21 16:07:54.125  6391  6434 I Unity   : <color=yellow>Load asset D_GroupBuy.asset from bundle d_groupbuy, bundle is not loaded, spend time = 8.678436ms</color>
+09-21 16:07:54.125  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.125  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.125  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.125  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.125  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.125  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.125  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.125  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.125  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.125  6391  6434 I Unity   :
+09-21 16:07:54.137  6391  6434 I Unity   : <color=yellow>Load asset D_Hero1.asset from bundle d_hero1, bundle is not loaded, spend time = 10.70404ms</color>
+09-21 16:07:54.137  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.137  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.137  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.137  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.137  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.137  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.137  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.137  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.137  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.137  6391  6434 I Unity   :
+09-21 16:07:54.144  6391  6434 I Unity   : <color=yellow>Load asset D_Hero4.asset from bundle d_hero4, bundle is not loaded, spend time = 5.943298ms</color>
+09-21 16:07:54.144  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.144  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.144  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.144  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.144  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.144  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.144  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.144  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.144  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.144  6391  6434 I Unity   :
+09-21 16:07:54.172  6391  6434 I Unity   : <color=yellow>Load asset D_HeroIcon.asset from bundle d_heroicon, bundle is not loaded, spend time = 27.32468ms</color>
+09-21 16:07:54.172  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.172  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.172  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.172  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.172  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.172  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.172  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.172  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.172  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.172  6391  6434 I Unity   :
+09-21 16:07:54.182  6391  6434 I Unity   : <color=yellow>Load asset D_HeroLottery.asset from bundle d_herolottery, bundle is not loaded, spend time = 9.380341ms</color>
+09-21 16:07:54.182  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.182  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.182  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.182  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.182  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.182  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.182  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.182  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.182  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.182  6391  6434 I Unity   :
+09-21 16:07:54.200  6391  6434 I Unity   : <color=yellow>Load asset D_HeroSkin.asset from bundle d_heroskin, bundle is not loaded, spend time = 17.02118ms</color>
+09-21 16:07:54.200  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.200  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.200  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.200  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.200  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.200  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.200  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.200  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.200  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.200  6391  6434 I Unity   :
+09-21 16:07:54.218  6391  6434 I Unity   : <color=yellow>Load asset D_Icon.asset from bundle d_icon, bundle is not loaded, spend time = 16.26205ms</color>
+09-21 16:07:54.218  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.218  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.218  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.218  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.218  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.218  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.218  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.218  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.218  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.218  6391  6434 I Unity   :
+09-21 16:07:54.230  6391  6434 I Unity   : <color=yellow>Load asset D_Icon2.asset from bundle d_icon2, bundle is not loaded, spend time = 10.4599ms</color>
+09-21 16:07:54.230  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.230  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.230  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.230  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.230  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.230  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.230  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.230  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.230  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.230  6391  6434 I Unity   :
+09-21 16:07:54.240  6391  6434 I Unity   : <color=yellow>Load asset D_Icon3.asset from bundle d_icon3, bundle is not loaded, spend time = 7.621765ms</color>
+09-21 16:07:54.240  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.240  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.240  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.240  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.240  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.240  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.240  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.240  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.240  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.240  6391  6434 I Unity   :
+09-21 16:07:54.246 11568 11568 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:07:54.252  1589  2114 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:07:54.252  1589  2114 D CompatibilityInfo: applicationDensity - 440
+09-21 16:07:54.252  1589  2114 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:07:54.260 11568 11568 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:07:54.260 11568 11568 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:07:54.291  6391  6434 I Unity   : <color=yellow>Load asset D_IconCastle.asset from bundle d_iconcastle, bundle is not loaded, spend time = 49.57581ms</color>
+09-21 16:07:54.291  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.291  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.291  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.291  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.291  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.291  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.291  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.291  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.291  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.291  6391  6434 I Unity   :
+09-21 16:07:54.310  1589  1641 I am_pss  : [6415,10051,com.android.quicksearchbox,46895104,31952896,4368384,79626240,0,18,59]
+09-21 16:07:54.320  6391  6434 I Unity   : <color=yellow>Load asset D_IconCastleSkin.asset from bundle d_iconcastleskin, bundle is not loaded, spend time = 27.82059ms</color>
+09-21 16:07:54.320  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.320  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.320  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.320  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.320  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.320  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.320  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.320  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.320  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.320  6391  6434 I Unity   :
+09-21 16:07:54.330  6391  6434 I Unity   : <color=yellow>Load asset D_IconMiniMap.asset from bundle d_iconminimap, bundle is not loaded, spend time = 7.553101ms</color>
+09-21 16:07:54.330  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.330  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.330  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.330  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.330  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.330  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.330  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.330  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.330  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.330  6391  6434 I Unity   :
+09-21 16:07:54.358  6391  6434 I Unity   : <color=yellow>Load asset D_Illustration.asset from bundle d_illustration, bundle is not loaded, spend time = 26.61133ms</color>
+09-21 16:07:54.358  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.358  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.358  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.358  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.358  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.358  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.358  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.358  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.358  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.358  6391  6434 I Unity   :
+09-21 16:07:54.395  6391  6434 I Unity   : <color=yellow>Load asset D_Laba.asset from bundle d_laba, bundle is not loaded, spend time = 27.83966ms</color>
+09-21 16:07:54.395  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.395  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.395  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.395  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.395  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.395  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.395  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.395  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.395  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.395  6391  6434 I Unity   :
+09-21 16:07:54.405  6391  6434 I Unity   : <color=yellow>Load asset D_LimitBattlePass.asset from bundle d_limitbattlepass, bundle is not loaded, spend time = 8.68988ms</color>
+09-21 16:07:54.405  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.405  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.405  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.405  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.405  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.405  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.405  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.405  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.405  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.405  6391  6434 I Unity   :
+09-21 16:07:54.413  6391  6434 I Unity   : <color=yellow>Load asset D_Lottery.asset from bundle d_lottery, bundle is not loaded, spend time = 6.36673ms</color>
+09-21 16:07:54.413  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.413  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.413  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.413  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.413  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.413  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.413  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.413  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.413  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.413  6391  6434 I Unity   :
+09-21 16:07:54.426  6391  6434 I Unity   : <color=yellow>Load asset D_Main.asset from bundle d_main, bundle is not loaded, spend time = 12.57706ms</color>
+09-21 16:07:54.426  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.426  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.426  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.426  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.426  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.426  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.426  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.426  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.426  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.426  6391  6434 I Unity   :
+09-21 16:07:54.438  6391  6434 I Unity   : <color=yellow>Load asset D_Medal.asset from bundle d_medal, bundle is not loaded, spend time = 9.250641ms</color>
+09-21 16:07:54.438  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.438  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.438  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.438  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.438  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.438  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.438  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.438  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.438  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.438  6391  6434 I Unity   :
+09-21 16:07:54.445  6391  6434 I Unity   : <color=yellow>Load asset D_Monopoly.asset from bundle d_monopoly, bundle is not loaded, spend time = 6.000519ms</color>
+09-21 16:07:54.445  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.445  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.445  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.445  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.445  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.445  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.445  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.445  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.445  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.445  6391  6434 I Unity   :
+09-21 16:07:54.488  6391  6434 I Unity   : <color=yellow>Load asset D_NewCommon.asset from bundle d_newcommon, bundle is not loaded, spend time = 41.88156ms</color>
+09-21 16:07:54.488  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.488  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.488  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.488  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.488  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.488  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.488  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.488  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.488  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.488  6391  6434 I Unity   :
+09-21 16:07:54.532  6391  6434 I Unity   : <color=yellow>Load asset D_NewCommon1.asset from bundle d_newcommon1, bundle is not loaded, spend time = 41.50391ms</color>
+09-21 16:07:54.532  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.532  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.532  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.532  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.532  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.532  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.532  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.532  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.532  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.532  6391  6434 I Unity   :
+09-21 16:07:54.581  6391  6434 I Unity   : <color=yellow>Load asset D_NewExpedition.asset from bundle d_newexpedition, bundle is not loaded, spend time = 46.31424ms</color>
+09-21 16:07:54.581  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.581  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.581  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.581  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.581  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.581  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.581  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.581  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.581  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.581  6391  6434 I Unity   :
+09-21 16:07:54.586  6391  6434 I Unity   : <color=yellow>Load asset D_NewbieActivitiesCollection.asset from bundle d_newbieactivitiescollection, bundle is not loaded, spend time = 4.013062ms</color>
+09-21 16:07:54.586  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.586  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.586  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.586  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.586  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.586  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.586  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.586  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.586  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.586  6391  6434 I Unity   :
+09-21 16:07:54.627  6391  6434 I Unity   : <color=yellow>Load asset D_OccupiedWar.asset from bundle d_occupiedwar, bundle is not loaded, spend time = 39.89792ms</color>
+09-21 16:07:54.627  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.627  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.627  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.627  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.627  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.627  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.627  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.627  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.627  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.627  6391  6434 I Unity   :
+09-21 16:07:54.649  6391  6434 I Unity   : <color=yellow>Load asset D_ReplaceUI.asset from bundle d_replaceui, bundle is not loaded, spend time = 20.44678ms</color>
+09-21 16:07:54.649  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.649  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.649  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.649  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.649  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.649  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.649  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.649  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.649  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:07:54.649  6391  6434 I Unity   :
+09-21 16:07:54.665  6391  6434 I Unity   : <color=yellow>Load asset D_Science.asset from bundle d_science, bundle is not loaded, spend time = 15.12909ms</color>
+09-21 16:07:54.665  6391  6434 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:07:54.665  6391  6434 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:07:54.665  6391  6434 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:07:54.665  6391  6434 I Unity   : ResManager:GetAsset(String, Type)
+09-21 16:07:54.665  6391  6434 I Unity   : ResManager:GetUIAtlas(String)
+09-21 16:07:54.665  6391  6434 I Unity   : ResManager:ProcssTexInfo(TexInfo)
+09-21 16:07:54.665  6391  6434 I Unity   : ResManager:InitiateImageRes(TexInfo[])
+09-21 16:07:54.665  6391  6434 I Unity   : <OnInitiated>d__75:MoveNext()
+09-21 16:07:54.665  6391  6434 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)

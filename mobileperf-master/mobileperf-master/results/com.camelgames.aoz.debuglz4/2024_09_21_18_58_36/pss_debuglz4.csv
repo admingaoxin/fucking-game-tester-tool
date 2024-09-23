@@ -1,0 +1,7 @@
+datatime,package,pid,pss,java_heap,native_heap,system
+2024-09-21 18-58-36,com.camelgames.aoz.debuglz4,10797,1433.03,14.53,288.89,14.2
+2024-09-21 18-58-54,com.camelgames.aoz.debuglz4,10797,1433.22,14.69,288.95,14.19
+2024-09-21 18-58-59,com.camelgames.aoz.debuglz4,10797,1437.4,14.48,293.33,14.19
+2024-09-21 18-59-04,com.camelgames.aoz.debuglz4,10797,1440.62,14.48,296.48,14.19
+2024-09-21 18-59-09,com.camelgames.aoz.debuglz4,10797,1432.92,14.48,288.86,14.2
+2024-09-21 18-59-14,com.camelgames.aoz.debuglz4,10797,1437.08,14.48,293.03,14.19

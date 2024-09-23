@@ -1,0 +1,202 @@
+--------- beginning of events
+09-21 16:10:00.599  1589  1737 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906200854]
+09-21 16:10:00.599  1589  1737 I netstats_wifi_sample: [2044762614,2783998,56383556,696332,2044762614,2783998,56383556,696332,2109145319,2598533,55924734,693639,1726906200854]
+09-21 16:10:02.195  1589  1661 I commit_sys_config_file: [package-user-0,27]
+09-21 16:10:03.054  1589  1641 I am_pss  : [7099,10201,com.camelgames.aoz.debuglz4,559254528,547590144,146432,577642496,0,2,69]
+--------- beginning of kernel
+09-21 16:10:01.600     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:10:01.600     0     0 I         : length 2 addr=48c6
+09-21 16:10:01.600     0     0 I val[0]  : e5
+09-21 16:10:01.600     0     0 I val[1]  : 01
+09-21 16:10:01.600     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:10:01.600     0     0 I         : length 2 addr=48c0
+09-21 16:10:01.600     0     0 I val[0]  : a7
+09-21 16:10:01.600     0     0 I val[1]  : 52
+09-21 16:10:01.600     0     0 E ALG     : get_time_to_full_locked: TTF: msoc=91
+09-21 16:10:01.968     0     0 D logd    : logdr: UID=2000 GID=2000 PID=7228 b tail=0 logMask=ff pid=0 start=0ns timeout=0ns
+09-21 16:10:02.640     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:10:02.640     0     0 I         : length 2 addr=48c6
+09-21 16:10:02.640     0     0 I val[0]  : 01
+09-21 16:10:02.640     0     0 I val[1]  : 03
+09-21 16:10:02.641     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:10:02.641     0     0 I         : length 2 addr=48c0
+09-21 16:10:02.641     0     0 I val[0]  : 2c
+09-21 16:10:02.641     0     0 I val[1]  : 52
+09-21 16:10:02.641     0     0 E ALG     : get_time_to_full_locked: TTF: msoc=91
+--------- beginning of main
+09-21 16:10:06.649  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:10:06.650  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+--------- beginning of radio
+09-21 16:10:06.651  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:10:06.651  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:10:06.651  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:10:06.651  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:10:06.653  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.653  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.656  2197  2197 D RILJ    : [6102]> OPERATOR [SUB1]
+09-21 16:10:06.656  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:10:06.656  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:10:06.657  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:10:06.657  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:10:06.657  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:10:06.657  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:10:06.658  2197  2197 D RILJ    : [6104]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:10:06.658  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.659  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.659  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.660  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.660  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.660  2197  2288 D RILJ    : [6102]< OPERATOR {, , } [SUB1]
+09-21 16:10:06.660  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:10:06.660  2197  2372 D RILJ    : [6105]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:10:06.662  2197  2372 D RILJ    : [6106]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:10:06.662  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:10:06.662  2197  2288 D RILJ    : [6104]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:10:06.663  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.663  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.664  2197  2288 D RILJ    : [6105]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:10:06.665  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:10:06.665  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:10:06.665  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:10:06.666  2197  2197 D RILJ    : [6107]> OPERATOR [SUB1]
+09-21 16:10:06.667  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:10:06.667  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:10:06.668  2197  2197 D RILJ    : [6108]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.669  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:10:06.669  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:10:06.669  2197  2372 D RILJ    : [6109]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:10:06.669  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:10:06.670  2197  2288 D RILJ    : [6106]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:10:06.671  2197  2372 D RILJ    : [6110]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:10:06.671  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@590bc19 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:10:06.675  2197  2288 D RILJ    : [6108]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:10:06.675  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:10:06.675  2197  2288 D RILJ    : [6107]< OPERATOR {, , } [SUB1]
+09-21 16:10:06.676  2197  2288 D RILJ    : [6109]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:10:06.677  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:10:06.677  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:10:06.677  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:10:06.681  2197  2288 D RILJ    : [6110]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:10:06.681  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@c45e4de cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:10:06.681  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:10:06.682  2197  2197 I service_manager_stats: [100,67,267680]
+09-21 16:10:06.684  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@5acb1e1 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}, NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@c45e4de cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:10:06.684  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:10:03.568     0     0 I QG-K    : qg_fifo_update_done_handler: IRQ triggered
+09-21 16:10:03.568     0     0 I         : length 1 addr=4851
+09-21 16:10:03.568     0     0 I val[0]  : 26
+09-21 16:10:03.568     0     0 I QG-K    : qg_process_fifo: FIFO length=5
+09-21 16:10:03.568     0     0 I         : length 1 addr=4852
+09-21 16:10:03.568     0     0 I val[0]  : 0a
+09-21 16:10:03.568     0     0 I         : length 1 addr=4851
+09-21 16:10:03.568     0     0 I val[0]  : 26
+09-21 16:10:03.568     0     0 I         : length 2 addr=4890
+09-21 16:10:03.568     0     0 I val[0]  : 98
+09-21 16:10:03.568     0     0 I val[1]  : 55
+09-21 16:10:03.568     0     0 I         : length 2 addr=48a0
+09-21 16:10:03.568     0     0 I val[0]  : 5c
+09-21 16:10:03.568     0     0 I val[1]  : fc
+09-21 16:10:03.568     0     0 I QG-K    : qg_process_fifo: FIFO 0 raw_v=21912 uV=4264885 raw_i=64604 uA=-284424 interval=98 count=128
+09-21 16:10:03.568     0     0 I         : length 2 addr=4892
+09-21 16:10:03.568     0     0 I val[0]  : 26
+09-21 16:10:03.568     0     0 I val[1]  : 55
+09-21 16:10:03.568     0     0 I         : length 2 addr=48a2
+09-21 16:10:03.568     0     0 I val[0]  : 63
+09-21 16:10:03.568     0     0 I val[1]  : fd
+09-21 16:10:03.568     0     0 I QG-K    : qg_process_fifo: FIFO 1 raw_v=21798 uV=4242697 raw_i=64867 uA=-204162 interval=98 count=128
+09-21 16:10:03.568     0     0 I         : length 2 addr=4894
+09-21 16:10:03.568     0     0 I val[0]  : 02
+09-21 16:10:03.568     0     0 I val[1]  : 55
+09-21 16:10:03.568     0     0 I         : length 2 addr=48a4
+09-21 16:10:03.568     0     0 I val[0]  : 7a
+09-21 16:10:03.568     0     0 I val[1]  : fd
+09-21 16:10:03.568     0     0 I QG-K    : qg_process_fifo: FIFO 2 raw_v=21762 uV=4235690 raw_i=64890 uA=-197143 interval=98 count=128
+09-21 16:10:03.568     0     0 I         : length 2 addr=4896
+09-21 16:10:03.568     0     0 I val[0]  : f6
+09-21 16:10:03.568     0     0 I val[1]  : 54
+09-21 16:10:03.568     0     0 I         : length 2 addr=48a6
+09-21 16:10:03.568     0     0 I val[0]  : d3
+09-21 16:10:03.568     0     0 I val[1]  : fd
+09-21 16:10:03.568     0     0 I QG-K    : qg_process_fifo: FIFO 3 raw_v=21750 uV=4233354 raw_i=64979 uA=-169983 interval=98 count=128
+09-21 16:10:03.568     0     0 I         : length 2 addr=4898
+09-21 16:10:03.568     0     0 I val[0]  : e4
+09-21 16:10:03.568     0     0 I val[1]  : 52
+09-21 16:10:03.568     0     0 I         : length 2 addr=48a8
+09-21 16:10:03.568     0     0 I val[0]  : ae
+09-21 16:10:03.568     0     0 I val[1]  : 01
+09-21 16:10:03.568     0     0 I QG-K    : qg_process_fifo: FIFO 4 raw_v=21220 uV=4130197 raw_i=430 uA=131225 interval=98 count=128
+09-21 16:10:03.570     0     0 I         : length 1 addr=484b
+09-21 16:10:03.570     0     0 I val[0]  : 3c
+09-21 16:10:03.570     0     0 I         : length 1 addr=484c
+09-21 16:10:03.570     0     0 I val[0]  : 42
+09-21 16:10:03.570     0     0 I         : length 1 addr=4851
+09-21 16:10:03.570     0     0 I val[0]  : 26
+09-21 16:10:03.570     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:10:03.570     0     0 I         : length 2 addr=48c6
+09-21 16:10:03.570     0     0 I val[0]  : 96
+09-21 16:10:03.570     0     0 I val[1]  : 02
+09-21 16:10:03.570     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:10:03.570     0     0 I         : length 1 addr=4851
+09-21 16:10:03.570     0     0 I val[0]  : 26
+09-21 16:10:03.570     0     0 I         : length 1 addr=4851
+09-21 16:10:03.570     0     0 I val[0]  : 26
+09-21 16:10:03.570     0     0 I         : length 1 addr=4852
+09-21 16:10:03.570     0     0 I val[0]  : 0a
+09-21 16:10:03.570     0     0 I QG-K    : qg_fifo_update_done_handler: FIFO_done time_delta_ms=62603
+09-21 16:10:03.570     0     0 E QG_WS   : FIFO_DONE_VOTER,1 voting on of val=1
+09-21 16:10:03.571     0     0 E QG_WS   : GOOD_OCV_VOTER,0 same vote off of val=0
+09-21 16:10:03.571     0     0 E QG_WS   : GOOD_OCV_VOTER,0 Ignoring similar vote off of val=0
+09-21 16:10:03.571     0     0 E QG_WS   : FIFO_DONE_VOTER,1 voting off of val=0
+09-21 16:10:03.571     0     0 E QG_WS   : FIFO_RT_DONE_VOTER,2 same vote off of val=0
+09-21 16:10:03.571     0     0 E QG_WS   : FIFO_RT_DONE_VOTER,2 Ignoring similar vote off of val=0
+09-21 16:10:03.571     0     0 E QG_WS   : SUSPEND_DATA_VOTER,3 same vote off of val=0
+09-21 16:10:03.571     0     0 E QG_WS   : SUSPEND_DATA_VOTER,3 Ignoring similar vote off of val=0
+09-21 16:10:03.571     0     0 I QG-K    : qg_device_read: QG device read complete Seq_no=3972 Size=412
+09-21 16:10:03.571     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:10:03.571     0     0 I         : length 2 addr=48c6
+09-21 16:10:03.571     0     0 I val[0]  : 96
+09-21 16:10:03.571     0     0 I val[1]  : 02
+09-21 16:10:03.571     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:10:03.572     0     0 I         : length 2 addr=48c0
+09-21 16:10:03.572     0     0 I val[0]  : 64
+09-21 16:10:03.572     0     0 I val[1]  : 52
+09-21 16:10:03.574     0     0 I QG-K    : qg_get_learned_capacity: Retrieved learned capacity 2576000uah
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X1_DUMP [16610583441529] [0]
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X2_DUMP [16610683439369] [0]
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X3_DUMP [16610683438728] [0]
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X4_DUMP [16610683438746] [1]
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X5_DUMP [16610679313720] [0]
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X6_DUMP [16610683687301] [1]
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X7_DUMP [16610683438831] [0]
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X8_DUMP [16610683438605] [0]
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X9_DUMP [16610683439024] [0]
+09-21 16:10:03.575     0     0 E QG-D    : FIFO=0 X10_DUMP [16610683440277] [0]
+09-21 16:10:03.578     0     0 E QG_WS   : UDATA_READY_VOTER,4 voting on of val=1
+09-21 16:10:03.578     0     0 I addr=4842 mask: 01 val: 01
+09-21 16:10:03.578     0     0 I         : length 2 addr=48c6
+09-21 16:10:03.578     0     0 I val[0]  : 96
+09-21 16:10:03.578     0     0 I val[1]  : 02
+09-21 16:10:03.578     0     0 I addr=4842 mask: 01 val: 00
+09-21 16:10:03.578     0     0 I QG-K    : process_udata_work: udata update: QG_SOC=91 QG_SYS_SOC=9094 last_catchup_soc=91
+09-21 16:10:03.578     0     0 I QG-K    : qg_adjust_sys_soc: last_adj_sys_soc=91  adj_sys_soc=91
+09-21 16:10:03.578     0     0 I QG-K    : qg_scale_soc: SOC scale: Start msoc=91 catch_up_soc=91 delta_soc=1
+09-21 16:10:03.578     0     0 I QG-K    : scale_soc_stop: SOC scale stopped: msoc=91 catch_up_soc=91
+09-21 16:10:03.578     0     0 I QG-K    : qg_device_write: QG write complete size=144
+09-21 16:10:03.579     0     0 I QG-K    : qg_store_soc_params: SDAM write param 0 value=1
+09-21 16:10:03.579     0     0 I QG-K    : qg_store_soc_params: SDAM write param 1 value=91
+09-21 16:10:03.579     0     0 I QG-K    : qg_store_soc_params: SDAM write param 2 value=317
+09-21 16:10:03.579     0     0 I QG-K    : qg_store_soc_params: SDAM write param 3 value=229
+09-21 16:10:03.579     0     0 I QG-K    : qg_store_soc_params: SDAM write param 4 value=4196200
+09-21 16:10:03.579     0     0 I QG-K    : qg_store_soc_params: SDAM write param 5 value=0
+09-21 16:10:03.579     0     0 I QG-K    : qg_store_soc_params: SDAM write param 6 value=168703732

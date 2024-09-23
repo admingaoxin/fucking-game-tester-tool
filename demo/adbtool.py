@@ -115,7 +115,7 @@ class ADBManager(QWidget):
         datacathButton = QPushButton ('使用输入筛选versionname')
         datacathButton.clicked.connect (self.datacath)
 
-        screenAV2Button = QPushButton ('使用输入的字符串命名录制的视频')
+        screenAV2Button = QPushButton ('使用输入的size自定义录制的视频')
         screenAV2Button.clicked.connect (self.screendinput)
 
         buttonLayout1 = QVBoxLayout ()
@@ -145,7 +145,6 @@ class ADBManager(QWidget):
 
 
         self.refreshDevices ()
-        self.refreshDevices()
         layout.addWidget (self.logText)
         self.run()
         self.logText.append("<span style='color: black;'>欢迎使用，有问题找胖虎~</br>需要打开Android设备的开发者选项以及允许usb调试（哄蒙也是Android.jpg）</span>")
@@ -256,9 +255,9 @@ class ADBManager(QWidget):
             QMessageBox.warning (self, "警告", "没有选定的设备")
             return
         self.logText.append (
-            f"<span style='color: red;'>调试中，慎用<span>")
+            f"<span style='color: red;'>清晰度高一点的版本，max-size=输入的size max - fps =60  no audio <span>")
         nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-        command = f"scrcpy -s {current_device}  --record {dir_name2}/{nowtime}{jiuer}.mp4"
+        command = f"scrcpy -s {current_device} --video-codec=h265 --max-size={jiuer} --max-fps=60 --no-audio  --record {dir_name2}/{nowtime}HD.mp4"
         subprocess.Popen (command, shell=True)
 
     def refreshDevices(self):
@@ -329,13 +328,13 @@ class ADBManager(QWidget):
             # 定义需要检查的包名及其描述
             package_names = {
                 'com.camelgames.aoz.test': "Olinetest包",
-                # 'com.camelgames.aoz.debuglz4': "Debug包",
+                'com.camelgames.aoz.debuglz4': "Debug包",
                 'com.camelgames.aoz.zhatest': "CnOlinetest包",
                 'com.camelgames.aoz.zha': "CN包",
                 'com.camelgames.aoz': "主包",
                 'com.camelgames.aoz.huawei': "华为包",
-                'yunbao.aoz.tt': "抖音本地包",
-                'com.yungame.aoz.tt': "抖音云包"
+                # 'yunbao.aoz.tt': "抖音本地包",
+                # 'com.yungame.aoz.tt': "抖音云包"
             }
 
             # 检查并显示特定包的versionCode信息

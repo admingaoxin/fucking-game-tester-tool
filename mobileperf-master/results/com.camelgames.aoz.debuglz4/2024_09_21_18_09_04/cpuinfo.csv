@@ -1,0 +1,19 @@
+datetime,device_cpu_rate%,user%,system%,idle%,package,pid,pid_cpu%
+2024-09-21 18-09-04,241,169,72,538,com.camelgames.aoz.debuglz4,10797,134
+2024-09-21 18-09-05,193,138,55,590,com.camelgames.aoz.debuglz4,10797,134
+2024-09-21 18-09-06,179,138,41,603,com.camelgames.aoz.debuglz4,10797,131
+2024-09-21 18-09-07,162,128,34,621,com.camelgames.aoz.debuglz4,10797,127
+2024-09-21 18-09-08,187,127,60,593,com.camelgames.aoz.debuglz4,10797,130
+2024-09-21 18-09-09,217,162,55,569,com.camelgames.aoz.debuglz4,10797,137
+2024-09-21 18-09-10,176,121,55,610,com.camelgames.aoz.debuglz4,10797,134
+2024-09-21 18-09-11,194,128,66,590,com.camelgames.aoz.debuglz4,10797,134
+2024-09-21 18-09-12,190,121,69,590,com.camelgames.aoz.debuglz4,10797,141
+2024-09-21 18-09-13,187,150,37,597,com.camelgames.aoz.debuglz4,10797,133
+2024-09-21 18-09-14,186,132,54,596,com.camelgames.aoz.debuglz4,10797,142
+2024-09-21 18-09-15,269,176,93,510,com.camelgames.aoz.debuglz4,10797,137
+2024-09-21 18-09-16,223,160,63,563,com.camelgames.aoz.debuglz4,10797,133
+2024-09-21 18-09-17,183,138,45,593,com.camelgames.aoz.debuglz4,10797,137
+2024-09-21 18-09-18,191,138,53,594,com.camelgames.aoz.debuglz4,10797,131
+2024-09-21 18-09-19,166,119,47,619,com.camelgames.aoz.debuglz4,10797,118
+2024-09-21 18-09-20,196,153,43,590,com.camelgames.aoz.debuglz4,10797,130
+2024-09-21 18-09-21,196,133,63,590,com.camelgames.aoz.debuglz4,10797,126

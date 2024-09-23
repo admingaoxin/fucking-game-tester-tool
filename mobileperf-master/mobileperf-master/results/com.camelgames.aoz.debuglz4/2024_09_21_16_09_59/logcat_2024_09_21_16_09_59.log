@@ -1,0 +1,1616 @@
+--------- beginning of main
+09-21 16:09:54.433  7099  7124 I Unity   : _testers is null or empty!
+09-21 16:09:54.433  7099  7124 I Unity   : CamelHot.SSOTester.SSOTesterBase`1:get_AnyPassed()
+09-21 16:09:54.433  7099  7124 I Unity   : UnityEngine.WaitUntil:get_keepWaiting()
+09-21 16:09:54.433  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:54.433  7099  7124 I Unity   :
+09-21 16:09:55.586  7099  7182 I Unity   : [HttpWebRequest] Index = 0 url = http://aoo_dev_sso.ageofzorigins.cn:10801/api2/ssoGetIP test finish status = Success cost = 103.1ms error =  result = {"headers":["Accept:*/*","Connection:keep-alive","Content-Type:text/html;charset=UTF-8","Content-Length:0","Host:aoo_dev_sso.ageofzorigins.cn:10801"],"succ":true,"err":0,"ip":"106.37.199.194","action":136,"err_t":0}
+09-21 16:09:55.586  7099  7182 I Unity   : CamelHot.SSOTester.SSOTesterBase`1:FinishTest(TestStatus, String, String)
+09-21 16:09:55.586  7099  7182 I Unity   : CamelHot.SSOTester.SSOTesterHttpWebRequest:GetResponseCallback(IAsyncResult)
+09-21 16:09:55.586  7099  7182 I Unity   : System.Threading.Tasks.AwaitTaskContinuation:RunOrScheduleAction(Action, Boolean, Task&)
+09-21 16:09:55.586  7099  7182 I Unity   : System.Threading.Tasks.Task:FinishContinuations()
+09-21 16:09:55.586  7099  7182 I Unity   : System.Threading.Tasks.Task`1:TrySetResult(TResult)
+09-21 16:09:55.586  7099  7182 I Unity   : System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+09-21 16:09:55.586  7099  7182 I Unity   : System.Net.<RunWithTimeoutWorker>d__241`1:MoveNext()
+09-21 16:09:55.586  7099  7182 I Unity   : System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+09-21 16:09:55.586  7099  7182 I Unity   : System.Runtime.CompilerServices.MoveNextRunner:Run()
+09-21 16:09:55.586  7099  7182 I Unity   : System.Threading.Tasks.AwaitTaskCo
+09-21 16:09:55.633  7099  7124 I Unity   : Read DID 83a7a68e-8599-4932-8e5b-11cc685b43b9
+09-21 16:09:55.633  7099  7124 I Unity   : CamelHybrid.HybridDuplicate:GetDeviceId()
+09-21 16:09:55.633  7099  7124 I Unity   : CamelHybrid.HybridStart:get_UrlParam()
+09-21 16:09:55.633  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass27_0:<CommunicateWithSSO>b__0(Int32, Int32)
+09-21 16:09:55.633  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:55.633  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.633  7099  7124 I Unity   :
+09-21 16:09:55.637  7099  7124 I Unity   : [HybridWebDataReader] Start RetryCount=6 Timeout=40
+09-21 16:09:55.637  7099  7124 I Unity   : CamelHybrid.<Operation>d__30:MoveNext()
+09-21 16:09:55.637  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.637  7099  7124 I Unity   :
+09-21 16:09:55.715  7099  7124 I Unity   : [HybridWebDataReader] Operation success
+09-21 16:09:55.715  7099  7124 I Unity   : CamelHybrid.<OperationAction>d__8:MoveNext()
+09-21 16:09:55.715  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.715  7099  7124 I Unity   :
+09-21 16:09:55.717  7099  7124 I Unity   : [HybridStart] [Log] http://aoo_dev_sso.ageofzorigins.cn:10801/api2/ssoGetCBundleUrl?ch=camel_google_dev&v=1.3.733&au_k=dc41a377-a6cf-44c6-8b90-fb5adf864c1b&dev_id=83a7a68e-8599-4932-8e5b-11cc685b43b9&uid=223320853 returns 204 bytes, converted: {"cc":"CN","vn_it":0,"bd_url_list":["http://106.75.53.116:9857/Doomsday_hybrid/"],"err":0,"l_bg":1,"is_enc":false,"succ":true,"dma":false,"action":1107,"i_dma_a":-1,"adma":true,"err_t":0,"open_log":false}
+09-21 16:09:55.717  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.717  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass27_0:<CommunicateWithSSO>b__1(HybridWebDataReader)
+09-21 16:09:55.717  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:55.717  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.717  7099  7124 I Unity   :
+09-21 16:09:55.722  7099  7124 I Unity   : [HybridStart] [Log] resultObject: action=1107 succ=True err=0 err_t=0 bundleUrlList=http://106.75.53.116:9857/Doomsday_hybrid/ dma=False is_enc=False vn_it=0
+09-21 16:09:55.722  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.722  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass27_0:<CommunicateWithSSO>b__1(HybridWebDataReader)
+09-21 16:09:55.722  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:55.722  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.722  7099  7124 I Unity   :
+09-21 16:09:55.729  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 0 pathToFile=/storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cli
+09-21 16:09:55.729  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.729  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:55.729  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.729  7099  7124 I Unity   :
+09-21 16:09:55.736  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 2
+09-21 16:09:55.736  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.736  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:55.736  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.736  7099  7124 I Unity   :
+09-21 16:09:55.739  7099  7124 I Unity   : [HybridLocalDataReader /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cli] Start RetryCount=3 Timeout=30
+09-21 16:09:55.739  7099  7124 I Unity   : CamelHybrid.<Operation>d__30:MoveNext()
+09-21 16:09:55.739  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.739  7099  7124 I Unity   :
+09-21 16:09:55.764  7099  7124 I Unity   : [HybridLocalDataReader /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cli] Operation success
+09-21 16:09:55.764  7099  7124 I Unity   : CamelHybrid.<OperationAction>d__8:MoveNext()
+09-21 16:09:55.764  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.764  7099  7124 I Unity   :
+09-21 16:09:55.765  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 3
+09-21 16:09:55.765  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.765  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass32_0:<LoadSafeFile>b__1(HybridLocalDataReader)
+09-21 16:09:55.765  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:55.765  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.765  7099  7124 I Unity   :
+09-21 16:09:55.767  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 4
+09-21 16:09:55.767  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.767  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass32_0:<LoadSafeFile>b__1(HybridLocalDataReader)
+09-21 16:09:55.767  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:55.767  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.767  7099  7124 I Unity   :
+09-21 16:09:55.770  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 6 fileBytes length=912 hash=8B3C85B674A3E317D0BE49C5EA1586B2
+09-21 16:09:55.770  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.770  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:55.770  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.770  7099  7124 I Unity   :
+09-21 16:09:55.771  7099  7124 I Unity   : [HybridDataCryptor] Start RetryCount=3 Timeout=30
+09-21 16:09:55.771  7099  7124 I Unity   : CamelHybrid.<Operation>d__30:MoveNext()
+09-21 16:09:55.771  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.771  7099  7124 I Unity   :
+09-21 16:09:55.781  7099  7124 I Unity   : [HybridDataCryptor] Operation success
+09-21 16:09:55.781  7099  7124 I Unity   : CamelHybrid.<OperationAction>d__19:MoveNext()
+09-21 16:09:55.781  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.781  7099  7124 I Unity   :
+09-21 16:09:55.781  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 7
+09-21 16:09:55.781  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.781  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass32_0:<LoadSafeFile>b__4(HybridDataCryptor)
+09-21 16:09:55.781  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:55.781  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.781  7099  7124 I Unity   :
+09-21 16:09:55.792  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 8 /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cli spent 53.68ms
+09-21 16:09:55.792  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.792  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:55.792  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.792  7099  7124 I Unity   :
+09-21 16:09:55.900  7099  7124 I Unity   : [HybridStart] [Log] PrepareLocalData finish LocalManifest.HashIn=0F7BC17DB6C8B89DC4A9895BE467D748 LocalManifest.HashOut=08BB0921D99E1140AB572FA39AFD54F9
+09-21 16:09:55.900  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.900  7099  7124 I Unity   : CamelHybrid.<PrepareLocalData>d__28:MoveNext()
+09-21 16:09:55.900  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.900  7099  7124 I Unity   :
+09-21 16:09:55.902  7099  7124 I Unity   : [HybridStart] [Log] PrepareLocalData finish 174.27ms spent
+09-21 16:09:55.902  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.902  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:55.902  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.902  7099  7124 I Unity   :
+09-21 16:09:55.904  7099  7124 I Unity   : [HybridStart] [Log] UpdateHybridData 0 RemoteDataRoot=http://106.75.53.116:9857/Doomsday_hybrid/android
+09-21 16:09:55.904  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.904  7099  7124 I Unity   : CamelHybrid.<UpdateHybridData>d__29:MoveNext()
+09-21 16:09:55.904  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.904  7099  7124 I Unity   :
+09-21 16:09:55.906  7099  7124 I Unity   : [HybridStart] [Log] UpdateHybridData 1 manifestUrl=http://106.75.53.116:9857/Doomsday_hybrid/android/wdeY33011010830/m
+09-21 16:09:55.906  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.906  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass29_0:<UpdateHybridData>b__0(Int32, Int32)
+09-21 16:09:55.906  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:55.906  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.906  7099  7124 I Unity   :
+09-21 16:09:55.908  7099  7124 I Unity   : [HybridWebDataReader] Start RetryCount=3 Timeout=30
+09-21 16:09:55.908  7099  7124 I Unity   : CamelHybrid.<Operation>d__30:MoveNext()
+09-21 16:09:55.908  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.908  7099  7124 I Unity   :
+09-21 16:09:55.947  7099  7124 I Unity   : [HybridWebDataReader] Operation success
+09-21 16:09:55.947  7099  7124 I Unity   : CamelHybrid.<OperationAction>d__8:MoveNext()
+09-21 16:09:55.947  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.947  7099  7124 I Unity   :
+09-21 16:09:55.948  7099  7124 I Unity   : [HybridStart] [Log] UpdateHybridData 2 latestManifestData.Length=912
+09-21 16:09:55.948  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.948  7099  7124 I Unity   : CamelHybrid.<UpdateHybridData>d__29:MoveNext()
+09-21 16:09:55.948  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.948  7099  7124 I Unity   :
+09-21 16:09:55.952  7099  7124 I Unity   : [HybridDataCryptor] Start RetryCount=3 Timeout=30
+09-21 16:09:55.952  7099  7124 I Unity   : CamelHybrid.<Operation>d__30:MoveNext()
+09-21 16:09:55.952  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.952  7099  7124 I Unity   :
+09-21 16:09:55.981  7099  7124 I Unity   : [HybridDataCryptor] Operation success
+09-21 16:09:55.981  7099  7124 I Unity   : CamelHybrid.<OperationAction>d__19:MoveNext()
+09-21 16:09:55.981  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.981  7099  7124 I Unity   :
+09-21 16:09:55.982  7099  7124 I Unity   : [HybridStart] [Log] UpdateHybridData 3 latestManifest.HashIn=0F7BC17DB6C8B89DC4A9895BE467D748 latestManifest.HashOut=08BB0921D99E1140AB572FA39AFD54F9
+09-21 16:09:55.982  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.982  7099  7124 I Unity   : CamelHybrid.<UpdateHybridData>d__29:MoveNext()
+09-21 16:09:55.982  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.982  7099  7124 I Unity   :
+09-21 16:09:55.985  7099  7124 I Unity   : [HybridStart] [Log] UpdateHybridData finish no need to update LocalManifest.HashOut=08BB0921D99E1140AB572FA39AFD54F9 latestManifest.HashOut=08BB0921D99E1140AB572FA39AFD54F9
+09-21 16:09:55.985  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.985  7099  7124 I Unity   : CamelHybrid.<UpdateHybridData>d__29:MoveNext()
+09-21 16:09:55.985  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.985  7099  7124 I Unity   :
+09-21 16:09:55.988  7099  7124 I Unity   : [HybridStart] [Log] UpdateHybridData finish 83.73ms spent
+09-21 16:09:55.988  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.988  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:55.988  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.988  7099  7124 I Unity   :
+09-21 16:09:55.992  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 0 pathToFile=/storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cli
+09-21 16:09:55.992  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.992  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:55.992  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.992  7099  7124 I Unity   :
+09-21 16:09:55.996  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 2
+09-21 16:09:55.996  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:55.996  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:55.996  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:55.996  7099  7124 I Unity   :
+09-21 16:09:56.001  7099  7124 I Unity   : [HybridLocalDataReader /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cli] Start RetryCount=3 Timeout=30
+09-21 16:09:56.001  7099  7124 I Unity   : CamelHybrid.<Operation>d__30:MoveNext()
+09-21 16:09:56.001  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.001  7099  7124 I Unity   :
+09-21 16:09:56.015  7099  7124 I Unity   : [HybridLocalDataReader /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cli] Operation success
+09-21 16:09:56.015  7099  7124 I Unity   : CamelHybrid.<OperationAction>d__8:MoveNext()
+09-21 16:09:56.015  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.015  7099  7124 I Unity   :
+09-21 16:09:56.015  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 3
+09-21 16:09:56.015  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.015  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass32_0:<LoadSafeFile>b__1(HybridLocalDataReader)
+09-21 16:09:56.015  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:56.015  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.015  7099  7124 I Unity   :
+09-21 16:09:56.018  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 4
+09-21 16:09:56.018  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.018  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass32_0:<LoadSafeFile>b__1(HybridLocalDataReader)
+09-21 16:09:56.018  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:56.018  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.018  7099  7124 I Unity   :
+09-21 16:09:56.021  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 6 fileBytes length=912 hash=8B3C85B674A3E317D0BE49C5EA1586B2
+09-21 16:09:56.021  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.021  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:56.021  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.021  7099  7124 I Unity   :
+09-21 16:09:56.024  7099  7124 I Unity   : [HybridDataCryptor] Start RetryCount=3 Timeout=30
+09-21 16:09:56.024  7099  7124 I Unity   : CamelHybrid.<Operation>d__30:MoveNext()
+09-21 16:09:56.024  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.024  7099  7124 I Unity   :
+09-21 16:09:56.048  7099  7124 I Unity   : [HybridDataCryptor] Operation success
+09-21 16:09:56.048  7099  7124 I Unity   : CamelHybrid.<OperationAction>d__19:MoveNext()
+09-21 16:09:56.048  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.048  7099  7124 I Unity   :
+09-21 16:09:56.049  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 7
+09-21 16:09:56.049  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.049  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass32_0:<LoadSafeFile>b__4(HybridDataCryptor)
+09-21 16:09:56.049  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:56.049  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.049  7099  7124 I Unity   :
+09-21 16:09:56.052  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 8 /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cli spent 52.31ms
+09-21 16:09:56.052  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.052  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:56.052  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.052  7099  7124 I Unity   :
+09-21 16:09:56.055  7099  7124 I Unity   : [HybridStart] [Log] LoadData 0 load manifest finish HashOut=08BB0921D99E1140AB572FA39AFD54F9 LengthOut=10788880 HashIn=0F7BC17DB6C8B89DC4A9895BE467D748 LengthIn=10788864
+09-21 16:09:56.055  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.055  7099  7124 I Unity   : CamelHybrid.<LoadData>d__30:MoveNext()
+09-21 16:09:56.055  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.055  7099  7124 I Unity   :
+09-21 16:09:56.059  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 0 pathToFile=/storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cld
+09-21 16:09:56.059  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.059  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:56.059  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.059  7099  7124 I Unity   :
+09-21 16:09:56.066  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 2
+09-21 16:09:56.066  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.066  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:56.066  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.066  7099  7124 I Unity   :
+09-21 16:09:56.069  7099  7124 I Unity   : [HybridLocalDataReader /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cld] Start RetryCount=3 Timeout=30
+09-21 16:09:56.069  7099  7124 I Unity   : CamelHybrid.<Operation>d__30:MoveNext()
+09-21 16:09:56.069  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.069  7099  7124 I Unity   :
+09-21 16:09:56.206  7099  7124 I Unity   : [HybridLocalDataReader /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cld] Operation success
+09-21 16:09:56.206  7099  7124 I Unity   : CamelHybrid.<OperationAction>d__8:MoveNext()
+09-21 16:09:56.206  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.206  7099  7124 I Unity   :
+09-21 16:09:56.207  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 3
+09-21 16:09:56.207  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.207  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass32_0:<LoadSafeFile>b__1(HybridLocalDataReader)
+09-21 16:09:56.207  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:56.207  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.207  7099  7124 I Unity   :
+09-21 16:09:56.208  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 4
+09-21 16:09:56.208  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.208  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass32_0:<LoadSafeFile>b__1(HybridLocalDataReader)
+09-21 16:09:56.208  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:56.208  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.208  7099  7124 I Unity   :
+09-21 16:09:56.262  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 6 fileBytes length=10788880 hash=08BB0921D99E1140AB572FA39AFD54F9
+09-21 16:09:56.262  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.262  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:56.262  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.262  7099  7124 I Unity   :
+09-21 16:09:56.265  7099  7124 I Unity   : [HybridDataCryptor] Start RetryCount=3 Timeout=30
+09-21 16:09:56.265  7099  7124 I Unity   : CamelHybrid.<Operation>d__30:MoveNext()
+09-21 16:09:56.265  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.265  7099  7124 I Unity   :
+09-21 16:09:56.427  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:09:56.427  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+--------- beginning of radio
+09-21 16:09:56.428  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:09:56.428  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:09:56.429  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:09:56.429  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:09:56.430  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.431  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.433  2197  2197 D RILJ    : [6082]> OPERATOR [SUB1]
+09-21 16:09:56.434  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:09:56.434  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:09:56.436  2197  2197 D RILJ    : [6083]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:09:56.437  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.437  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.437  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.437  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.437  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:09:56.437  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.437  2197  2372 D RILJ    : [6084]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:09:56.437  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.437  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.438  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.438  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:09:56.439  2197  2372 D RILJ    : [6085]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:09:56.444  2317  2341 I QcrilOemhookMsgTunnel: [1]processOemHookIndication length=21
+09-21 16:09:56.444  2197  2288 D RILJ    : Unsol response received; Sending ack to ril.cpp [SUB1]
+09-21 16:09:56.444  2197  2288 D RILJ    : [UNSL]< UNSOL_RESPONSE_NETWORK_STATE_CHANGED [SUB1]
+09-21 16:09:56.444  2317  2317 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+09-21 16:09:56.445  2197  2372 D NetworkRegistrationManager: onNetworkStateChanged
+09-21 16:09:56.446  2197  2197 D SST[1]  : [1] pollState: modemTriggered=true
+09-21 16:09:56.447  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.447  2178  2178 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.447  2197  2197 D RILJ    : [6087]> OPERATOR [SUB1]
+09-21 16:09:56.448  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 2
+09-21 16:09:56.448  2197  2197 D NetworkRegistrationManager: getNetworkRegistrationState domain 1
+09-21 16:09:56.449  2197  2288 D RILJ    : [6082]< OPERATOR {, , } [SUB1]
+09-21 16:09:56.450  2197  2197 D RILJ    : [6088]> QUERY_NETWORK_SELECTION_MODE [SUB1]
+09-21 16:09:56.451  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.451  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.451  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.451  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.451  2197  2197 E use-Rlog/RLOG-QC_RIL_OEM_HOOK: QcRilOemHook notifyRegistrants Failed
+09-21 16:09:56.451  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.451  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.451  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+09-21 16:09:56.451  2197  2197 D use-Rlog/RLOG-QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+09-21 16:09:56.452  2197  2197 D PhoneSwitcher: handle event - 108
+09-21 16:09:56.452  2197  2372 D RILJ    : [6089]> DATA_REGISTRATION_STATE [SUB1]
+09-21 16:09:56.453  2197  2288 D RILJ    : [6087]< OPERATOR {, , } [SUB1]
+09-21 16:09:56.453  2197  2372 D RILJ    : [6090]> VOICE_REGISTRATION_STATE [SUB1]
+09-21 16:09:56.453  2197  2288 D RILJ    : [6083]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:09:56.453  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:09:56.456  2197  2288 D RILJ    : [6084]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:09:56.456  2197  2288 D RILJ    : [6089]< DATA_REGISTRATION_STATE {.regState = NOT_REG_MT_NOT_SEARCHING_OP, .rat = 0, .reasonDataDenied = 0, .maxDataCalls = 20, .cellIdentity = {...}} [SUB1]
+09-21 16:09:56.456  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:09:56.457  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}
+09-21 16:09:56.457  2197  2197 D SST[1]  : [1] Could not set ServiceState channel number. CellIdentity null
+09-21 16:09:56.457  2197  2197 D SST[1]  : [1] handlPollStateResultMessage: GsmSST dataServiceState=1 regState=0 dataRadioTechnology=0
+09-21 16:09:56.459  2197  2288 D RILJ    : [6085]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:09:56.459  2197  2288 D RILJ    : [6090]< VOICE_REGISTRATION_STATE {.regState = NOT_REG_MT_SEARCHING_OP_EM, .rat = 3, .cssSupported = false, .roamingIndicator = -1, .systemIsInPrl = -1, .defaultRoamingIndicator = -1, .reasonForDenial = 0, .cellIdentity = {...}} [SUB1]
+09-21 16:09:56.459  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@82e1be2 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:09:56.460  2197  2288 D RILJ    : [6088]< QUERY_NETWORK_SELECTION_MODE {0} [SUB1]
+09-21 16:09:56.460  2197  2435 D NetworkRegistrationManager: onGetNetworkRegistrationStateComplete result 0 state NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@aeceb73 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}
+09-21 16:09:56.460  2197  2197 D SST[1]  : [1] EVENT_POLL_STATE_NETWORK_SELECTION_MODE
+09-21 16:09:56.460  2197  2197 D SST[1]  : [1] handlPollVoiceRegResultMessage: regState=2 radioTechnology=3
+09-21 16:09:56.462  2197  2197 D SST[1]  : [1] Poll ServiceState done:  oldSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@b56fd2c cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] newSS=[{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=10763, duplexMode()=0, mCellBandwidths=[], mVoiceRoamingType=home, mDataRoamingType=home, mVoiceOperatorAlphaLong=, mVoiceOperatorAlphaShort=, mDataOperatorAlphaLong=, mDataOperatorAlphaShort=, isManualNetworkSelection=false(automatic), mRilVoiceRadioTechnology=3(UMTS), mRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, mIsDataRoamingFromRegistration=false, mIsUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationStates=[NetworkRegistrationState{transportType=1 domain=PS regState=NOT_REG_NOT_SEARCHING accessNetworkTechnology=UNKNOWN reasonForDenial=0 emergencyEnabled=false supportedServices=null cellIdentity=null voiceSpecificStates=null dataSpecificStates=DataSpecificRegistrationStates { mMaxDataCalls=20}}, NetworkRegistrationState{transportType=1 domain=CS regState=NOT_REG_SEARCHING accessNetworkTechnology=UMTS reasonForDenial=0 emergencyEnabled=true supportedServices=[I@aeceb73 cellIdentity=CellIdentityWcdma:{ mMcc=460 mMnc=01 mAlphaLong=CHN-UNICOM mAlphaShort=UNICOM} voiceSpecificStates=VoiceSpecificRegistrationStates { mCssSupported=false mRoamingIndicator=-1 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificStates=null}]}] oldMaxDataCalls=20 mNewMaxDataCalls=20 oldReasonDataDenied=0 mNewReasonDataDenied=0
+09-21 16:09:56.463  2197  2197 D SST[1]  : [1] pollStateDone: hasRegistered=false hasDeregistered=false hasDataAttached=false hasDataDetached=false hasDataRegStateChanged=false hasRilVoiceRadioTechnologyChanged= false hasRilDataRadioTechnologyChanged=false hasChanged=false hasVoiceRoamingOn=false hasVoiceRoamingOff=false hasDataRoamingOn=false hasDataRoamingOff=false hasLocationChanged=false has4gHandoff = false hasMultiApnSupport=false hasLostMultiApnSupport=false hasCssIndicatorChanged=false
+09-21 16:09:56.672  7099  7124 I Unity   : [HybridDataCryptor] Operation success
+09-21 16:09:56.672  7099  7124 I Unity   : CamelHybrid.<OperationAction>d__19:MoveNext()
+09-21 16:09:56.672  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.672  7099  7124 I Unity   :
+09-21 16:09:56.674  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 7
+09-21 16:09:56.674  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.674  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass32_0:<LoadSafeFile>b__4(HybridDataCryptor)
+09-21 16:09:56.674  7099  7124 I Unity   : CamelHybrid.<Run>d__3:MoveNext()
+09-21 16:09:56.674  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.674  7099  7124 I Unity   :
+09-21 16:09:56.678  7099  7124 I Unity   : [HybridStart] [Log] [LoadSafeFile] 8 /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY33011010830_cld spent 608.72ms
+09-21 16:09:56.678  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.678  7099  7124 I Unity   : CamelHybrid.<LoadSafeFile>d__32:MoveNext()
+09-21 16:09:56.678  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.678  7099  7124 I Unity   :
+09-21 16:09:56.753  7099  7124 I Unity   : [HybridStart] [Log] LoadData 1 open file finish length=10788864 hash=0F7BC17DB6C8B89DC4A9895BE467D748
+09-21 16:09:56.753  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.753  7099  7124 I Unity   : CamelHybrid.<LoadData>d__30:MoveNext()
+09-21 16:09:56.753  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.753  7099  7124 I Unity   :
+09-21 16:09:56.766  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=0 result=OK
+09-21 16:09:56.766  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.766  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:56.766  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:56.766  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.766  7099  7124 I Unity   :
+09-21 16:09:56.783  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=1 result=OK
+09-21 16:09:56.783  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.783  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:56.783  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:56.783  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.783  7099  7124 I Unity   :
+09-21 16:09:56.833  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=2 result=OK
+09-21 16:09:56.833  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.833  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:56.833  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:56.833  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.833  7099  7124 I Unity   :
+09-21 16:09:56.861  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=3 result=OK
+09-21 16:09:56.861  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.861  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:56.861  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:56.861  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.861  7099  7124 I Unity   :
+09-21 16:09:56.883  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=4 result=OK
+09-21 16:09:56.883  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.883  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:56.883  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:56.883  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.883  7099  7124 I Unity   :
+09-21 16:09:56.930  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=5 result=OK
+09-21 16:09:56.930  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:56.930  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:56.930  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:56.930  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:56.930  7099  7124 I Unity   :
+09-21 16:09:57.019  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=6 result=OK
+09-21 16:09:57.019  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.019  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.019  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.019  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.019  7099  7124 I Unity   :
+09-21 16:09:57.043  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=7 result=OK
+09-21 16:09:57.043  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.043  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.043  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.043  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.043  7099  7124 I Unity   :
+09-21 16:09:57.058  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=8 result=OK
+09-21 16:09:57.058  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.058  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.058  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.058  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.058  7099  7124 I Unity   :
+09-21 16:09:57.084  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=9 result=OK
+09-21 16:09:57.084  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.084  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.084  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.084  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.084  7099  7124 I Unity   :
+09-21 16:09:57.118  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=10 result=OK
+09-21 16:09:57.118  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.118  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.118  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.118  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.118  7099  7124 I Unity   :
+09-21 16:09:57.153  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=11 result=OK
+09-21 16:09:57.153  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.153  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.153  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.153  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.153  7099  7124 I Unity   :
+09-21 16:09:57.183  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=12 result=OK
+09-21 16:09:57.183  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.183  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.183  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.183  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.183  7099  7124 I Unity   :
+09-21 16:09:57.273  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=13 result=OK
+09-21 16:09:57.273  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.273  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.273  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.273  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.273  7099  7124 I Unity   :
+09-21 16:09:57.284  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=14 result=OK
+09-21 16:09:57.284  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.284  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.284  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.284  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.284  7099  7124 I Unity   :
+09-21 16:09:57.379  7099  7124 I Unity   : [HybridStart] [Log] LoadData 3 index=15 result=OK
+09-21 16:09:57.379  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.379  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__2(Int32, Byte[])
+09-21 16:09:57.379  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.379  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.379  7099  7124 I Unity   :
+09-21 16:09:57.458  7099  7124 I Unity   : [HybridStart] [Log] LoadData 4 index=0 success
+09-21 16:09:57.458  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.458  7099  7124 I Unity   : CamelHybrid.<>c__DisplayClass30_0:<LoadData>b__3(Int32, Byte[])
+09-21 16:09:57.458  7099  7124 I Unity   : CamelHybrid.<DoLoadData>d__33:MoveNext()
+09-21 16:09:57.458  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.458  7099  7124 I Unity   :
+09-21 16:09:57.461  7099  7124 I Unity   : [HybridStart] [Log] LoadData finish 1469.99ms spent
+09-21 16:09:57.461  7099  7124 I Unity   : CamelHybrid.HybridStart:Log(String, LogType)
+09-21 16:09:57.461  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:57.461  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.461  7099  7124 I Unity   :
+09-21 16:09:57.464  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 0 started
+09-21 16:09:57.464  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.464  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.464  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:57.464  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.464  7099  7124 I Unity   :
+09-21 16:09:57.464  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 1 bundlePath=/storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/wdeY/hybrid_initial.cmlbundle
+09-21 16:09:57.464  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.464  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.464  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:57.464  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.464  7099  7124 I Unity   :
+09-21 16:09:57.467  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 4 start create load bundle request
+09-21 16:09:57.467  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.467  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.467  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:57.467  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.467  7099  7124 I Unity   :
+09-21 16:09:57.468  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 6 create load bundle request success
+09-21 16:09:57.468  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.468  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.468  7099  7124 I Unity   : CamelHybrid.<HybridStartup>d__24:MoveNext()
+09-21 16:09:57.468  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.468  7099  7124 I Unity   :
+09-21 16:09:57.474  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 7 load bundle finish
+09-21 16:09:57.474  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.474  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.474  7099  7124 I Unity   :
+09-21 16:09:57.474  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 8 request.assetBundle is null? False
+09-21 16:09:57.474  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.474  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.474  7099  7124 I Unity   :
+09-21 16:09:57.475  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 10
+09-21 16:09:57.475  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.475  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.475  7099  7124 I Unity   :
+09-21 16:09:57.475  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 11
+09-21 16:09:57.475  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.475  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.475  7099  7124 I Unity   :
+09-21 16:09:57.476  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 12 isDone=False progress=0.3078947
+09-21 16:09:57.476  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.476  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.476  7099  7124 I Unity   :
+09-21 16:09:57.478  7099  7162 D Unity   : Unloading 6 Unused Serialized files (Serialized files now loaded: 2)
+09-21 16:09:57.499  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 12 isDone=False progress=0.9
+09-21 16:09:57.499  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.499  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.499  7099  7124 I Unity   :
+09-21 16:09:57.540  7099  7124 D Unity   : UnloadTime: 7.970417 ms
+09-21 16:09:57.559  7099  7124 I Unity   : OnDeeplinkActivated url = [null or empty string]
+09-21 16:09:57.559  7099  7124 I Unity   : DeeplinkHandler:OnDeeplinkActivated(String)
+09-21 16:09:57.559  7099  7124 I Unity   : DeeplinkHandler:Init()
+09-21 16:09:57.559  7099  7124 I Unity   : Initial:Awake()
+09-21 16:09:57.559  7099  7124 I Unity   :
+09-21 16:09:57.561  7099  7124 I Unity   : InitHumeSDK On Initial!
+09-21 16:09:57.561  7099  7124 I Unity   : Initial:InitHumeSDK()
+09-21 16:09:57.561  7099  7124 I Unity   : Initial:Awake()
+09-21 16:09:57.561  7099  7124 I Unity   :
+09-21 16:09:57.566  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 13 isDone=True progress=1
+09-21 16:09:57.566  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:57.566  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:57.566  7099  7124 I Unity   :
+09-21 16:09:57.568  7099  7124 D lofelt-sdk: Initializing Lofelt SDK version 1.3.4
+09-21 16:09:57.570  7099  7124 D lofelt-sdk: Creating LofeltHaptics instance
+09-21 16:09:57.577  7099  7124 I Unity   : NiceVibrationHelper.HapticsSupported=True
+09-21 16:09:57.577  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.577  7099  7124 I Unity   :
+09-21 16:09:57.644  7099  7124 I Unity   : REPORTER INITED!!!!!
+09-21 16:09:57.644  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.644  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.644  7099  7124 I Unity   :
+09-21 16:09:57.644  7099  7124 I Unity   : UNITY_EDITOR = FALSE
+09-21 16:09:57.644  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.644  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.644  7099  7124 I Unity   :
+09-21 16:09:57.645  7099  7124 I Unity   : AB_UNLOAD_DYNAMIC = TRUE
+09-21 16:09:57.645  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.645  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.645  7099  7124 I Unity   :
+09-21 16:09:57.645  7099  7124 I Unity   : DEBUG = TRUE
+09-21 16:09:57.645  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.645  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.645  7099  7124 I Unity   :
+09-21 16:09:57.645  7099  7124 I Unity   : OPEN_LOG = TRUE
+09-21 16:09:57.645  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.645  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.645  7099  7124 I Unity   :
+09-21 16:09:57.645  7099  7124 I Unity   : Application.absoluteURL =
+09-21 16:09:57.645  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.645  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.645  7099  7124 I Unity   :
+09-21 16:09:57.646  7099  7124 I Unity   : Application.companyName = Camel Games Inc
+09-21 16:09:57.646  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.646  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.646  7099  7124 I Unity   :
+09-21 16:09:57.646  7099  7124 I Unity   : Application.identifier = com.camelgames.aoz.debuglz4
+09-21 16:09:57.646  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.646  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.646  7099  7124 I Unity   :
+09-21 16:09:57.647  7099  7124 I Unity   : Application.installerName = com.miui.packageinstaller
+09-21 16:09:57.647  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.647  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.647  7099  7124 I Unity   :
+09-21 16:09:57.647  7099  7124 I Unity   : Application.productName = WDEY_Dev_debug_lz4-LOG
+09-21 16:09:57.647  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.647  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.647  7099  7124 I Unity   :
+09-21 16:09:57.648  7099  7124 I Unity   : Application.dataPath = /data/app/com.camelgames.aoz.debuglz4-KA1Iy21z2n5Z8eCopnEsqQ==/base.apk
+09-21 16:09:57.648  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.648  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.648  7099  7124 I Unity   :
+09-21 16:09:57.648  7099  7124 I Unity   : Application.persistentDataPath = /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files
+09-21 16:09:57.648  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.648  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.648  7099  7124 I Unity   :
+09-21 16:09:57.648  7099  7124 I Unity   : Application.streamingAssetsPath = jar:file:///data/app/com.camelgames.aoz.debuglz4-KA1Iy21z2n5Z8eCopnEsqQ==/base.apk!/assets
+09-21 16:09:57.648  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.648  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.648  7099  7124 I Unity   :
+09-21 16:09:57.649  7099  7124 I Unity   : Application.temporaryCachePath = /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/cache
+09-21 16:09:57.649  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:57.649  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:57.649  7099  7124 I Unity   :
+09-21 16:09:57.906 11568 11568 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:09:57.932  1589  3371 D NtpTrustedTime: currentTimeMillis() cache hit
+09-21 16:09:57.937  1589  3369 D CompatibilityInfo: mCompatibilityFlags - 0
+09-21 16:09:57.937  1589  3369 D CompatibilityInfo: applicationDensity - 440
+09-21 16:09:57.937  1589  3369 D CompatibilityInfo: applicationScale - 1.0
+09-21 16:09:57.940 11568 11568 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:09:57.940 11568 11568 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.mdns.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+09-21 16:09:57.956  1589  3371 D NtpTrustedTime: currentTimeMillis() cache hit
+--------- beginning of events
+09-21 16:09:57.956  1589  3371 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1726906198211]
+09-21 16:09:57.956  1589  3371 I netstats_wifi_sample: [2044746374,2783934,56381895,696322,2044746374,2783934,56381895,696322,2109129223,2598485,55923073,693629,1726906198211]
+09-21 16:09:57.957  2197 25377 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: No UICC
+09-21 16:09:57.957  2990  3462 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+09-21 16:09:57.959  2197 25377 E PhoneInterfaceManager: [PhoneIntfMgr] checkCarrierPrivilegesForPackage: No UICC
+09-21 16:09:57.972  1589  1641 I am_pss  : [6992,10189,com.google.android.gms.unstable,50962432,18063360,161792,209342464,0,18,61]
+09-21 16:09:58.192  7099  7124 I Unity   : Start Login. Time = 5.079652s
+09-21 16:09:58.192  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.192  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.192  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.192  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.192  7099  7124 I Unity   :
+09-21 16:09:58.193  7099  7124 I Unity   : BundleManager Initiate. Time = 5.080949s
+09-21 16:09:58.193  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.193  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.193  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.193  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.193  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.193  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.193  7099  7124 I Unity   :
+09-21 16:09:58.194  7099  7124 I Unity   : BundleManager Initiate
+09-21 16:09:58.194  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.194  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.194  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.194  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.194  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:58.194  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.194  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.194  7099  7124 I Unity   :
+09-21 16:09:58.197  7099  7124 I Unity   : <color=green>init bundle login</color>
+09-21 16:09:58.197  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.197  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.197  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.197  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.197  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.197  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.197  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.197  7099  7124 I Unity   :
+09-21 16:09:58.197  7099  7124 I Unity   : <color=green>init bundle _ast_spine_runtime</color>
+09-21 16:09:58.197  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.197  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.197  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.197  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.197  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.197  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.197  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.197  7099  7124 I Unity   :
+09-21 16:09:58.198  7099  7124 I Unity   : <color=green>init bundle backgroundmusic_battle</color>
+09-21 16:09:58.198  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.198  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.198  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.198  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.198  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.198  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.198  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.198  7099  7124 I Unity   :
+09-21 16:09:58.199  7099  7124 I Unity   : <color=green>init bundle dd_login</color>
+09-21 16:09:58.199  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.199  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.199  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.199  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.199  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.199  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.199  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.199  7099  7124 I Unity   :
+09-21 16:09:58.199  7099  7124 I Unity   : <color=green>init bundle shaders</color>
+09-21 16:09:58.199  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.199  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.199  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.199  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.199  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.199  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.199  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.199  7099  7124 I Unity   :
+09-21 16:09:58.200  7099  7124 I Unity   : <color=green>init bundle effect_material</color>
+09-21 16:09:58.200  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.200  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.200  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.200  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.200  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.200  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.200  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.200  7099  7124 I Unity   :
+09-21 16:09:58.200  7099  7124 I Unity   : <color=green>init bundle battlepass_torch_bptorch_effect</color>
+09-21 16:09:58.200  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.200  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.200  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.200  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.200  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.200  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.200  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.200  7099  7124 I Unity   :
+09-21 16:09:58.201  7099  7124 I Unity   : <color=green>init bundle effect_shader</color>
+09-21 16:09:58.201  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.201  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.201  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.201  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.201  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.201  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.201  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.201  7099  7124 I Unity   :
+09-21 16:09:58.202  7099  7124 I Unity   : <color=green>init bundle effect_texture_animation</color>
+09-21 16:09:58.202  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.202  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.202  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.202  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.202  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.202  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.202  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.202  7099  7124 I Unity   :
+09-21 16:09:58.202  7099  7124 I Unity   : <color=green>init bundle effect_texture_light</color>
+09-21 16:09:58.202  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.202  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.202  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.202  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.202  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.202  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.202  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.202  7099  7124 I Unity   :
+09-21 16:09:58.203  7099  7124 I Unity   : <color=green>init bundle effect_texture_magic</color>
+09-21 16:09:58.203  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.203  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.203  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.203  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.203  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.203  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.203  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.203  7099  7124 I Unity   :
+09-21 16:09:58.203  7099  7124 I Unity   : <color=green>init bundle effect_texture_nc_tex</color>
+09-21 16:09:58.203  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.203  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.203  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.203  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.203  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.203  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.203  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.203  7099  7124 I Unity   :
+09-21 16:09:58.204  7099  7124 I Unity   : <color=green>init bundle effect_texture_object</color>
+09-21 16:09:58.204  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.204  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.204  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.204  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.204  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.204  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.204  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.204  7099  7124 I Unity   :
+09-21 16:09:58.204  7099  7124 I Unity   : <color=green>init bundle effect_texture_terrain</color>
+09-21 16:09:58.204  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.204  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.204  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.204  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.204  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.204  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.204  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.204  7099  7124 I Unity   :
+09-21 16:09:58.205  7099  7124 I Unity   : <color=green>init bundle effect_texture_trail</color>
+09-21 16:09:58.205  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.205  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.205  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.205  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.205  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.205  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.205  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.205  7099  7124 I Unity   :
+09-21 16:09:58.206  7099  7124 I Unity   : <color=green>init bundle effect_texture_ui</color>
+09-21 16:09:58.206  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.206  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.206  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.206  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.206  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.206  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.206  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.206  7099  7124 I Unity   :
+09-21 16:09:58.206  7099  7124 I Unity   : <color=green>init bundle recruit_effect_recruit_texture</color>
+09-21 16:09:58.206  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.206  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.206  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.206  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.206  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.206  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.206  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.206  7099  7124 I Unity   :
+09-21 16:09:58.207  7099  7124 I Unity   : <color=green>init bundle recruit_effect_recruit_material</color>
+09-21 16:09:58.207  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.207  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.207  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.207  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.207  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.207  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.207  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.207  7099  7124 I Unity   :
+09-21 16:09:58.207  7099  7124 I Unity   : <color=green>init bundle decorationsystem_ds_dock_effect</color>
+09-21 16:09:58.207  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.207  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.207  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.207  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.207  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.207  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.207  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.207  7099  7124 I Unity   :
+09-21 16:09:58.208  7099  7124 I Unity   : <color=green>init bundle dungeonexplore_de_effect</color>
+09-21 16:09:58.208  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.208  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.208  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.208  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.208  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.208  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.208  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.208  7099  7124 I Unity   :
+09-21 16:09:58.208  7099  7124 I Unity   : <color=green>init bundle _pkg_universal</color>
+09-21 16:09:58.208  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.208  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.208  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.208  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.208  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.208  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.208  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.208  7099  7124 I Unity   :
+09-21 16:09:58.209  7099  7124 I Unity   : <color=green>init bundle warriormesh_warriormesh_effect</color>
+09-21 16:09:58.209  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.209  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.209  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.209  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.209  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.209  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.209  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.209  7099  7124 I Unity   :
+09-21 16:09:58.210  7099  7124 I Unity   : <color=green>init bundle herodisplay_hd_effect</color>
+09-21 16:09:58.210  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.210  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.210  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.210  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.210  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.210  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.210  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.210  7099  7124 I Unity   :
+09-21 16:09:58.210  7099  7124 I Unity   : <color=green>init bundle shaders_misc_p</color>
+09-21 16:09:58.210  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.210  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.210  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.210  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.210  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.210  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.210  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.210  7099  7124 I Unity   :
+09-21 16:09:58.211  7099  7124 I Unity   : <color=green>init bundle emergencytraining_et_effect</color>
+09-21 16:09:58.211  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.211  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.211  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.211  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.211  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.211  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.211  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.211  7099  7124 I Unity   :
+09-21 16:09:58.211  7099  7124 I Unity   : <color=green>init bundle equipmatrix_em_effect</color>
+09-21 16:09:58.211  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.211  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.211  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.211  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.211  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.211  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.211  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.211  7099  7124 I Unity   :
+09-21 16:09:58.212  7099  7124 I Unity   : <color=green>init bundle threekingdoms_tk_effect</color>
+09-21 16:09:58.212  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.212  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.212  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.212  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.212  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.212  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.212  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.212  7099  7124 I Unity   :
+09-21 16:09:58.212  7099  7124 I Unity   : <color=green>init bundle slg_msyh_10</color>
+09-21 16:09:58.212  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.212  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.212  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.212  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.212  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.212  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.212  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.212  7099  7124 I Unity   :
+09-21 16:09:58.213  7099  7124 I Unity   : <color=green>init bundle towerdefence_td_effect</color>
+09-21 16:09:58.213  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.213  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.213  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.213  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.213  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.213  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.213  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.213  7099  7124 I Unity   :
+09-21 16:09:58.214  7099  7124 I Unity   : <color=green>init bundle global_p</color>
+09-21 16:09:58.214  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.214  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.214  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.214  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.214  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.214  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.214  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.214  7099  7124 I Unity   :
+09-21 16:09:58.214  7099  7124 I Unity   : <color=green>init bundle d_main</color>
+09-21 16:09:58.214  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.214  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.214  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.214  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.214  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.214  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.214  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.214  7099  7124 I Unity   :
+09-21 16:09:58.215  7099  7124 I Unity   : <color=green>init bundle d_newcommon1</color>
+09-21 16:09:58.215  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.215  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.215  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.215  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.215  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.215  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.215  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.215  7099  7124 I Unity   :
+09-21 16:09:58.215  7099  7124 I Unity   : <color=green>init bundle d_replaceui</color>
+09-21 16:09:58.215  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.215  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.215  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.215  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.215  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.215  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.215  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.215  7099  7124 I Unity   :
+09-21 16:09:58.216  7099  7124 I Unity   : <color=green>init bundle dd_misc</color>
+09-21 16:09:58.216  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.216  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.216  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.216  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.216  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.216  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.216  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.216  7099  7124 I Unity   :
+09-21 16:09:58.217  7099  7124 I Unity   : <color=green>init bundle dd_vnlogin</color>
+09-21 16:09:58.217  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.217  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.217  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.217  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.217  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.217  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.217  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.217  7099  7124 I Unity   :
+09-21 16:09:58.217  7099  7124 I Unity   : <color=green>init bundle text</color>
+09-21 16:09:58.217  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:58.217  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.217  7099  7124 I Unity   : Initial:initGame()
+09-21 16:09:58.217  7099  7124 I Unity   : Initial:Start()
+09-21 16:09:58.217  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:58.217  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.217  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.217  7099  7124 I Unity   :
+09-21 16:09:58.227  7099  7124 E Unity   : HTTP/1.1 404 Not Found
+09-21 16:09:58.227  7099  7124 E Unity   : <readInfo>d__188:MoveNext()
+09-21 16:09:58.227  7099  7124 E Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.227  7099  7124 E Unity   :
+09-21 16:09:58.232  7099  7124 D Unity   : Unloading 141 unused Assets / (63.0 KB). Loaded Objects now: 3703.
+09-21 16:09:58.232  7099  7124 D Unity   : Memory consumption went from 46.3 MB to 46.2 MB.
+09-21 16:09:58.232  7099  7124 D Unity   : Total: 5.005782 ms (FindLiveObjects: 0.426511 ms CreateObjectMapping: 0.339271 ms MarkObjects: 3.893906 ms  DeleteObjects: 0.344427 ms)
+09-21 16:09:58.232  7099  7124 D Unity   :
+09-21 16:09:58.233  7099  7162 D Unity   : Unloading 35 Unused Serialized files (Serialized files now loaded: 2)
+09-21 16:09:58.347  7099  7124 I Unity   : Enter LoginScene. Time = 5.234632s
+09-21 16:09:58.347  7099  7124 I Unity   : Initial:EnterLogin()
+09-21 16:09:58.347  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.347  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.347  7099  7124 I Unity   :
+09-21 16:09:58.364  7099  7124 I Unity   : LoadSceneInBundle called, fullSceneName = Login.unity, null == indexer ? no
+09-21 16:09:58.364  7099  7124 I Unity   : <LoadSceneInBundle>d__55:MoveNext()
+09-21 16:09:58.364  7099  7124 I Unity   : BundleManager:LoadScene(MonoBehaviour, String, Callback)
+09-21 16:09:58.364  7099  7124 I Unity   : Initial:EnterLogin()
+09-21 16:09:58.364  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.364  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.364  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.364  7099  7124 I Unity   :
+09-21 16:09:58.365  7099  7124 I Unity   : LoadLevelAsync start load scene : Login, time = 5.252629
+09-21 16:09:58.365  7099  7124 I Unity   : <LoadLevelAsync>d__56:MoveNext()
+09-21 16:09:58.365  7099  7124 I Unity   : <LoadSceneInBundle>d__55:MoveNext()
+09-21 16:09:58.365  7099  7124 I Unity   : BundleManager:LoadScene(MonoBehaviour, String, Callback)
+09-21 16:09:58.365  7099  7124 I Unity   : Initial:EnterLogin()
+09-21 16:09:58.365  7099  7124 I Unity   : <LoadLogin>d__12:MoveNext()
+09-21 16:09:58.365  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.365  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.365  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.365  7099  7124 I Unity   :
+09-21 16:09:58.374  7099  7124 D Unity   : Unloading 0 unused Assets / (0 B). Loaded Objects now: 3732.
+09-21 16:09:58.374  7099  7124 D Unity   : Memory consumption went from 49.9 MB to 49.9 MB.
+09-21 16:09:58.374  7099  7124 D Unity   : Total: 7.506458 ms (FindLiveObjects: 0.432188 ms CreateObjectMapping: 0.356302 ms MarkObjects: 6.695365 ms  DeleteObjects: 0.021042 ms)
+09-21 16:09:58.374  7099  7124 D Unity   :
+09-21 16:09:58.375  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 14 UnloadUnusedAssets finish
+09-21 16:09:58.375  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:58.375  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.375  7099  7124 I Unity   :
+09-21 16:09:58.375  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 15
+09-21 16:09:58.375  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:58.375  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.375  7099  7124 I Unity   :
+09-21 16:09:58.455  7099  7162 D Unity   : Unloading 1 Unused Serialized files (Serialized files now loaded: 32)
+09-21 16:09:58.533  7099  7124 D Unity   : UnloadTime: 1.543229 ms
+09-21 16:09:58.600  7099  7124 I Unity   : CNInfo.SetCNOfficial on CNInfo, cnofficial=False
+09-21 16:09:58.600  7099  7124 I Unity   : CNInfo:SetCNOfficial(Boolean)
+09-21 16:09:58.600  7099  7124 I Unity   : CNInfo:Awake()
+09-21 16:09:58.600  7099  7124 I Unity   :
+09-21 16:09:58.601  7099  7124 I Unity   : ReplaceLogoInfo.SetReplaceLogo on Openning, replaceLogo=True, name=logo_aoz_official.png
+09-21 16:09:58.601  7099  7124 I Unity   : ReplaceLogoInfo:SetReplaceLogo(Boolean, String)
+09-21 16:09:58.601  7099  7124 I Unity   : ReplaceLogoInfo:Awake()
+09-21 16:09:58.601  7099  7124 I Unity   :
+09-21 16:09:58.604  7099  7124 I Unity   : <color=yellow>Load asset logo_aoz_official.png from bundle ts_texture_p, bundle is not loaded, spend time = 1.237869ms</color>
+09-21 16:09:58.604  7099  7124 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:09:58.604  7099  7124 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:09:58.604  7099  7124 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:09:58.604  7099  7124 I Unity   : ReplaceLogoInfo:SetReplaceLogo(Boolean, String)
+09-21 16:09:58.604  7099  7124 I Unity   : ReplaceLogoInfo:Awake()
+09-21 16:09:58.604  7099  7124 I Unity   :
+09-21 16:09:58.609  7099  7124 I Unity   : Scene Login is loaded
+09-21 16:09:58.609  7099  7124 I Unity   : Reporter:_OnLevelWasLoaded(Scene, LoadSceneMode)
+09-21 16:09:58.609  7099  7124 I Unity   :
+09-21 16:09:58.611  7099  7124 I Unity   : SetUserArabDisplay ArabDisplay set to False
+09-21 16:09:58.611  7099  7124 I Unity   : Lua:set_ArabDisplay(Boolean)
+09-21 16:09:58.611  7099  7124 I Unity   : LocalizationManager:GetLanguage()
+09-21 16:09:58.611  7099  7124 I Unity   : LocalizationManager:GetTextResName()
+09-21 16:09:58.611  7099  7124 I Unity   : LocalizationManager:GetString(String)
+09-21 16:09:58.611  7099  7124 I Unity   : MyDownloadingUI:Start()
+09-21 16:09:58.611  7099  7124 I Unity   :
+09-21 16:09:58.613  7099  7124 I Unity   : <color=yellow>Load asset string_zh_CN.txt from bundle text, bundle is not loaded, spend time = 0.6508827ms</color>
+09-21 16:09:58.613  7099  7124 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:09:58.613  7099  7124 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:09:58.613  7099  7124 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:09:58.613  7099  7124 I Unity   : LocalizationManager:LoadTextAsset(String)
+09-21 16:09:58.613  7099  7124 I Unity   : LocalizationManager:GetString(String)
+09-21 16:09:58.613  7099  7124 I Unity   : MyDownloadingUI:Start()
+09-21 16:09:58.613  7099  7124 I Unity   :
+--------- beginning of kernel
+09-21 16:09:55.222     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5048
+09-21 16:09:58.668   678  1713 I sensors-hal: batch:140, android.sensor.rotation_vector/10, period=20000000, max_latency=0
+09-21 16:09:58.668   678  1713 I sensors-hal: batch:149, android.sensor.rotation_vector/10, period=20000000, max_latency=0 request completed
+09-21 16:09:58.668   678  1713 I sensors-hal: activate:107, android.sensor.rotation_vector/10 en=1
+09-21 16:09:58.669   678  1713 I sensors-hal: ssc_enable_rt_task:254, ssc_enable_rt_task : true
+09-21 16:09:55.224     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5049
+09-21 16:09:55.226     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:504a
+09-21 16:09:55.230     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:504b
+09-21 16:09:58.680   678  1713 I sensors-hal: activate:118, android.sensor.rotation_vector/10 en=1 completed
+09-21 16:09:58.682   678   678 I sensors-hal: batch:140, android.sensor.gyroscope/32, period=200000000, max_latency=0
+09-21 16:09:58.682   678   678 I sensors-hal: batch:149, android.sensor.gyroscope/32, period=200000000, max_latency=0 request completed
+09-21 16:09:58.683   678   678 I sensors-hal: activate:107, android.sensor.gyroscope/32 en=1
+09-21 16:09:58.683   678   678 I sensors-hal: ssc_enable_rt_task:254, ssc_enable_rt_task : true
+09-21 16:09:55.235     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:504d
+09-21 16:09:55.238     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:504e
+09-21 16:09:55.240     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:504f
+09-21 16:09:58.694   678  7201 I sensors-hal: handle_indication_realtime:352,  SCHED_FIFO(10) for qmi_cbk
+09-21 16:09:58.680   678   678 I auditd  : type=1400 audit(0.0:32977): avc: denied { read write } for comm="sensors@1.0-ser" name="diag" dev="tmpfs" ino=15440 scontext=u:r:hal_sensors_default:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+09-21 16:09:58.680   678   678 W sensors@1.0-ser: type=1400 audit(0.0:32977): avc: denied { read write } for name="diag" dev="tmpfs" ino=15440 scontext=u:r:hal_sensors_default:s0 tcontext=u:object_r:diag_device:s0 tclass=chr_file permissive=0
+09-21 16:09:58.695   678   678 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+09-21 16:09:58.696   678   678 I sensors-hal: ssc_enable_rt_task:254, ssc_enable_rt_task : true
+09-21 16:09:55.245     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5050
+09-21 16:09:55.249     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5052
+09-21 16:09:55.253     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5053
+09-21 16:09:58.709   678  7204 I sensors-hal: handle_indication_realtime:352,  SCHED_FIFO(10) for qmi_cbk
+09-21 16:09:55.257     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5054
+09-21 16:09:55.260     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5055
+09-21 16:09:58.710   678   678 I sensors-hal: ssc_enable_rt_task:254, ssc_enable_rt_task : true
+09-21 16:09:55.264     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5057
+09-21 16:09:55.267     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5058
+09-21 16:09:55.270     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5059
+09-21 16:09:55.272     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:505a
+09-21 16:09:58.722   678  7206 I sensors-hal: handle_indication_realtime:352,  SCHED_FIFO(10) for qmi_cbk
+09-21 16:09:58.723   678   678 I sensors-hal: activate:118, android.sensor.gyroscope/32 en=1 completed
+09-21 16:09:58.723  7099  7124 D Unity   : Sensor :            Gyroscope ( 4) ; 0.000611 / 0.00s ; lsm6ds3c Gyroscope Non-wakeup / STMicro
+09-21 16:09:58.724   678  1713 I sensors-hal: batch:140, android.sensor.gyroscope/32, period=20000000, max_latency=0
+09-21 16:09:58.726   678  1713 I sensors-hal: batch:149, android.sensor.gyroscope/32, period=20000000, max_latency=0 request completed
+09-21 16:09:58.727  7099  7124 D Unity   : Sensor :            Gyroscope ( 4) ; 0.000611 / 0.00s ; lsm6ds3c Gyroscope Non-wakeup / STMicro
+09-21 16:09:58.730   678  1713 I sensors-hal: batch:140, android.sensor.gravity/26, period=200000000, max_latency=0
+09-21 16:09:58.730   678  1713 I sensors-hal: batch:149, android.sensor.gravity/26, period=200000000, max_latency=0 request completed
+09-21 16:09:58.730   678  1713 I sensors-hal: activate:107, android.sensor.gravity/26 en=1
+09-21 16:09:58.731   678  1713 I sensors-hal: ssc_enable_rt_task:254, ssc_enable_rt_task : true
+09-21 16:09:55.284     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:505c
+09-21 16:09:55.288     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:505d
+09-21 16:09:55.290     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:505e
+09-21 16:09:58.745   678  1713 I sensors-hal: activate:118, android.sensor.gravity/26 en=1 completed
+09-21 16:09:58.746  7099  7124 D Unity   : Sensor :              Gravity ( 9) ; 0.100000 / 0.00s ; gravity  Non-wakeup / qualcomm
+09-21 16:09:58.746   678   678 I sensors-hal: batch:140, android.sensor.gravity/26, period=20000000, max_latency=0
+09-21 16:09:55.293     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:505f
+09-21 16:09:58.751   678   678 I sensors-hal: batch:149, android.sensor.gravity/26, period=20000000, max_latency=0 request completed
+09-21 16:09:58.752  7099  7124 D Unity   : Sensor :              Gravity ( 9) ; 0.100000 / 0.00s ; gravity  Non-wakeup / qualcomm
+09-21 16:09:58.754   678   678 I sensors-hal: batch:140, android.sensor.linear_acceleration/24, period=200000000, max_latency=0
+09-21 16:09:58.754   678   678 I sensors-hal: batch:149, android.sensor.linear_acceleration/24, period=200000000, max_latency=0 request completed
+09-21 16:09:58.755   678  7208 I sensors-hal: handle_indication_realtime:352,  SCHED_FIFO(10) for qmi_cbk
+09-21 16:09:58.755   678   678 I sensors-hal: activate:107, android.sensor.linear_acceleration/24 en=1
+09-21 16:09:58.755   678  7199 I sensors-hal: handle_indication_realtime:352,  SCHED_FIFO(10) for qmi_cbk
+09-21 16:09:58.755   678   678 I sensors-hal: ssc_enable_rt_task:254, ssc_enable_rt_task : true
+09-21 16:09:55.309     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5061
+09-21 16:09:55.314     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5062
+09-21 16:09:55.318     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5063
+09-21 16:09:55.322     0     0 D uaudio_qmi_svc_disconnect_cb: client node:1 port:5064
+09-21 16:09:58.775   678   678 I sensors-hal: activate:118, android.sensor.linear_acceleration/24 en=1 completed
+09-21 16:09:58.776  7099  7124 D Unity   : Sensor :  Linear Acceleration (10) ; 0.100000 / 0.00s ; linear_acceleration / qualcomm
+09-21 16:09:58.776   678   678 I sensors-hal: batch:140, android.sensor.linear_acceleration/24, period=20000000, max_latency=0
+09-21 16:09:58.781   678   678 I sensors-hal: batch:149, android.sensor.linear_acceleration/24, period=20000000, max_latency=0 request completed
+09-21 16:09:58.781  7099  7124 D Unity   : Sensor :  Linear Acceleration (10) ; 0.100000 / 0.00s ; linear_acceleration / qualcomm
+09-21 16:09:58.783   678   678 I sensors-hal: flush:169, android.sensor.rotation_vector/10
+09-21 16:09:58.786   678   678 I sensors-hal: flush:175, android.sensor.rotation_vector/10 completed
+09-21 16:09:58.787  7099  7124 D Unity   : Sensor :      Rotation Vector (11) ; 0.010000 / 0.00s ; Rotation Vector  Non-wakeup / qualcomm
+09-21 16:09:58.787  7099  7124 D Unity   : Sensor :      Rotation Vector (11) ; 0.010000 / 0.00s ; Rotation Vector  Non-wakeup / qualcomm
+09-21 16:09:58.787   678   678 I sensors-hal: batch:140, android.sensor.gyroscope/32, period=50000000, max_latency=0
+09-21 16:09:58.791   678  7210 I sensors-hal: handle_indication_realtime:352,  SCHED_FIFO(10) for qmi_cbk
+09-21 16:09:58.792   678   678 I sensors-hal: batch:149, android.sensor.gyroscope/32, period=50000000, max_latency=0 request completed
+09-21 16:09:58.792  7099  7124 D Unity   : Sensor :            Gyroscope ( 4) ; 0.000611 / 0.00s ; lsm6ds3c Gyroscope Non-wakeup / STMicro
+09-21 16:09:58.793   678  1713 I sensors-hal: batch:140, android.sensor.gravity/26, period=50000000, max_latency=0
+09-21 16:09:58.795   678  1713 I sensors-hal: batch:149, android.sensor.gravity/26, period=50000000, max_latency=0 request completed
+09-21 16:09:58.795  7099  7124 D Unity   : Sensor :              Gravity ( 9) ; 0.100000 / 0.00s ; gravity  Non-wakeup / qualcomm
+09-21 16:09:58.796   678  1713 I sensors-hal: batch:140, android.sensor.linear_acceleration/24, period=50000000, max_latency=0
+09-21 16:09:58.800   678  1713 I sensors-hal: batch:149, android.sensor.linear_acceleration/24, period=50000000, max_latency=0 request completed
+09-21 16:09:58.801  7099  7124 D Unity   : Sensor :  Linear Acceleration (10) ; 0.100000 / 0.00s ; linear_acceleration / qualcomm
+09-21 16:09:58.801  7099  7124 D Unity   : Sensor :      Rotation Vector (11) ; 0.010000 / 0.00s ; Rotation Vector  Non-wakeup / qualcomm
+09-21 16:09:58.808  7099  7124 I Unity   : Load ab ui__ from /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/hybrid_wdeY/ui__, result == null ? False
+09-21 16:09:58.808  7099  7124 I Unity   : ResInfo2:get_Instance()
+09-21 16:09:58.808  7099  7124 I Unity   : ResInfo2:get_UnityVersion()
+09-21 16:09:58.808  7099  7124 I Unity   : MyDownloadingUI:SetResInfoText()
+09-21 16:09:58.808  7099  7124 I Unity   : MyDownloadingUI:SetResInfo()
+09-21 16:09:58.808  7099  7124 I Unity   : MyDownloadingUI:Start()
+09-21 16:09:58.808  7099  7124 I Unity   :
+09-21 16:09:58.823  7099  7124 I Unity   : <color=blue>supports2DArrayTextures: True</color>
+09-21 16:09:58.823  7099  7124 I Unity   : GameStart:Update()
+09-21 16:09:58.823  7099  7124 I Unity   : Logger:LogBlue(Object)
+09-21 16:09:58.823  7099  7124 I Unity   :
+09-21 16:09:58.824  7099  7124 I Unity   : <color=blue>supportsMultisampled2DArrayTextures: True</color>
+09-21 16:09:58.824  7099  7124 I Unity   : GameStart:Update()
+09-21 16:09:58.824  7099  7124 I Unity   : Logger:LogBlue(Object)
+09-21 16:09:58.824  7099  7124 I Unity   :
+09-21 16:09:58.826  7099  7124 I Unity   : Time since start up to enter login: 5.713267s
+09-21 16:09:58.826  7099  7124 I Unity   : GameStart:DoOnAwake()
+09-21 16:09:58.826  7099  7124 I Unity   : GameStart:Update()
+09-21 16:09:58.826  7099  7124 I Unity   :
+09-21 16:09:58.828  7099  7124 I Unity   : ConnectSSO
+09-21 16:09:58.828  7099  7124 I Unity   : GameStart:ConnectSSO()
+09-21 16:09:58.828  7099  7124 I Unity   : GameStart:DoOnAwake()
+09-21 16:09:58.828  7099  7124 I Unity   : GameStart:Update()
+09-21 16:09:58.828  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:58.828  7099  7124 I Unity   :
+09-21 16:09:58.830  7099  7124 I Unity   : New LuaManager Created.
+09-21 16:09:58.830  7099  7124 I Unity   : GameStart:ConnectSSO()
+09-21 16:09:58.830  7099  7124 I Unity   : GameStart:DoOnAwake()
+09-21 16:09:58.830  7099  7124 I Unity   : GameStart:Update()
+09-21 16:09:58.830  7099  7124 I Unity   : LuaManager:get_Instance()
+09-21 16:09:58.830  7099  7124 I Unity   :
+09-21 16:09:58.858  7099  7124 I Unity   : Start init LuaState
+09-21 16:09:58.858  7099  7124 I Unity   : GameStart:ConnectSSO()
+09-21 16:09:58.858  7099  7124 I Unity   : GameStart:DoOnAwake()
+09-21 16:09:58.858  7099  7124 I Unity   : GameStart:Update()
+09-21 16:09:58.858  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:58.858  7099  7124 I Unity   : LuaManager:StartInit()
+09-21 16:09:58.858  7099  7124 I Unity   :
+09-21 16:09:55.440     0     0 E pm6150_charger: smblib_pl_enable_work: timer expired, enabling parallel
+09-21 16:09:55.440     0     0 E PL_DISABLE: PL_DELAY_VOTER,4 voting off of val=0
+09-21 16:09:55.441     0     0 E AWAKE   : PL_DELAY_VOTER,2 voting off of val=0
+09-21 16:09:55.441     0     0 E AWAKE   : effective vote is now 0 voted by PL_DELAY_VOTER,2
+09-21 16:09:58.962  7099  7124 I Unity   : Finish init LuaState
+09-21 16:09:58.962  7099  7124 I Unity   : GameStart:ConnectSSO()
+09-21 16:09:58.962  7099  7124 I Unity   : GameStart:DoOnAwake()
+09-21 16:09:58.962  7099  7124 I Unity   : GameStart:Update()
+09-21 16:09:58.962  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:58.962  7099  7124 I Unity   : SLua.<>c__DisplayClass9_0:<init>b__0()
+09-21 16:09:58.962  7099  7124 I Unity   : SLua.<doBind>d__6:MoveNext()
+09-21 16:09:58.962  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:58.962  7099  7124 I Unity   :
+09-21 16:09:59.082  7099  7124 I Unity   : <color=yellow>Load asset NetworkLogShow.prefab from bundle global_p, bundle is not loaded, spend time = 118.6662ms</color>
+09-21 16:09:59.082  7099  7124 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:09:59.082  7099  7124 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:09:59.082  7099  7124 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:09:59.082  7099  7124 I Unity   : GameStart:DoOnAwake()
+09-21 16:09:59.082  7099  7124 I Unity   : GameStart:Update()
+09-21 16:09:59.082  7099  7124 I Unity   : NetworkLogShow:get_Instance()
+09-21 16:09:59.082  7099  7124 I Unity   : NetworkLogShow:Init()
+09-21 16:09:59.082  7099  7124 I Unity   :
+09-21 16:09:59.091  7099  7124 I Unity   : Read DID 83a7a68e-8599-4932-8e5b-11cc685b43b9
+09-21 16:09:59.091  7099  7124 I Unity   : BaseDefine:GetDeviceId()
+09-21 16:09:59.091  7099  7124 I Unity   : HttpServerApis:SSOGetServerList(String, String, String, Boolean)
+09-21 16:09:59.091  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.091  7099  7124 I Unity   : GameStart:LateUpdate()
+09-21 16:09:59.091  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.091  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.091  7099  7124 I Unity   :
+09-21 16:09:59.096  7099  7124 I Unity   : SSO http://aoo_dev_sso.ageofzorigins.cn:10801/api2/ssoGetServerList?au_k=dc41a377-a6cf-44c6-8b90-fb5adf864c1b&v=1.3.733&ch=camel_google_dev&dev_id=83a7a68e-8599-4932-8e5b-11cc685b43b9&bd_t=1&lz4=0&gspkg=0&bd_f=hybrid&nomfd=1&is_enc=False
+09-21 16:09:59.096  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.096  7099  7124 I Unity   : GameStart:LateUpdate()
+09-21 16:09:59.096  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.096  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.096  7099  7124 I Unity   :
+09-21 16:09:59.097  7099  7124 I Unity   : Connect http://aoo_dev_sso.ageofzorigins.cn:10801/api2/ssoGetServerList?au_k=dc41a377-a6cf-44c6-8b90-fb5adf864c1b&v=1.3.733&ch=camel_google_dev&dev_id=83a7a68e-8599-4932-8e5b-11cc685b43b9&bd_t=1&lz4=0&gspkg=0&bd_f=hybrid&nomfd=1&is_enc=False
+09-21 16:09:59.097  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.097  7099  7124 I Unity   : GameStart:LateUpdate()
+09-21 16:09:59.097  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.097  7099  7124 I Unity   : CamelHot.Network.WebClientTimer:.ctor(String, String, Single, Boolean)
+09-21 16:09:59.097  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.097  7099  7124 I Unity   :
+09-21 16:09:59.129  7099  7124 D Unity   : Unloading 8 unused Assets / (0.9 KB). Loaded Objects now: 4222.
+09-21 16:09:59.129  7099  7124 D Unity   : Memory consumption went from 73.1 MB to 73.1 MB.
+09-21 16:09:59.129  7099  7124 D Unity   : Total: 8.375000 ms (FindLiveObjects: 0.483855 ms CreateObjectMapping: 0.455104 ms MarkObjects: 7.331355 ms  DeleteObjects: 0.102916 ms)
+09-21 16:09:59.129  7099  7124 D Unity   :
+09-21 16:09:59.203  7099  7162 D Unity   : Unloading 2 Unused Serialized files (Serialized files now loaded: 41)
+09-21 16:09:59.213  7099  7124 I Unity   : CDN http://106.75.53.116:9857/Doomsday/android/hybrid/
+09-21 16:09:59.213  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.213  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.213  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.213  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.213  7099  7124 I Unity   :
+09-21 16:09:59.214  7099  7124 I Unity   : GameURL 39.98.196.51:10814
+09-21 16:09:59.214  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.214  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.214  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.214  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.214  7099  7124 I Unity   :
+09-21 16:09:59.214  7099  7124 I Unity   : GameURL6
+09-21 16:09:59.214  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.214  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.214  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.214  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.214  7099  7124 I Unity   :
+09-21 16:09:59.215  7099  7124 I Unity   : GameURLList 39.98.196.51:10814
+09-21 16:09:59.215  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.215  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.215  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.215  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.215  7099  7124 I Unity   :
+09-21 16:09:59.218  7099  7124 I Unity   : Offline Notification Server Url http://39.98.196.51:10813/api2
+09-21 16:09:59.218  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.218  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.218  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.218  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.218  7099  7124 I Unity   :
+09-21 16:09:59.220  7099  7124 I Unity   : Upload Image Server Url http://39.98.196.51:9803/api_upload/uploadIcon
+09-21 16:09:59.220  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.220  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.220  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.220  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.220  7099  7124 I Unity   :
+09-21 16:09:59.220  7099  7124 I Unity   : Download Image Server Url http://icon-dev-iamges.ageofzorigins.cn/
+09-21 16:09:59.220  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.220  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.220  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.220  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.220  7099  7124 I Unity   :
+09-21 16:09:59.222  7099  7124 I Unity   : SMOBE = true, json.nosmobe = False BaseDefine.SMOBE=True
+09-21 16:09:59.222  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.222  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.222  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.222  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.222  7099  7124 I Unity   :
+09-21 16:09:59.222  7099  7124 I Unity   : BaseDefine.CLEAN_LUATABLE=False
+09-21 16:09:59.222  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.222  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.222  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.222  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.222  7099  7124 I Unity   :
+09-21 16:09:59.231  7099  7124 I Unity   : [HttpWebRequest] Index = 0 url = http://aoo_dev_sso.ageofzorigins.cn:10801/api2/ssoGetIP test finish status = Timeout cost = 63862497869824.0ms error = Time out result =
+09-21 16:09:59.231  7099  7124 I Unity   : GameStart:OnHttpRequestResponed(String, String, String)
+09-21 16:09:59.231  7099  7124 I Unity   : <Connect>d__20:MoveNext()
+09-21 16:09:59.231  7099  7124 I Unity   : CamelHot.SSOTester.SSOTesterBase`1:FinishTest(TestStatus, String, String)
+09-21 16:09:59.231  7099  7124 I Unity   : CamelHot.SSOTester.SSOTesterHttpWebRequest:DoStopTest()
+09-21 16:09:59.231  7099  7124 I Unity   : Traversals:Traversal(IList`1, Action`1, Boolean)
+09-21 16:09:59.231  7099  7124 I Unity   : CamelHot.SSOTester.SSOTesterBase`1:StopTest()
+09-21 16:09:59.231  7099  7124 I Unity   : CamelHot.SSOTester.SSOTesterBase`1:Clear()
+09-21 16:09:59.231  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.231  7099  7124 I Unity   :
+09-21 16:09:59.261  7099  7124 I Unity   : <color=green>Download http://106.75.53.116:9857/Doomsday/android/hybrid/manifest_md5 to /storage/emulated/0/Android/data/com.camelgames.aoz.debuglz4/files/cusres/hybrid_wdeY/cdnm.md5, success: True time spent: 30.67ms</color>
+09-21 16:09:59.261  7099  7124 I Unity   : <SimpleDownloadFile>d__5:MoveNext()
+09-21 16:09:59.261  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.261  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.261  7099  7124 I Unity   :
+09-21 16:09:59.267  7099  7124 I Unity   : save index 0
+09-21 16:09:59.267  7099  7124 I Unity   : BaseDefine:SaveCurrentSSOIndex()
+09-21 16:09:59.267  7099  7124 I Unity   : GameStart:DoInitMainGo()
+09-21 16:09:59.267  7099  7124 I Unity   : <LoadCDNManifest>d__0:MoveNext()
+09-21 16:09:59.267  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.267  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.267  7099  7124 I Unity   :
+09-21 16:09:59.282  7099  7124 I Unity   : <color=yellow>Load asset Main.prefab from bundle global_p, bundle is loaded, spend time = 13.02433ms</color>
+09-21 16:09:59.282  7099  7124 I Unity   : BundleManager:GetAsset(ABIndexer, Type, Boolean)
+09-21 16:09:59.282  7099  7124 I Unity   : BundleManager:GetAsset(String, Type, Boolean)
+09-21 16:09:59.282  7099  7124 I Unity   : BundleManager:GetAsset(String, Type)
+09-21 16:09:59.282  7099  7124 I Unity   : GameStart:DoInitMainGo()
+09-21 16:09:59.282  7099  7124 I Unity   : <LoadCDNManifest>d__0:MoveNext()
+09-21 16:09:59.282  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.282  7099  7124 I Unity   :
+09-21 16:09:59.363  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 16
+09-21 16:09:59.363  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:59.363  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.363  7099  7124 I Unity   :
+09-21 16:09:59.363  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 17
+09-21 16:09:59.363  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:59.363  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.363  7099  7124 I Unity   :
+09-21 16:09:59.364  7099  7124 I Unity   : [HybridSceneChanger] EnterInitial 18
+09-21 16:09:59.364  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:59.364  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.364  7099  7124 I Unity   :
+09-21 16:09:59.364  7099  7124 I Unity   : [HybridSceneChanger] ClearInstance 0
+09-21 16:09:59.364  7099  7124 I Unity   : CamelHybrid.HybridSceneChanger:ClearInstance()
+09-21 16:09:59.364  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:59.364  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.364  7099  7124 I Unity   :
+09-21 16:09:59.365  7099  7124 I Unity   : [HybridSceneChanger] ClearInstance 1
+09-21 16:09:59.365  7099  7124 I Unity   : CamelHybrid.HybridSceneChanger:ClearInstance()
+09-21 16:09:59.365  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:59.365  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.365  7099  7124 I Unity   :
+09-21 16:09:59.366  7099  7124 I Unity   : [HybridSceneChanger] ClearInstance 2
+09-21 16:09:59.366  7099  7124 I Unity   : CamelHybrid.HybridSceneChanger:ClearInstance()
+09-21 16:09:59.366  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:59.366  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.366  7099  7124 I Unity   :
+09-21 16:09:59.366  7099  7124 I Unity   : [HybridSceneChanger] ClearInstance 3
+09-21 16:09:59.366  7099  7124 I Unity   : CamelHybrid.<EnterInitial>d__6:MoveNext()
+09-21 16:09:59.366  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.366  7099  7124 I Unity   :
+09-21 16:09:59.375  7099  7124 I Unity   : BundleManager Initiate. Time = 6.26269s
+09-21 16:09:59.375  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.375  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.375  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.375  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.375  7099  7124 I Unity   :
+09-21 16:09:59.376  7099  7124 I Unity   : BundleManager Initiate
+09-21 16:09:59.376  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.376  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.376  7099  7124 I Unity   : Logger:Log(Object)
+09-21 16:09:59.376  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.376  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.376  7099  7124 I Unity   :
+09-21 16:09:59.381  7099  7124 I Unity   : <color=green>init bundle login</color>
+09-21 16:09:59.381  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.381  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.381  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.381  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.381  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.381  7099  7124 I Unity   :
+09-21 16:09:59.382  7099  7124 I Unity   : <color=green>init bundle _ast_spine_runtime</color>
+09-21 16:09:59.382  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.382  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.382  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.382  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.382  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.382  7099  7124 I Unity   :
+09-21 16:09:59.382  7099  7124 I Unity   : <color=green>init bundle backgroundmusic_battle</color>
+09-21 16:09:59.382  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.382  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.382  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.382  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.382  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.382  7099  7124 I Unity   :
+09-21 16:09:59.383  7099  7124 I Unity   : <color=green>init bundle dd_login</color>
+09-21 16:09:59.383  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.383  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.383  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.383  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.383  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.383  7099  7124 I Unity   :
+09-21 16:09:59.383  7099  7124 I Unity   : <color=green>init bundle shaders</color>
+09-21 16:09:59.383  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.383  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.383  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.383  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.383  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.383  7099  7124 I Unity   :
+09-21 16:09:59.384  7099  7124 I Unity   : <color=green>init bundle effect_material</color>
+09-21 16:09:59.384  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.384  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.384  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.384  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.384  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.384  7099  7124 I Unity   :
+09-21 16:09:59.384  7099  7124 I Unity   : <color=green>init bundle battlepass_torch_bptorch_effect</color>
+09-21 16:09:59.384  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.384  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.384  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.384  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.384  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.384  7099  7124 I Unity   :
+09-21 16:09:59.385  7099  7124 I Unity   : <color=green>init bundle effect_shader</color>
+09-21 16:09:59.385  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.385  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.385  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.385  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.385  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.385  7099  7124 I Unity   :
+09-21 16:09:59.385  7099  7124 I Unity   : <color=green>init bundle effect_texture_animation</color>
+09-21 16:09:59.385  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.385  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.385  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.385  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.385  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.385  7099  7124 I Unity   :
+09-21 16:09:59.386  7099  7124 I Unity   : <color=green>init bundle effect_texture_light</color>
+09-21 16:09:59.386  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.386  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.386  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.386  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.386  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.386  7099  7124 I Unity   :
+09-21 16:09:59.386  7099  7124 I Unity   : <color=green>init bundle effect_texture_magic</color>
+09-21 16:09:59.386  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.386  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.386  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.386  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.386  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.386  7099  7124 I Unity   :
+09-21 16:09:59.387  7099  7124 I Unity   : <color=green>init bundle effect_texture_nc_tex</color>
+09-21 16:09:59.387  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.387  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.387  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.387  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.387  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.387  7099  7124 I Unity   :
+09-21 16:09:59.387  7099  7124 I Unity   : <color=green>init bundle effect_texture_object</color>
+09-21 16:09:59.387  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.387  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.387  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.387  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.387  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.387  7099  7124 I Unity   :
+09-21 16:09:59.388  7099  7124 I Unity   : <color=green>init bundle effect_texture_terrain</color>
+09-21 16:09:59.388  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.388  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.388  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.388  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.388  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.388  7099  7124 I Unity   :
+09-21 16:09:59.388  7099  7124 I Unity   : <color=green>init bundle effect_texture_trail</color>
+09-21 16:09:59.388  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.388  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.388  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.388  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.388  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.388  7099  7124 I Unity   :
+09-21 16:09:59.389  7099  7124 I Unity   : <color=green>init bundle effect_texture_ui</color>
+09-21 16:09:59.389  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.389  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.389  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.389  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.389  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.389  7099  7124 I Unity   :
+09-21 16:09:59.389  7099  7124 I Unity   : <color=green>init bundle recruit_effect_recruit_texture</color>
+09-21 16:09:59.389  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.389  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.389  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.389  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.389  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.389  7099  7124 I Unity   :
+09-21 16:09:59.390  7099  7124 I Unity   : <color=green>init bundle recruit_effect_recruit_material</color>
+09-21 16:09:59.390  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.390  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.390  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.390  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.390  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.390  7099  7124 I Unity   :
+09-21 16:09:59.391  7099  7124 I Unity   : <color=green>init bundle decorationsystem_ds_dock_effect</color>
+09-21 16:09:59.391  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.391  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.391  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.391  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.391  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.391  7099  7124 I Unity   :
+09-21 16:09:59.391  7099  7124 I Unity   : <color=green>init bundle dungeonexplore_de_effect</color>
+09-21 16:09:59.391  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.391  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.391  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.391  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.391  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.391  7099  7124 I Unity   :
+09-21 16:09:59.392  7099  7124 I Unity   : <color=green>init bundle _pkg_universal</color>
+09-21 16:09:59.392  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.392  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.392  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.392  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.392  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.392  7099  7124 I Unity   :
+09-21 16:09:59.392  7099  7124 I Unity   : <color=green>init bundle warriormesh_warriormesh_effect</color>
+09-21 16:09:59.392  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.392  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.392  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.392  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.392  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.392  7099  7124 I Unity   :
+09-21 16:09:59.393  7099  7124 I Unity   : <color=green>init bundle herodisplay_hd_effect</color>
+09-21 16:09:59.393  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.393  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.393  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.393  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.393  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.393  7099  7124 I Unity   :
+09-21 16:09:59.393  7099  7124 I Unity   : <color=green>init bundle shaders_misc_p</color>
+09-21 16:09:59.393  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.393  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.393  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.393  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.393  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.393  7099  7124 I Unity   :
+09-21 16:09:59.394  7099  7124 I Unity   : <color=green>init bundle emergencytraining_et_effect</color>
+09-21 16:09:59.394  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.394  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.394  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.394  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.394  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.394  7099  7124 I Unity   :
+09-21 16:09:59.394  7099  7124 I Unity   : <color=green>init bundle equipmatrix_em_effect</color>
+09-21 16:09:59.394  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.394  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.394  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.394  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.394  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.394  7099  7124 I Unity   :
+09-21 16:09:59.395  7099  7124 I Unity   : <color=green>init bundle threekingdoms_tk_effect</color>
+09-21 16:09:59.395  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.395  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.395  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.395  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.395  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.395  7099  7124 I Unity   :
+09-21 16:09:59.396  7099  7124 I Unity   : <color=green>init bundle slg_msyh_10</color>
+09-21 16:09:59.396  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.396  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.396  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.396  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.396  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.396  7099  7124 I Unity   :
+09-21 16:09:59.396  7099  7124 I Unity   : <color=green>init bundle towerdefence_td_effect</color>
+09-21 16:09:59.396  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.396  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.396  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.396  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.396  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.396  7099  7124 I Unity   :
+09-21 16:09:59.397  7099  7124 I Unity   : <color=green>init bundle global_p</color>
+09-21 16:09:59.397  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.397  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.397  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.397  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.397  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.397  7099  7124 I Unity   :
+09-21 16:09:59.397  7099  7124 I Unity   : <color=green>init bundle d_main</color>
+09-21 16:09:59.397  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.397  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.397  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.397  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.397  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.397  7099  7124 I Unity   :
+09-21 16:09:59.398  7099  7124 I Unity   : <color=green>init bundle d_newcommon1</color>
+09-21 16:09:59.398  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.398  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.398  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.398  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.398  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.398  7099  7124 I Unity   :
+09-21 16:09:59.398  7099  7124 I Unity   : <color=green>init bundle d_replaceui</color>
+09-21 16:09:59.398  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.398  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.398  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.398  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.398  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.398  7099  7124 I Unity   :
+09-21 16:09:59.399  7099  7124 I Unity   : <color=green>init bundle dd_misc</color>
+09-21 16:09:59.399  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.399  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.399  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.399  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.399  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.399  7099  7124 I Unity   :
+09-21 16:09:59.400  7099  7124 I Unity   : <color=green>init bundle dd_vnlogin</color>
+09-21 16:09:59.400  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.400  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.400  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.400  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.400  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.400  7099  7124 I Unity   :
+09-21 16:09:59.400  7099  7124 I Unity   : <color=green>init bundle text</color>
+09-21 16:09:59.400  7099  7124 I Unity   : <Initiate>d__34:MoveNext()
+09-21 16:09:59.400  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.400  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.400  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.400  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.400  7099  7124 I Unity   :
+09-21 16:09:59.415  7099  7124 D Unity   : Unloading 218 unused Assets / (2.0 MB). Loaded Objects now: 4300.
+09-21 16:09:59.415  7099  7124 D Unity   : Memory consumption went from 70.3 MB to 68.3 MB.
+09-21 16:09:59.415  7099  7124 D Unity   : Total: 8.850104 ms (FindLiveObjects: 0.523593 ms CreateObjectMapping: 0.465625 ms MarkObjects: 7.613386 ms  DeleteObjects: 0.245208 ms)
+09-21 16:09:59.415  7099  7124 D Unity   :
+09-21 16:09:59.418  7099  7124 I Unity   : SetUserArabDisplay ArabDisplay set to False
+09-21 16:09:59.418  7099  7124 I Unity   : Lua:set_ArabDisplay(Boolean)
+09-21 16:09:59.418  7099  7124 I Unity   : LocalizationManager:GetLanguage()
+09-21 16:09:59.418  7099  7124 I Unity   : DownloadOpenningBundles:AdjustLocaleBundle(MyManifest)
+09-21 16:09:59.418  7099  7124 I Unity   : DownloadOpenningBundles:ComputeNeedDownload(MyManifest)
+09-21 16:09:59.418  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.418  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.418  7099  7124 I Unity   :
+09-21 16:09:59.470  7099  7124 I Unity   : <color=green>	will download add:manifest2 priority:0 size:7k type: Download</color>
+09-21 16:09:59.470  7099  7124 I Unity   : DownloadOpenningBundles:Download(List`1)
+09-21 16:09:59.470  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.470  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.470  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.470  7099  7124 I Unity   :
+09-21 16:09:59.472  7099  7124 I Unity   : <color=blue>	will download add:bpanniversary3_ui_p priority:14 size:810k type: Download</color>
+09-21 16:09:59.472  7099  7124 I Unity   : DownloadOpenningBundles:Download(List`1)
+09-21 16:09:59.472  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.472  7099  7124 I Unity   : Logger:LogBlue(Object)
+09-21 16:09:59.472  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.472  7099  7124 I Unity   :
+09-21 16:09:59.472  7099  7124 I Unity   : <color=blue>	will download add:gvg_ui_p priority:15 size:1548k type: Download</color>
+09-21 16:09:59.472  7099  7124 I Unity   : DownloadOpenningBundles:Download(List`1)
+09-21 16:09:59.472  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.472  7099  7124 I Unity   : Logger:LogBlue(Object)
+09-21 16:09:59.472  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.472  7099  7124 I Unity   :
+09-21 16:09:59.473  7099  7124 I Unity   : <color=blue>	will download add:heroscene_katie_p priority:15 size:691k type: Download</color>
+09-21 16:09:59.473  7099  7124 I Unity   : DownloadOpenningBundles:Download(List`1)
+09-21 16:09:59.473  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.473  7099  7124 I Unity   : Logger:LogBlue(Object)
+09-21 16:09:59.473  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.473  7099  7124 I Unity   :
+09-21 16:09:59.473  7099  7124 I Unity   : <color=green>	will download add:ui__ priority:5 size:2k type: Download</color>
+09-21 16:09:59.473  7099  7124 I Unity   : DownloadOpenningBundles:Download(List`1)
+09-21 16:09:59.473  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.473  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.473  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.473  7099  7124 I Unity   :
+09-21 16:09:59.474  7099  7124 I Unity   : <color=green>	will download add:utl_common_p priority:5 size:150k type: Download</color>
+09-21 16:09:59.474  7099  7124 I Unity   : DownloadOpenningBundles:Download(List`1)
+09-21 16:09:59.474  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.474  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.474  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.474  7099  7124 I Unity   :
+09-21 16:09:59.474  7099  7124 I Unity   : <color=green>	required download total size = 159k</color>
+09-21 16:09:59.474  7099  7124 I Unity   : DownloadOpenningBundles:Download(List`1)
+09-21 16:09:59.474  7099  7124 I Unity   : <DownloadFromSSO>d__38:MoveNext()
+09-21 16:09:59.474  7099  7124 I Unity   : Logger:LogGreen(Object)
+09-21 16:09:59.474  7099  7124 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+09-21 16:09:59.474  7099  7124 I Unity   :
+09-21 16:09:59.544  7099  7124 I Unity   : <color=yellow>Load asset MessageBox.prefab from bundle global_p, bundle is not loaded, spend time = 50.55857ms</color>

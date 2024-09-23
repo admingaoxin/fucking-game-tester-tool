@@ -1,0 +1,101 @@
+--------- beginning of events
+09-21 16:09:29.103  1589  3396 I am_kill : [0,791,com.google.android.syncadapters.calendar,906,empty for 3773s]
+09-21 16:09:29.148  1589  2712 I am_proc_died: [0,791,com.google.android.syncadapters.calendar,906,18]
+09-21 16:09:29.148  1589  2712 I am_uid_stopped: 10190
+09-21 16:09:29.422  1589  1804 I battery_status: [2,2,1,0,Li-poly]
+09-21 16:09:29.420  2975  2975 I auditd  : type=1400 audit(0.0:32967): avc: denied { read } for comm="PowerCheckerSer" name="traffic_iface_index_name_map" dev="bpf" ino=15070 scontext=u:r:system_app:s0 tcontext=u:object_r:fs_bpf:s0 tclass=file permissive=0
+09-21 16:09:29.420  2975  2975 I auditd  : type=1400 audit(0.0:32968): avc: denied { read } for comm="PowerCheckerSer" name="traffic_iface_index_name_map" dev="bpf" ino=15070 scontext=u:r:system_app:s0 tcontext=u:object_r:fs_bpf:s0 tclass=file permissive=0
+09-21 16:09:29.526  1589  1804 I sysui_multi_action: [757,1417,758,4,1418,91,1421,2]
+09-21 16:09:29.526  1589  1804 I battery_status: [2,2,1,2,Li-poly]
+09-21 16:09:29.553  1589  1589 I battery_saving_stats: [0,1,0,2012,0,0,3420939,497070,27]
+09-21 16:09:30.146  1589  1589 I notification_enqueue: [1000,1589,android,27,NULL,-1,Notification(channel=USB pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC),0]
+09-21 16:09:30.147  1589  1589 I notification_enqueue: [1000,1589,android,26,NULL,-1,Notification(channel=DEVELOPER pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC),0]
+09-21 16:09:30.212  1589  3750 I wm_stack_created: 58
+09-21 16:09:30.216  1589  3750 I wm_task_created: [451,58]
+09-21 16:09:30.218  1589  3750 I wm_task_moved: [451,0,2147483647]
+09-21 16:09:30.219  1589  3750 I am_focused_stack: [0,58,0,reuseOrNewTask]
+09-21 16:09:30.220  1589  3750 I am_create_task: [0,451]
+09-21 16:09:30.220  1589  3750 I am_create_activity: [0,183431769,451,com.android.settings/.Settings$UsbDetailsActivity,android.intent.action.MAIN,NULL,NULL,276856832]
+09-21 16:09:30.221  1589  3750 I wm_task_moved: [451,0,2147483647]
+09-21 16:09:30.226  1589  3750 I am_pause_activity: [2220,28948355,com.miui.home/.launcher.Launcher,userLeaving=true]
+09-21 16:09:30.228  2220  2220 I am_on_paused_called: [0,com.miui.home.launcher.Launcher,performPause,1]
+09-21 16:09:30.251  1589  3381 I am_restart_activity: [0,183431769,451,com.android.settings/.Settings$UsbDetailsActivity,6933]
+09-21 16:09:30.240  2533  2533 I auditd  : type=1400 audit(0.0:32969): avc: denied { search } for comm="Binder:2533_1" name="battery" dev="sysfs" ino=52048 scontext=u:r:mcd:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=dir permissive=0
+09-21 16:09:30.240  2533  2533 I auditd  : type=1400 audit(0.0:32970): avc: denied { search } for comm="Binder:2533_1" name="battery" dev="sysfs" ino=52048 scontext=u:r:mcd:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=dir permissive=0
+09-21 16:09:30.253  1589  3381 I am_set_resumed_activity: [0,com.android.settings/.Settings$UsbDetailsActivity,minimalResumeActivityLocked]
+09-21 16:09:30.264  1589  1642 I sysui_count: [window_time_0,49]
+09-21 16:09:30.264  1589  1642 I sysui_multi_action: [757,803,799,window_time_0,802,49]
+09-21 16:09:30.343  6933  6933 I am_on_create_called: [0,com.android.settings.Settings$UsbDetailsActivity,performCreate,77]
+09-21 16:09:30.351  6933  6933 I am_on_start_called: [0,com.android.settings.Settings$UsbDetailsActivity,handleStartActivity,2]
+09-21 16:09:30.354  6933  6933 I am_on_resume_called: [0,com.android.settings.Settings$UsbDetailsActivity,RESUME_ACTIVITY,2]
+09-21 16:09:30.362  1589  1644 I am_proc_start: [0,6992,10189,com.google.android.gms.unstable,service,com.google.android.gms/.droidguard.DroidGuardService]
+09-21 16:09:30.363  1589  1644 I service_manager_stats: [100,91,93048]
+09-21 16:09:30.383  1589  3396 I am_proc_bound: [0,6992,com.google.android.gms.unstable]
+09-21 16:09:30.454  1589  1651 I am_activity_launch_time: [0,183431769,com.android.settings/.Settings$UsbDetailsActivity,197,197]
+09-21 16:09:30.463  1589  1641 I sysui_multi_action: [319,253,322,251,325,106947,757,761,758,8,759,2,806,com.android.settings,871,com.android.settings.Settings$UsbDetailsActivity,904,com.android.settings,905,0,1320,9,1321,1]
+09-21 16:09:31.607  1589  3745 I sysui_action: [1276,]
+09-21 16:09:31.608  1589  3745 I sysui_multi_action: [757,1276,758,4]
+09-21 16:09:31.620  1589  3381 I am_finish_activity: [6933,183431769,451,com.android.settings/.Settings$UsbDetailsActivity,app-request]
+09-21 16:09:31.622  1589  3381 I am_focused_stack: [0,0,58,finishActivity adjustFocus adjustFocusToNextFocusableStack]
+09-21 16:09:31.622  1589  3381 I am_pause_activity: [6933,183431769,com.android.settings/.Settings$UsbDetailsActivity,userLeaving=false]
+09-21 16:09:31.626  1589  1642 I sysui_count: [window_time_0,2]
+09-21 16:09:31.626  1589  1642 I sysui_multi_action: [757,803,799,window_time_0,802,2]
+09-21 16:09:31.627  6933  6933 I am_on_paused_called: [0,com.android.settings.Settings$UsbDetailsActivity,performPause,0]
+09-21 16:09:31.628  1589  3381 I am_destroy_activity: [6933,183431769,451,com.android.settings/.Settings$UsbDetailsActivity,finish-imm:completedPausedLocked]
+09-21 16:09:31.643  1589  3381 I am_set_resumed_activity: [0,com.miui.home/.launcher.Launcher,resumeTopActivityInnerLocked]
+09-21 16:09:31.644  1589  3381 I am_resume_activity: [0,28948355,1,com.miui.home/.launcher.Launcher,2220]
+09-21 16:09:31.630  2533  2533 I auditd  : type=1400 audit(0.0:32971): avc: denied { search } for comm="Binder:2533_1" name="battery" dev="sysfs" ino=52048 scontext=u:r:mcd:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=dir permissive=0
+09-21 16:09:31.630  2533  2533 I auditd  : type=1400 audit(0.0:32972): avc: denied { search } for comm="Binder:2533_1" name="battery" dev="sysfs" ino=52048 scontext=u:r:mcd:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=dir permissive=0
+09-21 16:09:31.667  2220  2220 I am_on_resume_called: [0,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,22]
+09-21 16:09:31.671  6933  6933 I am_on_stop_called: [0,com.android.settings.Settings$UsbDetailsActivity,LIFECYCLER_STOP_ACTIVITY,5]
+09-21 16:09:31.677  6933  6933 I am_on_destroy_called: [0,com.android.settings.Settings$UsbDetailsActivity,performDestroy,0]
+09-21 16:09:31.682  1589  3371 I am_remove_task: [451,58]
+09-21 16:09:31.894  1589  1708 I wm_task_removed: [451,removeTask]
+09-21 16:09:31.895  1589  1708 I wm_task_removed: [451,removeAppToken: last token]
+09-21 16:09:31.895  1589  1708 I wm_stack_removed: 58
+09-21 16:09:32.027 11568  6973 I c2dm    : [19,com.google.android.gms:243660013,0,0]
+09-21 16:09:32.045 11568 28268 I c2dm    : [-19,ERR_SERVICE_NOT_AVAILABLE,0,0]
+--------- beginning of kernel
+09-21 16:09:33.281     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:09:33.281     0     0 E pm6150_charger: smblib_set_charge_param: fast charge current = 2800000 (0x38)
+09-21 16:09:33.300     0     0 D logd    : logdr: UID=2000 GID=2000 PID=7078 b tail=0 logMask=ff pid=0 start=0ns timeout=0ns
+09-21 16:09:34.162     0     0 E PL_AWAKE: PL_VOTER,1 same vote off of val=0
+09-21 16:09:34.162     0     0 E PL_AWAKE: PL_VOTER,1 Ignoring similar vote off of val=0
+09-21 16:09:34.163     0     0 E FCC     : JEITA_VOTER,5 same vote on of val=3000000
+09-21 16:09:34.163     0     0 E FCC     : JEITA_VOTER,5 Ignoring similar vote on of val=3000000
+09-21 16:09:34.163     0     0 E USB_ICL : JEITA_VOTER,8 same vote off of val=0
+09-21 16:09:34.164     0     0 E USB_ICL : JEITA_VOTER,8 Ignoring similar vote off of val=0
+09-21 16:09:34.164     0     0 I QCOM-STEPCHG: handle_jeita:  jeita vote fv_uv:4400000 last_vol:4400000
+09-21 16:09:34.164     0     0 E FV      : JEITA_VOTER,2 same vote on of val=4400000
+09-21 16:09:34.164     0     0 E FV      : JEITA_VOTER,2 Ignoring similar vote on of val=4400000
+09-21 16:09:34.164     0     0 E power_supply main: power_supply_changed
+09-21 16:09:34.164     0     0 E FCC     : STEP_CHG_VOTER,6 same vote off of val=0
+09-21 16:09:34.164     0     0 E FCC     : STEP_CHG_VOTER,6 Ignoring similar vote off of val=0
+09-21 16:09:34.164     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:09:34.164     0     0 E power_supply main: power_supply_changed_work
+09-21 16:09:34.164     0     0 E         : get prop 4 is not supported in usb-main
+09-21 16:09:34.164     0     0 E         : Couldn't get prop 4 rc = -22
+09-21 16:09:34.164     0     0 E pm6150_charger: smblib_get_charge_param: float voltage = 4400000 (0x50)
+09-21 16:09:34.164     0     0 E pm6150_charger: smblib_get_charge_param: fast charge current = 2800000 (0x38)
+09-21 16:09:34.164     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:09:34.164     0     0 E pm6150_charger: smblib_get_charge_param: dcdc icl max status = 500000 (0x0a)
+09-21 16:09:34.164     0     0 E         : Couldn't get prop 103 rc = -1
+09-21 16:09:34.165     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:09:34.165     0     0 E PL_DISABLE: CHG_STATE_VOTER,0 same vote off of val=0
+09-21 16:09:34.165     0     0 E PL_DISABLE: CHG_STATE_VOTER,0 Ignoring similar vote off of val=0
+09-21 16:09:34.165     0     0 E pm6150_charger: smblib_get_charge_param: aicl icl status = 500000 (0x0a)
+09-21 16:09:34.165     0     0 E PL_ENABLE_INDIRECT: USBIN_I_VOTER,0 same vote off of val=0
+09-21 16:09:34.165     0     0 E PL_ENABLE_INDIRECT: USBIN_I_VOTER,0 Ignoring similar vote off of val=0
+09-21 16:09:34.165     0     0 E PL_AWAKE: FCC_STEPPER_VOTER,0 voting off of val=0
+09-21 16:09:34.165     0     0 E PL_AWAKE: effective vote is now 0 voted by FCC_STEPPER_VOTER,0
+09-21 16:09:34.165     0     0 E pm6150_charger: smblib_get_charge_param: fast charge current = 2800000 (0x38)
+09-21 16:09:34.165     0     0 E PL_AWAKE: FCC_STEPPER_VOTER,0 voting on of val=1
+09-21 16:09:34.166     0     0 E PL_AWAKE: effective vote is now 1 voted by FCC_STEPPER_VOTER,0
+09-21 16:09:34.166     0     0 E pm6150_charger: smblib_set_charge_param: float voltage = 4400000 (0x50)
+09-21 16:09:34.166     0     0 I         : smblib_get_prop_usb_present stat 16
+09-21 16:09:34.166     0     0 E pm6150_charger: smblib_set_charge_param: fast charge current = 2900000 (0x3a)
+09-21 16:09:34.166     0     0 I         : length 2 addr=48c0
+09-21 16:09:34.166     0     0 I val[0]  : 98
+09-21 16:09:34.166     0     0 I val[1]  : 55
+09-21 16:09:34.166     0     0 I         : length 2 addr=48c0
+09-21 16:09:34.166     0     0 I val[0]  : 98

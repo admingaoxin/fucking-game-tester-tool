@@ -1,0 +1,2 @@
+datatime,total_ram(MB),free_ram(MB),package,pid,pid_pss(MB)
+2024-09-21 18-58-36,5657.15,2011.45,com.camelgames.aoz.debuglz4,10797,1443.48

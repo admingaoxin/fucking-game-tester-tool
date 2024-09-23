@@ -1,0 +1,2907 @@
+2024-09-21 19-00-32 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117211738 Realtime: 255660578
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   303515   303448        0       76   368128   292531    75596
+  Dalvik Heap     3686     3664        0        0     4229     2115     2114
+ Dalvik Other     1200     1200        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376420   376420        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9908       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71216    71216        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1475998  1392408    69056      123   372357   294646    77710
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    15848
+         Native Heap:   303448
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607216
+              System:    14534
+ 
+               TOTAL:  1475998       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2671/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-00-50 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117229753 Realtime: 255678593
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   304935   304868        0       76   368128   295892    72235
+  Dalvik Heap     2850     2828        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376412   376412        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9908       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71224    71224        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1476586  1392996    69056      123   372357   298007    74349
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    15012
+         Native Heap:   304868
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14534
+ 
+               TOTAL:  1476586       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2674/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-00-55 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117234753 Realtime: 255683593
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295859   295792        0       76   368128   251552   116575
+  Dalvik Heap     2662     2640        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376432   376432        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68869     5532    52704        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9908       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71268    71268        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467380  1383796    69044      123   372357   253667   118689
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14824
+         Native Heap:   295792
+                Code:    65516
+               Stack:       92
+            Graphics:   469396
+       Private Other:   607220
+              System:    14540
+ 
+               TOTAL:  1467380       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2677/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-00 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117239752 Realtime: 255688592
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   296771   296704        0       76   368128   273939    94188
+  Dalvik Heap     2662     2640        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376388   376388        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71252    71252        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1468237  1384648    69056      123   372357   276054    96302
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14824
+         Native Heap:   296704
+                Code:    65528
+               Stack:       92
+            Graphics:   469336
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1468237       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2680/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-05 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117244761 Realtime: 255693601
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   304631   304564        0       76   368128   295550    72577
+  Dalvik Heap     2662     2640        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376404   376404        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71232    71232        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1476093  1392504    69056      123   372357   297665    74691
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14824
+         Native Heap:   304564
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1476093       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       42
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2683/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-10 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117249755 Realtime: 255698595
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295835   295768        0       76   368128   250743   117384
+  Dalvik Heap     2666     2644        0        0     4229     2115     2114
+ Dalvik Other     1200     1200        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376420   376420        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68869     5532    52704        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71216    71216        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467291  1383708    69044      123   372357   252858   119498
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14828
+         Native Heap:   295768
+                Code:    65516
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607216
+              System:    14539
+ 
+               TOTAL:  1467291       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2686/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-15 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117254758 Realtime: 255703598
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   296435   296368        0       76   368128   272838    95289
+  Dalvik Heap     2662     2640        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376372   376372        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71264    71264        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467897  1384308    69056      123   372357   274953    97403
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14824
+         Native Heap:   296368
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1467897       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2689/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-20 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117259756 Realtime: 255708596
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   304423   304356        0       76   368128   295285    72842
+  Dalvik Heap     2662     2640        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376392   376392        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68869     5532    52704        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71244    71244        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1475879  1392296    69044      123   372357   297400    74956
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14824
+         Native Heap:   304356
+                Code:    65516
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14539
+ 
+               TOTAL:  1475879       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2692/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-25 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117264766 Realtime: 255713606
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   296007   295940        0       76   368128   250707   117420
+  Dalvik Heap     2662     2640        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376408   376408        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71228    71228        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467469  1383880    69056      123   372357   252822   119534
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14824
+         Native Heap:   295940
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1467469       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2695/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-30 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117269752 Realtime: 255718592
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   296447   296380        0       76   368128   272269    95858
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376432   376432        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71208    71208        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467897  1384308    69056      123   372357   274384    97972
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   296380
+                Code:    65528
+               Stack:       92
+            Graphics:   469336
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1467897       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2698/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-37 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117276716 Realtime: 255725556
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   307079   307012        0       76   368128   301177    66950
+  Dalvik Heap     2678     2656        0        0     4229     2115     2114
+ Dalvik Other     1200     1200        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376384   376384        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71248    71248        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1478549  1394960    69056      123   372357   303292    69064
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14840
+         Native Heap:   307012
+                Code:    65528
+               Stack:       92
+            Graphics:   469328
+       Private Other:   607216
+              System:    14533
+ 
+               TOTAL:  1478549       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2701/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-48 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117288127 Realtime: 255736967
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   298115   298048        0       76   368128   277379    90748
+  Dalvik Heap     2726     2704        0        0     4229     2115     2114
+ Dalvik Other     1200     1200        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376420   376420        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71216    71216        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1469637  1386048    69056      123   372357   279494    92862
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14888
+         Native Heap:   298048
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607216
+              System:    14533
+ 
+               TOTAL:  1469637       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2704/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-53 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117293115 Realtime: 255741955
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   306063   305996        0       76   368128   299090    69036
+  Dalvik Heap     2642     2620        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376372   376372        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71260    71260        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1477505  1393916    69056      123   372357   301205    71150
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14804
+         Native Heap:   305996
+                Code:    65528
+               Stack:       92
+            Graphics:   469328
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1477505       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2707/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-01-58 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117298113 Realtime: 255746953
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295799   295732        0       76   368128   254434   113693
+  Dalvik Heap     2650     2628        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376392   376392        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71244    71244        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467249  1383660    69056      123   372357   256549   115807
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14812
+         Native Heap:   295732
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1467249       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2710/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-03 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117303113 Realtime: 255751953
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   297751   297684        0       76   368128   276681    91446
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376408   376408        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71228    71228        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1469201  1385612    69056      123   372357   278796    93560
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   297684
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1469201       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2713/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-08 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117308113 Realtime: 255756953
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   305691   305624        0       76   368128   298423    69704
+  Dalvik Heap     2642     2620        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376428   376428        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71208    71208        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1477133  1393544    69056      123   372357   300538    71818
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14804
+         Native Heap:   305624
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1477133       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2716/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-13 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117313111 Realtime: 255761951
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   296243   296176        0       76   368128   253850   114277
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376380   376380        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68871     5532    52708        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71256    71256        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467685  1384100    69048      123   372357   255965   116391
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   296176
+                Code:    65520
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14537
+ 
+               TOTAL:  1467685       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2719/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-18 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117318114 Realtime: 255766954
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   297923   297856        0       76   368128   276181    91946
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376400   376400        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71236    71236        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1469369  1385780    69056      123   372357   278296    94060
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   297856
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1469369       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2722/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-23 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117323122 Realtime: 255771962
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   306087   306020        0       76   368128   298392    69735
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376416   376416        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71220    71220        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1477533  1393944    69056      123   372357   300507    71849
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   306020
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1477533       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       42
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2725/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-28 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117328119 Realtime: 255776959
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295783   295716        0       76   368128   253821   114306
+  Dalvik Heap     2650     2628        0        0     4261     2131     2130
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376372   376372        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71264    71264        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467233  1383644    69056      123   372389   255952   116436
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14812
+         Native Heap:   295716
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1467233       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2728/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-35 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117335096 Realtime: 255783936
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   299867   299800        0       76   368128   282740    85387
+  Dalvik Heap     2686     2664        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376392   376392        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71244    71244        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1471353  1387764    69056      123   372357   284855    87501
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14848
+         Native Heap:   299800
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1471353       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2731/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-40 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117340094 Realtime: 255788934
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   306167   306100        0       76   368128   238169   129958
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376412   376412        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71224    71224        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1477613  1394024    69056      123   372357   240284   132072
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   306100
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1477613       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2734/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-52 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117351499 Realtime: 255800339
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   299531   299464        0       76   368128   281078    87049
+  Dalvik Heap     2734     2712        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376380   376380        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71256    71256        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1471065  1387476    69056      123   372357   283193    89163
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14896
+         Native Heap:   299464
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1471065       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2737/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-02-57 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117356507 Realtime: 255805347
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   308035   307968        0       76   368128   283805    84329
+  Dalvik Heap     2642     2620        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376400   376400        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71236    71236        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1479481  1395892    69056      123   372357   285920    86443
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14804
+         Native Heap:   307968
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1479481       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2740/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-02 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117361507 Realtime: 255810347
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295959   295892        0       76   368128   258312   109815
+  Dalvik Heap     2646     2624        0        0     4261     2131     2130
+ Dalvik Other     1200     1200        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376416   376416        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71220    71220        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467401  1383812    69056      123   372389   260443   111945
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   295892
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607216
+              System:    14533
+ 
+               TOTAL:  1467401       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2743/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-07 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117366515 Realtime: 255815355
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   299163   299096        0       76   368128   280509    87618
+  Dalvik Heap     2650     2628        0        0     4229     2115     2114
+ Dalvik Other     1212     1212        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376372   376372        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71264    71264        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1470621  1387032    69056      123   372357   282624    89732
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14812
+         Native Heap:   299096
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607228
+              System:    14533
+ 
+               TOTAL:  1470621       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2746/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-12 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117371518 Realtime: 255820358
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   308027   307960        0       76   368128   295097    73038
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376388   376388        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68867     5532    52700        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71248    71248        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1479469  1395888    69040      123   372357   297212    75152
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   307960
+                Code:    65512
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14541
+ 
+               TOTAL:  1479469       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2749/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-17 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117376614 Realtime: 255825454
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295919   295852        0       76   368128   258497   109630
+  Dalvik Heap     2646     2624        0        0     4228     2114     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376408   376408        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71228    71228        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467365  1383776    69056      123   372356   260611   111744
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   295852
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1467365       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2752/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-22 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117381515 Realtime: 255830355
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   299107   299040        0       76   368128   280123    88004
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376424   376424        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71212    71212        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1470557  1386968    69056      123   372357   282238    90118
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   299040
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1470557       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2755/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-27 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117386514 Realtime: 255835354
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   308027   307960        0       76   368128   291241    76886
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376376   376376        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68873     5532    52712        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71256    71256        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1479467  1395880    69052      123   372357   293356    79000
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   307960
+                Code:    65524
+               Stack:       92
+            Graphics:   469328
+       Private Other:   607220
+              System:    14535
+ 
+               TOTAL:  1479467       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       43
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2758/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-34 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117393728 Realtime: 255842568
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295823   295756        0       76   368128   265632   102495
+  Dalvik Heap     2686     2664        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376400   376400        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68867     5532    52700        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71236    71236        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467301  1383720    69040      123   372357   267747   104609
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14848
+         Native Heap:   295756
+                Code:    65512
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14541
+ 
+               TOTAL:  1467301       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2761/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-39 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117398747 Realtime: 255847587
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   301771   301704        0       76   368128   287844    80283
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1212     1212        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376420   376420        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71216    71216        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1473225  1389636    69056      123   372357   289959    82397
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   301704
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607228
+              System:    14533
+ 
+               TOTAL:  1473225       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2764/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-44 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117403739 Realtime: 255852579
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295995   295928        0       76   368128   243551   124576
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376372   376372        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71264    71264        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467445  1383856    69056      123   372357   245666   126690
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   295928
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1467445       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2767/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-03-56 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117415207 Realtime: 255864047
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   301479   301412        0       76   368128   286643    81484
+  Dalvik Heap     2726     2704        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376408   376408        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71228    71228        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1473005  1389416    69056      123   372357   288758    83598
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14888
+         Native Heap:   301412
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1473005       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2770/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-01 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117420204 Realtime: 255869044
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295807   295740        0       76   368128   242235   125892
+  Dalvik Heap     2650     2628        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376432   376432        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71208    71208        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467265  1383676    69056      123   372357   244350   128006
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14812
+         Native Heap:   295740
+                Code:    65528
+               Stack:       92
+            Graphics:   469336
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1467265       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       42
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2773/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-06 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117425214 Realtime: 255874054
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295807   295740        0       76   368128   263978   104149
+  Dalvik Heap     2642     2620        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376380   376380        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71256    71256        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467253  1383664    69056      123   372357   266093   106263
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14804
+         Native Heap:   295740
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1467253       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2776/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-11 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117430214 Realtime: 255879054
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   301187   301120        0       76   368128   286198    81928
+  Dalvik Heap     2642     2620        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376396   376396        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71240    71240        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1472633  1389044    69056      123   372357   288313    84042
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14804
+         Native Heap:   301120
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1472633       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2779/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-15 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117435215 Realtime: 255884055
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   297027   296960        0       76   368128   241482   126645
+  Dalvik Heap     2642     2620        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376416   376416        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71220    71220        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1468473  1384884    69056      123   372357   243597   128759
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14804
+         Native Heap:   296960
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1468473       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2782/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-21 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117440213 Realtime: 255889053
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295999   295932        0       76   368128   263909   104218
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376368   376368        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71268    71268        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467449  1383860    69056      123   372357   266024   106332
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   295932
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1467449       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2785/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-26 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117445220 Realtime: 255894060
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   301107   301040        0       76   368128   285670    82457
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376388   376388        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68867     5532    52700        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71248    71248        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1472549  1388968    69040      123   372357   287785    84571
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   301040
+                Code:    65512
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14541
+ 
+               TOTAL:  1472549       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2788/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-33 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117452244 Realtime: 255901084
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295179   295112        0       76   368128   248034   120092
+  Dalvik Heap     2694     2672        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376408   376408        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71228    71228        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1466673  1383084    69056      123   372357   250149   122206
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14856
+         Native Heap:   295112
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1466673       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2791/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-38 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117457237 Realtime: 255906077
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295183   295116        0       76   368128   269779    98348
+  Dalvik Heap     2662     2640        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376428   376428        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71208    71208        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1466649  1383060    69056      123   372357   271894   100462
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14824
+         Native Heap:   295116
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1466649       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2794/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-43 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117462232 Realtime: 255911072
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   302631   302564        0       76   368128   291990    76137
+  Dalvik Heap     2650     2628        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376380   376380        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71256    71256        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1474085  1390496    69056      123   372357   294105    78251
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14812
+         Native Heap:   302564
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1474085       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       42
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2797/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-48 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117467244 Realtime: 255916084
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295811   295744        0       76   368128   246951   121176
+  Dalvik Heap     2638     2616        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376400   376400        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71236    71236        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467253  1383664    69056      123   372357   249066   123290
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14800
+         Native Heap:   295744
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1467253       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2800/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-04-59 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117478633 Realtime: 255927473
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   302047   301980        0       76   368128   288957    79170
+  Dalvik Heap     2726     2704        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376384   376384        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71268    71268        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1473593  1390004    69056      123   372357   291072    81284
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14888
+         Native Heap:   301980
+                Code:    65528
+               Stack:       92
+            Graphics:   469348
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1473593       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2803/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-05-04 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117483616 Realtime: 255932457
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   296011   295944        0       76   368128   244420   123707
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1212     1212        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376404   376404        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71248    71248        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467481  1383892    69056      123   372357   246535   125821
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   295944
+                Code:    65528
+               Stack:       92
+            Graphics:   469348
+       Private Other:   607228
+              System:    14533
+ 
+               TOTAL:  1467481       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2806/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-05-09 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117488629 Realtime: 255937469
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   296027   295960        0       76   368128   266281   101846
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376420   376420        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68871     5532    52708        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71232    71232        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467489  1383904    69048      123   372357   268396   103960
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   295960
+                Code:    65520
+               Stack:       92
+            Graphics:   469348
+       Private Other:   607224
+              System:    14537
+ 
+               TOTAL:  1467489       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2809/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-05-14 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117493630 Realtime: 255942470
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   302167   302100        0       76   368128   288726    79401
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376436   376436        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71216    71216        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1473633  1390044    69056      123   372357   290841    81515
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   302100
+                Code:    65528
+               Stack:       92
+            Graphics:   469348
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1473633       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2812/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-05-19 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117498633 Realtime: 255947473
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295851   295784        0       76   368128   243832   124295
+  Dalvik Heap     2642     2620        0        0     4229     2115     2114
+ Dalvik Other     1208     1208        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376392   376392        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71260    71260        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467313  1383724    69056      123   372357   245947   126409
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14804
+         Native Heap:   295784
+                Code:    65528
+               Stack:       92
+            Graphics:   469348
+       Private Other:   607224
+              System:    14533
+ 
+               TOTAL:  1467313       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2815/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-05-24 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117503632 Realtime: 255952472
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   295839   295772        0       76   368128   265922   102205
+  Dalvik Heap     2646     2624        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376408   376408        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71244    71244        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1467301  1383712    69056      123   372357   268037   104319
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14808
+         Native Heap:   295772
+                Code:    65528
+               Stack:       92
+            Graphics:   469348
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1467301       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2818/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+
+2024-09-21 19-05-31 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 117510693 Realtime: 255959533
+
+** MEMINFO in pid 10797 [com.camelgames.aoz.debuglz4] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap   304603   304536        0       76   368128   295622    72505
+  Dalvik Heap     2690     2668        0        0     4229     2115     2114
+ Dalvik Other     1204     1204        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem       38        0        0        0                           
+      Gfx dev   376416   376416        0        0                           
+    Other dev      104        0      104        0                           
+     .so mmap    68875     5532    52716        3                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      358        0        0        0                           
+    .dex mmap     9907       20     7260        0                           
+    .oat mmap      300        0        0        0                           
+    .art mmap    12505    11764      420       31                           
+   Other mmap     8597        4     8556        0                           
+   EGL mtrack    21696    21696        0        0                           
+    GL mtrack    71220    71220        0        0                           
+      Unknown   597365   597352        0       13                           
+        TOTAL  1476093  1392504    69056      123   372357   297737    74619
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14852
+         Native Heap:   304536
+                Code:    65528
+               Stack:       92
+            Graphics:   469332
+       Private Other:   607220
+              System:    14533
+ 
+               TOTAL:  1476093       TOTAL SWAP PSS:      123
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        2
+              Assets:       11        AssetManagers:        0
+       Local Binders:       23        Proxy Binders:       36
+       Parcel memory:       10         Parcel count:       41
+    Death Recipients:        3      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      159
+  PAGECACHE_OVERFLOW:       19          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             28       1/2821/2  /data/user/0/com.camelgames.aoz.debuglz4/databases/LoggerDatabase
+

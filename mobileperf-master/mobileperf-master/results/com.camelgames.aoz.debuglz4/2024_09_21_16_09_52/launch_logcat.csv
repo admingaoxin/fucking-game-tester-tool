@@ -1,0 +1,3 @@
+datetime,packagenme/activity,this_time(s),total_time(s),launchtype
+2024-09-21 16-09-52,com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity,0.36,0.36,normal launch
+2024-09-21 16-09-52,com.camelgames.aoz.debuglz4/com.camelgames.UnityPlayerActivity,1.35,1.35,fullydrawn launch

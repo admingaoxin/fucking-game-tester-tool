@@ -1,0 +1,197 @@
+09-21 17:14:18.110  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:14:48.151  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:15:18.167  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:15:25.129   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:15:25.137   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:15:28.174   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:15:28.186   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:15:48.200  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:15:51.050   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:15:51.073 11568 21037 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+09-21 17:15:51.198 11568 21037 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+09-21 17:15:51.191   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:15:55.420   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:15:55.435   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:15:58.439   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:15:58.455   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:13.587   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:13.600   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:16.621   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:16.632   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:18.207  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:16:21.163   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:21.173 11568 21037 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+09-21 17:16:21.181  9611  9611 W Finsky  : [2] plv.a(1): HC: Self-update check failed with error: com.android.volley.AuthFailureError: Error while retrieving auth token
+09-21 17:16:21.165   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:21.238   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:21.248 11568 21037 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+09-21 17:16:21.240   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:34.805   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:34.816   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:37.813   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:37.827   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:40.884   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:40.901   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:43.911   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:43.930   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:46.935   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:46.950   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:48.245  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:16:53.023   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:53.044   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:56.053   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:16:56.071   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:17:08.184   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:17:08.203   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:17:18.280  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:17:22.421  9611  9611 W Finsky  : [2] plv.a(1): HC: Self-update check failed with error: com.android.volley.NoConnectionError: org.chromium.net.impl.NetworkExceptionImpl: Exception in CronetUrlRequest: net::ERR_CONNECTION_TIMED_OUT, ErrorCode=6, InternalErrorCode=-118, Retryable=true
+09-21 17:17:23.052  9611  9611 W Finsky  : [2] plv.a(1): HC: Self-update check failed with error: com.android.volley.NoConnectionError: org.chromium.net.impl.NetworkExceptionImpl: Exception in CronetUrlRequest: net::ERR_CONNECTION_TIMED_OUT, ErrorCode=6, InternalErrorCode=-118, Retryable=true
+09-21 17:17:48.288  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:18:18.321  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:18:23.223  9611  9611 W Finsky  : [2] plv.a(1): HC: Self-update check failed with error: com.android.volley.NoConnectionError: org.chromium.net.impl.NetworkExceptionImpl: Exception in CronetUrlRequest: net::ERR_CONNECTION_TIMED_OUT, ErrorCode=6, InternalErrorCode=-118, Retryable=true
+09-21 17:18:34.139   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:18:34.154 11568 21037 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+09-21 17:18:48.356  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:18:34.141   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:09.357   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:09.372   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:12.384   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:12.402   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:15.408   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:15.424   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:18.367  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:19:33.612   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:33.626   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:36.633   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:36.653   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:19:48.381  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:20:00.869   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:20:00.890   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:20:04.883   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:20:17.158   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:20:17.172 11568 13508 W Auth    : [GoogleAuthUtil] [GoogleAuthUtil] error status:NETWORK_ERROR with method:getTokenWithDetails
+09-21 17:20:18.401  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:20:17.161   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:20:48.441  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:21:18.475  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:21:20.683 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:20.897 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:21.250 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:21.621 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:21.945 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:22.310 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:22.652 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:23.010 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:23.364 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:23.695 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:24.025 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:24.358 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:24.717 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:25.051 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:25.383 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:21:48.510  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:21:55.950 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:22:01.991   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:02.009   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:14.102   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:14.122   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:17.131   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:17.149   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:18.551  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:22:20.146   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:20.166   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:26.247   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:26.261   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:29.283   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:29.297   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:35.332   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:35.349   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:38.369   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:38.384   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:41.392   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:41.409   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:47.451   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:47.463   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:22:48.563  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:23:18.568  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:23:48.606  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:24:18.640  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:24:48.675  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:25:18.681  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:25:48.696  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:26:18.737  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:26:42.483   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:26:42.496 11568 21037 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+09-21 17:26:48.773  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:26:42.485   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:27:18.789  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:27:48.824  2883  6825 E SocketReaderNewtrue: socketEngine: 0socket hashCode: 0SocketReader(244) errorjava.net.SocketException: Socket is closed
+09-21 17:28:10.903  2883  4696 D MSF.C.NetConnTag.true: mainSocketEngineOpenConn try complex connect wifiSsoList=10, mobileSsoList=6, loopTimeOutCnt: 0, errorCnt: 0
+09-21 17:28:11.100  2883  6825 D MSF.C.CodecWarppertrue: onParse SSOReserveField.SsoTrpcResponse, ret: 0, funcRetCode: 0, errorMsg: []
+09-21 17:28:11.108  2883  6825 D FEKitManager: [FEKitManager] handleSecServiceResp with to: ToServiceMsg msName:msf_FEKit ssoSeq:94486 appId:537168317 appSeq:-1 sName:mobileqq.msf.security uin:*5517 sCmd:trpc.o3.report.Report.SsoReport t:30000 needResp:true needQuickSend:false strategy:-1IsSupportRetryfalse; from: FromServiceMsg msName:msf_FEKit ssoSeq:94486 failCode:1000 errorMsg: uin:980075517 serviceCmd:trpc.o3.report.Report.SsoReport appId:537168317 appSeq:-1
+09-21 17:28:11.112  2883  6825 D MSF.C.ConfigManager: parse quic_enable config error
+09-21 17:28:13.033  2883  6825 E SocketRttMonitorReport: [statistics] ssoRout error, value = -1
+09-21 17:28:59.906   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:28:59.922   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:29:02.926   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:29:02.945   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:29:43.995 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:44.243 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:44.618 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:44.994 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:45.371 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:45.744 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:46.120 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:46.454 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:46.830 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:47.207 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:47.581 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:47.953 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:48.334 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:48.676 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:49.051 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:49.391 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:49.772 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:50.120 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:50.498 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:50.881 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:51.267 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:51.614 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:51.954 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:52.336 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:52.674 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:53.054 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:53.392 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:53.772 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:54.149 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:54.517 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:54.895 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:55.263 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:55.639 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:56.010 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:56.388 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:56.759 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:57.131 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:57.508 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:57.841 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:58.217 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:58.595 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:58.976 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:59.316 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:59.656 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:29:59.995 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:30:00.378 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:30:00.764 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:30:01.146 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:30:01.522 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:30:01.860 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:30:02.237 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:30:02.618 10797 10817 I Unity   : {"action":7,"antiIndulged":0,"commonResponse":{"serverTimestamp":1726908949},"error":0,"errorText":"","errorTime":0,"sid":0,"success":true,"gameServerId":2,"statusOK":true}
+09-21 17:31:07.122   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:31:07.136   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:31:10.139   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:31:10.150   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:31:13.187   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:31:13.205   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:31:16.209   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)
+09-21 17:31:16.223   586   638 W FrameworkListener: Handler 'getaddrinfo' error (Success)

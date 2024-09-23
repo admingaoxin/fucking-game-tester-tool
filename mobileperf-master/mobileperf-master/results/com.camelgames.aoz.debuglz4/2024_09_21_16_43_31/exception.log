@@ -1,0 +1,10 @@
+09-21 16:43:34.033   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48636mC, Err -1636mC, SampleCnt 1
+09-21 16:43:34.034   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48571mC, Err -3571mC, SampleCnt 1
+09-21 16:43:34.035   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48571mC, Err -571mC, SampleCnt 1
+09-21 16:43:34.036   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48571mC, Err -2571mC, SampleCnt 1
+09-21 16:43:34.037   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48571mC, Err -4571mC, SampleCnt 1
+09-21 16:43:36.040   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD2 Read sdm-therm 48701mC, Err -1701mC, SampleCnt 1
+09-21 16:43:36.041   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-GOLD Read sdm-therm 48701mC, Err -3701mC, SampleCnt 1
+09-21 16:43:36.042   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER3 Read sdm-therm 48701mC, Err -701mC, SampleCnt 1
+09-21 16:43:36.044   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER2 Read sdm-therm 48701mC, Err -2701mC, SampleCnt 1
+09-21 16:43:36.045   853  1020 D ThermalEngine: handle_timer_sig: SS Id SS-QUIET-THERM-SILVER Read sdm-therm 48636mC, Err -4636mC, SampleCnt 1
