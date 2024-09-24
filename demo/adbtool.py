@@ -123,6 +123,12 @@ class ADBManager(QWidget):
         screenAV2Button = QPushButton ('使用输入的size自定义录制的视频')
         screenAV2Button.clicked.connect (self.screendinput)
 
+        yuliu1Button = QPushButton ('预留按钮')
+        yuliu1Button.clicked.connect (self.screendinput)
+
+        yuliuButton = QPushButton('预留按钮')
+        yuliuButton.clicked.connect(self.screendinput)
+
         buttonLayout1 = QVBoxLayout ()
         buttonLayout1.addWidget (refreshButton)
         buttonLayout1.addWidget (listPackagesButton)
@@ -130,6 +136,7 @@ class ADBManager(QWidget):
         buttonLayout1.addWidget (ADBStartappButton)
         buttonLayout1.addWidget (ADBstopappButton)
         buttonLayout1.addWidget (datacathButton)
+        buttonLayout1.addWidget(yuliu1Button)
 
         buttonLayout2 = QVBoxLayout ()
         buttonLayout2.addWidget (ADBshelltopButton)
@@ -138,6 +145,7 @@ class ADBManager(QWidget):
         buttonLayout2.addWidget (display2Button)
         buttonLayout2.addWidget (screenAV2Button)
         buttonLayout2.addWidget (screenAVButton)
+        buttonLayout2.addWidget(yuliuButton)
 
         buttonsLayout = QHBoxLayout ()
         buttonsLayout.addLayout (buttonLayout1)
@@ -154,19 +162,20 @@ class ADBManager(QWidget):
         self.run()
         self.logText.append("<span style='color: black;'>欢迎使用，有问题找胖虎~</br>需要打开Android设备的开发者选项以及允许usb调试（哄蒙也是Android.jpg）</span>")
 
-
-
     def screendAV(self):
-
-        current_device = self.comboBox.currentText ()
+        current_device = self.comboBox.currentText()
         if not current_device:
-            QMessageBox.warning (self, "警告", "没有选定的设备")
+            QMessageBox.warning(self, "警告", "没有选定的设备")
             return
-        self.logText.append (
+        self.logText.append(
             f"<span style='color: red;'>出现投屏窗口后就证明可以录屏<br />做完想录制的操作后关闭这个新出现的投屏<br />视频就会保存在vedio_files目录下<span>")
-        nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-        command = f"scrcpy -s {current_device}  --record {dir_name2}/{nowtime}.mp4"
-        subprocess.Popen (command, shell=True)
+        nowtime = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+        command = f"scrcpy -s {current_device} --record {dir_name2}/{nowtime}.mp4"
+
+        self.process = QProcess(self)
+        self.process.setProcessChannelMode(QProcess.MergedChannels)
+        self.process.readyRead.connect(self.update_log)
+        self.process.start(command)
 
     def run(self):
         # 判断下目录下方是否有这个文件夹
@@ -382,19 +391,18 @@ class ADBManager(QWidget):
             self.logText.append (f"<span style='color: red;'>列出第三方包时发生错误: {str (e)}</span>")
 
     def Screenphone(self):
-        current_device = self.comboBox.currentText ()
+        current_device = self.comboBox.currentText()
         if current_device:
-            command = f"scrcpy -s {current_device} "
-            process = subprocess.Popen (command, shell=True, text=True)
-            # stdout, stderr = process.communicate ()
-            # logging.info(f"{stdout}")
-            # logging.info(f"{stderr}")
-
-            self.logText.append (
+            command = f"scrcpy -s {current_device}"
+            self.process = QProcess(self)
+            self.process.setProcessChannelMode(QProcess.MergedChannels)
+            self.process.readyRead.connect(self.update_log)
+            self.process.start(command)
+            self.logText.append(
                 "<span style='color: green;'>runing  <br />  可以直接向串流窗口拖入apk来安装apk</span>")
         else:
-            self.logText.append ("<span style='color: red;'>错误: 设备未授权或无法连接</span>")
-            QMessageBox.warning (self, "错误", "设备未授权或无法连接")
+            self.logText.append("<span style='color: red;'>错误: 设备未授权或无法连接</span>")
+            QMessageBox.warning(self, "错误", "设备未授权或无法连接")
         return
 
     def showadblogcat(self):
