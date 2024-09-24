@@ -15,6 +15,9 @@ from qt_material import apply_stylesheet
 import asyncio
 import aiohttp
 import logging
+import base64
+import hashlib
+from cryptography.fernet import Fernet, InvalidToken
 
 logging.basicConfig(filename='log.log', level=logging.INFO,
                     format='%(asctime)s: %(levelname)s - %(message)s')
@@ -35,7 +38,7 @@ class TabDemo(QTabWidget):
         # 将三个选项卡添加到顶层窗口中
         self.addTab(self.tab1, "ADB工具")
         self.addTab(self.tab2, "http协议请求")
-        # self.addTab(self.tab3, "socketdemo")
+        self.addTab(self.tab3, "加密解密demo")
 
         # 每个选项卡自定义的内容
         self.tab1UI()
@@ -57,8 +60,10 @@ class TabDemo(QTabWidget):
 
 
     def tab3UI(self):
-        # 自定义Tab 3的内容
-        pass
+        self.encry_app = EncryptDecryptApp()
+        layout = QVBoxLayout ()
+        layout.addWidget (self.encry_app)
+        self.tab3.setLayout (layout)
 
 class ADBManager(QWidget):
     def __init__(self):
@@ -247,18 +252,35 @@ class ADBManager(QWidget):
             self.logText.append (f"<span style='color: red;'>列出第三方包时发生错误: {str (e)}</span>")
 
     def screendinput(self):
-        for name, number_box in self.number_boxes.items ():
-            setattr (self, name, number_box.text ())  # float (number_box.text ())
+        for name, number_box in self.number_boxes.items():
+            setattr(self, name, number_box.text())
         jiuer = self.movetime
-        current_device = self.comboBox.currentText ()
+        current_device = self.comboBox.currentText()
         if not current_device:
-            QMessageBox.warning (self, "警告", "没有选定的设备")
+            QMessageBox.warning(self, "警告", "没有选定的设备")
             return
-        self.logText.append (
+        if jiuer == '':
+            QMessageBox.warning(self, "警告", "没有输入size")
+            return
+        try:
+            intture = int(jiuer)
+        except ValueError:
+            QMessageBox.warning(self, "警告", "不是int值")
+            return
+
+        self.logText.append(
             f"<span style='color: red;'>清晰度高一点的版本，max-size=输入的size max - fps =60  no audio <span>")
-        nowtime = datetime.datetime.now ().strftime ("%Y-%m-%d-%H-%M-%S")
-        command = f"scrcpy -s {current_device} --video-codec=h265 --max-size={jiuer} --max-fps=60 --no-audio  --record {dir_name2}/{nowtime}HD.mp4"
-        subprocess.Popen (command, shell=True)
+        nowtime = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+        command = f"scrcpy -s {current_device} --video-codec=h265 --max-size={jiuer} --max-fps=60 --no-audio --record {dir_name2}/{nowtime}HD.mp4"
+
+        self.process = QProcess(self)
+        self.process.setProcessChannelMode(QProcess.MergedChannels)
+        self.process.readyRead.connect(self.update_log)
+        self.process.start(command)
+
+    def update_log(self):
+        output = self.process.readAll().data().decode()
+        self.logText.append(output)
 
     def refreshDevices(self):
         try:
@@ -530,6 +552,92 @@ class HTTPManager(QWidget):
                     self.logText.append (f"响应头responseType is:   {responseType}")
         except Exception as e:
             logging.error (f"POST {url} Error: {e}")
+
+
+
+class EncryptDecryptApp(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle('加密解密工具')
+        self.resize(400, 600)
+
+        layout = QVBoxLayout()
+
+        self.key_label = QLabel('密钥:')
+        self.key_label.setFont(QFont('Arial', 12))
+        layout.addWidget(self.key_label)
+
+        self.key_input = QLineEdit()
+        self.key_input.setFont(QFont('Arial', 12))
+        layout.addWidget(self.key_input)
+
+        self.text_label = QLabel('输入文本:')
+        self.text_label.setFont(QFont('Arial', 12))
+        layout.addWidget(self.text_label)
+
+        self.text_input = QTextEdit()
+        self.text_input.setFont(QFont('Arial', 12))
+        layout.addWidget(self.text_input)
+
+        self.encrypted_label = QLabel('加密文本:')
+        self.encrypted_label.setFont(QFont('Arial', 12))
+        layout.addWidget(self.encrypted_label)
+
+        self.encrypted_output = QTextEdit()
+        self.encrypted_output.setFont(QFont('Arial', 12))
+        self.encrypted_output.setReadOnly(True)
+        layout.addWidget(self.encrypted_output)
+
+        self.decrypted_label = QLabel('解密文本:')
+        self.decrypted_label.setFont(QFont('Arial', 12))
+        layout.addWidget(self.decrypted_label)
+
+        self.decrypted_output = QTextEdit()
+        self.decrypted_output.setFont(QFont('Arial', 12))
+        self.decrypted_output.setReadOnly(True)
+        layout.addWidget(self.decrypted_output)
+
+        self.encrypt_button = QPushButton('加密')
+        self.encrypt_button.setFont(QFont('Arial', 12))
+        self.encrypt_button.clicked.connect(self.encrypt_text)
+        layout.addWidget(self.encrypt_button)
+
+        self.decrypt_button = QPushButton('解密')
+        self.decrypt_button.setFont(QFont('Arial', 12))
+        self.decrypt_button.clicked.connect(self.decrypt_text)
+        layout.addWidget(self.decrypt_button)
+
+        self.setLayout(layout)
+
+    def get_fernet_key(self, key):
+        # 使用SHA-256哈希函数生成固定长度的密钥
+        digest = hashlib.sha256(key.encode()).digest()
+        return Fernet(base64.urlsafe_b64encode(digest[:32]))
+
+    def encrypt_text(self):
+        try:
+            key = self.key_input.text()
+            text = self.text_input.toPlainText().encode()
+            fernet = self.get_fernet_key(key)
+            encrypted_text = fernet.encrypt(text)
+            self.encrypted_output.setPlainText(encrypted_text.decode())
+        except Exception as e:
+            QMessageBox.critical(self, "错误", f"加密失败: {str(e)}")
+
+    def decrypt_text(self):
+        try:
+            key = self.key_input.text()
+            encrypted_text = self.text_input.toPlainText().encode()
+            fernet = self.get_fernet_key(key)
+            decrypted_text = fernet.decrypt(encrypted_text)
+            self.decrypted_output.setPlainText(decrypted_text.decode())
+        except InvalidToken:
+            QMessageBox.critical(self, "错误", "解密失败: 无效的密钥或加密文本")
+        except Exception as e:
+            QMessageBox.critical(self, "错误", f"解密失败: {str(e)}")
 
 
 if __name__ == '__main__':
