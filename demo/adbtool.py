@@ -8,6 +8,7 @@ import subprocess
 import re
 import time
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QComboBox, QMessageBox, QTextEdit, QLineEdit, QHBoxLayout, QLabel
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QFileDialog, QMessageBox, QTextEdit, QComboBox
 import datetime
 from PyQt5.QtCore import Qt, pyqtSlot
 from PyQt5.QtGui import QIntValidator
@@ -18,6 +19,7 @@ import logging
 import base64
 import hashlib
 from cryptography.fernet import Fernet, InvalidToken
+from qasync import QEventLoop
 
 logging.basicConfig(filename='log.log', level=logging.INFO,
                     format='%(asctime)s: %(levelname)s - %(message)s')
@@ -123,11 +125,11 @@ class ADBManager(QWidget):
         screenAV2Button = QPushButton ('使用输入的size自定义录制的视频')
         screenAV2Button.clicked.connect (self.screendinput)
 
-        yuliu1Button = QPushButton ('预留按钮')
-        yuliu1Button.clicked.connect (self.screendinput)
+        yuliu1Button = QPushButton ('APk安装')
+        yuliu1Button.clicked.connect (self.onInstallApkButtonClicked)
 
-        yuliuButton = QPushButton('预留按钮')
-        yuliuButton.clicked.connect(self.screendinput)
+        yuliuButton = QPushButton('哄蒙包安装')
+        yuliuButton.clicked.connect(self.onInstallhdcButtonClicked)
 
         buttonLayout1 = QVBoxLayout ()
         buttonLayout1.addWidget (refreshButton)
@@ -160,7 +162,7 @@ class ADBManager(QWidget):
         self.refreshDevices ()
         layout.addWidget (self.logText)
         self.run()
-        self.logText.append("<span style='color: black;'>欢迎使用，有问题找胖虎~</br>需要打开Android设备的开发者选项以及允许usb调试（哄蒙也是Android.jpg）</span>")
+        self.logText.append("<span style='color: black;'>欢迎使用，有问题找胖虎~</br>需要打开Android设备的开发者选项以及允许usb调试（哄蒙也是Android）</span>")
 
     def screendAV(self):
         current_device = self.comboBox.currentText()
@@ -187,28 +189,103 @@ class ADBManager(QWidget):
             else:
                 self.logText.append (f"Directory  {i}  已存在")
 
-        # def installApk(self):
-        #     try:
-        #         current_device = self.comboBox.currentText()
-        #         if current_device:
-        #             apk_path, _ = QFileDialog.getOpenFileName(self, "选择APK文件", "", "APK files (*.apk)")
-        #             if apk_path:
-        #                 self.logText.append(f"开始安装APK: {apk_path}")
-        #                 command = f"{self.adb_path} -s {current_device} install {apk_path}"
-        #                 print(command)
-        #                     # result = subprocess.Popen([self.adb_path, '-s', current_device, 'install', apk_path], capture_output=True, text=True)
-        #                 result = subprocess.run(command, shell=True)
-        #                 if "success" in result.stdout.lower():
-        #                     self.logText.append("安装成功")
-        #                     QMessageBox.information(self, "安装APK", "APK安装完成")
-        #                 else:
-        #                     self.logText.append(f"安装失败: {result.stderr}")
-        #                     QMessageBox.warning(self, "安装APK", "安装失败，请检查设备是否授权和连接")
-        #         else:
-        #             QMessageBox.warning(self, "警告", "没有选定的设备")
-        #     except Exception as e:
-        #         self.logText.append(f"安装APK时发生错误: {str(e)}")
+    # def installApk(self):
+    #     try:
+    #         current_device = self.comboBox.currentText()
+    #         if current_device:
+    #             apk_path, _ = QFileDialog.getOpenFileName(self, "选择APK文件", "", "APK files (*.apk)")
+    #             if apk_path:
+    #                 self.logText.append(f"开始安装APK: {apk_path}")
+    #                 command = f"{self.adb_path} -s {current_device} install {apk_path}"
+    #                 print(command)
+    #                 result = subprocess.Popen(command, shell=True)
+    #                 if "success" in result.stdout.lower():
+    #                     self.logText.append("安装成功")
+    #                     QMessageBox.information(self, "安装APK", "APK安装完成")
+    #                 else:
+    #                     self.logText.append(f"安装失败: {result.stderr}")
+    #                     QMessageBox.warning(self, "安装APK", "安装失败，请检查设备是否授权和连接")
+    #         else:
+    #             QMessageBox.warning(self, "警告", "没有选定的设备")
+    #     except Exception as e:
+    #         self.logText.append(f"安装APK时发生错误: {str(e)}")
 
+    async def installApkAsync(self):
+        try:
+            current_device = self.comboBox.currentText()
+            if current_device:
+                apk_path, _ = QFileDialog.getOpenFileName(self, "选择APK文件", "", "APK files (*.apk)")
+                if apk_path:
+                    self.logText.append(f"开始安装APK: {apk_path}")
+                    #让它成为绝对路径，不要瞎搞
+                    apk_path = os.path.abspath(apk_path)
+                    command = f"adb -s {current_device} install {apk_path}"
+
+                    process = await asyncio.create_subprocess_shell(
+                        command,
+                        stdout=asyncio.subprocess.PIPE,
+                        stderr=asyncio.subprocess.PIPE
+                    )
+                    stdout, stderr = await process.communicate()
+
+                    stdout = stdout.decode('utf-8').strip()
+                    stderr = stderr.decode('utf-8').strip()
+
+                    if process.returncode == 0:
+                        self.logText.append("安装成功")
+                        QMessageBox.information(self, "安装APK", "APK安装完成")
+                    else:
+                        self.logText.append(f"安装失败: {stderr}")
+                        QMessageBox.warning(self, "安装APK", "安装失败，请检查设备是否授权和连接")
+            else:
+                QMessageBox.warning(self, "警告", "没有选定的设备")
+        except Exception as e:
+            self.logText.append(f"安装APK时发生错误: {str(e)}")
+
+    def onInstallApkButtonClicked(self):
+        asyncio.create_task(self.installApkAsync())
+
+    def onInstallhdcButtonClicked(self):
+        asyncio.create_task(self.installhdcAsync())
+
+    async def installhdcAsync(self):
+        self.logText.append("默认就一个哄蒙设备")
+        try:
+            apk_path, _ = QFileDialog.getOpenFileName(self, "选择hap文件", "", "APK files (*.hap)")
+            if apk_path:
+                self.logText.append(f"开始安装hap: {apk_path}")
+
+                apk_path = os.path.abspath(apk_path)
+                command = f"hdc app install {apk_path}"
+                # print('command',command)
+                process = await asyncio.create_subprocess_shell(
+                    command,
+                    stdout=asyncio.subprocess.PIPE,
+                    stderr=asyncio.subprocess.PIPE
+                )
+                stdout, stderr = await process.communicate()
+
+                stdout = stdout.decode('utf-8').strip()
+                stderr = stderr.decode('utf-8').strip()
+                print('stdout', stdout, 'stderr', stderr)
+                self.logText.append(stdout)
+                self.logText.append(stderr)
+                # 检查特定错误信息
+                if "[Fail]ExecuteCommand need connect-key? please confirm a device by help info" in stdout:
+                    self.logText.append("安装失败: 需要连接设备，请确认设备是否已连接")
+                    QMessageBox.warning(self, "安装hdc", "安装失败: 需要连接设备，请确认设备是否已连接")
+                elif "Fail" in stdout or "error" in stdout:
+                    self.logText.append(f"<span style='color: red;'>安装失败: 出现错误{stdout}</span>")
+                    # "<span style='color: red;'>错误: 设备未授权或无法连接</span>"
+                    QMessageBox.warning(self, "安装hdc", "安装失败")
+                elif process.returncode == 0:
+                    self.logText.append("安装成功")
+                    QMessageBox.information(self, "安装hdc", "APK安装完成")
+                else:
+                    self.logText.append(f"安装失败: {stderr},{stdout}")
+                    QMessageBox.warning(self, "安装hdc", "安装失败，请检查设备是否授权和连接")
+        except Exception as e:
+            self.logText.append(f"安装hdc时发生错误: {str(e)}")
 
     def datacath(self):
         for name, number_box in self.number_boxes.items ():
@@ -518,7 +595,7 @@ class HTTPManager(QWidget):
         url = self.url_input.text ()
         method = self.method_combo.currentText ()
         send_count = int (self.send_count_input.text ()) if self.send_count_input.text () else 1
-        asyncio.run (self.send_requests_async (url, method, send_count))
+        asyncio.create_task (self.send_requests_async (url, method, send_count))
         self.logText.append (f"请求已发送，在同级文件夹下的log中查看返回")
 
     async def send_requests_async(self, url, method, send_count):
@@ -650,7 +727,14 @@ class EncryptDecryptApp(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    apply_stylesheet (app, theme='light_blue_500.xml')
+    apply_stylesheet(app, theme='light_blue_500.xml')
     demo = TabDemo()
     demo.show()
-    sys.exit(app.exec_())
+    loop = QEventLoop(app)
+    asyncio.set_event_loop(loop)
+    with loop:
+        sys.exit(loop.run_forever())
+
+
+
+
