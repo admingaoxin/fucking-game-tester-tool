@@ -75,9 +75,14 @@ class ADBManager(QWidget):
         layout = QVBoxLayout ()
         self.comboBox = QComboBox ()
         self.comboBox1 = QComboBox ()
+        self.command_combo = QComboBox(self)
         layout.addWidget (self.comboBox)
         layout.addWidget (self.comboBox1)
+        layout.addWidget (self.command_combo)
         self.logText = QTextEdit ()
+        self.logText.setReadOnly(True)
+        # self.command_combo = QComboBox(self)
+        self.load_commands()
         # layout.addWidget(self.logText)
 
         self.number_boxes = {}
@@ -95,8 +100,8 @@ class ADBManager(QWidget):
         ADBshelltopButton = QPushButton ('根据输入刷新应用列表')
         ADBshelltopButton.clicked.connect (self.Listapp)
 
-        listPackagesButton = QPushButton ('列出当前安装aoz包渠道和版本')
-        listPackagesButton.clicked.connect (self.listPackages)
+        # listPackagesButton = QPushButton ('列出当前安装aoz包渠道和版本')
+        # listPackagesButton.clicked.connect (self.listPackages)
 
         adblogButton = QPushButton ('导出ADBlog')
         adblogButton.clicked.connect (self.showadblogcat)
@@ -131,10 +136,15 @@ class ADBManager(QWidget):
         yuliuButton = QPushButton('哄蒙包安装')
         yuliuButton.clicked.connect(self.onInstallhdcButtonClicked)
 
+        execute_btn = QPushButton('选择执行command中的命令', self)
+        execute_btn.clicked.connect(self.on_execute_button_clicked)
+
+
         buttonLayout1 = QVBoxLayout ()
         buttonLayout1.addWidget (refreshButton)
-        buttonLayout1.addWidget (listPackagesButton)
+        # buttonLayout1.addWidget (listPackagesButton)
         buttonLayout1.addWidget (adblogButton)
+        buttonLayout1.addWidget(execute_btn)
         buttonLayout1.addWidget (ADBStartappButton)
         buttonLayout1.addWidget (ADBstopappButton)
         buttonLayout1.addWidget (datacathButton)
@@ -189,6 +199,51 @@ class ADBManager(QWidget):
             else:
                 self.logText.append (f"Directory  {i}  已存在")
 
+
+    def load_commands(self):
+        try:
+            with open('commands.txt', 'r', encoding='utf-8') as file:
+                for line in file:
+                    if ';' in line:
+                        comment, command = line.split(';', 1)
+                        self.command_combo.addItem(comment.strip(), command.strip())
+        except FileNotFoundError:
+            self.logText.append("commands.txt 文件未找到。")
+
+    @pyqtSlot()
+    def on_execute_button_clicked(self):
+        command = self.command_combo.currentData()
+        if command:
+            asyncio.create_task(self.execute_command_async(command))
+
+    async def execute_command_async(self, command):
+        try:
+            process = await asyncio.create_subprocess_shell(
+                command,
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE
+            )
+            # stdout, stderr = await process.communicate()
+            # stdout = stdout.decode('utf-8').strip()
+            # stderr = stderr.decode('utf-8').strip()
+            # if "err" in process.stdout or "Fail" in process.stdout:
+            #     self.logText.append(f"<span style='color: red;'> Error:\n{stdout}</span>")
+            # 逐行读取 stdout
+            async for line in process.stdout:
+                self.logText.append(f"<span style='color: black;'>Output: {line.decode('utf-8').strip()}</span>")
+
+            # 逐行读取 stderr
+            async for line in process.stderr:
+                self.logText.append(f"Error: {line.decode('utf-8').strip()}")
+            await process.wait()
+            # self.logText.append(f"\n{stderr}")
+            # if "err" in stdout or "Fail" in stdout:
+            #     self.logText.append(f"<span style='color: red;'> Error:\n{stdout}</span>")
+                # (f"<span style='color: red;'>安装失败: 出现错误{stdout}</span>")
+                # self.logText.append(f"OUTPUT:\n{stderr}")
+        except Exception as e:
+            self.logText.append(f"执行命令时出错: {e}")
+
     # def installApk(self):
     #     try:
     #         current_device = self.comboBox.currentText()
@@ -230,7 +285,7 @@ class ADBManager(QWidget):
 
                     stdout = stdout.decode('utf-8').strip()
                     stderr = stderr.decode('utf-8').strip()
-
+                    self.logText.append(f" {stdout},{stderr}")
                     if process.returncode == 0:
                         self.logText.append("安装成功")
                         QMessageBox.information(self, "安装APK", "APK安装完成")
@@ -254,7 +309,7 @@ class ADBManager(QWidget):
             apk_path, _ = QFileDialog.getOpenFileName(self, "选择hap文件", "", "APK files (*.hap)")
             if apk_path:
                 self.logText.append(f"开始安装hap: {apk_path}")
-
+                #垃圾hdc，会拼接路径，强制让它是个绝对路径
                 apk_path = os.path.abspath(apk_path)
                 command = f"hdc app install {apk_path}"
                 # print('command',command)
