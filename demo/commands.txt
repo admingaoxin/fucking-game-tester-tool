@@ -1,0 +1,10 @@
+#哄蒙截图到设备本地 ; hdc shell snapshot_display -f /data/local/tmp/1.jpeg
+#哄蒙导出路径内的图片/文件 ; hdc file recv  /data/local/tmp/1.jpeg
+#哄蒙查看设备 ; hdc list targets
+#哄蒙HDC杀进程 ; hdc kill
+#哄蒙查询设备UDID ; hdc shell bm get --udid
+#哄蒙查看系统版本 ; hdc shell param get const.product.software.version
+#哄蒙分辩率	; hdc shell hidumper -s RenderService -a screen 
+#哄蒙获取应用列表 ; hdc shell bm dump -a
+#哄蒙导出日志 ; hdc file recv data/log/hilog/ ./
+#哄蒙导出crash日志 ; hdc file recv data/log/faultlog/faultlogger/ ./
