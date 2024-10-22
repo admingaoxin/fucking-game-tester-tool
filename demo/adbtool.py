@@ -333,7 +333,7 @@ class ADBManager(QWidget):
                     self.logText.append(f"<span style='color: red;'>安装失败: 出现错误{stdout}</span>")
                     # "<span style='color: red;'>错误: 设备未授权或无法连接</span>"
                     QMessageBox.warning(self, "安装hdc", "安装失败")
-                elif process.returncode == 0:
+                elif  "msg:install bundle successfully" in stdout:
                     self.logText.append("安装成功")
                     QMessageBox.information(self, "安装hdc", "APK安装完成")
                 else:
@@ -450,6 +450,54 @@ class ADBManager(QWidget):
             self.logText.append ("应用列表已刷新")
         except Exception as e:
             self.logText.append (f"刷新应用列表时发生错误: {str (e)}")
+
+    def execute_adb_commands_from_file(file_path, set_identifier):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                lines = file.readlines()
+
+            # 找到指定的命令集合
+            commands = []
+            collect = False
+            for line in lines:
+                line = line.strip()
+                if line.startswith('#'):
+                    if line == f'#{set_identifier}':
+                        collect = True
+                    else:
+                        collect = False
+                elif collect and line:
+                    commands.append(line)
+
+            if not commands:
+                print(f"未找到标识符 '{set_identifier}' 对应的命令集合。")
+                return
+
+            # 启动 adb shell
+            process = subprocess.Popen(['adb', 'shell'], stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                                       stderr=subprocess.PIPE, text=True)
+
+            # 逐个执行命令
+            for command in commands:
+                process.stdin.write(command + '\n')
+
+            # 结束输入
+            process.stdin.close()
+
+            # 获取输出和错误信息
+            output, error = process.communicate()
+
+            if process.returncode == 0:
+                print("命令执行成功，输出如下：")
+                print(output)
+            else:
+                print("命令执行失败，错误信息如下：")
+                print(error)
+
+        except FileNotFoundError:
+            print(f"文件 {file_path} 未找到。")
+        except Exception as e:
+            print(f"发生错误: {e}")
 
     def Start_app(self):
         current_device = self.comboBox.currentText ()

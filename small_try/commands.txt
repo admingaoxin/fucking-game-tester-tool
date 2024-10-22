@@ -1,0 +1,8 @@
+#查看所有的文件夹及内容
+ls /sdcard/
+#查看设备信息
+getprop ro.product.model
+#查看当前运行的应用
+ps
+#重启
+reboot
